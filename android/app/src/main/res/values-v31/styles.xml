@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Android 12+ SplashScreen API: the ghost on the splash colour. The splash colour follows light and
+         dark mode through values/colors.xml and values-night/colors.xml; values-night-v31 gives the dark
+         system theme. Flutter switches to NormalTheme (its meta-data) after the first frame. -->
+    <style name="LaunchTheme" parent="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+        <item name="android:windowSplashScreenBackground">@color/booboard_splash_background</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/splash_ghost</item>
+    </style>
+</resources>

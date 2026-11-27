@@ -1,0 +1,75 @@
+{
+ "id": "datetime",
+ "name": "Date and time",
+ "script": "Latn",
+ "direction": "ltr",
+ "rows": [
+  {
+   "keys": [
+    {
+     "output": "1"
+    },
+    {
+     "output": "2"
+    },
+    {
+     "output": "3"
+    },
+    {
+     "type": "backspace"
+    }
+   ]
+  },
+  {
+   "keys": [
+    {
+     "output": "4"
+    },
+    {
+     "output": "5"
+    },
+    {
+     "output": "6"
+    },
+    {
+     "output": "/"
+    }
+   ]
+  },
+  {
+   "keys": [
+    {
+     "output": "7"
+    },
+    {
+     "output": "8"
+    },
+    {
+     "output": "9"
+    },
+    {
+     "output": ":"
+    }
+   ]
+  },
+  {
+   "keys": [
+    {
+     "output": "-",
+     "popup": [
+      "."
+     ]
+    },
+    {
+     "output": "0"
+    },
+    {
+     "type": "space"
+    },
+    {
+     "type": "enter"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Inline-autofill chips, matched to the keyboard's neutral Material 3 surface tones. -->
+<resources>
+    <color name="inline_chip_background">#FFE7E0EC</color>
+    <color name="inline_chip_stroke">#FFCAC4D0</color>
+    <color name="inline_chip_text">#FF1D1B20</color>
+    <color name="inline_chip_subtext">#FF49454F</color>
+    <!-- BooBoard brand: the lime tile behind black Boo (launcher background and splash). -->
+    <color name="booboard_icon_background">#FFE3F794</color>
+    <color name="booboard_splash_background">#FFE3F794</color>
+</resources>

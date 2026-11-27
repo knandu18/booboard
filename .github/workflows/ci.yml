@@ -1,0 +1,99 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+#
+# Wave 5-A hardening. Every action is pinned to a full commit SHA (the version is in the comment),
+# the token is read-only, checkout keeps no credentials, and no job uses secrets or
+# pull_request_target. Release builds and store uploads live in release.yml (Agent B), not here.
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  hygiene:
+    name: Repository hygiene
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - name: No key material, backups, packs or files over 5 MB in the tree
+        run: bash tool/audit/repo_hygiene.sh
+
+  test-and-build:
+    name: Format, analyze, test, build, privacy gate
+    needs: hygiene
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - uses: actions/setup-java@c5195efecf7bdfc987ee8bae7a71cb8b11521c00 # v4.7.1
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: subosito/flutter-action@1508160852fb97248640997f7cfb38da241df0ba # v2.9.1
+        with:
+          flutter-version: '3.50.0'
+          channel: stable
+          cache: true
+      - name: Dart packages
+        run: flutter pub get
+      - name: Format
+        run: dart format --line-length 120 --output=none --set-exit-if-changed lib test pigeons tool/audit
+      - name: Analyze
+        run: flutter analyze
+      - name: Unit tests
+        run: flutter test
+      - name: Release build (per ABI)
+        run: flutter build apk --release --flavor foss --split-per-abi
+      - name: JVM unit tests
+        working-directory: android
+        run: ./gradlew :app:testDebugUnitTest --no-daemon
+      - name: Privacy gate - no network permission, no telemetry classes
+        run: bash tool/check_release_permissions.sh build/app/outputs/flutter-apk/*-release.apk
+      - name: Network audit of the release APKs
+        run: bash tool/audit/network_audit.sh build/app/outputs/flutter-apk/*-release.apk
+
+  audit:
+    name: Licence and dependency audit
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - uses: actions/setup-java@c5195efecf7bdfc987ee8bae7a71cb8b11521c00 # v4.7.1
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: subosito/flutter-action@1508160852fb97248640997f7cfb38da241df0ba # v2.9.1
+        with:
+          flutter-version: '3.50.0'
+          channel: stable
+          cache: true
+      - name: Dart packages
+        run: flutter pub get
+      # android/gradlew is not tracked (android/.gitignore). Flutter writes the wrapper and local.properties
+      # during any build; --config-only does that without compiling.
+      - name: Generate the Gradle wrapper (Flutter config only)
+        run: flutter build apk --config-only --flavor foss
+      - name: Resolve the Gradle release runtime classpath
+        working-directory: android
+        run: ./gradlew :app:dependencies --configuration fossReleaseRuntimeClasspath --no-daemon > "$RUNNER_TEMP/gradle-classpath.txt"
+      - name: Licence check (fails on unknown or incompatible licences)
+        run: dart run tool/audit/licences.dart --gradle "$RUNNER_TEMP/gradle-classpath.txt" --check
+      - name: Advisory check against OSV (informational; OSV outages do not fail CI)
+        continue-on-error: true
+        run: dart run tool/audit/osv_check.dart --gradle "$RUNNER_TEMP/gradle-classpath.txt"

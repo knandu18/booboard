@@ -1,0 +1,220 @@
+{
+ "id": "qwertz",
+ "name": "QWERTZ",
+ "script": "Latn",
+ "direction": "ltr",
+ "rows": [
+  {
+   "keys": [
+    {
+     "output": "q",
+     "hint": "1",
+     "popup": [
+      "1"
+     ]
+    },
+    {
+     "output": "w",
+     "hint": "2",
+     "popup": [
+      "2"
+     ]
+    },
+    {
+     "output": "e",
+     "hint": "3",
+     "popup": [
+      "3"
+     ]
+    },
+    {
+     "output": "r",
+     "hint": "4",
+     "popup": [
+      "4"
+     ]
+    },
+    {
+     "output": "t",
+     "hint": "5",
+     "popup": [
+      "5"
+     ]
+    },
+    {
+     "output": "z",
+     "hint": "6",
+     "popup": [
+      "6",
+      "ž",
+      "ź",
+      "ż"
+     ]
+    },
+    {
+     "output": "u",
+     "hint": "7",
+     "popup": [
+      "7",
+      "ü",
+      "ú",
+      "ù",
+      "û",
+      "ū"
+     ]
+    },
+    {
+     "output": "i",
+     "hint": "8",
+     "popup": [
+      "8"
+     ]
+    },
+    {
+     "output": "o",
+     "hint": "9",
+     "popup": [
+      "9",
+      "ö",
+      "ó",
+      "ò",
+      "ô",
+      "õ",
+      "ø",
+      "ō",
+      "œ"
+     ]
+    },
+    {
+     "output": "p",
+     "hint": "0",
+     "popup": [
+      "0"
+     ]
+    }
+   ]
+  },
+  {
+   "keys": [
+    {
+     "output": "a",
+     "popup": [
+      "ä",
+      "á",
+      "à",
+      "â",
+      "å",
+      "ā",
+      "æ"
+     ]
+    },
+    {
+     "output": "s",
+     "popup": [
+      "ß",
+      "ś",
+      "š"
+     ]
+    },
+    {
+     "output": "d"
+    },
+    {
+     "output": "f"
+    },
+    {
+     "output": "g"
+    },
+    {
+     "output": "h"
+    },
+    {
+     "output": "j"
+    },
+    {
+     "output": "k"
+    },
+    {
+     "output": "l"
+    }
+   ],
+   "padding": 0.5
+  },
+  {
+   "keys": [
+    {
+     "type": "shift",
+     "width": 1.5
+    },
+    {
+     "output": "y"
+    },
+    {
+     "output": "x"
+    },
+    {
+     "output": "c"
+    },
+    {
+     "output": "v"
+    },
+    {
+     "output": "b"
+    },
+    {
+     "output": "n"
+    },
+    {
+     "output": "m"
+    },
+    {
+     "type": "backspace",
+     "width": 1.5
+    }
+   ]
+  },
+  {
+   "keys": [
+    {
+     "type": "symbols",
+     "label": "?123",
+     "width": 1.5
+    },
+    {
+     "type": "emoji",
+     "width": 1
+    },
+    {
+     "type": "comma",
+     "output": ","
+    },
+    {
+     "type": "space",
+     "width": 4
+    },
+    {
+     "type": "period",
+     "output": ".",
+     "popup": [
+      ",",
+      "?",
+      "!",
+      "'",
+      "\"",
+      ":",
+      ";",
+      "-",
+      "(",
+      ")",
+      "@",
+      "#"
+     ]
+    },
+    {
+     "type": "enter",
+     "width": 1.5
+    }
+   ]
+  }
+ ]
+}

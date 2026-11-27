@@ -1,0 +1,1514 @@
+{
+  "@@locale": "fr",
+  "appName": "BooBoard",
+  "homeTagline": "Saisie privée, sur ce téléphone",
+  "homeOfflinePromise": "BooBoard fonctionne hors ligne et n'envoie *rien nulle part.*",
+  "@homeOfflinePromise": {
+    "x-review": true
+  },
+  "cancel": "Annuler",
+  "delete": "Supprimer",
+  "save": "Enregistrer",
+  "useAction": "Utiliser",
+  "off": "Désactivé",
+  "left": "Gauche",
+  "right": "Droite",
+  "settingsLanguages": "Langues",
+  "settingsTyping": "Saisie",
+  "settingsFeel": "Ressenti",
+  "settingsThemes": "Thèmes",
+  "settingsPanels": "Panneaux",
+  "settingsVoice": "Voix",
+  "@settingsVoice": {
+    "x-review": true
+  },
+  "settingsTranslation": "Traduction",
+  "@settingsTranslation": {
+    "x-review": true
+  },
+  "settingsPrivacy": "Confidentialité",
+  "settingsAbout": "À propos",
+  "settingsModelPacks": "Packs de modèles",
+  "homeSetupTurnOn": "Activez BooBoard dans la liste des claviers d'Android.",
+  "homeSetupChoose": "Choisissez BooBoard comme clavier de saisie.",
+  "homeFinishSetup": "Terminer la configuration de BooBoard",
+  "homeTypingSubtitle": "Corrections, suggestions, touches et glissement",
+  "@homeTypingSubtitle": {
+    "x-review": true
+  },
+  "homeFeelSubtitle": "Vibrations, sons, hauteur et mode une main",
+  "@homeFeelSubtitle": {
+    "x-review": true
+  },
+  "homePanelsSubtitle": "Presse-papiers et emoji",
+  "@homePanelsSubtitle": {
+    "x-review": true
+  },
+  "homeVoiceSubtitle": "Parlez pour écrire, sur ce téléphone",
+  "homeTranslationSubtitle": "Traduit pendant la frappe, hors ligne",
+  "@homeTranslationSubtitle": {
+    "x-review": true
+  },
+  "homePrivacySubtitle": "Ce qui est stocké, incognito, verrouillage et sauvegarde",
+  "@homePrivacySubtitle": {
+    "x-review": true
+  },
+  "homeAboutSubtitle": "Version, licences et code source",
+  "homeImages": "Images",
+  "@homeImages": {
+    "x-review": true
+  },
+  "homeAboutBooBoard": "À propos de BooBoard",
+  "@homeAboutBooBoard": {
+    "x-review": true
+  },
+  "websiteOpenHint": "Ouvre booboard.com dans votre navigateur",
+  "@websiteOpenHint": {
+    "x-review": true
+  },
+  "websiteNoBrowser": "Aucun navigateur ne peut ouvrir booboard.com.",
+  "@websiteNoBrowser": {
+    "x-review": true
+  },
+  "imagesSoonTitle": "Les images *arrivent*",
+  "@imagesSoonTitle": {
+    "x-review": true
+  },
+  "imagesSoonBody": "Créez des images à partir de vos mots, directement sur ce téléphone. Comme tout dans BooBoard, cela fonctionnera hors ligne.",
+  "@imagesSoonBody": {
+    "x-review": true
+  },
+  "aboutWebsite": "Site web",
+  "@aboutWebsite": {
+    "x-review": true
+  },
+  "aboutTitle": "À propos",
+  "aboutVersion": "Version {versionName} ({versionCode})",
+  "aboutVersionDebug": "Version {versionName} ({versionCode}) · version de débogage",
+  "@aboutVersionDebug": {
+    "x-review": true
+  },
+  "aboutReadingVersion": "Lecture de la version…",
+  "aboutPrivacy": "Confidentialité",
+  "aboutNoInternet": "BooBoard ne peut pas utiliser Internet",
+  "aboutNoInternetBody": "Les versions publiées n'ont pas l'autorisation Internet : rien de ce que vous saisissez ne quitte ce téléphone.",
+  "aboutLicence": "Licence",
+  "@aboutLicence": {
+    "x-review": true
+  },
+  "aboutGplTitle": "Licence publique générale GNU v3 ou ultérieure",
+  "@aboutGplTitle": {
+    "x-review": true
+  },
+  "aboutGplBody": "BooBoard est un logiciel libre. Vous pouvez l'étudier, le modifier et le partager selon la GPL.",
+  "@aboutGplBody": {
+    "x-review": true
+  },
+  "aboutSourceCode": "Code source",
+  "aboutSourceBody": "BooBoard est sous GPL-3.0-or-later. Son code source est disponible sur la page du projet.",
+  "@aboutSourceBody": {
+    "x-review": true
+  },
+  "aboutLicences": "Licences",
+  "aboutOpenSource": "Licences open source",
+  "aboutOpenSourceBody": "Flutter, material_ui et chaque paquet utilisé par BooBoard",
+  "@aboutOpenSourceBody": {
+    "x-review": true
+  },
+  "aboutTextLoadFailed": "Ce texte n'a pas pu être chargé.",
+  "languagesEnabledHeader": "Activées ; la première est celle par défaut",
+  "languagesActive": "Langue active",
+  "languagesAdd": "Ajouter une langue",
+  "languagesAllEnabled": "Toutes les langues sont activées",
+  "languagesAllEnabledBody": "Retirez-en une ci-dessus pour faire de la place.",
+  "languagesMultilingual": "Saisie multilingue",
+  "languagesMultilingualBody": "Suggère des mots issus d'au plus trois langues activées qui partagent l'écriture du clavier. Un mot connu de l'une d'elles n'est jamais corrigé automatiquement.",
+  "@languagesMultilingualBody": {
+    "x-review": true
+  },
+  "languagesNativeDigits": "Chiffres natifs",
+  "languagesNativeDigitsBody": "Saisit les chiffres dans l'écriture de la langue active lorsqu'elle en a (०१२, ٠١٢).",
+  "languagesOptions": "Options de langue",
+  "languagesZhSubtitle": "Pinyin, caractères traditionnels et paquets de dictionnaires",
+  "@languagesZhSubtitle": {
+    "x-review": true
+  },
+  "languagesJaSubtitle": "Saisie par glissement, conversion et paquets de dictionnaires",
+  "@languagesJaSubtitle": {
+    "x-review": true
+  },
+  "languagesReorderLabel": "Faites glisser pour réordonner {language}",
+  "languageDefaultLabel": "{language}, par défaut",
+  "languageLayoutTooltip": "Disposition pour {language}",
+  "@languageLayoutTooltip": {
+    "x-review": true
+  },
+  "languageRemoveTooltip": "Retirer {language}",
+  "feelHaptics": "Haptique",
+  "feelHapticFeedback": "Retour haptique",
+  "@feelHapticFeedback": {
+    "x-review": true
+  },
+  "feelHapticFeedbackBody": "Une courte vibration à chaque touche, selon le réglage du système",
+  "feelHapticStrength": "Intensité haptique",
+  "@feelHapticStrength": {
+    "x-review": true
+  },
+  "feelSounds": "Sons",
+  "feelKeySounds": "Sons des touches",
+  "feelKeySoundsBody": "Clics pour les touches, espace, effacer et entrée",
+  "feelUseSystemVolume": "Utiliser le volume du système",
+  "feelKeySoundVolume": "Volume des sons de touche",
+  "feelHeight": "Hauteur",
+  "feelPortraitHeight": "Hauteur en portrait",
+  "feelLandscapeHeight": "Hauteur en paysage",
+  "feelOneHandedFloating": "Une main et flottant",
+  "@feelOneHandedFloating": {
+    "x-review": true
+  },
+  "feelOneHandedSide": "Côté du mode une main",
+  "@feelOneHandedSide": {
+    "x-review": true
+  },
+  "feelFloatingKeyboard": "Clavier flottant",
+  "@feelFloatingKeyboard": {
+    "x-review": true
+  },
+  "feelFloatingBody": "Faites-le glisser n'importe où sur l'écran",
+  "panelsClipboard": "Presse-papiers",
+  "@panelsClipboard": {
+    "x-review": true
+  },
+  "panelsClipboardHistory": "Historique du presse-papiers",
+  "@panelsClipboardHistory": {
+    "x-review": true
+  },
+  "panelsClipboardHistoryBody": "Garde ce que vous copiez, chiffré sur ce téléphone",
+  "panelsRecentChip": "Pastille de copie récente",
+  "panelsRecentChipBody": "Propose votre dernière copie dans la barre de suggestions pendant une minute",
+  "panelsKeepUnpinned": "Garder les copies non épinglées pendant",
+  "panelsClipsToKeep": "Clips à conserver",
+  "panelsEmoji": "Emoji",
+  "@panelsEmoji": {
+    "x-review": true
+  },
+  "emojiSuggestions": "Suggestions d'emoji",
+  "@emojiSuggestions": {
+    "x-review": true
+  },
+  "emojiSuggestionsPanelBody": "Propose un emoji pour certains mots dans la barre de suggestions",
+  "@emojiSuggestionsPanelBody": {
+    "x-review": true
+  },
+  "panelsPasswordsNeverSaved": "Les mots de passe ne sont jamais enregistrés",
+  "panelsSensitiveBody": "Les copies qu'Android marque comme sensibles ne sont jamais conservées.",
+  "@panelsSensitiveBody": {
+    "x-review": true
+  },
+  "typingCorrections": "Corrections",
+  "typingAutocorrect": "Correction automatique",
+  "@typingAutocorrect": {
+    "x-review": true
+  },
+  "typingAutocorrectBody": "Corrige les fautes probables à la fin d'un mot",
+  "typingAutoCapitalise": "Majuscules automatiques",
+  "typingAutoCapitaliseBody": "Majuscules au début des phrases",
+  "typingDoubleSpace": "Double espace pour le point",
+  "typingDoubleSpaceBody": "Deux appuis sur espace écrivent « . »",
+  "typingSmartPunctuation": "Ponctuation intelligente",
+  "@typingSmartPunctuation": {
+    "x-review": true
+  },
+  "typingSmartPunctuationBody": "Ajuste les espaces autour de la ponctuation et utilise les guillemets locaux",
+  "@typingSmartPunctuationBody": {
+    "x-review": true
+  },
+  "typingSuggestions": "Suggestions",
+  "typingSuggestionsBody": "Affiche des mots dans la barre de suggestions",
+  "typingNextWord": "Prédiction du mot suivant",
+  "typingNextWordBody": "Suggère le mot qui suit souvent",
+  "typingEmojiBody": "Propose un emoji pour certains mots",
+  "@typingEmojiBody": {
+    "x-review": true
+  },
+  "typingHideOffensive": "Masquer les mots offensants",
+  "typingHideOffensiveBody": "Ne jamais les suggérer, sauf si vous les tapez en entier",
+  "typingKeys": "Touches",
+  "typingKeyPopups": "Bulles des touches",
+  "typingKeyPopupsBody": "Agrandit une touche pendant l'appui",
+  "typingLongPressDelay": "Délai d'appui long",
+  "typingNumberRow": "Rangée de chiffres",
+  "typingNumberRowBody": "Affiche de 0 à 9 au-dessus des lettres",
+  "typingHintLabels": "Indications sur les touches",
+  "typingHintLabelsBody": "Petits symboles sur les touches, comme les accents",
+  "typingLowercaseLabels": "Étiquettes en minuscules",
+  "typingLowercaseLabelsBody": "Garde les lettres en minuscules quand Maj est activé",
+  "typingSwipe": "Glissement",
+  "@typingSwipe": {
+    "x-review": true
+  },
+  "typingSwipeTyping": "Saisie par glissement",
+  "@typingSwipeTyping": {
+    "x-review": true
+  },
+  "typingSwipeTypingBody": "Glissez sur les lettres pour écrire un mot",
+  "typingShowTrail": "Afficher la trace",
+  "@typingShowTrail": {
+    "x-review": true
+  },
+  "typingTrailWidth": "Largeur de la trace",
+  "@typingTrailWidth": {
+    "x-review": true
+  },
+  "typingTrailFade": "Estompage de la trace",
+  "@typingTrailFade": {
+    "x-review": true
+  },
+  "typingLivePreview": "Aperçu en direct",
+  "typingLivePreviewBody": "Affiche le mot probable pendant le glissement",
+  "typingSpaceMovesCursor": "La barre d'espace déplace le curseur",
+  "@typingSpaceMovesCursor": {
+    "x-review": true
+  },
+  "typingSpaceMovesCursorBody": "Faites glisser sur la barre d'espace pour déplacer le curseur",
+  "@typingSpaceMovesCursorBody": {
+    "x-review": true
+  },
+  "typingSwipeBackspace": "Glisser sur effacer pour supprimer des mots",
+  "@typingSwipeBackspace": {
+    "x-review": true
+  },
+  "typingSwipeBackspaceBody": "Glissez vers la gauche sur effacer pour sélectionner et supprimer des mots",
+  "voiceTyping": "Saisie vocale",
+  "@voiceTyping": {
+    "x-review": true
+  },
+  "voiceTypingBody": "Parlez en anglais pour écrire. La reconnaissance se fait sur ce téléphone.",
+  "voiceRecognition": "Reconnaissance",
+  "voiceModelPacksBody": "Installer ou supprimer les packs de voix et de traduction",
+  "@voiceModelPacksBody": {
+    "x-review": true
+  },
+  "voiceAudioStays": "L'audio reste sur ce téléphone et n'est jamais enregistré.",
+  "voicePackAutomatic": "Automatique",
+  "voicePackAutomaticSelected": "Automatique (sélectionné)",
+  "voicePack": "Pack de voix",
+  "@voicePack": {
+    "x-review": true
+  },
+  "voiceNoPack": "Aucun pack de voix installé. Installez-en un dans Packs de modèles.",
+  "@voiceNoPack": {
+    "x-review": true
+  },
+  "voiceLooking": "Recherche des packs installés",
+  "voicePackItem": "{name} · {size}",
+  "voicePackItemSelected": "{name} · {size} (sélectionné)",
+  "megabytes": "{count} Mo",
+  "milliseconds": "{count} ms",
+  "dpValue": "{count} dp",
+  "packsOpenFailed": "BooBoard n'a pas pu ouvrir le sélecteur de fichiers.",
+  "packsInstalled": "{name} installé.",
+  "packsDeleteTitle": "Supprimer {name} ?",
+  "packsDeleteBody": "Ses fichiers sont supprimés de ce téléphone. Vous pourrez réimporter le paquet plus tard à partir de son fichier.",
+  "@packsDeleteBody": {
+    "x-review": true
+  },
+  "packsDeleted": "{name} supprimé.",
+  "packsDeleteFailed": "BooBoard n'a pas pu supprimer {name}. Réessayez.",
+  "packsIntro": "Les packs sont vérifiés avant d'être installés. Ils ne contiennent que des données, jamais du code.",
+  "packsImport": "Importer",
+  "@packsImport": {
+    "x-review": true
+  },
+  "packsImportTitle": "Importer un fichier de pack",
+  "@packsImportTitle": {
+    "x-review": true
+  },
+  "packsChecking": "Vérification et installation…",
+  "packsImportBody": "Un fichier .boopack, par exemple depuis Téléchargements",
+  "packsNoVoice": "Aucun pack de voix installé",
+  "@packsNoVoice": {
+    "x-review": true
+  },
+  "packsNoVoiceBody": "La saisie vocale nécessite un pack de voix.",
+  "@packsNoVoiceBody": {
+    "x-review": true
+  },
+  "packsNoTranslation": "Aucun pack de traduction installé",
+  "@packsNoTranslation": {
+    "x-review": true
+  },
+  "packsNoTranslationBody": "La traduction nécessite un pack par sens.",
+  "@packsNoTranslationBody": {
+    "x-review": true
+  },
+  "packsDictionaries": "Dictionnaires",
+  "packsNoDictionary": "Aucun pack de dictionnaire installé",
+  "@packsNoDictionary": {
+    "x-review": true
+  },
+  "packsNoDictionaryBody": "La saisie en chinois et en japonais nécessite un pack de dictionnaire.",
+  "@packsNoDictionaryBody": {
+    "x-review": true
+  },
+  "packsGetTitle": "Obtenir des paquets",
+  "@packsGetTitle": {
+    "x-review": true
+  },
+  "packsExplainTitle": "Les paquets sont des fichiers que vous ajoutez vous-même.",
+  "@packsExplainTitle": {
+    "x-review": true
+  },
+  "packsExplainBody": "Téléchargez-les depuis la page de publication du projet sur un autre appareil, copiez-les sur ce téléphone, puis importez-les.",
+  "@packsExplainBody": {
+    "x-review": true
+  },
+  "packsCopyLink": "Copier le lien de la page de publication",
+  "@packsCopyLink": {
+    "x-review": true
+  },
+  "packsPrivateTitle": "Des téléchargements qui restent privés",
+  "@packsPrivateTitle": {
+    "x-review": true
+  },
+  "packsPrivateBody": "BooBoard n'a pas l'autorisation d'accès à internet et ne se connecte jamais. Télécharger ouvre votre navigateur, qui récupère le pack depuis la publication GitHub du projet. BooBoard vérifie ensuite la signature du pack sur ce téléphone avant d'installer quoi que ce soit.",
+  "@packsPrivateBody": {
+    "x-review": true
+  },
+  "packsAvailableTitle": "Packs que vous pouvez ajouter",
+  "@packsAvailableTitle": {
+    "x-review": true
+  },
+  "packsDownload": "Télécharger",
+  "@packsDownload": {
+    "x-review": true
+  },
+  "packsDownloadMeta": "{size} · ouvre votre navigateur",
+  "@packsDownloadMeta": {
+    "x-review": true
+  },
+  "packsDownloadStarted": "Votre navigateur télécharge {name}. Une fois terminé, touchez Importer un fichier de pack.",
+  "@packsDownloadStarted": {
+    "x-review": true
+  },
+  "packsNoBrowser": "Aucun navigateur ne peut ouvrir le lien. Copiez plutôt le lien de la page des publications.",
+  "@packsNoBrowser": {
+    "x-review": true
+  },
+  "packsImportCheckedBody": "Choisissez le fichier .boopack téléchargé. Il est vérifié sur ce téléphone, puis installé.",
+  "@packsImportCheckedBody": {
+    "x-review": true
+  },
+  "packsAllInstalled": "Tous les packs publiés sont installés.",
+  "@packsAllInstalled": {
+    "x-review": true
+  },
+  "packsLinkCopied": "Lien copié. Ouvrez-le sur un autre appareil.",
+  "@packsLinkCopied": {
+    "x-review": true
+  },
+  "packsPlayTitle": "Obtenir via Google Play",
+  "@packsPlayTitle": {
+    "x-review": true
+  },
+  "packsPlayNote": "Google Play télécharge ces paquets, pas BooBoard. BooBoard n'utilise jamais le réseau.",
+  "@packsPlayNote": {
+    "x-review": true
+  },
+  "packsGet": "Obtenir",
+  "@packsGet": {
+    "x-review": true
+  },
+  "packsStatusNotRequested": "Pas encore téléchargé",
+  "@packsStatusNotRequested": {
+    "x-review": true
+  },
+  "packsStatusWaiting": "En attente de Wi-Fi ou de données mobiles",
+  "@packsStatusWaiting": {
+    "x-review": true
+  },
+  "packsStatusDownloading": "Téléchargement via Google Play",
+  "@packsStatusDownloading": {
+    "x-review": true
+  },
+  "packsStatusInstalling": "Vérification et installation",
+  "@packsStatusInstalling": {
+    "x-review": true
+  },
+  "packsStatusFailed": "Google Play n'a pas pu le fournir. Réessayez.",
+  "@packsStatusFailed": {
+    "x-review": true
+  },
+  "packsOfferMeta": "{size} · {status}",
+  "@packsOfferMeta": {
+    "x-review": true
+  },
+  "packsVerifyTitle": "Vérifier les paquets installés",
+  "@packsVerifyTitle": {
+    "x-review": true
+  },
+  "packsVerifyBody": "Vérifie chaque fichier de chaque paquet installé par rapport à sa liste signée. Rien n'est modifié.",
+  "@packsVerifyBody": {
+    "x-review": true
+  },
+  "packsVerifyOk": "{count} paquets installés vérifiés. Tous les fichiers correspondent.",
+  "@packsVerifyOk": {
+    "x-review": true
+  },
+  "packsVerifyDamaged": "{count} paquets installés ont des fichiers endommagés ou manquants. Supprimez-les et importez-les à nouveau.",
+  "@packsVerifyDamaged": {
+    "x-review": true
+  },
+  "packsVerifyUnavailable": "La vérification des paquets n'est pas disponible dans cette version de BooBoard.",
+  "@packsVerifyUnavailable": {
+    "x-review": true
+  },
+  "packsVerifyFailed": "BooBoard n'a pas pu vérifier les paquets. Rien n'a été modifié.",
+  "@packsVerifyFailed": {
+    "x-review": true
+  },
+  "packsFreeSpace": "{size} libres sur ce téléphone.",
+  "@packsFreeSpace": {
+    "x-review": true
+  },
+  "packsNothingStored": "Rien n'est encore stocké.",
+  "packsInstalledUse": "Les packs installés occupent {size} sur ce téléphone.",
+  "packErrorBadSignature": "Ce pack n'est pas signé pour BooBoard : rien n'a été installé.",
+  "@packErrorBadSignature": {
+    "x-review": true
+  },
+  "packErrorBadFormat": "Ce fichier n'est pas un pack BooBoard. Rien n'a été installé.",
+  "@packErrorBadFormat": {
+    "x-review": true
+  },
+  "packErrorTooLarge": "Ce pack est trop volumineux pour ce téléphone.",
+  "@packErrorTooLarge": {
+    "x-review": true
+  },
+  "packErrorVersion": "Ce pack nécessite une version plus récente de BooBoard.",
+  "@packErrorVersion": {
+    "x-review": true
+  },
+  "packErrorNoSpace": "Il n'y a pas assez d'espace libre pour installer ce pack.",
+  "@packErrorNoSpace": {
+    "x-review": true
+  },
+  "packErrorGeneric": "Le pack n'a pas pu être installé. Rien n'a été modifié.",
+  "@packErrorGeneric": {
+    "x-review": true
+  },
+  "translateDefaultPair": "Paire de langues par défaut",
+  "translatePairName": "{from} → {to}",
+  "translateOffline": "Traduction hors ligne",
+  "@translateOffline": {
+    "x-review": true
+  },
+  "translateOfflineBody": "Traduit pendant la frappe au clavier, et le texte sélectionné dans toute appli.",
+  "@translateOfflineBody": {
+    "x-review": true
+  },
+  "translateDefaultPairTile": "Paire par défaut",
+  "translatePackInstalled": "Pack installé",
+  "@translatePackInstalled": {
+    "x-review": true
+  },
+  "translatePackNotInstalled": "Pack non installé. Obtenez-le dans Packs de modèles.",
+  "@translatePackNotInstalled": {
+    "x-review": true
+  },
+  "translateInstalled": "Sens installés",
+  "translateInstalledBody": "Chaque sens est un pack, par exemple anglais → espagnol.",
+  "@translateInstalledBody": {
+    "x-review": true
+  },
+  "translatePackMeta": "{size} · {license}",
+  "@translatePackMeta": {
+    "x-review": true
+  },
+  "translateModelPacksBody": "Installer ou supprimer les packs de traduction",
+  "@translateModelPacksBody": {
+    "x-review": true
+  },
+  "translateRunsOnPhone": "La traduction se fait sur ce téléphone. Rien de ce que vous traduisez n'est enregistré.",
+  "@translateRunsOnPhone": {
+    "x-review": true
+  },
+  "privacyUnlockReason": "Déverrouillez BooBoard pour voir vos réglages et données",
+  "privacyLockUnavailable": "Le verrouillage de l'appareil n'est pas disponible pour le moment. Réessayez dans un instant.",
+  "@privacyLockUnavailable": {
+    "x-review": true
+  },
+  "privacyLockedTitle": "BooBoard est verrouillé",
+  "@privacyLockedTitle": {
+    "x-review": true
+  },
+  "privacyLockedBody": "Déverrouillez avec votre empreinte ou le code de votre appareil pour continuer.",
+  "@privacyLockedBody": {
+    "x-review": true
+  },
+  "privacyUnlock": "Déverrouiller",
+  "backupSaved": "Sauvegarde enregistrée ({size}). Gardez votre phrase de passe en lieu sûr.",
+  "@backupSaved": {
+    "x-review": true
+  },
+  "backupUnlockRetrySaved": "Déverrouillez le téléphone, puis réessayez. Rien n'a été enregistré.",
+  "backupSaveFailed": "La sauvegarde n'a pas pu être enregistrée. Rien n'a été modifié.",
+  "@backupSaveFailed": {
+    "x-review": true
+  },
+  "backupCheckFailed": "Le fichier enregistré n'a pas pu être vérifié et est peut-être endommagé. Enregistrez à nouveau la sauvegarde dans un nouveau fichier.",
+  "@backupCheckFailed": {
+    "x-review": true
+  },
+  "backupWrongPassphrase": "Phrase de passe incorrecte ou fichier endommagé. Rien n'a été modifié.",
+  "@backupWrongPassphrase": {
+    "x-review": true
+  },
+  "backupInvalidFile": "Ce fichier n'est pas une sauvegarde BooBoard valide. Rien n'a été modifié.",
+  "@backupInvalidFile": {
+    "x-review": true
+  },
+  "backupTooLarge": "Ce fichier est trop volumineux pour être une sauvegarde BooBoard.",
+  "@backupTooLarge": {
+    "x-review": true
+  },
+  "backupNewerVersion": "Cette sauvegarde a été faite par une version plus récente de BooBoard. Mettez BooBoard à jour pour la restaurer.",
+  "@backupNewerVersion": {
+    "x-review": true
+  },
+  "backupBusy": "Fermez d'abord l'autre fenêtre de fichiers, puis réessayez.",
+  "backupOpenFailed": "La sauvegarde n'a pas pu être ouverte. Rien n'a été modifié.",
+  "@backupOpenFailed": {
+    "x-review": true
+  },
+  "backupEmpty": "Cette sauvegarde est vide.",
+  "@backupEmpty": {
+    "x-review": true
+  },
+  "backupRestoreTitle": "Restaurer la sauvegarde",
+  "@backupRestoreTitle": {
+    "x-review": true
+  },
+  "backupMadeBy": "Créée le {date} avec BooBoard {version}.",
+  "backupMerge": "Fusionner",
+  "backupMergeBody": "Garde ce qui est sur ce téléphone et ajoute ce qui est dans la sauvegarde.",
+  "@backupMergeBody": {
+    "x-review": true
+  },
+  "backupReplace": "Remplacer",
+  "backupReplaceBody": "Fait correspondre les sections choisies à la sauvegarde. Les données actuelles sont d'abord supprimées.",
+  "@backupReplaceBody": {
+    "x-review": true
+  },
+  "commonContinue": "Continuer",
+  "backupReplaceTitle": "Remplacer les données de ce téléphone ?",
+  "backupReplaceConfirm": "Les sections choisies sur ce téléphone sont supprimées et remplacées. Action irréversible.",
+  "backupPrivacyChangesTitle": "Cette sauvegarde modifie vos réglages de confidentialité",
+  "backupPrivacyChangesBody": "La restauration des réglages modifiera ces réglages de confidentialité sur ce téléphone. Vérifiez-les avant de continuer.",
+  "backupPrivacyChangeLine": "{setting} : {from} → {to}",
+  "backupStateOn": "Activé",
+  "backupAppsCount": "{count, plural, one {1 appli} other {{count} applis}}",
+  "backupRestoreAndChange": "Restaurer et modifier",
+  "backupUnlockRetryChanged": "Déverrouillez le téléphone, puis réessayez. Rien n'a été modifié.",
+  "backupRestoreFailed": "BooBoard n'a pas pu terminer la restauration. Certaines données n'ont peut-être pas été écrites.",
+  "@backupRestoreFailed": {
+    "x-review": true
+  },
+  "restoreNothingNew": "Rien de nouveau n'a été restauré.",
+  "restoreSummary": "Restauré : {items}.",
+  "restoreSummarySkipped": "{added} Ignoré : {skipped}.",
+  "restoreLearnedFor": "mots appris pour {count, plural, one {1 langue} other {{count} langues}}",
+  "countFiles": "{count, plural, one {1 fichier} other {{count} fichiers}}",
+  "countWords": "{count, plural, one {1 mot} other {{count} mots}}",
+  "countLanguages": "{count, plural, one {1 langue} other {{count} langues}}",
+  "countShortcuts": "{count, plural, one {1 raccourci} other {{count} raccourcis}}",
+  "@countShortcuts": {
+    "x-review": true
+  },
+  "countClipboardItems": "{count, plural, one {1 élément du presse-papiers} other {{count} éléments du presse-papiers}}",
+  "@countClipboardItems": {
+    "x-review": true
+  },
+  "countThemeFiles": "{count, plural, one {1 fichier de thème} other {{count} fichiers de thème}}",
+  "@countThemeFiles": {
+    "x-review": true
+  },
+  "countPinnedItems": "{count, plural, one {1 élément épinglé} other {{count} éléments épinglés}}",
+  "countPacks": "{count, plural, one {1 pack} other {{count} packs}}",
+  "@countPacks": {
+    "x-review": true
+  },
+  "countBlockedWords": "{count, plural, one {1 mot bloqué} other {{count} mots bloqués}}",
+  "countTimes": "{count, plural, one {1 fois} other {{count} fois}}",
+  "timeMinutesAgo": "{count, plural, one {il y a 1 minute} other {il y a {count} minutes}}",
+  "timeHoursAgo": "{count, plural, one {il y a 1 heure} other {il y a {count} heures}}",
+  "timeDaysAgo": "{count, plural, one {il y a 1 jour} other {il y a {count} jours}}",
+  "timeJustNow": "à l'instant",
+  "languagePortuguese": "Portugais",
+  "packMeta": "{languages} · {size} · {license}",
+  "@packMeta": {
+    "x-review": true
+  },
+  "privacyLearnedWordsTitle": "Mots appris ({language})",
+  "privacyClearLanguageTitle": "Effacer les mots de {language} ?",
+  "privacyClearLanguageBody": "Cela supprime tous les mots appris dans cette langue, ainsi que les mots bloqués. Action irréversible.",
+  "privacyClear": "Effacer",
+  "privacySaveFailed": "Impossible d'enregistrer la modification. Réessayez.",
+  "privacyCouldNotReadWords": "BooBoard n'a pas pu lire ces mots.",
+  "privacyCannotReadWordsNow": "BooBoard ne peut pas lire ces mots pour le moment. Déverrouillez le téléphone, puis réessayez.",
+  "privacyNoWordsLanguage": "Aucun mot appris dans cette langue pour l'instant. BooBoard apprend un mot après l'avoir tapé plusieurs fois.",
+  "privacyBlockedWordsTooltip": "Mots bloqués ({count})",
+  "privacySortTooltip": "Trier",
+  "privacySortMostUsed": "Les plus utilisés d'abord",
+  "privacySortAZ": "De A à Z",
+  "privacyMoreTooltip": "Plus",
+  "privacyClearThisLanguage": "Effacer cette langue",
+  "privacySearchWords": "Rechercher des mots",
+  "privacyWordsSummary": "{words} · {blocked}",
+  "privacyNoWordsYet": "Aucun mot pour l'instant.",
+  "privacyNoWordsMatch": "Aucun mot ne correspond à « {query} ».",
+  "privacyNeverSuggested": "Jamais suggérés",
+  "privacyBlockedExplain": "BooBoard ne suggérera ni ne corrigera ces mots.",
+  "privacyNoBlockedWords": "Aucun mot bloqué.",
+  "privacyAllowAgain": "Autoriser à nouveau",
+  "privacyWordLastUsed": "Tapé {count, plural, one {une fois} other {{count} fois}} · dernière fois {when}",
+  "privacyWordNotYetSuggested": "Tapé une fois jusqu'ici, pas encore suggéré · dernière fois {when}",
+  "privacyToday": "aujourd'hui",
+  "privacyYesterday": "hier",
+  "privacyActionsFor": "Actions pour {word}",
+  "privacyForgetWord": "Oublier ce mot",
+  "privacyNeverSuggestWord": "Ne jamais suggérer ce mot",
+  "privacyTryAgain": "Réessayer",
+  "privacyCenterLoadFailed": "BooBoard n'a pas pu lire ses données de confidentialité. Réessayez plus tard.",
+  "privacyDevBuildNetwork": "Cette version demande l'accès à Internet. BooBoard ne devrait jamais le faire. Merci de le signaler.",
+  "@privacyDevBuildNetwork": {
+    "x-review": true
+  },
+  "privacyNoInternetPermission": "BooBoard n'a pas l'autorisation Internet. Il ne peut rien envoyer.",
+  "privacyDevBuildNote": "Ceci est une version de développement. Son autorisation réseau sert uniquement aux outils de développement.",
+  "@privacyDevBuildNote": {
+    "x-review": true
+  },
+  "privacyDevBuildShort": "Version de développement. BooBoard n'a toujours pas l'autorisation Internet.",
+  "@privacyDevBuildShort": {
+    "x-review": true
+  },
+  "privacyStorageSize": "{size} · modifié {when}",
+  "privacyCustomThemes": "Thèmes personnalisés",
+  "privacyNoPacks": "Aucun installé. Les packs de voix et de traduction apparaissent ici.",
+  "@privacyNoPacks": {
+    "x-review": true
+  },
+  "privacyPacksSize": "{count, plural, one {1 pack} other {{count} packs}} · {size}",
+  "@privacyPacksSize": {
+    "x-review": true
+  },
+  "privacyWhatBooBoardStores": "Ce que BooBoard stocke",
+  "privacyShowsSizesOnly": "BooBoard n'affiche ici que des tailles, jamais le contenu. Les tailles incluent la dernière copie enregistrée, qui protège vos données si une sauvegarde est interrompue.",
+  "privacyTypingPrivacy": "Confidentialité de la saisie",
+  "privacyLearnNewWords": "Apprendre de nouveaux mots",
+  "privacyLearnNewWordsBody": "Apprend les mots et expressions de votre saisie. Jamais dans les champs de mot de passe ni en mode incognito.",
+  "@privacyLearnNewWordsBody": {
+    "x-review": true
+  },
+  "privacyIncognito": "Incognito",
+  "@privacyIncognito": {
+    "x-review": true
+  },
+  "privacyIncognitoBody": "N'apprend ni ne retient rien quand il est activé. Les onglets incognito du navigateur l'activent d'eux-mêmes.",
+  "@privacyIncognitoBody": {
+    "x-review": true
+  },
+  "privacyHideScreenshots": "Masquer des captures d'écran",
+  "privacyHideScreenshotsBody": "Empêche les captures et enregistrements d'écran du clavier dans toutes les applis. Les champs de mot de passe sont toujours masqués.",
+  "privacyAutoOffApps": "Désactivé automatiquement dans ces applis",
+  "privacyAutoOffAppsBody": "BooBoard ne garde les noms d'applis que pour remplir cette liste. Ils sont chiffrés, jamais enregistrés en incognito, et vous pouvez les effacer ci-dessous.",
+  "@privacyAutoOffAppsBody": {
+    "x-review": true
+  },
+  "privacyNoAppsYet": "Aucune appli pour l'instant",
+  "privacyNoAppsYetBody": "Les applis dans lesquelles vous écrivez apparaîtront ici.",
+  "privacyAlwaysIncognitoApps": "Applis toujours en incognito",
+  "@privacyAlwaysIncognitoApps": {
+    "x-review": true
+  },
+  "privacyPersonalShortcuts": "Raccourcis personnels",
+  "privacyOfferShortcuts": "Proposer les raccourcis",
+  "privacyOfferShortcutsBody": "Affiche vos abréviations, comme « omw », en première suggestion.",
+  "privacyEditShortcuts": "Modifier les raccourcis",
+  "privacyNoShortcutsYet": "Aucun pour l'instant",
+  "privacyLearnedAndClipboard": "Mots appris et presse-papiers",
+  "@privacyLearnedAndClipboard": {
+    "x-review": true
+  },
+  "privacyNoWordsLearnedYet": "Aucun mot appris pour l'instant",
+  "privacyWordsLearnedBody": "Les mots que vous tapez sont appris ici après que BooBoard les a vus plusieurs fois.",
+  "privacyReviewWords": "Revoir, retirer ou bloquer des mots · {when}",
+  "privacyClipboardHistoryEmpty": "L'historique est vide. Modifiez les réglages du presse-papiers dans Panneaux.",
+  "@privacyClipboardHistoryEmpty": {
+    "x-review": true
+  },
+  "privacyClipboardInHistory": "{size} dans l'historique. Modifiez les réglages du presse-papiers dans Panneaux.",
+  "@privacyClipboardInHistory": {
+    "x-review": true
+  },
+  "privacyAppLock": "Verrouillage de l'app",
+  "@privacyAppLock": {
+    "x-review": true
+  },
+  "privacyLockBooBoard": "Verrouiller BooBoard",
+  "@privacyLockBooBoard": {
+    "x-review": true
+  },
+  "privacyLockBooBoardBody": "Demande votre empreinte ou le code de l'appareil à l'ouverture de l'app, ou après un passage en arrière-plan.",
+  "@privacyLockBooBoardBody": {
+    "x-review": true
+  },
+  "privacyLockAfter": "Verrouiller après",
+  "@privacyLockAfter": {
+    "x-review": true
+  },
+  "privacySetScreenLockFirst": "Définissez d'abord un verrouillage d'écran",
+  "@privacySetScreenLockFirst": {
+    "x-review": true
+  },
+  "privacySetScreenLockBody": "El bloqueo de la app usa su huella o el PIN del dispositivo. Defina un PIN, patrón o contraseña en los ajustes de seguridad de Android y vuelva.",
+  "@privacySetScreenLockBody": {
+    "x-review": true
+  },
+  "privacyTurnOnAppLockReason": "Activer le verrouillage de l'app pour BooBoard",
+  "@privacyTurnOnAppLockReason": {
+    "x-review": true
+  },
+  "privacyNotAvailable": "Pas disponible pour le moment",
+  "privacyNotAvailableBody": "Le verrouillage de l'appareil n'a pas pu être utilisé. Le verrouillage de l'app reste désactivé.",
+  "@privacyNotAvailableBody": {
+    "x-review": true
+  },
+  "privacyBackupTitle": "Sauvegarde",
+  "@privacyBackupTitle": {
+    "x-review": true
+  },
+  "privacyBackupRestore": "Sauvegarde et restauration",
+  "@privacyBackupRestore": {
+    "x-review": true
+  },
+  "privacyBackupRestoreBody": "Un fichier .boobackup chiffré que vous conservez. Vous choisissez ce qu'il contient.",
+  "privacyDeleteData": "Supprimer les données",
+  "privacyEraseEverything": "Tout effacer",
+  "privacyEraseEverythingBody": "Toutes les catégories ci-dessus, vos thèmes personnalisés et la clé qui les protège.",
+  "privacyDeleteTitle": "Supprimer {category} ?",
+  "privacyEraseTitle": "Tout effacer ?",
+  "privacyWillDelete": "Cela supprimera définitivement :",
+  "privacyResetSettings": "Réinitialiser aussi tous les réglages par défaut",
+  "privacyCannotBeUndone": "Action irréversible.",
+  "privacyDeleted": "Supprimé.",
+  "privacyDeleteFailed": "BooBoard n'a pas pu tout supprimer. Réessayez.",
+  "privacyOk": "OK",
+  "backupMakeTitle": "Faire une sauvegarde",
+  "@backupMakeTitle": {
+    "x-review": true
+  },
+  "backupIncludeImages": "Inclure les images de fond",
+  "backupPhotosLarger": "Les photos rendent le fichier beaucoup plus lourd.",
+  "backupCreateButton": "Créer une sauvegarde chiffrée",
+  "@backupCreateButton": {
+    "x-review": true
+  },
+  "backupRestoreSection": "Restaurer",
+  "@backupRestoreSection": {
+    "x-review": true
+  },
+  "backupRestoreFromFile": "Restaurer depuis un fichier de sauvegarde",
+  "@backupRestoreFromFile": {
+    "x-review": true
+  },
+  "backupRestoreFromFileBody": "Ouvrez un fichier .boobackup, vérifiez son contenu, puis fusionnez ou remplacez.",
+  "backupChoosePassphrase": "Choisissez une phrase de passe",
+  "@backupChoosePassphrase": {
+    "x-review": true
+  },
+  "backupEnterPassphrase": "Saisissez la phrase de passe",
+  "@backupEnterPassphrase": {
+    "x-review": true
+  },
+  "backupWriteItDown": "Notez-la dans un endroit sûr. Une phrase de passe perdue ne peut pas être récupérée.",
+  "@backupWriteItDown": {
+    "x-review": true
+  },
+  "backupPassphrase": "Phrase de passe",
+  "@backupPassphrase": {
+    "x-review": true
+  },
+  "backupTypeAgain": "Retapez-la",
+  "backupMismatch": "Les phrases de passe ne correspondent pas",
+  "backupStrength": "Solidité de la phrase : {strength}",
+  "@backupStrength": {
+    "x-review": true
+  },
+  "strengthTooShort": "Utilisez au moins 8 caractères",
+  "strengthWeak": "Faible",
+  "strengthFair": "Correcte",
+  "strengthGood": "Bonne",
+  "strengthStrong": "Forte",
+  "backupOpen": "Ouvrir",
+  "backupNothingYet": "Rien pour l'instant",
+  "backupSettingsSummary": "Thème, langues, saisie et choix de confidentialité",
+  "@backupSettingsSummary": {
+    "x-review": true
+  },
+  "backupLearnedSummary": "{words} dans {languages}",
+  "backupPinnedOff": "{items}. Désactivé sauf si vous l'activez.",
+  "backupAlreadyHere": "{count, plural, one {1 raccourci déjà présent} other {{count} raccourcis déjà présents}}",
+  "@backupAlreadyHere": {
+    "x-review": true
+  },
+  "backupThemesAlreadyHere": "{count, plural, one {1 fichier de thème déjà présent} other {{count} fichiers de thème déjà présents}}",
+  "@backupThemesAlreadyHere": {
+    "x-review": true
+  },
+  "backupClipboardKept": "presse-papiers laissé intact (disposition inconnue)",
+  "@backupClipboardKept": {
+    "x-review": true
+  },
+  "backupEmojiKept": "emojis récents conservés",
+  "@backupEmojiKept": {
+    "x-review": true
+  },
+  "backupSettingsApplied": "réglages",
+  "backupLearnedAdded": "mots appris pour {count, plural, one {1 langue} other {{count} langues}}",
+  "shortcutDeleteTitle": "Supprimer « {trigger} » ?",
+  "shortcutDeleteBody": "Cela supprime le raccourci. Action irréversible.",
+  "@shortcutDeleteBody": {
+    "x-review": true
+  },
+  "shortcutAdd": "Ajouter un raccourci",
+  "@shortcutAdd": {
+    "x-review": true
+  },
+  "shortcutSearch": "Rechercher des raccourcis",
+  "shortcutNoMatch": "Aucun raccourci ne correspond à votre recherche.",
+  "shortcutDeleteTooltip": "Supprimer {trigger}",
+  "shortcutNoneYet": "Aucun raccourci pour l'instant",
+  "shortcutExplain": "Un raccourci transforme une abréviation en texte plus long. Exemples :",
+  "@shortcutExplain": {
+    "x-review": true
+  },
+  "shortcutExamples": "{first}\n{second}",
+  "shortcutEncrypted": "Les raccourcis sont chiffrés sur ce téléphone, comme vos mots appris.",
+  "shortcutNew": "Nouveau raccourci",
+  "@shortcutNew": {
+    "x-review": true
+  },
+  "shortcutEdit": "Modifier le raccourci",
+  "@shortcutEdit": {
+    "x-review": true
+  },
+  "shortcutShortForm": "Abréviation",
+  "shortcutExpandsTo": "Se développe en",
+  "privacyMascotLabel": "Mascotte de confidentialité de BooBoard",
+  "privacyStoredEmoji": "Emoji récents",
+  "@privacyStoredEmoji": {
+    "x-review": true
+  },
+  "privacyStoredApps": "Liste des applis",
+  "privacyStoredOther": "Autres données stockées",
+  "privacyUnitBytes": "{count} o",
+  "privacyUnitKilobytes": "{count} Ko",
+  "privacyUnitMegabytes": "{count} Mo",
+  "shortcutProblemEmptyTrigger": "Saisissez l'abréviation à développer.",
+  "shortcutProblemTriggerTooLong": "L'abréviation peut comporter au plus {count} caractères.",
+  "shortcutProblemTriggerCharacters": "Utilisez uniquement des lettres, des chiffres et des apostrophes dans l'abréviation.",
+  "shortcutProblemEmptyExpansion": "Saisissez ce que l'abréviation doit développer.",
+  "shortcutProblemExpansionTooLong": "Le développement peut comporter au plus {count} caractères.",
+  "shortcutProblemDuplicate": "Vous avez déjà un raccourci avec cette abréviation.",
+  "@shortcutProblemDuplicate": {
+    "x-review": true
+  },
+  "shortcutProblemTooMany": "Vous pouvez garder au plus {count} raccourcis.",
+  "onboardingWelcomeTitle": "Salut, moi c’est *Boo.*",
+  "@onboardingWelcomeTitle": {
+    "x-review": true
+  },
+  "onboardingWelcomeBody": "Je suis un clavier qui ne va jamais en ligne. Ce que vous tapez reste sur ce téléphone, sous clé.",
+  "@onboardingWelcomeBody": {
+    "x-review": true
+  },
+  "onboardingWelcomeStart": "C’est parti",
+  "@onboardingWelcomeStart": {
+    "x-review": true
+  },
+  "onboardingMascotLabel": "Boo, le fantôme de BooBoard",
+  "@onboardingMascotLabel": {
+    "x-review": true
+  },
+  "onboardingFactNoInternet": "Aucune permission Internet",
+  "@onboardingFactNoInternet": {
+    "x-review": true
+  },
+  "onboardingFactOpenSource": "Open source",
+  "@onboardingFactOpenSource": {
+    "x-review": true
+  },
+  "onboardingFactOpenSourceBody": "Tout le monde peut lire le code et vérifier.",
+  "@onboardingFactOpenSourceBody": {
+    "x-review": true
+  },
+  "onboardingDemoKeyboards": "Applications de clavier",
+  "@onboardingDemoKeyboards": {
+    "x-review": true
+  },
+  "onboardingDemoOtherKeyboard": "Autre clavier",
+  "@onboardingDemoOtherKeyboard": {
+    "x-review": true
+  },
+  "onboardingDemoAttention": "Attention",
+  "@onboardingDemoAttention": {
+    "x-review": true
+  },
+  "onboardingDemoAttentionBody": "Ce clavier pourrait recueillir tout le texte que vous saisissez…",
+  "@onboardingDemoAttentionBody": {
+    "x-review": true
+  },
+  "onboardingDemoOk": "OK",
+  "@onboardingDemoOk": {
+    "x-review": true
+  },
+  "onboardingDemoChooseInput": "Choisir le mode de saisie",
+  "@onboardingDemoChooseInput": {
+    "x-review": true
+  },
+  "onboardingDemoSwitchOn": "Activer",
+  "@onboardingDemoSwitchOn": {
+    "x-review": true
+  },
+  "onboardingDemoTapOk": "OK, puis OK",
+  "@onboardingDemoTapOk": {
+    "x-review": true
+  },
+  "onboardingDemoComeBack": "Revenez",
+  "@onboardingDemoComeBack": {
+    "x-review": true
+  },
+  "onboardingDemoPick": "Choisissez BooBoard",
+  "@onboardingDemoPick": {
+    "x-review": true
+  },
+  "onboardingDemoStartTyping": "Commencez à taper",
+  "@onboardingDemoStartTyping": {
+    "x-review": true
+  },
+  "onboardingDemoRebootNote": "Remarque : Après un redémarrage, cette appli ne peut pas démarrer tant que vous n'avez pas déverrouillé votre téléphone",
+  "@onboardingDemoRebootNote": {
+    "x-review": true
+  },
+  "onboardingDemoChatIn": "On se voit à 19 h ?",
+  "@onboardingDemoChatIn": {
+    "x-review": true
+  },
+  "onboardingDemoChatOut": "J'arrive",
+  "@onboardingDemoChatOut": {
+    "x-review": true
+  },
+  "onboardingDemoMessage": "Message",
+  "@onboardingDemoMessage": {
+    "x-review": true
+  },
+  "onboardingShh": "chut",
+  "@onboardingShh": {
+    "x-review": true
+  },
+  "onboardingTryMe": "Essaie-moi",
+  "@onboardingTryMe": {
+    "x-review": true
+  },
+  "onboardingTurnOnTitle": "Activez *BooBoard*",
+  "@onboardingTurnOnTitle": {
+    "x-review": true
+  },
+  "onboardingTurnOnBody": "Activez-le dans la liste des claviers d’Android, puis revenez. Cette page le remarque toute seule.",
+  "@onboardingTurnOnBody": {
+    "x-review": true
+  },
+  "onboardingKeyboardOn": "BooBoard est activé",
+  "@onboardingKeyboardOn": {
+    "x-review": true
+  },
+  "onboardingKeyboardOff": "Pas encore activé",
+  "@onboardingKeyboardOff": {
+    "x-review": true
+  },
+  "onboardingOpenKeyboardSettings": "Ouvrir les réglages du clavier",
+  "onboardingSwitchTitle": "Faites-en *le vôtre*",
+  "@onboardingSwitchTitle": {
+    "x-review": true
+  },
+  "onboardingSwitchBody": "Choisissez BooBoard dans la courte liste d’Android. Vous pouvez revenir en arrière à tout moment.",
+  "@onboardingSwitchBody": {
+    "x-review": true
+  },
+  "onboardingKeyboardIsYours": "BooBoard est votre clavier",
+  "@onboardingKeyboardIsYours": {
+    "x-review": true
+  },
+  "onboardingKeyboardNotYours": "Pas encore votre clavier",
+  "@onboardingKeyboardNotYours": {
+    "x-review": true
+  },
+  "onboardingTurnOnFirst": "Activez-le d’abord",
+  "@onboardingTurnOnFirst": {
+    "x-review": true
+  },
+  "onboardingChooseKeyboard": "Choisir le clavier",
+  "onboardingCheckingPermissions": "Vérification des autorisations de l'app…",
+  "onboardingDebugInternet": "Cette version de débogage peut accéder à Internet. Elle n'a cette autorisation que pour le développement.",
+  "@onboardingDebugInternet": {
+    "x-review": true
+  },
+  "onboardingReleaseInternet": "Cette version peut accéder à Internet.",
+  "@onboardingReleaseInternet": {
+    "x-review": true
+  },
+  "onboardingNoInternet": "BooBoard n'a pas l'autorisation Internet : il ne peut rien envoyer nulle part.",
+  "onboardingWarningTitle": "À propos de cet *avertissement*",
+  "@onboardingWarningTitle": {
+    "x-review": true
+  },
+  "onboardingWarningBody": "Android l’affiche pour tous les claviers, car un clavier pourrait envoyer ce que vous tapez en ligne. BooBoard ne le peut pas.",
+  "@onboardingWarningBody": {
+    "x-review": true
+  },
+  "onboardingInternetAccess": "Accès à Internet",
+  "onboardingEverythingHere": "Reste sur ce téléphone",
+  "@onboardingEverythingHere": {
+    "x-review": true
+  },
+  "onboardingEverythingHereBody": "Les mots appris, le presse-papiers et les réglages sont chiffrés avec une clé dans Android Keystore.",
+  "@onboardingEverythingHereBody": {
+    "x-review": true
+  },
+  "onboardingLanguagesTitle": "Vos *langues*",
+  "@onboardingLanguagesTitle": {
+    "x-review": true
+  },
+  "onboardingThemeTitle": "Thème",
+  "@onboardingThemeTitle": {
+    "x-review": true
+  },
+  "onboardingTryTyping": "Tapez une phrase",
+  "onboardingTrySwipe": "Glissez un mot, lettre à lettre",
+  "@onboardingTrySwipe": {
+    "x-review": true
+  },
+  "onboardingTryAccents": "Appui long sur une lettre : accents",
+  "@onboardingTryAccents": {
+    "x-review": true
+  },
+  "onboardingTryTitle": "*Essayez-le*",
+  "@onboardingTryTitle": {
+    "x-review": true
+  },
+  "onboardingTryField": "Tapez quelque chose ici",
+  "@onboardingTryField": {
+    "x-review": true
+  },
+  "onboardingAllSetTitle": "Tout est *prêt.*",
+  "@onboardingAllSetTitle": {
+    "x-review": true
+  },
+  "onboardingAllSetBody": "Langues, saisie, thèmes et plus encore sont dans les Réglages, quand vous voulez.",
+  "@onboardingAllSetBody": {
+    "x-review": true
+  },
+  "onboardingStepOf": "Étape {step} sur {total}",
+  "onboardingBack": "Retour",
+  "onboardingNext": "Suivant",
+  "onboardingDone": "Terminé",
+  "onboardingSearchLanguages": "Rechercher des langues",
+  "onboardingSelected": "Sélectionnées : {languages}",
+  "onboardingNoLanguageMatch": "Aucune langue ne correspond à cette recherche.",
+  "themeCreate": "Créer un thème",
+  "@themeCreate": {
+    "x-review": true
+  },
+  "themeSelectedLabel": "{name}, sélectionné",
+  "themeCardOptions": "Options pour {name}",
+  "themeEdit": "Modifier",
+  "themeDuplicate": "Dupliquer",
+  "themeRename": "Renommer",
+  "themeDeleteAction": "Supprimer",
+  "themeTryTyping": "Essayer de taper",
+  "themeTryLabel": "Tapez ici pour essayer le thème",
+  "@themeTryLabel": {
+    "x-review": true
+  },
+  "themeTryHelper": "Le clavier apparaît ici lorsque BooBoard est sélectionné.",
+  "themeRenameTitle": "Renommer le thème",
+  "@themeRenameTitle": {
+    "x-review": true
+  },
+  "themeNameField": "Nom",
+  "themeEditTitle": "Modifier le thème",
+  "@themeEditTitle": {
+    "x-review": true
+  },
+  "themeNewTitle": "Nouveau thème",
+  "@themeNewTitle": {
+    "x-review": true
+  },
+  "themeEditorTitle": "Thème",
+  "@themeEditorTitle": {
+    "x-review": true
+  },
+  "themeOpenFailed": "Ce thème n'a pas pu être ouvert.",
+  "@themeOpenFailed": {
+    "x-review": true
+  },
+  "themeSaveFailed": "Impossible d'enregistrer le thème.",
+  "@themeSaveFailed": {
+    "x-review": true
+  },
+  "themePhotoPickerFailed": "Le sélecteur de photos n'a pas pu s'ouvrir.",
+  "themeDiscardTitle": "Abandonner les modifications ?",
+  "themeDiscardBody": "Vos modifications de ce thème seront perdues.",
+  "@themeDiscardBody": {
+    "x-review": true
+  },
+  "themeKeepEditing": "Continuer les modifications",
+  "themeDiscard": "Abandonner",
+  "themeSave": "Enregistrer",
+  "themeNameRequired": "Un nom est requis",
+  "themeNameLabel": "Nom du thème",
+  "@themeNameLabel": {
+    "x-review": true
+  },
+  "themeDefaultName": "Mon thème",
+  "@themeDefaultName": {
+    "x-review": true
+  },
+  "themeSectionName": "Nom",
+  "themeSectionLook": "Apparence",
+  "themeDarkMode": "Mode sombre",
+  "themeChoiceSystem": "Système",
+  "themeChoiceLight": "Clair",
+  "themeChoiceDark": "Sombre",
+  "themePureBlack": "Noir pur",
+  "themePureBlackBody": "Fond noir",
+  "themePureBlackOnlyDark": "Seulement en mode sombre",
+  "themeGalleryPureBlackDark": "Fond noir en mode sombre",
+  "themeContrast": "Contraste",
+  "themeChoiceStandard": "Standard",
+  "themeChoiceMedium": "Moyen",
+  "themeChoiceHigh": "Élevé",
+  "themeKeyboardHeight": "Hauteur du clavier",
+  "themeSectionColours": "Couleurs",
+  "themeSource": "Source",
+  "themeSourceWallpaper": "Fond d'écran",
+  "themeSourceSeed": "Couleur de base",
+  "themeSourcePerRole": "Par rôle",
+  "themeWallpaperNeedsAndroid12": "Les couleurs du fond d'écran nécessitent Android 12 ou une version plus récente.",
+  "themeSeedColour": "Couleur de base",
+  "themeScheme": "Schéma",
+  "themeColourRoles": "Rôles de couleur",
+  "themeEditingColours": "{mode, select, dark {Modification des couleurs sombres} other {Modification des couleurs claires}}",
+  "themeResetRoles": "Réinitialiser tous les rôles",
+  "themeKeys": "Touches",
+  "themeShape": "Forme",
+  "themeShapePill": "Pilule",
+  "themeShapeRounded": "Arrondie",
+  "themeShapeSquare": "Carrée",
+  "themeKeyBorders": "Bordures des touches",
+  "themeBorderWidth": "Épaisseur de bordure",
+  "themeKeyGap": "Espacement des touches",
+  "themeFontWeight": "Graisse de police",
+  "themeFontSize": "Taille de police",
+  "themeHintCharacters": "Caractères d'indication",
+  "themeHintCharactersBody": "Petits caractères à l'appui long",
+  "themeBackground": "Arrière-plan",
+  "themeBackgroundType": "Type",
+  "themeTypeSolid": "Uni",
+  "themeTypeGradient": "Dégradé",
+  "themeTypePhoto": "Photo",
+  "themeNoPhotoYet": "Aucune photo pour l'instant. Choisissez-en une pour la recadrer au clavier.",
+  "themeChoosePhoto": "Choisir une photo",
+  "themeEditCrop": "Modifier le recadrage et le flou",
+  "themeDim": "Assombrir",
+  "themeSectionPopups": "Bulles et trace",
+  "@themeSectionPopups": {
+    "x-review": true
+  },
+  "themeSolidPopups": "Bulles unies",
+  "themeSolidPopupsBodyWallpaper": "No avec les couleurs du fond d'écran",
+  "themeSolidPopupsBodyPrimary": "Bulles dans la couleur principale",
+  "themeSwipeTrail": "Trace du glissement",
+  "@themeSwipeTrail": {
+    "x-review": true
+  },
+  "themeTrailWidth": "Largeur de la trace",
+  "@themeTrailWidth": {
+    "x-review": true
+  },
+  "themeTrailFade": "Estompage de la trace",
+  "@themeTrailFade": {
+    "x-review": true
+  },
+  "themeTrailInstant": "Instantané",
+  "themeTrailColours": "Couleurs de la trace",
+  "@themeTrailColours": {
+    "x-review": true
+  },
+  "themeTrailStart": "Début",
+  "themeTrailEnd": "Fin",
+  "themeTrailStartTitle": "Début de la trace",
+  "@themeTrailStartTitle": {
+    "x-review": true
+  },
+  "themeTrailEndTitle": "Fin de la trace",
+  "@themeTrailEndTitle": {
+    "x-review": true
+  },
+  "themeAutomatic": "Automatique",
+  "themeSectionMotion": "Mouvement",
+  "themeKeyPressAnimation": "Animation à l'appui des touches",
+  "themeReduceMotion": "« Supprimer les animations » est activé dans les réglages système, donc les touches ne s'animent pas.",
+  "themeMotionOff": "Désactivé",
+  "themeMotionSubtle": "Discret",
+  "themeMotionStandard": "Standard",
+  "themeMotionBouncy": "Rebondissant",
+  "themeSchemeTonalSpot": "Point tonal",
+  "themeSchemeVibrant": "Vibrant",
+  "themeSchemeExpressive": "Expressif",
+  "themeSchemeFidelity": "Fidélité",
+  "themeSchemeContent": "Contenu",
+  "themeSchemeMonochrome": "Monochrome",
+  "themeSchemeNeutral": "Neutre",
+  "themeSchemeRainbow": "Arc-en-ciel",
+  "themeSchemeFruitSalad": "Salade de fruits",
+  "themeCustomColourHex": "Couleur personnalisée #{hex}",
+  "themeCustomColour": "Couleur personnalisée",
+  "themeSwatchLabel": "Couleur {label}, #{hex}",
+  "themeUseSchemeColour": "Utiliser la couleur du schéma pour {label}",
+  "themeFromScheme": "Depuis le schéma",
+  "themeOverridden": "Défini",
+  "themeStopLabel": "Arrêt {n}",
+  "themePickStopTitle": "Arrêt {n}",
+  "themeAddStop": "Ajouter un arrêt",
+  "themeRemoveStop": "Retirer un arrêt",
+  "themeAngle": "Angle",
+  "themeUseSchemeTooltipLabel": "Utiliser la couleur du schéma",
+  "themeCropTitle": "Recadrer la photo",
+  "themeUsePhoto": "Utiliser la photo",
+  "themeCropSaveFailed": "La photo n'a pas pu être enregistrée.",
+  "themeCropSemantics": "Recadrage de photo. Faites glisser pour déplacer la photo et pincez ou utilisez le curseur de zoom pour zoomer.",
+  "themeCropZoom": "Zoom",
+  "themeCropBlur": "Flou",
+  "themeCropBlurOff": "Désactivé",
+  "themeCropNote": "Le flou est enregistré dans l'image. L'assombrissement se règle dans l'éditeur et s'applique en direct.",
+  "themeHexLabel": "Hex",
+  "themeHexError": "Utilisez six chiffres hexadécimaux, comme F5B700",
+  "themeHue": "Teinte",
+  "themeSaturation": "Saturation",
+  "themeBrightness": "Luminosité",
+  "themePickShadeHint": "Choisissez une nuance, puis touchez Utiliser.",
+  "themePickColourUse": "Utiliser",
+  "themeCopySuffix": "copie",
+  "themeCopyName": "Copie de {name}",
+  "themeDeleteTitle": "Supprimer « {name} » ?",
+  "themeDeleteSelectedBody": "Ce thème est sélectionné. BooBoard Dynamic sera utilisé à la place. Action irréversible.",
+  "@themeDeleteSelectedBody": {
+    "x-review": true
+  },
+  "themeDeleteBody": "Action irréversible.",
+  "themeDeleteFailed": "Impossible de supprimer le thème.",
+  "@themeDeleteFailed": {
+    "x-review": true
+  },
+  "themeRenameFailed": "Impossible de renommer le thème.",
+  "@themeRenameFailed": {
+    "x-review": true
+  },
+  "themeDuplicateFailed": "Impossible de copier le thème.",
+  "@themeDuplicateFailed": {
+    "x-review": true
+  },
+  "themeSettingFailed": "Impossible d'enregistrer le réglage.",
+  "themeSystemColoursUnavailable": "Les couleurs du système ne sont pas disponibles.",
+  "themeBooBoardDynamicFollows": "BooBoard Dynamic suit votre fond d'écran",
+  "themeBooBoardDynamicBody": "Ses couleurs se mettent à jour quand le fond d'écran change",
+  "themeSectionPresets": "Préréglages",
+  "themeSectionMyThemes": "Mes thèmes",
+  "themeSectionTry": "Essayer de taper",
+  "themeAppearance": "Apparence",
+  "themesTitle": "Thèmes",
+  "privacyThemesSize": "{count, plural, one {1 fichier de thème} other {{count} fichiers de thème}} · {size}",
+  "@privacyThemesSize": {
+    "x-review": true
+  },
+  "backupUnlockToSeeCount": "Déverrouillez le téléphone pour voir le nombre",
+  "shortcutHelp": "Un raccourci transforme une abréviation en texte plus long. Exemples :\nomw → on my way\naddr → your address",
+  "@shortcutHelp": {
+    "x-review": true
+  },
+  "privacyStoredLearned": "Mots appris ({language})",
+  "settingsComingLater": "Disponible dans une mise à jour ultérieure",
+  "backupExplainer": "Une sauvegarde est un seul fichier, chiffré avec une phrase de passe que vous choisissez. Seule cette phrase l'ouvre. Si vous oubliez la phrase, personne ne peut récupérer la sauvegarde, pas même BooBoard.",
+  "@backupExplainer": {
+    "x-review": true
+  },
+  "privacyCategoryLine": "{title} : {detail}",
+  "shortcutShortFormHint": "omw",
+  "shortcutExpansionHint": "en route",
+  "durationMinutes15": "15 minutes",
+  "durationHour": "1 heure",
+  "durationDay": "1 jour",
+  "durationWeek": "1 semaine",
+  "onboardingCloseSetup": "Fermer la configuration",
+  "packsCouldNotRead": "BooBoard n'a pas pu lire ses packs",
+  "packsDeleteTooltip": "Supprimer {name}",
+  "privacyNothingStored": "Rien n'est encore stocké",
+  "privacyRemoveAppTooltip": "Retirer {app} de la liste",
+  "chineseTitle": "Chinois",
+  "@chineseTitle": {
+    "x-review": true
+  },
+  "chineseTraditional": "Caractères traditionnels",
+  "@chineseTraditional": {
+    "x-review": true
+  },
+  "chineseTraditionalBody": "Affiche les candidats en caractères traditionnels (norme de Taïwan).",
+  "@chineseTraditionalBody": {
+    "x-review": true
+  },
+  "chineseFuzzy": "Pinyin approximatif",
+  "@chineseFuzzy": {
+    "x-review": true
+  },
+  "chineseFuzzyBody": "Accepte aussi z et zh, c et ch, s et sh, n et l, an et ang, en et eng, in et ing.",
+  "@chineseFuzzyBody": {
+    "x-review": true
+  },
+  "cjkDictionary": "Dictionnaire",
+  "@cjkDictionary": {
+    "x-review": true
+  },
+  "chineseClearPhrases": "Effacer les phrases apprises",
+  "@chineseClearPhrases": {
+    "x-review": true
+  },
+  "chineseClearPhrasesBody": "Oublie les mots que vous avez choisis. Le dictionnaire reste.",
+  "@chineseClearPhrasesBody": {
+    "x-review": true
+  },
+  "chineseFooter": "Le chinois est saisi sur ce téléphone. Les phrases apprises sont chiffrées et ne le quittent jamais.",
+  "@chineseFooter": {
+    "x-review": true
+  },
+  "chineseClearTitle": "Effacer les phrases apprises ?",
+  "@chineseClearTitle": {
+    "x-review": true
+  },
+  "chineseClearBody": "Les mots choisis pour le chinois sont supprimés. Action irréversible.",
+  "@chineseClearBody": {
+    "x-review": true
+  },
+  "cjkClear": "Effacer",
+  "@cjkClear": {
+    "x-review": true
+  },
+  "chinesePhrasesCleared": "Phrases apprises effacées",
+  "@chinesePhrasesCleared": {
+    "x-review": true
+  },
+  "chineseLooking": "Recherche du dictionnaire",
+  "@chineseLooking": {
+    "x-review": true
+  },
+  "chineseDictName": "Dictionnaire chinois",
+  "@chineseDictName": {
+    "x-review": true
+  },
+  "chinesePackMissing": "Non installé. La saisie en chinois en a besoin ; installez-le dans Packs de modèles.",
+  "@chinesePackMissing": {
+    "x-review": true
+  },
+  "chinesePackInstalled": "Installé. {license}",
+  "@chinesePackInstalled": {
+    "x-review": true
+  },
+  "japaneseTitle": "Japonais",
+  "@japaneseTitle": {
+    "x-review": true
+  },
+  "japaneseLayout": "Disposition",
+  "@japaneseLayout": {
+    "x-review": true
+  },
+  "japaneseLayout12": "12 touches (glisser)",
+  "@japaneseLayout12": {
+    "x-review": true
+  },
+  "japaneseLayoutRomaji": "Romaji (QWERTY)",
+  "@japaneseLayoutRomaji": {
+    "x-review": true
+  },
+  "japaneseTyping": "Saisie",
+  "@japaneseTyping": {
+    "x-review": true
+  },
+  "japaneseFlickOnly": "Glisser uniquement",
+  "@japaneseFlickOnly": {
+    "x-review": true
+  },
+  "japaneseFlickOnlyBody": "Pas de pressions multiples : toucher あ deux fois saisit ああ, pas い",
+  "@japaneseFlickOnlyBody": {
+    "x-review": true
+  },
+  "japaneseHalfWidth": "Espace demi-chasse",
+  "@japaneseHalfWidth": {
+    "x-review": true
+  },
+  "japaneseHalfWidthBody": "L'espace saisit une espace normale quand rien n'est en cours de saisie. Désactivé, il saisit une espace pleine chasse.",
+  "@japaneseHalfWidthBody": {
+    "x-review": true
+  },
+  "japaneseDictPack": "Pack de dictionnaire",
+  "@japaneseDictPack": {
+    "x-review": true
+  },
+  "japaneseChecking": "Vérification...",
+  "@japaneseChecking": {
+    "x-review": true
+  },
+  "japaneseInstalled": "{name} est installé. La conversion en kanji est activée.",
+  "@japaneseInstalled": {
+    "x-review": true
+  },
+  "japaneseNotInstalled": "Non installé. Les kana se saisissent quand même ; les kanji nécessitent le pack.",
+  "@japaneseNotInstalled": {
+    "x-review": true
+  },
+  "japaneseClearWords": "Effacer les mots appris",
+  "@japaneseClearWords": {
+    "x-review": true
+  },
+  "japaneseClearWordsBody": "Oublie les mots japonais que vous avez choisis. Stockés chiffrés sur ce téléphone.",
+  "@japaneseClearWordsBody": {
+    "x-review": true
+  },
+  "japaneseClearTitle": "Effacer les mots japonais appris ?",
+  "@japaneseClearTitle": {
+    "x-review": true
+  },
+  "japaneseClearBody": "Tous les mots japonais choisis sont supprimés. Action irréversible.",
+  "@japaneseClearBody": {
+    "x-review": true
+  },
+  "privacyStoredChinesePhrases": "Phrases en chinois",
+  "@privacyStoredChinesePhrases": {
+    "x-review": true
+  },
+  "privacyStoredJapaneseWords": "Mots en japonais",
+  "@privacyStoredJapaneseWords": {
+    "x-review": true
+  }
+}

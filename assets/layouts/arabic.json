@@ -1,0 +1,67 @@
+{
+ "id": "arabic",
+ "name": "Arabic",
+ "script": "Arab",
+ "direction": "ltr",
+ "rows": [
+  {
+   "padding": 0.75,
+   "keys": [
+    "ج",
+    "ح",
+    "خ",
+    "ه",
+    {"output": "ع"},
+    "غ",
+    "ف",
+    "ق",
+    "ث",
+    "ص",
+    "ض"
+   ]
+  },
+  {
+   "padding": 0.75,
+   "keys": [
+    "ط",
+    "ك",
+    {"output": "م"},
+    "ن",
+    "ت",
+    {"output": "ا", "popup": ["أ", "إ", "آ", "ٱ"]},
+    "ل",
+    "ب",
+    {"output": "ي", "popup": ["ى", "ئ"]},
+    "س",
+    "ش"
+   ]
+  },
+  {
+   "keys": [
+    "ذ",
+    "د",
+    "ظ",
+    "ز",
+    {"output": "و", "popup": ["ؤ"]},
+    {"output": "ة"},
+    "ى",
+    "ر",
+    "ؤ",
+    "ء",
+    "ئ",
+    {"type": "backspace", "width": 1.5}
+   ]
+  },
+  {
+   "keys": [
+    {"type": "enter", "width": 1.5},
+    {"type": "period", "output": ".", "popup": ["؟", "!", "؛"]},
+    {"type": "space", "width": 5.5},
+    {"type": "comma", "output": "،"},
+    {"output": "َ", "label": "ـَ", "width": 1.0, "popup": ["ُ", "ِ", "ً", "ٌ", "ٍ", "ْ", "ّ"]},
+    {"type": "emoji", "width": 1},
+    {"type": "symbols", "label": "?123", "width": 1.5}
+   ]
+  }
+ ]
+}

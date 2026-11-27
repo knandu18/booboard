@@ -1,0 +1,165 @@
+{
+ "id": "pinyin_zh",
+ "name": "Pinyin",
+ "script": "Latn",
+ "direction": "ltr",
+ "rows": [
+  {
+   "keys": [
+    {
+     "output": "q",
+     "hint": "1",
+     "popup": [
+      "1"
+     ]
+    },
+    {
+     "output": "w",
+     "hint": "2",
+     "popup": [
+      "2"
+     ]
+    },
+    {
+     "output": "e",
+     "hint": "3",
+     "popup": [
+      "3"
+     ]
+    },
+    {
+     "output": "r",
+     "hint": "4",
+     "popup": [
+      "4"
+     ]
+    },
+    {
+     "output": "t",
+     "hint": "5",
+     "popup": [
+      "5"
+     ]
+    },
+    {
+     "output": "y",
+     "hint": "6",
+     "popup": [
+      "6"
+     ]
+    },
+    {
+     "output": "u",
+     "hint": "7",
+     "popup": [
+      "7"
+     ]
+    },
+    {
+     "output": "i",
+     "hint": "8",
+     "popup": [
+      "8"
+     ]
+    },
+    {
+     "output": "o",
+     "hint": "9",
+     "popup": [
+      "9"
+     ]
+    },
+    {
+     "output": "p",
+     "hint": "0",
+     "popup": [
+      "0"
+     ]
+    }
+   ]
+  },
+  {
+   "padding": 0.5,
+   "keys": [
+    "a",
+    "s",
+    "d",
+    "f",
+    "g",
+    "h",
+    "j",
+    "k",
+    "l"
+   ]
+  },
+  {
+   "keys": [
+    {
+     "type": "shift",
+     "width": 1.5
+    },
+    "z",
+    "x",
+    "c",
+    "v",
+    "b",
+    "n",
+    "m",
+    {
+     "type": "backspace",
+     "width": 1.5
+    }
+   ]
+  },
+  {
+   "keys": [
+    {
+     "type": "symbols",
+     "label": "?123",
+     "width": 1.5
+    },
+    {
+     "type": "emoji",
+     "width": 1
+    },
+    {
+     "type": "comma",
+     "output": "，",
+     "popup": [
+      "、",
+      ","
+     ]
+    },
+    {
+     "type": "space",
+     "width": 4
+    },
+    {
+     "type": "period",
+     "output": "。",
+     "popup": [
+      "'",
+      "？",
+      "！",
+      "：",
+      "；",
+      "“",
+      "”",
+      "（",
+      "）",
+      "《",
+      "》",
+      "……",
+      "——",
+      ".",
+      "@"
+     ]
+    },
+    {
+     "type": "enter",
+     "width": 1.5
+    }
+   ]
+  }
+ ]
+}

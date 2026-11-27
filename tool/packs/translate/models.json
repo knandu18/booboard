@@ -1,0 +1,546 @@
+{
+  "about": "Pinned upstream model files for the translation packs. stage.ps1 downloads and checks them.",
+  "engine": "opus-mt-onnx",
+  "packs": [
+    {
+      "id": "translate-en-es",
+      "from": "en",
+      "to": "es",
+      "name": "English -> Spanish",
+      "license": "Apache-2.0",
+      "source": "https://huggingface.co/Xenova/opus-mt-en-es (ONNX export of the Helsinki-NLP OPUS-MT model)",
+      "repo": "Xenova/opus-mt-en-es",
+      "revision": "4b002a4c7edd54a7ced58877258b87f7efd3f892",
+      "config": {
+        "pad_id": 65000,
+        "eos_id": 0,
+        "unk_id": 1,
+        "decoder_start_id": 65000,
+        "target_token": null,
+        "max_length_factor": 1.5,
+        "max_extra": 10
+      },
+      "files": [
+        {
+          "remote": "onnx/encoder_model_quantized.onnx",
+          "local": "model/encoder.onnx",
+          "size": 52899742,
+          "sha256": "03434edd1147e6c49e22066e9dc5888235e99cc35a6711d1c4ea5b06455d5da9"
+        },
+        {
+          "remote": "onnx/decoder_model_merged_quantized.onnx",
+          "local": "model/decoder.onnx",
+          "size": 60212804,
+          "sha256": "58ee5ddd6e22d1693d8722b90c1486afb93700a4376cf28fd74175052ad530ae"
+        },
+        {
+          "remote": "source.spm",
+          "local": "model/source.spm",
+          "size": 801636,
+          "sha256": "4dd547c24816a335e7b0b2e63376a8f1b3cbfc671eda5ab808dd44fdadaa8791"
+        },
+        {
+          "remote": "vocab.json",
+          "local": "model/vocab.json",
+          "size": 1720044,
+          "sha256": "b074b4cca0036ade5a39ea97faabd534e1015482c480fc2cb02c6481983eb163"
+        }
+      ]
+    },
+    {
+      "id": "translate-es-en",
+      "from": "es",
+      "to": "en",
+      "name": "Spanish -> English",
+      "license": "Apache-2.0",
+      "source": "https://huggingface.co/Xenova/opus-mt-es-en (ONNX export of the Helsinki-NLP OPUS-MT model)",
+      "repo": "Xenova/opus-mt-es-en",
+      "revision": "eadfd7c658a9d8929ac3b8e996b68a68e2c7d480",
+      "config": {
+        "pad_id": 65000,
+        "eos_id": 0,
+        "unk_id": 1,
+        "decoder_start_id": 65000,
+        "target_token": null,
+        "max_length_factor": 1.5,
+        "max_extra": 10
+      },
+      "files": [
+        {
+          "remote": "onnx/encoder_model_quantized.onnx",
+          "local": "model/encoder.onnx",
+          "size": 52899742,
+          "sha256": "c01e70f8455efc350831aa2af7ed187b16829241f0018ba07d1ba643a391bc18"
+        },
+        {
+          "remote": "onnx/decoder_model_merged_quantized.onnx",
+          "local": "model/decoder.onnx",
+          "size": 60212804,
+          "sha256": "4cd91ab30240d295ce907b5100826031838c672005e57e524d711122d75605fa"
+        },
+        {
+          "remote": "source.spm",
+          "local": "model/source.spm",
+          "size": 825924,
+          "sha256": "e236ee6d866b635c0142114f8647f39831f9d92534aa2aad75c942f6a78ad0e3"
+        },
+        {
+          "remote": "vocab.json",
+          "local": "model/vocab.json",
+          "size": 1720044,
+          "sha256": "b074b4cca0036ade5a39ea97faabd534e1015482c480fc2cb02c6481983eb163"
+        }
+      ]
+    },
+    {
+      "id": "translate-en-fr",
+      "from": "en",
+      "to": "fr",
+      "name": "English -> French",
+      "license": "Apache-2.0",
+      "source": "https://huggingface.co/Xenova/opus-mt-en-fr (ONNX export of the Helsinki-NLP OPUS-MT model)",
+      "repo": "Xenova/opus-mt-en-fr",
+      "revision": "28726206f80896b90035bd99cccd5cc1e151f916",
+      "config": {
+        "pad_id": 59513,
+        "eos_id": 0,
+        "unk_id": 1,
+        "decoder_start_id": 59513,
+        "target_token": null,
+        "max_length_factor": 1.5,
+        "max_extra": 10
+      },
+      "files": [
+        {
+          "remote": "onnx/encoder_model_quantized.onnx",
+          "local": "model/encoder.onnx",
+          "size": 50090398,
+          "sha256": "0a81bdba62f53223740a8c6c6f58e716eba8ea1f92dfa569caf27ed5e3b6a0f7"
+        },
+        {
+          "remote": "onnx/decoder_model_merged_quantized.onnx",
+          "local": "model/decoder.onnx",
+          "size": 57381512,
+          "sha256": "333b244bce16023df04541c8cf9fd60aec9b0569da393c4b831d561897b0bda8"
+        },
+        {
+          "remote": "source.spm",
+          "local": "model/source.spm",
+          "size": 778395,
+          "sha256": "173e9f493a668fe396d599e28d414a201193094e6ffd7a4678e5aab0f6d3d838"
+        },
+        {
+          "remote": "vocab.json",
+          "local": "model/vocab.json",
+          "size": 1458196,
+          "sha256": "f2ba9c69ae20f96b8bd821239a9152be422394f980350b77907cffc183db5f2d"
+        }
+      ]
+    },
+    {
+      "id": "translate-fr-en",
+      "from": "fr",
+      "to": "en",
+      "name": "French -> English",
+      "license": "Apache-2.0",
+      "source": "https://huggingface.co/Xenova/opus-mt-fr-en (ONNX export of the Helsinki-NLP OPUS-MT model)",
+      "repo": "Xenova/opus-mt-fr-en",
+      "revision": "6b166a182780e118c997879d0ad5be4b53671644",
+      "config": {
+        "pad_id": 59513,
+        "eos_id": 0,
+        "unk_id": 1,
+        "decoder_start_id": 59513,
+        "target_token": null,
+        "max_length_factor": 1.5,
+        "max_extra": 10
+      },
+      "files": [
+        {
+          "remote": "onnx/encoder_model_quantized.onnx",
+          "local": "model/encoder.onnx",
+          "size": 50090398,
+          "sha256": "e727cb26ac6bf816394c49671af69c9ae5798868fed1e40849872415dffc1772"
+        },
+        {
+          "remote": "onnx/decoder_model_merged_quantized.onnx",
+          "local": "model/decoder.onnx",
+          "size": 57381512,
+          "sha256": "73bc7ac8e29c42e6f212ebcc29a2991d3646a04aabb642c0036aa54b40e4e1a9"
+        },
+        {
+          "remote": "source.spm",
+          "local": "model/source.spm",
+          "size": 802397,
+          "sha256": "78d0e717c77053f1c4b856d8661d9cb87c64f083a35418c087b9146300e4f585"
+        },
+        {
+          "remote": "vocab.json",
+          "local": "model/vocab.json",
+          "size": 1458196,
+          "sha256": "f2ba9c69ae20f96b8bd821239a9152be422394f980350b77907cffc183db5f2d"
+        }
+      ]
+    },
+    {
+      "id": "translate-en-de",
+      "from": "en",
+      "to": "de",
+      "name": "English -> German",
+      "license": "CC-BY-4.0",
+      "source": "https://huggingface.co/Xenova/opus-mt-en-de (ONNX export of the Helsinki-NLP OPUS-MT model)",
+      "repo": "Xenova/opus-mt-en-de",
+      "revision": "1ca130c44c4c5441ef16d48aae521a424ab644f7",
+      "config": {
+        "pad_id": 58100,
+        "eos_id": 0,
+        "unk_id": 1,
+        "decoder_start_id": 58100,
+        "target_token": null,
+        "max_length_factor": 1.5,
+        "max_extra": 10
+      },
+      "files": [
+        {
+          "remote": "onnx/encoder_model_quantized.onnx",
+          "local": "model/encoder.onnx",
+          "size": 49366942,
+          "sha256": "15834b45fabd2dfb8c6c029b3ca3e7289aeefd90ece798ce42bcf548d1bd3b8d"
+        },
+        {
+          "remote": "onnx/decoder_model_merged_quantized.onnx",
+          "local": "model/decoder.onnx",
+          "size": 56652404,
+          "sha256": "8b46a825964cdd182fe47cc780f0fb87d357eae1f47cf20aa63c1c09be5b510c"
+        },
+        {
+          "remote": "source.spm",
+          "local": "model/source.spm",
+          "size": 768489,
+          "sha256": "678f2a1177d8389f67b66299762dcc4fc567e89b07e212ba91b0c56daecf47ce"
+        },
+        {
+          "remote": "vocab.json",
+          "local": "model/vocab.json",
+          "size": 1389436,
+          "sha256": "d5acea957b265a78554999144459c5e391e0df525864edc8287bc090290baa44"
+        }
+      ]
+    },
+    {
+      "id": "translate-de-en",
+      "from": "de",
+      "to": "en",
+      "name": "German -> English",
+      "license": "Apache-2.0",
+      "source": "https://huggingface.co/Xenova/opus-mt-de-en (ONNX export of the Helsinki-NLP OPUS-MT model)",
+      "repo": "Xenova/opus-mt-de-en",
+      "revision": "399dfd68706739fffd503f876093e455ae268a06",
+      "config": {
+        "pad_id": 58100,
+        "eos_id": 0,
+        "unk_id": 1,
+        "decoder_start_id": 58100,
+        "target_token": null,
+        "max_length_factor": 1.5,
+        "max_extra": 10
+      },
+      "files": [
+        {
+          "remote": "onnx/encoder_model_quantized.onnx",
+          "local": "model/encoder.onnx",
+          "size": 49366942,
+          "sha256": "4cedda8f8c89b72a42b3c6cd1e7a27f2de24457093e3bf80cb3e46829641fcd8"
+        },
+        {
+          "remote": "onnx/decoder_model_merged_quantized.onnx",
+          "local": "model/decoder.onnx",
+          "size": 56652404,
+          "sha256": "4712800584b2d77c2f9e620bf29523e2b20b62f65ade5011ee01780e2b0ea5d3"
+        },
+        {
+          "remote": "source.spm",
+          "local": "model/source.spm",
+          "size": 796845,
+          "sha256": "bbd1f495eea99c8e21ae086d9146e0fa7b096c3dfdd9ba07ab8b631889df5c9b"
+        },
+        {
+          "remote": "vocab.json",
+          "local": "model/vocab.json",
+          "size": 1389436,
+          "sha256": "d5acea957b265a78554999144459c5e391e0df525864edc8287bc090290baa44"
+        }
+      ]
+    },
+    {
+      "id": "translate-en-pt",
+      "from": "en",
+      "to": "pt",
+      "name": "English -> Portuguese",
+      "license": "Apache-2.0",
+      "source": "https://huggingface.co/Xenova/opus-mt-en-ROMANCE (ONNX export of the Helsinki-NLP OPUS-MT model)",
+      "repo": "Xenova/opus-mt-en-ROMANCE",
+      "revision": "9d2ba69ac80c8e8453c3d9a1e2323a0e7b8ca3cd",
+      "config": {
+        "pad_id": 65000,
+        "eos_id": 0,
+        "unk_id": 1,
+        "decoder_start_id": 65000,
+        "target_token": ">>pt<<",
+        "max_length_factor": 1.5,
+        "max_extra": 10
+      },
+      "files": [
+        {
+          "remote": "onnx/encoder_model_quantized.onnx",
+          "local": "model/encoder.onnx",
+          "size": 52899742,
+          "sha256": "b4ddfd9338ba3d7c6b9c2d1410ed94fb7e06741226918cef6148031101bbd019"
+        },
+        {
+          "remote": "onnx/decoder_model_merged_quantized.onnx",
+          "local": "model/decoder.onnx",
+          "size": 60212804,
+          "sha256": "b5f6d442da7fa69f9d500df90373d2fdca4f799c43696b41888353b5c3c8eb13"
+        },
+        {
+          "remote": "source.spm",
+          "local": "model/source.spm",
+          "size": 779155,
+          "sha256": "b1f89e7b05828846baf19109a61029a36838f1c4f3defc218e6aee0ee2787864"
+        },
+        {
+          "remote": "vocab.json",
+          "local": "model/vocab.json",
+          "size": 1587364,
+          "sha256": "d9c3b6b01d3a9c9403befa60fd17e4a50dc4929698e3d6b9c2e7f066a9d1f041"
+        }
+      ]
+    },
+    {
+      "id": "translate-pt-en",
+      "from": "pt",
+      "to": "en",
+      "name": "Portuguese -> English",
+      "license": "Apache-2.0",
+      "source": "https://huggingface.co/Xenova/opus-mt-ROMANCE-en (ONNX export of the Helsinki-NLP OPUS-MT model)",
+      "repo": "Xenova/opus-mt-ROMANCE-en",
+      "revision": "f60feaabe8bb435a5871e7702b25f53a01e770f8",
+      "config": {
+        "pad_id": 65000,
+        "eos_id": 0,
+        "unk_id": 1,
+        "decoder_start_id": 65000,
+        "target_token": null,
+        "max_length_factor": 1.5,
+        "max_extra": 10
+      },
+      "files": [
+        {
+          "remote": "onnx/encoder_model_quantized.onnx",
+          "local": "model/encoder.onnx",
+          "size": 52899741,
+          "sha256": "13750ba31ee80c88f6bbb28aa03320674c50394efb95f791d5c4f5c8894232bf"
+        },
+        {
+          "remote": "onnx/decoder_model_merged_quantized.onnx",
+          "local": "model/decoder.onnx",
+          "size": 60212803,
+          "sha256": "5c0d95a8072a463c747343cf25ac9b4a17e9a90e08131e7efab12691ca13c979"
+        },
+        {
+          "remote": "source.spm",
+          "local": "model/source.spm",
+          "size": 800087,
+          "sha256": "baeab21ec00d0b490382b82499ef0348235c5a8e75de28aec8290adf62b007c4"
+        },
+        {
+          "remote": "vocab.json",
+          "local": "model/vocab.json",
+          "size": 1590308,
+          "sha256": "32c8eeec099b448425a7da4e09ec10acbe424a733780c9bcec2062846f03e706"
+        }
+      ]
+    },
+    {
+      "id": "translate-en-hi",
+      "from": "en",
+      "to": "hi",
+      "name": "English -> Hindi",
+      "license": "Apache-2.0",
+      "source": "https://huggingface.co/Xenova/opus-mt-en-hi (ONNX export of the Helsinki-NLP OPUS-MT model)",
+      "repo": "Xenova/opus-mt-en-hi",
+      "revision": "7aad72006a1588a9c3485ed6203aed99eebbc872",
+      "config": {
+        "pad_id": 61949,
+        "eos_id": 0,
+        "unk_id": 1,
+        "decoder_start_id": 61949,
+        "target_token": null,
+        "max_length_factor": 1.5,
+        "max_extra": 10
+      },
+      "files": [
+        {
+          "remote": "onnx/encoder_model_quantized.onnx",
+          "local": "model/encoder.onnx",
+          "size": 51337630,
+          "sha256": "3045cd6eaf06db96cff853204d6f0ffeb0c5af238a4f5a87a19fcaa94f7493c4"
+        },
+        {
+          "remote": "onnx/decoder_model_merged_quantized.onnx",
+          "local": "model/decoder.onnx",
+          "size": 58638488,
+          "sha256": "8baba43a14b15ca4543d30ab36e7d34f2e516fb9af7e0b83b77a5e6a6f66d198"
+        },
+        {
+          "remote": "source.spm",
+          "local": "model/source.spm",
+          "size": 812240,
+          "sha256": "fd4e951487aed00bae6a6c2ee4ef5d8d1db05fd098b19b608046c9334b58d24d"
+        },
+        {
+          "remote": "vocab.json",
+          "local": "model/vocab.json",
+          "size": 2221738,
+          "sha256": "be02f5dfb85054d4f25089f6b347b69d32e98ed4c3d181ed0c789904eb1e3d3b"
+        }
+      ]
+    },
+    {
+      "id": "translate-hi-en",
+      "from": "hi",
+      "to": "en",
+      "name": "Hindi -> English",
+      "license": "Apache-2.0",
+      "source": "https://huggingface.co/Xenova/opus-mt-hi-en (ONNX export of the Helsinki-NLP OPUS-MT model)",
+      "repo": "Xenova/opus-mt-hi-en",
+      "revision": "99853100ed9d932987a6816e8cf7b1b6742a6116",
+      "config": {
+        "pad_id": 61126,
+        "eos_id": 0,
+        "unk_id": 1,
+        "decoder_start_id": 61126,
+        "target_token": null,
+        "max_length_factor": 1.5,
+        "max_extra": 10
+      },
+      "files": [
+        {
+          "remote": "onnx/encoder_model_quantized.onnx",
+          "local": "model/encoder.onnx",
+          "size": 50916254,
+          "sha256": "dc5a1b084a83019bbb9798809dea5f2d16cc30a9a257238ec93120b3c2892ebf"
+        },
+        {
+          "remote": "onnx/decoder_model_merged_quantized.onnx",
+          "local": "model/decoder.onnx",
+          "size": 58213820,
+          "sha256": "52655659006c8ce742cc761282d49b3be4e73bfbf080f1b6a546aa96170d5813"
+        },
+        {
+          "remote": "source.spm",
+          "local": "model/source.spm",
+          "size": 1057690,
+          "sha256": "dd20c408ec4568361d32b41080e3f6fa5b82895135bd25c2747b2c145e42d07b"
+        },
+        {
+          "remote": "vocab.json",
+          "local": "model/vocab.json",
+          "size": 2179709,
+          "sha256": "83bf3ef5541c374f1796405a135ffa24d50665f1fcfdb5825f603c70166b4740"
+        }
+      ]
+    },
+    {
+      "id": "translate-en-ru",
+      "from": "en",
+      "to": "ru",
+      "name": "English -> Russian",
+      "license": "Apache-2.0",
+      "source": "https://huggingface.co/Xenova/opus-mt-en-ru (ONNX export of the Helsinki-NLP OPUS-MT model)",
+      "repo": "Xenova/opus-mt-en-ru",
+      "revision": "e050376e960175e8ddc5cff85025dc8436cddd68",
+      "config": {
+        "pad_id": 62517,
+        "eos_id": 0,
+        "unk_id": 1,
+        "decoder_start_id": 62517,
+        "target_token": null,
+        "max_length_factor": 1.5,
+        "max_extra": 10
+      },
+      "files": [
+        {
+          "remote": "onnx/encoder_model_quantized.onnx",
+          "local": "model/encoder.onnx",
+          "size": 51628446,
+          "sha256": "97f28d8295d231b7da721ded06fa8c034787df2122cd8f85b904abdc4d15bd53"
+        },
+        {
+          "remote": "onnx/decoder_model_merged_quantized.onnx",
+          "local": "model/decoder.onnx",
+          "size": 58931576,
+          "sha256": "7efefcd793a5663bc204224a92a123524f3dfe2ffad59e5f73d6734d1b11ad04"
+        },
+        {
+          "remote": "source.spm",
+          "local": "model/source.spm",
+          "size": 802781,
+          "sha256": "16bebef1389a0b8ab452772c4e35b9e605e5713f8ac7baa71ca701394eaa086d"
+        },
+        {
+          "remote": "vocab.json",
+          "local": "model/vocab.json",
+          "size": 2726796,
+          "sha256": "5cf0d95d930d8d3e783c9e2f46a72f08b43a18060dab4ddefbcb66a733efedcb"
+        }
+      ]
+    },
+    {
+      "id": "translate-ru-en",
+      "from": "ru",
+      "to": "en",
+      "name": "Russian -> English",
+      "license": "CC-BY-4.0",
+      "source": "https://huggingface.co/Xenova/opus-mt-ru-en (ONNX export of the Helsinki-NLP OPUS-MT model)",
+      "repo": "Xenova/opus-mt-ru-en",
+      "revision": "afe8c6c738ec81b6d033fd8f44f9678a639a7c67",
+      "config": {
+        "pad_id": 62517,
+        "eos_id": 0,
+        "unk_id": 1,
+        "decoder_start_id": 62517,
+        "target_token": null,
+        "max_length_factor": 1.5,
+        "max_extra": 10
+      },
+      "files": [
+        {
+          "remote": "onnx/encoder_model_quantized.onnx",
+          "local": "model/encoder.onnx",
+          "size": 51628446,
+          "sha256": "c10df0466540534bb70c4402d539c349b8bfa9968184cad89f51408cf13e7eb7"
+        },
+        {
+          "remote": "onnx/decoder_model_merged_quantized.onnx",
+          "local": "model/decoder.onnx",
+          "size": 58931576,
+          "sha256": "25e7ff97b201bce64ab9c39749761d657b70b8602bcbc1ce01c67f713e90ffdf"
+        },
+        {
+          "remote": "source.spm",
+          "local": "model/source.spm",
+          "size": 1080169,
+          "sha256": "745998e51ba5b058e38b7ac7765c25c43ed5c1c39cc92b27163b9b2e323c9d7c"
+        },
+        {
+          "remote": "vocab.json",
+          "local": "model/vocab.json",
+          "size": 2726796,
+          "sha256": "5cf0d95d930d8d3e783c9e2f46a72f08b43a18060dab4ddefbcb66a733efedcb"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+New ghost icon. Filipino typing and voice. Get voice and translation packs privately: your browser downloads them, BooBoard stays offline and checks them on your phone. A simpler translation language list. Haptics are off by default. Fixes: no swipe trail left after the emoji panel, and inserted translations get a space.

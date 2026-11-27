@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="inline_chip_background">#FF36343B</color>
+    <color name="inline_chip_stroke">#FF49454F</color>
+    <color name="inline_chip_text">#FFE6E0E9</color>
+    <color name="inline_chip_subtext">#FFCAC4D0</color>
+    <!-- BooBoard brand: the splash stays lime in dark mode, so black Boo stays visible (like first-run setup). -->
+    <color name="booboard_splash_background">#FFE3F794</color>
+</resources>

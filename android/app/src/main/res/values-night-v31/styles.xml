@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark mode on Android 12+: the same SplashScreen items on a dark system theme. The splash colour
+         is the dark one from values-night/colors.xml. -->
+    <style name="LaunchTheme" parent="@android:style/Theme.DeviceDefault.NoActionBar">
+        <item name="android:windowSplashScreenBackground">@color/booboard_splash_background</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/splash_ghost</item>
+    </style>
+</resources>

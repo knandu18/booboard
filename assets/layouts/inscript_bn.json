@@ -1,0 +1,215 @@
+{
+ "id": "inscript_bn",
+ "name": "InScript",
+ "script": "Beng",
+ "direction": "ltr",
+ "rows": [
+  {
+   "keys": [
+    {
+     "output": "ৌ",
+     "shiftedOutput": "ঔ"
+    },
+    {
+     "output": "ৈ",
+     "shiftedOutput": "ঐ"
+    },
+    {
+     "output": "া",
+     "shiftedOutput": "আ"
+    },
+    {
+     "output": "ী",
+     "shiftedOutput": "ঈ"
+    },
+    {
+     "output": "ূ",
+     "shiftedOutput": "ঊ"
+    },
+    {
+     "output": "ব",
+     "shiftedOutput": "ভ"
+    },
+    {
+     "output": "হ",
+     "shiftedOutput": "ঙ"
+    },
+    {
+     "output": "গ",
+     "shiftedOutput": "ঘ"
+    },
+    {
+     "output": "দ",
+     "shiftedOutput": "ধ"
+    },
+    {
+     "output": "জ",
+     "shiftedOutput": "ঝ",
+     "popup": [
+      "জ্ঞ"
+     ]
+    },
+    {
+     "output": "ড",
+     "shiftedOutput": "ঢ",
+     "popup": [
+      "ড়",
+      "ঢ়"
+     ]
+    }
+   ]
+  },
+  {
+   "keys": [
+    {
+     "output": "ো",
+     "shiftedOutput": "ও"
+    },
+    {
+     "output": "ে",
+     "shiftedOutput": "এ"
+    },
+    {
+     "output": "্",
+     "shiftedOutput": "অ",
+     "popup": [
+      "‌",
+      "‍",
+      "ঽ"
+     ]
+    },
+    {
+     "output": "ি",
+     "shiftedOutput": "ই"
+    },
+    {
+     "output": "ু",
+     "shiftedOutput": "উ"
+    },
+    {
+     "output": "প",
+     "shiftedOutput": "ফ"
+    },
+    {
+     "output": "র",
+     "shiftedOutput": "ঢ়",
+     "popup": [
+      "ৃ",
+      "ঋ"
+     ]
+    },
+    {
+     "output": "ক",
+     "shiftedOutput": "খ",
+     "popup": [
+      "ক্ষ"
+     ]
+    },
+    {
+     "output": "ত",
+     "shiftedOutput": "থ"
+    },
+    {
+     "output": "চ",
+     "shiftedOutput": "ছ"
+    },
+    {
+     "output": "ট",
+     "shiftedOutput": "ঠ"
+    }
+   ]
+  },
+  {
+   "keys": [
+    {
+     "type": "shift",
+     "width": 1.5
+    },
+    {
+     "output": "ৎ"
+    },
+    {
+     "output": "ং",
+     "shiftedOutput": "ঁ",
+     "popup": [
+      "ঃ"
+     ]
+    },
+    {
+     "output": "ম",
+     "shiftedOutput": "ণ"
+    },
+    {
+     "output": "ন"
+    },
+    {
+     "output": "ল"
+    },
+    {
+     "output": "স",
+     "shiftedOutput": "শ",
+     "popup": [
+      "ষ"
+     ]
+    },
+    {
+     "output": "য়",
+     "shiftedOutput": "য"
+    },
+    {
+     "output": "়",
+     "shiftedOutput": "ঞ"
+    },
+    {
+     "type": "backspace",
+     "width": 1.5
+    }
+   ]
+  },
+  {
+   "keys": [
+    {
+     "type": "symbols",
+     "label": "?123",
+     "width": 1.5
+    },
+    {
+     "type": "emoji",
+     "width": 1
+    },
+    {
+     "type": "comma",
+     "output": ","
+    },
+    {
+     "type": "space",
+     "width": 5
+    },
+    {
+     "type": "period",
+     "output": ".",
+     "popup": [
+      "।",
+      "॥",
+      ",",
+      "?",
+      "!",
+      "'",
+      "\"",
+      ":",
+      ";",
+      "-",
+      "(",
+      ")",
+      "@",
+      "#"
+     ]
+    },
+    {
+     "type": "enter",
+     "width": 1.5
+    }
+   ]
+  }
+ ]
+}

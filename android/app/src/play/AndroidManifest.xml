@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- Play Asset Delivery's AAR adds these. INSTALL_PACKAGES is a privileged permission an ordinary app can
+         never hold, and the keyboard installs nothing. FOREGROUND_SERVICE, FOREGROUND_SERVICE_DATA_SYNC and WAKE_LOCK stay: the
+         extraction service and WorkManager use them, and only a real Play test can show it works without them. -->
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES" tools:node="remove" />
+    <!-- WorkManager (pulled in by the library) re-schedules work after a reboot. Pack extraction is one-off work
+         that starts while the app is open, so the keyboard needs no boot receiver. -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" tools:node="remove" />
+</manifest>

@@ -1,0 +1,1515 @@
+{
+  "@@locale": "id",
+  "appName": "BooBoard",
+  "homeTagline": "Pengetikan pribadi, di ponsel ini",
+  "homeOfflinePromise": "BooBoard berfungsi luring dan *tidak mengirim apa pun ke mana pun.*",
+  "@homeOfflinePromise": {
+    "x-review": true
+  },
+  "cancel": "Batal",
+  "delete": "Hapus",
+  "save": "Simpan",
+  "useAction": "Gunakan",
+  "off": "Nonaktif",
+  "left": "Kiri",
+  "right": "Kanan",
+  "settingsLanguages": "Bahasa",
+  "settingsTyping": "Pengetikan",
+  "settingsFeel": "Rasa",
+  "settingsThemes": "Tema",
+  "settingsPanels": "Panel",
+  "settingsVoice": "Suara",
+  "@settingsVoice": {
+    "x-review": true
+  },
+  "settingsTranslation": "Terjemahan",
+  "@settingsTranslation": {
+    "x-review": true
+  },
+  "settingsPrivacy": "Privasi",
+  "settingsAbout": "Tentang",
+  "settingsModelPacks": "Paket model",
+  "homeSetupTurnOn": "Aktifkan BooBoard di daftar keyboard Android.",
+  "homeSetupChoose": "Pilih BooBoard sebagai keyboard untuk mengetik.",
+  "homeFinishSetup": "Selesaikan pengaturan BooBoard",
+  "homeTypingSubtitle": "Koreksi, saran, tombol, dan geser",
+  "@homeTypingSubtitle": {
+    "x-review": true
+  },
+  "homeFeelSubtitle": "Getaran, suara, tinggi, dan mode satu tangan",
+  "@homeFeelSubtitle": {
+    "x-review": true
+  },
+  "homePanelsSubtitle": "Papan klip dan emoji",
+  "@homePanelsSubtitle": {
+    "x-review": true
+  },
+  "homeVoiceSubtitle": "Bicara untuk mengetik, di ponsel ini",
+  "homeTranslationSubtitle": "Terjemahkan saat mengetik, luring",
+  "@homeTranslationSubtitle": {
+    "x-review": true
+  },
+  "homePrivacySubtitle": "Apa yang disimpan, penyamaran, kunci aplikasi, dan cadangan",
+  "@homePrivacySubtitle": {
+    "x-review": true
+  },
+  "homeAboutSubtitle": "Versi, lisensi, dan kode sumber",
+  "homeImages": "Gambar",
+  "@homeImages": {
+    "x-review": true
+  },
+  "homeAboutBooBoard": "Tentang BooBoard",
+  "@homeAboutBooBoard": {
+    "x-review": true
+  },
+  "websiteOpenHint": "Membuka booboard.com di browser Anda",
+  "@websiteOpenHint": {
+    "x-review": true
+  },
+  "websiteNoBrowser": "Tidak ada browser yang bisa membuka booboard.com.",
+  "@websiteNoBrowser": {
+    "x-review": true
+  },
+  "imagesSoonTitle": "Gambar *segera hadir*",
+  "@imagesSoonTitle": {
+    "x-review": true
+  },
+  "imagesSoonBody": "Buat gambar dari kata-kata Anda, langsung di ponsel ini. Seperti semua hal di BooBoard, fitur ini akan bekerja offline.",
+  "@imagesSoonBody": {
+    "x-review": true
+  },
+  "aboutWebsite": "Situs web",
+  "@aboutWebsite": {
+    "x-review": true
+  },
+  "aboutTitle": "Tentang",
+  "aboutVersion": "Versi {versionName} ({versionCode})",
+  "aboutVersionDebug": "Versi {versionName} ({versionCode}) · build debug",
+  "@aboutVersionDebug": {
+    "x-review": true
+  },
+  "aboutReadingVersion": "Membaca versi…",
+  "aboutPrivacy": "Privasi",
+  "aboutNoInternet": "BooBoard tidak dapat menggunakan internet",
+  "aboutNoInternetBody": "Build rilis tidak punya izin internet, jadi tidak ada yang Anda ketik yang keluar dari ponsel ini.",
+  "aboutLicence": "Lisensi",
+  "@aboutLicence": {
+    "x-review": true
+  },
+  "aboutGplTitle": "GNU General Public License v3 atau lebih baru",
+  "@aboutGplTitle": {
+    "x-review": true
+  },
+  "aboutGplBody": "BooBoard adalah perangkat lunak bebas. Anda boleh mempelajari, mengubah, dan membagikannya di bawah GPL.",
+  "@aboutGplBody": {
+    "x-review": true
+  },
+  "aboutSourceCode": "Kode sumber",
+  "aboutSourceBody": "BooBoard adalah GPL-3.0-or-later. Kode sumbernya tersedia di halaman proyek.",
+  "@aboutSourceBody": {
+    "x-review": true
+  },
+  "aboutLicences": "Lisensi",
+  "aboutOpenSource": "Lisensi sumber terbuka",
+  "aboutOpenSourceBody": "Flutter, material_ui, dan setiap paket yang dipakai BooBoard",
+  "@aboutOpenSourceBody": {
+    "x-review": true
+  },
+  "aboutTextLoadFailed": "Teks ini tidak dapat dimuat.",
+  "languagesEnabledHeader": "Aktif, yang pertama adalah default",
+  "languagesActive": "Bahasa aktif",
+  "languagesAdd": "Tambah bahasa",
+  "languagesAllEnabled": "Semua bahasa aktif",
+  "languagesAllEnabledBody": "Hapus salah satu di atas untuk memberi ruang.",
+  "languagesMultilingual": "Pengetikan multibahasa",
+  "languagesMultilingualBody": "Menyarankan kata dari hingga tiga bahasa aktif yang memakai aksara yang sama. Kata yang dikenali salah satunya tidak pernah dikoreksi otomatis.",
+  "@languagesMultilingualBody": {
+    "x-review": true
+  },
+  "languagesNativeDigits": "Angka asli",
+  "languagesNativeDigitsBody": "Mengetik angka dalam aksara bahasa aktif jika bahasa itu memilikinya (०१२, ٠١٢).",
+  "languagesOptions": "Opsi bahasa",
+  "languagesZhSubtitle": "Pinyin, karakter tradisional, dan paket kamus",
+  "@languagesZhSubtitle": {
+    "x-review": true
+  },
+  "languagesJaSubtitle": "Input flick, konversi, dan paket kamus",
+  "@languagesJaSubtitle": {
+    "x-review": true
+  },
+  "languagesReorderLabel": "Seret untuk mengurutkan ulang {language}",
+  "languageDefaultLabel": "{language}, default",
+  "languageLayoutTooltip": "Tata letak untuk {language}",
+  "@languageLayoutTooltip": {
+    "x-review": true
+  },
+  "languageRemoveTooltip": "Hapus {language}",
+  "feelHaptics": "Haptik",
+  "feelHapticFeedback": "Umpan balik haptik",
+  "@feelHapticFeedback": {
+    "x-review": true
+  },
+  "feelHapticFeedbackBody": "Getaran singkat di setiap tombol, mengikuti pengaturan sistem",
+  "feelHapticStrength": "Kekuatan haptik",
+  "@feelHapticStrength": {
+    "x-review": true
+  },
+  "feelSounds": "Suara",
+  "feelKeySounds": "Suara tombol",
+  "feelKeySoundsBody": "Klik untuk tombol, spasi, hapus, dan enter",
+  "feelUseSystemVolume": "Gunakan volume sistem",
+  "feelKeySoundVolume": "Volume suara tombol",
+  "feelHeight": "Tinggi",
+  "feelPortraitHeight": "Tinggi potret",
+  "feelLandscapeHeight": "Tinggi lanskap",
+  "feelOneHandedFloating": "Satu tangan dan mengambang",
+  "@feelOneHandedFloating": {
+    "x-review": true
+  },
+  "feelOneHandedSide": "Sisi mode satu tangan",
+  "@feelOneHandedSide": {
+    "x-review": true
+  },
+  "feelFloatingKeyboard": "Keyboard mengambang",
+  "@feelFloatingKeyboard": {
+    "x-review": true
+  },
+  "feelFloatingBody": "Seret ke mana saja di layar",
+  "panelsClipboard": "Papan klip",
+  "@panelsClipboard": {
+    "x-review": true
+  },
+  "panelsClipboardHistory": "Riwayat papan klip",
+  "@panelsClipboardHistory": {
+    "x-review": true
+  },
+  "panelsClipboardHistoryBody": "Simpan yang Anda salin, terenkripsi di ponsel ini",
+  "panelsRecentChip": "Chip salinan terbaru",
+  "panelsRecentChipBody": "Tawarkan salinan terakhir Anda di bilah saran selama semenit",
+  "panelsKeepUnpinned": "Simpan salinan yang tidak disematkan selama",
+  "panelsClipsToKeep": "Klip yang disimpan",
+  "panelsEmoji": "Emoji",
+  "@panelsEmoji": {
+    "x-review": true
+  },
+  "emojiSuggestions": "Saran emoji",
+  "@emojiSuggestions": {
+    "x-review": true
+  },
+  "emojiSuggestionsPanelBody": "Tawarkan emoji untuk beberapa kata di bilah saran",
+  "@emojiSuggestionsPanelBody": {
+    "x-review": true
+  },
+  "panelsPasswordsNeverSaved": "Kata sandi tidak pernah disimpan",
+  "panelsSensitiveBody": "Salinan yang ditandai Android sebagai sensitif tidak pernah disimpan.",
+  "@panelsSensitiveBody": {
+    "x-review": true
+  },
+  "typingCorrections": "Koreksi",
+  "typingAutocorrect": "Koreksi otomatis",
+  "@typingAutocorrect": {
+    "x-review": true
+  },
+  "typingAutocorrectBody": "Memperbaiki salah ketik yang mungkin saat kata selesai",
+  "typingAutoCapitalise": "Kapitalisasi otomatis",
+  "typingAutoCapitaliseBody": "Huruf kapital di awal kalimat",
+  "typingDoubleSpace": "Spasi ganda untuk titik",
+  "typingDoubleSpaceBody": "Dua ketukan spasi menulis \". \"",
+  "typingSmartPunctuation": "Tanda baca cerdas",
+  "@typingSmartPunctuation": {
+    "x-review": true
+  },
+  "typingSmartPunctuationBody": "Merapikan spasi di sekitar tanda baca dan memakai tanda kutip lokal",
+  "@typingSmartPunctuationBody": {
+    "x-review": true
+  },
+  "typingSuggestions": "Saran",
+  "typingSuggestionsBody": "Menampilkan kata di bilah saran",
+  "typingNextWord": "Prediksi kata berikutnya",
+  "typingNextWordBody": "Menyarankan kata yang sering mengikuti",
+  "typingEmojiBody": "Tawarkan emoji untuk beberapa kata",
+  "@typingEmojiBody": {
+    "x-review": true
+  },
+  "typingHideOffensive": "Sembunyikan kata kasar",
+  "typingHideOffensiveBody": "Tidak pernah disarankan kecuali diketik lengkap",
+  "typingKeys": "Tombol",
+  "typingKeyPopups": "Popup tombol",
+  "typingKeyPopupsBody": "Memperbesar tombol saat ditekan",
+  "typingLongPressDelay": "Jeda tekan lama",
+  "typingNumberRow": "Baris angka",
+  "typingNumberRowBody": "Menampilkan 0 sampai 9 di atas huruf",
+  "typingHintLabels": "Label petunjuk",
+  "typingHintLabelsBody": "Simbol kecil di tombol, misalnya aksen",
+  "typingLowercaseLabels": "Label huruf kecil",
+  "typingLowercaseLabelsBody": "Tetap huruf kecil saat shift aktif",
+  "typingSwipe": "Geser",
+  "@typingSwipe": {
+    "x-review": true
+  },
+  "typingSwipeTyping": "Mengetik dengan geser",
+  "@typingSwipeTyping": {
+    "x-review": true
+  },
+  "typingSwipeTypingBody": "Geser di atas huruf untuk menulis kata",
+  "typingShowTrail": "Tampilkan jejak",
+  "@typingShowTrail": {
+    "x-review": true
+  },
+  "typingTrailWidth": "Lebar jejak",
+  "@typingTrailWidth": {
+    "x-review": true
+  },
+  "typingTrailFade": "Pudar jejak",
+  "@typingTrailFade": {
+    "x-review": true
+  },
+  "typingLivePreview": "Pratinjau langsung",
+  "typingLivePreviewBody": "Menampilkan kata yang mungkin saat meluncur",
+  "typingSpaceMovesCursor": "Bilah spasi memindahkan kursor",
+  "@typingSpaceMovesCursor": {
+    "x-review": true
+  },
+  "typingSpaceMovesCursorBody": "Seret di bilah spasi untuk memindahkan kursor",
+  "@typingSpaceMovesCursorBody": {
+    "x-review": true
+  },
+  "typingSwipeBackspace": "Geser hapus untuk menghapus kata",
+  "@typingSwipeBackspace": {
+    "x-review": true
+  },
+  "typingSwipeBackspaceBody": "Geser ke kiri pada hapus untuk memilih dan menghapus kata",
+  "voiceTyping": "Mengetik dengan suara",
+  "@voiceTyping": {
+    "x-review": true
+  },
+  "voiceTypingBody": "Bicara dalam bahasa Inggris untuk mengetik. Pengenalan berjalan di ponsel ini.",
+  "voiceRecognition": "Pengenalan",
+  "voiceModelPacksBody": "Pasang atau hapus paket suara dan terjemahan",
+  "@voiceModelPacksBody": {
+    "x-review": true
+  },
+  "voiceAudioStays": "Audio tetap di ponsel ini dan tidak pernah disimpan.",
+  "voicePackAutomatic": "Otomatis",
+  "voicePackAutomaticSelected": "Otomatis (dipilih)",
+  "voicePack": "Paket suara",
+  "@voicePack": {
+    "x-review": true
+  },
+  "voiceNoPack": "Tidak ada paket suara terpasang. Pasang satu di Paket model.",
+  "@voiceNoPack": {
+    "x-review": true
+  },
+  "voiceLooking": "Mencari paket yang terpasang",
+  "voicePackItem": "{name} · {size}",
+  "voicePackItemSelected": "{name} · {size} (dipilih)",
+  "megabytes": "{count} MB",
+  "milliseconds": "{count} ms",
+  "dpValue": "{count} dp",
+  "packsOpenFailed": "BooBoard tidak dapat membuka pemilih file.",
+  "packsInstalled": "{name} dipasang.",
+  "packsDeleteTitle": "Hapus {name}?",
+  "packsDeleteBody": "Berkasnya dihapus dari ponsel ini. Anda dapat mengimpor paket itu lagi nanti dari berkasnya.",
+  "@packsDeleteBody": {
+    "description": "Packs: body text of the delete confirmation dialog, under the title. Max 120 characters",
+    "x-review": true
+  },
+  "packsDeleted": "{name} dihapus.",
+  "packsDeleteFailed": "BooBoard tidak dapat menghapus {name}. Coba lagi.",
+  "packsIntro": "Paket diperiksa sebelum dipasang. Isinya hanya data, tidak pernah kode.",
+  "packsImport": "Impor",
+  "@packsImport": {
+    "x-review": true
+  },
+  "packsImportTitle": "Impor file paket",
+  "@packsImportTitle": {
+    "x-review": true
+  },
+  "packsChecking": "Memeriksa dan memasang…",
+  "packsImportBody": "File .boopack, misalnya dari Unduhan",
+  "packsNoVoice": "Tidak ada paket suara terpasang",
+  "@packsNoVoice": {
+    "x-review": true
+  },
+  "packsNoVoiceBody": "Mengetik dengan suara memerlukan paket suara.",
+  "@packsNoVoiceBody": {
+    "x-review": true
+  },
+  "packsNoTranslation": "Tidak ada paket terjemahan terpasang",
+  "@packsNoTranslation": {
+    "x-review": true
+  },
+  "packsNoTranslationBody": "Terjemahan memerlukan satu paket untuk setiap arah.",
+  "@packsNoTranslationBody": {
+    "x-review": true
+  },
+  "packsDictionaries": "Kamus",
+  "packsNoDictionary": "Tidak ada paket kamus terpasang",
+  "@packsNoDictionary": {
+    "x-review": true
+  },
+  "packsNoDictionaryBody": "Mengetik bahasa Mandarin dan Jepang memerlukan paket kamus.",
+  "@packsNoDictionaryBody": {
+    "x-review": true
+  },
+  "packsGetTitle": "Dapatkan paket",
+  "@packsGetTitle": {
+    "x-review": true
+  },
+  "packsExplainTitle": "Paket adalah berkas yang Anda tambahkan sendiri.",
+  "@packsExplainTitle": {
+    "x-review": true
+  },
+  "packsExplainBody": "Unduh dari halaman rilis proyek di perangkat lain, salin ke ponsel ini, lalu impor.",
+  "@packsExplainBody": {
+    "x-review": true
+  },
+  "packsCopyLink": "Salin tautan halaman rilis",
+  "@packsCopyLink": {
+    "x-review": true
+  },
+  "packsPrivateTitle": "Cara unduhan tetap pribadi",
+  "@packsPrivateTitle": {
+    "x-review": true
+  },
+  "packsPrivateBody": "BooBoard tidak punya izin internet dan tidak pernah terhubung. Unduh membuka browser Anda, yang mengambil paket dari rilis GitHub proyek. Lalu BooBoard memeriksa tanda tangan paket di ponsel ini sebelum memasang apa pun.",
+  "@packsPrivateBody": {
+    "x-review": true
+  },
+  "packsAvailableTitle": "Paket yang bisa ditambahkan",
+  "@packsAvailableTitle": {
+    "x-review": true
+  },
+  "packsDownload": "Unduh",
+  "@packsDownload": {
+    "x-review": true
+  },
+  "packsDownloadMeta": "{size} · membuka browser Anda",
+  "@packsDownloadMeta": {
+    "x-review": true
+  },
+  "packsDownloadStarted": "Browser Anda sedang mengunduh {name}. Setelah selesai, ketuk Impor file paket.",
+  "@packsDownloadStarted": {
+    "x-review": true
+  },
+  "packsNoBrowser": "Tidak ada browser yang bisa membuka tautan. Salin tautan halaman rilis sebagai gantinya.",
+  "@packsNoBrowser": {
+    "x-review": true
+  },
+  "packsImportCheckedBody": "Pilih file .boopack yang diunduh. File diperiksa di ponsel ini, lalu dipasang.",
+  "@packsImportCheckedBody": {
+    "x-review": true
+  },
+  "packsAllInstalled": "Semua paket yang diterbitkan sudah terpasang.",
+  "@packsAllInstalled": {
+    "x-review": true
+  },
+  "packsLinkCopied": "Tautan disalin. Buka di perangkat lain.",
+  "@packsLinkCopied": {
+    "x-review": true
+  },
+  "packsPlayTitle": "Dapatkan lewat Google Play",
+  "@packsPlayTitle": {
+    "x-review": true
+  },
+  "packsPlayNote": "Google Play yang mengunduh paket ini, bukan BooBoard. BooBoard sendiri tidak pernah memakai jaringan.",
+  "@packsPlayNote": {
+    "x-review": true
+  },
+  "packsGet": "Dapatkan",
+  "@packsGet": {
+    "x-review": true
+  },
+  "packsStatusNotRequested": "Belum diunduh",
+  "@packsStatusNotRequested": {
+    "x-review": true
+  },
+  "packsStatusWaiting": "Menunggu Wi-Fi atau data seluler",
+  "@packsStatusWaiting": {
+    "x-review": true
+  },
+  "packsStatusDownloading": "Mengunduh lewat Google Play",
+  "@packsStatusDownloading": {
+    "x-review": true
+  },
+  "packsStatusInstalling": "Memeriksa dan memasang",
+  "@packsStatusInstalling": {
+    "x-review": true
+  },
+  "packsStatusFailed": "Google Play tidak dapat mengirimkannya. Coba lagi.",
+  "@packsStatusFailed": {
+    "x-review": true
+  },
+  "packsOfferMeta": "{size} · {status}",
+  "@packsOfferMeta": {
+    "x-review": true
+  },
+  "packsVerifyTitle": "Periksa paket terpasang",
+  "@packsVerifyTitle": {
+    "x-review": true
+  },
+  "packsVerifyBody": "Memeriksa setiap berkas dari setiap paket terpasang dengan daftar yang ditandatangani. Tidak ada yang diubah.",
+  "@packsVerifyBody": {
+    "x-review": true
+  },
+  "packsVerifyOk": "{count} paket terpasang diperiksa. Semua berkas cocok.",
+  "@packsVerifyOk": {
+    "x-review": true
+  },
+  "packsVerifyDamaged": "{count} paket terpasang memiliki berkas rusak atau hilang. Hapus lalu impor lagi.",
+  "@packsVerifyDamaged": {
+    "x-review": true
+  },
+  "packsVerifyUnavailable": "Pemeriksaan paket belum tersedia di versi BooBoard ini.",
+  "@packsVerifyUnavailable": {
+    "x-review": true
+  },
+  "packsVerifyFailed": "BooBoard tidak dapat memeriksa paket. Tidak ada yang diubah.",
+  "@packsVerifyFailed": {
+    "x-review": true
+  },
+  "packsFreeSpace": "{size} kosong di ponsel ini.",
+  "@packsFreeSpace": {
+    "x-review": true
+  },
+  "packsNothingStored": "Belum ada yang disimpan.",
+  "packsInstalledUse": "Paket terpasang memakai {size} di ponsel ini.",
+  "packErrorBadSignature": "Paket ini tidak ditandatangani untuk BooBoard, jadi tidak ada yang dipasang.",
+  "@packErrorBadSignature": {
+    "x-review": true
+  },
+  "packErrorBadFormat": "File ini bukan paket BooBoard. Tidak ada yang dipasang.",
+  "@packErrorBadFormat": {
+    "x-review": true
+  },
+  "packErrorTooLarge": "Paket ini terlalu besar untuk dipasang di ponsel ini.",
+  "@packErrorTooLarge": {
+    "x-review": true
+  },
+  "packErrorVersion": "Paket ini memerlukan versi BooBoard yang lebih baru.",
+  "@packErrorVersion": {
+    "x-review": true
+  },
+  "packErrorNoSpace": "Ruang kosong tidak cukup untuk memasang paket ini.",
+  "@packErrorNoSpace": {
+    "x-review": true
+  },
+  "packErrorGeneric": "Paket tidak dapat dipasang. Tidak ada yang diubah.",
+  "@packErrorGeneric": {
+    "x-review": true
+  },
+  "translateDefaultPair": "Pasangan bahasa default",
+  "translatePairName": "{from} → {to}",
+  "translateOffline": "Terjemahan luring",
+  "@translateOffline": {
+    "x-review": true
+  },
+  "translateOfflineBody": "Menerjemahkan saat mengetik di keyboard, dan teks yang dipilih di aplikasi mana pun.",
+  "@translateOfflineBody": {
+    "x-review": true
+  },
+  "translateDefaultPairTile": "Pasangan default",
+  "translatePackInstalled": "Paket terpasang",
+  "@translatePackInstalled": {
+    "x-review": true
+  },
+  "translatePackNotInstalled": "Paket belum terpasang. Dapatkan di Paket model.",
+  "@translatePackNotInstalled": {
+    "x-review": true
+  },
+  "translateInstalled": "Arah yang terpasang",
+  "translateInstalledBody": "Setiap arah adalah satu paket, misalnya Inggris → Spanyol.",
+  "@translateInstalledBody": {
+    "x-review": true
+  },
+  "translatePackMeta": "{size} · {license}",
+  "@translatePackMeta": {
+    "x-review": true
+  },
+  "translateModelPacksBody": "Pasang atau hapus paket terjemahan",
+  "@translateModelPacksBody": {
+    "x-review": true
+  },
+  "translateRunsOnPhone": "Terjemahan berjalan di ponsel ini. Tidak ada yang Anda terjemahkan yang disimpan.",
+  "@translateRunsOnPhone": {
+    "x-review": true
+  },
+  "privacyUnlockReason": "Buka kunci BooBoard untuk melihat pengaturan dan data Anda",
+  "privacyLockUnavailable": "Kunci perangkat tidak tersedia sekarang. Coba lagi sebentar lagi.",
+  "@privacyLockUnavailable": {
+    "x-review": true
+  },
+  "privacyLockedTitle": "BooBoard terkunci",
+  "@privacyLockedTitle": {
+    "x-review": true
+  },
+  "privacyLockedBody": "Buka dengan sidik jari atau PIN perangkat Anda untuk melanjutkan.",
+  "@privacyLockedBody": {
+    "x-review": true
+  },
+  "privacyUnlock": "Buka",
+  "backupSaved": "Cadangan disimpan ({size}). Simpan frasa sandi Anda dengan aman.",
+  "@backupSaved": {
+    "x-review": true
+  },
+  "backupUnlockRetrySaved": "Buka kunci ponsel, lalu coba lagi. Tidak ada yang disimpan.",
+  "backupSaveFailed": "Cadangan tidak dapat disimpan. Tidak ada yang diubah.",
+  "@backupSaveFailed": {
+    "x-review": true
+  },
+  "backupCheckFailed": "File yang disimpan tidak dapat diperiksa, jadi mungkin rusak. Simpan cadangan lagi sebagai file baru.",
+  "@backupCheckFailed": {
+    "x-review": true
+  },
+  "backupWrongPassphrase": "Frasa sandi salah, atau file rusak. Tidak ada yang diubah.",
+  "@backupWrongPassphrase": {
+    "x-review": true
+  },
+  "backupInvalidFile": "File ini bukan cadangan BooBoard yang valid. Tidak ada yang diubah.",
+  "@backupInvalidFile": {
+    "x-review": true
+  },
+  "backupTooLarge": "File ini terlalu besar untuk menjadi cadangan BooBoard.",
+  "@backupTooLarge": {
+    "x-review": true
+  },
+  "backupNewerVersion": "Cadangan ini dibuat oleh versi BooBoard yang lebih baru. Perbarui BooBoard untuk memulihkannya.",
+  "@backupNewerVersion": {
+    "x-review": true
+  },
+  "backupBusy": "Tutup dulu jendela file yang lain, lalu coba lagi.",
+  "backupOpenFailed": "Cadangan tidak dapat dibuka. Tidak ada yang diubah.",
+  "@backupOpenFailed": {
+    "x-review": true
+  },
+  "backupEmpty": "Cadangan ini kosong.",
+  "@backupEmpty": {
+    "x-review": true
+  },
+  "backupRestoreTitle": "Pulihkan cadangan",
+  "@backupRestoreTitle": {
+    "x-review": true
+  },
+  "backupMadeBy": "Dibuat {date} oleh BooBoard {version}.",
+  "backupMerge": "Gabung",
+  "backupMergeBody": "Simpan yang ada di ponsel ini dan tambahkan isi cadangan.",
+  "@backupMergeBody": {
+    "x-review": true
+  },
+  "backupReplace": "Ganti",
+  "backupReplaceBody": "Samakan bagian yang dipilih dengan cadangan. Data di sini dihapus lebih dulu.",
+  "@backupReplaceBody": {
+    "x-review": true
+  },
+  "commonContinue": "Lanjut",
+  "backupReplaceTitle": "Ganti data di ponsel ini?",
+  "backupReplaceConfirm": "Bagian yang dipilih di ponsel ini akan dihapus dan diganti. Tidak bisa dibatalkan.",
+  "backupPrivacyChangesTitle": "Cadangan ini mengubah pengaturan privasi Anda",
+  "backupPrivacyChangesBody": "Memulihkan pengaturan akan mengubah pengaturan privasi ini di ponsel ini. Periksa dulu sebelum melanjutkan.",
+  "backupPrivacyChangeLine": "{setting}: {from} → {to}",
+  "backupStateOn": "Aktif",
+  "backupAppsCount": "{count, plural, one {1 aplikasi} other {{count} aplikasi}}",
+  "backupRestoreAndChange": "Pulihkan dan ubah",
+  "backupUnlockRetryChanged": "Buka kunci ponsel, lalu coba lagi. Tidak ada yang diubah.",
+  "backupRestoreFailed": "BooBoard tidak dapat menyelesaikan pemulihan. Sebagian data mungkin belum tertulis.",
+  "@backupRestoreFailed": {
+    "x-review": true
+  },
+  "restoreNothingNew": "Tidak ada yang baru dipulihkan.",
+  "restoreSummary": "Dipulihkan: {items}.",
+  "restoreSummarySkipped": "{added} Dilewati: {skipped}.",
+  "restoreLearnedFor": "kata yang dipelajari untuk {count, plural, other {{count} bahasa}}",
+  "countFiles": "{count, plural, other {{count} file}}",
+  "countWords": "{count, plural, other {{count} kata}}",
+  "countLanguages": "{count, plural, other {{count} bahasa}}",
+  "countShortcuts": "{count, plural, other {{count} pintasan}}",
+  "@countShortcuts": {
+    "x-review": true
+  },
+  "countClipboardItems": "{count, plural, other {{count} item papan klip}}",
+  "@countClipboardItems": {
+    "x-review": true
+  },
+  "countThemeFiles": "{count, plural, other {{count} file tema}}",
+  "@countThemeFiles": {
+    "x-review": true
+  },
+  "countPinnedItems": "{count, plural, other {{count} item tersemat}}",
+  "countPacks": "{count, plural, other {{count} paket}}",
+  "@countPacks": {
+    "x-review": true
+  },
+  "countBlockedWords": "{count, plural, other {{count} kata diblokir}}",
+  "countTimes": "{count, plural, other {{count} kali}}",
+  "timeMinutesAgo": "{count, plural, other {{count} menit lalu}}",
+  "timeHoursAgo": "{count, plural, other {{count} jam lalu}}",
+  "timeDaysAgo": "{count, plural, other {{count} hari lalu}}",
+  "timeJustNow": "baru saja",
+  "languagePortuguese": "Portugis",
+  "packMeta": "{languages} · {size} · {license}",
+  "@packMeta": {
+    "x-review": true
+  },
+  "privacyLearnedWordsTitle": "Kata yang dipelajari ({language})",
+  "privacyClearLanguageTitle": "Hapus kata {language}?",
+  "privacyClearLanguageBody": "Ini menghapus semua kata yang dipelajari dalam bahasa ini, dan kata yang diblokir. Tidak bisa dibatalkan.",
+  "privacyClear": "Hapus",
+  "privacySaveFailed": "Perubahan tidak dapat disimpan. Coba lagi.",
+  "privacyCouldNotReadWords": "BooBoard tidak dapat membaca kata-kata ini.",
+  "privacyCannotReadWordsNow": "BooBoard tidak dapat membaca kata-kata ini sekarang. Buka kunci ponsel, lalu coba lagi.",
+  "privacyNoWordsLanguage": "Belum ada kata yang dipelajari dalam bahasa ini. BooBoard mempelajari kata setelah Anda mengetiknya beberapa kali.",
+  "privacyBlockedWordsTooltip": "Kata diblokir ({count})",
+  "privacySortTooltip": "Urutkan",
+  "privacySortMostUsed": "Paling sering dulu",
+  "privacySortAZ": "A sampai Z",
+  "privacyMoreTooltip": "Lainnya",
+  "privacyClearThisLanguage": "Hapus bahasa ini",
+  "privacySearchWords": "Cari kata",
+  "privacyWordsSummary": "{words} · {blocked}",
+  "privacyNoWordsYet": "Belum ada kata.",
+  "privacyNoWordsMatch": "Tidak ada kata yang cocok dengan \"{query}\".",
+  "privacyNeverSuggested": "Tidak pernah disarankan",
+  "privacyBlockedExplain": "BooBoard tidak akan menyarankan atau mengoreksi ke kata-kata ini.",
+  "privacyNoBlockedWords": "Tidak ada kata yang diblokir.",
+  "privacyAllowAgain": "Izinkan lagi",
+  "privacyWordLastUsed": "Diketik {count, plural, other {{count} kali}} · terakhir {when}",
+  "privacyWordNotYetSuggested": "Baru diketik sekali, belum disarankan · terakhir {when}",
+  "privacyToday": "hari ini",
+  "privacyYesterday": "kemarin",
+  "privacyActionsFor": "Tindakan untuk {word}",
+  "privacyForgetWord": "Lupakan kata ini",
+  "privacyNeverSuggestWord": "Jangan pernah sarankan kata ini",
+  "privacyTryAgain": "Coba lagi",
+  "privacyCenterLoadFailed": "BooBoard tidak dapat membaca data privasinya. Coba lagi nanti.",
+  "privacyDevBuildNetwork": "Build ini meminta akses internet. BooBoard seharusnya tidak pernah melakukannya. Mohon laporkan.",
+  "@privacyDevBuildNetwork": {
+    "x-review": true
+  },
+  "privacyNoInternetPermission": "BooBoard tidak memiliki izin internet. Tidak ada yang bisa dikirim.",
+  "privacyDevBuildNote": "Ini adalah build pengembangan. Izin jaringannya hanya untuk alat pengembangan.",
+  "@privacyDevBuildNote": {
+    "x-review": true
+  },
+  "privacyDevBuildShort": "Build pengembangan. BooBoard tetap tidak memiliki izin internet.",
+  "@privacyDevBuildShort": {
+    "x-review": true
+  },
+  "privacyStorageSize": "{size} · diubah {when}",
+  "privacyCustomThemes": "Tema kustom",
+  "privacyNoPacks": "Tidak ada yang terpasang. Paket suara dan terjemahan muncul di sini.",
+  "@privacyNoPacks": {
+    "x-review": true
+  },
+  "privacyPacksSize": "{count, plural, other {{count} paket}} · {size}",
+  "@privacyPacksSize": {
+    "x-review": true
+  },
+  "privacyWhatBooBoardStores": "Yang disimpan BooBoard",
+  "privacyShowsSizesOnly": "BooBoard hanya menampilkan ukuran di sini, tidak pernah isinya. Ukuran menyertakan salinan terakhir yang disimpan, yang menjaga data Anda jika penyimpanan terputus.",
+  "privacyTypingPrivacy": "Privasi saat mengetik",
+  "privacyLearnNewWords": "Pelajari kata baru",
+  "privacyLearnNewWordsBody": "Mempelajari kata dan frasa dari yang Anda ketik. Tidak pernah di kolom sandi atau mode penyamaran.",
+  "@privacyLearnNewWordsBody": {
+    "x-review": true
+  },
+  "privacyIncognito": "Penyamaran",
+  "@privacyIncognito": {
+    "x-review": true
+  },
+  "privacyIncognitoBody": "Tidak mempelajari atau mengingat apa pun saat aktif. Tab penyamaran peramban mengaktifkannya sendiri.",
+  "@privacyIncognitoBody": {
+    "x-review": true
+  },
+  "privacyHideScreenshots": "Sembunyikan dari tangkapan layar",
+  "privacyHideScreenshotsBody": "Mencegah tangkapan layar dan rekaman layar keyboard di setiap aplikasi. Kolom sandi selalu disembunyikan.",
+  "privacyAutoOffApps": "Otomatis dimatikan di aplikasi ini",
+  "privacyAutoOffAppsBody": "BooBoard hanya menyimpan nama aplikasi untuk mengisi daftar ini. Nama itu terenkripsi, tidak pernah dicatat saat penyamaran, dan dapat dihapus di bawah.",
+  "@privacyAutoOffAppsBody": {
+    "x-review": true
+  },
+  "privacyNoAppsYet": "Belum ada aplikasi",
+  "privacyNoAppsYetBody": "Aplikasi tempat Anda mengetik akan muncul di sini.",
+  "privacyAlwaysIncognitoApps": "Aplikasi selalu dalam penyamaran",
+  "@privacyAlwaysIncognitoApps": {
+    "x-review": true
+  },
+  "privacyPersonalShortcuts": "Pintasan pribadi",
+  "privacyOfferShortcuts": "Tawarkan pintasan",
+  "privacyOfferShortcutsBody": "Tampilkan singkatan Anda, seperti \"omw\", sebagai saran pertama.",
+  "privacyEditShortcuts": "Edit pintasan",
+  "privacyNoShortcutsYet": "Belum ada",
+  "privacyLearnedAndClipboard": "Kata yang dipelajari dan papan klip",
+  "@privacyLearnedAndClipboard": {
+    "x-review": true
+  },
+  "privacyNoWordsLearnedYet": "Belum ada kata yang dipelajari",
+  "privacyWordsLearnedBody": "Kata yang Anda ketik dipelajari di sini setelah BooBoard melihatnya beberapa kali.",
+  "privacyReviewWords": "Tinjau, hapus, atau blokir kata · {when}",
+  "privacyClipboardHistoryEmpty": "Riwayat kosong. Ubah pengaturan papan klip di Panel.",
+  "@privacyClipboardHistoryEmpty": {
+    "x-review": true
+  },
+  "privacyClipboardInHistory": "{size} dalam riwayat. Ubah pengaturan papan klip di Panel.",
+  "@privacyClipboardInHistory": {
+    "x-review": true
+  },
+  "privacyAppLock": "Kunci aplikasi",
+  "@privacyAppLock": {
+    "x-review": true
+  },
+  "privacyLockBooBoard": "Kunci BooBoard",
+  "@privacyLockBooBoard": {
+    "x-review": true
+  },
+  "privacyLockBooBoardBody": "Meminta sidik jari atau PIN perangkat saat aplikasi dibuka, atau setelah berada di latar belakang.",
+  "@privacyLockBooBoardBody": {
+    "x-review": true
+  },
+  "privacyLockAfter": "Kunci setelah",
+  "@privacyLockAfter": {
+    "x-review": true
+  },
+  "privacySetScreenLockFirst": "Atur kunci layar terlebih dahulu",
+  "@privacySetScreenLockFirst": {
+    "x-review": true
+  },
+  "privacySetScreenLockBody": "Kunci aplikasi menggunakan sidik jari atau PIN perangkat. Atur PIN, pola, atau sandi di pengaturan keamanan Android, lalu kembali.",
+  "@privacySetScreenLockBody": {
+    "x-review": true
+  },
+  "privacyTurnOnAppLockReason": "Nyalakan kunci aplikasi untuk BooBoard",
+  "@privacyTurnOnAppLockReason": {
+    "x-review": true
+  },
+  "privacyNotAvailable": "Tidak tersedia sekarang",
+  "privacyNotAvailableBody": "Kunci perangkat tidak dapat digunakan. Kunci aplikasi tetap mati.",
+  "@privacyNotAvailableBody": {
+    "x-review": true
+  },
+  "privacyBackupTitle": "Cadangan",
+  "@privacyBackupTitle": {
+    "x-review": true
+  },
+  "privacyBackupRestore": "Cadangan dan pemulihan",
+  "@privacyBackupRestore": {
+    "x-review": true
+  },
+  "privacyBackupRestoreBody": "Berkas .boobackup terenkripsi yang Anda simpan. Anda memilih isinya.",
+  "privacyDeleteData": "Hapus data",
+  "privacyEraseEverything": "Hapus semuanya",
+  "privacyEraseEverythingBody": "Semua kategori di atas, tema kustom Anda, dan kunci yang melindunginya.",
+  "privacyDeleteTitle": "Hapus {category}?",
+  "privacyEraseTitle": "Hapus semuanya?",
+  "privacyWillDelete": "Ini akan menghapus secara permanen:",
+  "privacyResetSettings": "Juga atur ulang semua pengaturan ke default",
+  "privacyCannotBeUndone": "Tidak bisa dibatalkan.",
+  "privacyDeleted": "Dihapus.",
+  "privacyDeleteFailed": "BooBoard tidak dapat menghapus semuanya. Coba lagi.",
+  "privacyOk": "OK",
+  "backupMakeTitle": "Buat cadangan",
+  "@backupMakeTitle": {
+    "x-review": true
+  },
+  "backupIncludeImages": "Sertakan gambar latar",
+  "backupPhotosLarger": "Foto membuat file jauh lebih besar.",
+  "backupCreateButton": "Buat cadangan terenkripsi",
+  "@backupCreateButton": {
+    "x-review": true
+  },
+  "backupRestoreSection": "Pulihkan",
+  "@backupRestoreSection": {
+    "x-review": true
+  },
+  "backupRestoreFromFile": "Pulihkan dari file cadangan",
+  "@backupRestoreFromFile": {
+    "x-review": true
+  },
+  "backupRestoreFromFileBody": "Buka file .boobackup, periksa isinya, lalu gabungkan atau ganti.",
+  "backupChoosePassphrase": "Pilih frasa sandi",
+  "@backupChoosePassphrase": {
+    "x-review": true
+  },
+  "backupEnterPassphrase": "Masukkan frasa sandi",
+  "@backupEnterPassphrase": {
+    "x-review": true
+  },
+  "backupWriteItDown": "Tulis di tempat yang aman. Frasa sandi yang hilang tidak bisa dipulihkan.",
+  "@backupWriteItDown": {
+    "x-review": true
+  },
+  "backupPassphrase": "Frasa sandi",
+  "@backupPassphrase": {
+    "x-review": true
+  },
+  "backupTypeAgain": "Ketik ulang",
+  "backupMismatch": "Frasa sandi tidak cocok",
+  "backupStrength": "Kekuatan frasa sandi: {strength}",
+  "@backupStrength": {
+    "x-review": true
+  },
+  "strengthTooShort": "Kurang dari 8 karakter, gunakan minimal 8",
+  "strengthWeak": "Lemah",
+  "strengthFair": "Cukup",
+  "strengthGood": "Baik",
+  "strengthStrong": "Kuat",
+  "backupOpen": "Buka",
+  "backupNothingYet": "Belum ada",
+  "backupSettingsSummary": "Tema, bahasa, pengetikan, dan pilihan privasi",
+  "@backupSettingsSummary": {
+    "x-review": true
+  },
+  "backupLearnedSummary": "{words} dalam {languages}",
+  "backupPinnedOff": "{items}. Mati kecuali Anda menyalakannya.",
+  "backupAlreadyHere": "{count, plural, other {{count} pintasan sudah ada}}",
+  "@backupAlreadyHere": {
+    "x-review": true
+  },
+  "backupThemesAlreadyHere": "{count, plural, other {{count} file tema sudah ada}}",
+  "@backupThemesAlreadyHere": {
+    "x-review": true
+  },
+  "backupClipboardKept": "papan klip dibiarkan (tata letak tidak dikenal)",
+  "@backupClipboardKept": {
+    "x-review": true
+  },
+  "backupEmojiKept": "emoji terbaru dipertahankan",
+  "@backupEmojiKept": {
+    "x-review": true
+  },
+  "backupSettingsApplied": "pengaturan",
+  "backupLearnedAdded": "kata yang dipelajari untuk {count, plural, other {{count} bahasa}}",
+  "shortcutDeleteTitle": "Hapus \"{trigger}\"?",
+  "shortcutDeleteBody": "Ini menghapus pintasan. Tidak bisa dibatalkan.",
+  "@shortcutDeleteBody": {
+    "x-review": true
+  },
+  "shortcutAdd": "Tambah pintasan",
+  "@shortcutAdd": {
+    "x-review": true
+  },
+  "shortcutSearch": "Cari pintasan",
+  "shortcutNoMatch": "Tidak ada pintasan yang cocok dengan pencarian Anda.",
+  "shortcutDeleteTooltip": "Hapus {trigger}",
+  "shortcutNoneYet": "Belum ada pintasan",
+  "shortcutExplain": "Pintasan mengubah singkatan menjadi teks yang lebih panjang. Contoh:",
+  "@shortcutExplain": {
+    "x-review": true
+  },
+  "shortcutExamples": "{first}\n{second}",
+  "shortcutEncrypted": "Pintasan terenkripsi di ponsel ini, seperti kata yang dipelajari.",
+  "shortcutNew": "Pintasan baru",
+  "@shortcutNew": {
+    "x-review": true
+  },
+  "shortcutEdit": "Edit pintasan",
+  "@shortcutEdit": {
+    "x-review": true
+  },
+  "shortcutShortForm": "Singkatan",
+  "shortcutExpandsTo": "Diperluas menjadi",
+  "privacyMascotLabel": "Maskot privasi BooBoard",
+  "privacyStoredEmoji": "Emoji terbaru",
+  "@privacyStoredEmoji": {
+    "x-review": true
+  },
+  "privacyStoredApps": "Daftar aplikasi",
+  "privacyStoredOther": "Data tersimpan lainnya",
+  "privacyUnitBytes": "{count} B",
+  "privacyUnitKilobytes": "{count} KB",
+  "privacyUnitMegabytes": "{count} MB",
+  "shortcutProblemEmptyTrigger": "Ketik singkatan yang ingin diperluas.",
+  "shortcutProblemTriggerTooLong": "Singkatan boleh paling banyak {count} karakter.",
+  "shortcutProblemTriggerCharacters": "singkatan hanya boleh berisi huruf, angka, dan tanda kutip satu.",
+  "shortcutProblemEmptyExpansion": "Ketik apa yang harus diperluas dari singkatan ini.",
+  "shortcutProblemExpansionTooLong": "Perluasan boleh paling banyak {count} karakter.",
+  "shortcutProblemDuplicate": "Anda sudah punya pintasan dengan singkatan ini.",
+  "@shortcutProblemDuplicate": {
+    "x-review": true
+  },
+  "shortcutProblemTooMany": "Anda boleh menyimpan paling banyak {count} pintasan.",
+  "onboardingWelcomeTitle": "Hai, aku *Boo.*",
+  "@onboardingWelcomeTitle": {
+    "x-review": true
+  },
+  "onboardingWelcomeBody": "Aku keyboard yang tidak pernah online. Yang kamu ketik tetap di ponsel ini, terkunci rapat.",
+  "@onboardingWelcomeBody": {
+    "x-review": true
+  },
+  "onboardingWelcomeStart": "Ayo mulai",
+  "@onboardingWelcomeStart": {
+    "x-review": true
+  },
+  "onboardingMascotLabel": "Boo, hantu BooBoard",
+  "@onboardingMascotLabel": {
+    "x-review": true
+  },
+  "onboardingFactNoInternet": "Tanpa izin internet",
+  "@onboardingFactNoInternet": {
+    "x-review": true
+  },
+  "onboardingFactOpenSource": "Sumber terbuka",
+  "@onboardingFactOpenSource": {
+    "x-review": true
+  },
+  "onboardingFactOpenSourceBody": "Siapa pun bisa membaca kodenya dan memeriksa.",
+  "@onboardingFactOpenSourceBody": {
+    "x-review": true
+  },
+  "onboardingDemoKeyboards": "Aplikasi keyboard",
+  "@onboardingDemoKeyboards": {
+    "x-review": true
+  },
+  "onboardingDemoOtherKeyboard": "Keyboard lain",
+  "@onboardingDemoOtherKeyboard": {
+    "x-review": true
+  },
+  "onboardingDemoAttention": "Perhatian",
+  "@onboardingDemoAttention": {
+    "x-review": true
+  },
+  "onboardingDemoAttentionBody": "Keyboard ini mungkin dapat mengumpulkan semua teks yang kamu ketik…",
+  "@onboardingDemoAttentionBody": {
+    "x-review": true
+  },
+  "onboardingDemoOk": "OK",
+  "@onboardingDemoOk": {
+    "x-review": true
+  },
+  "onboardingDemoChooseInput": "Pilih metode masukan",
+  "@onboardingDemoChooseInput": {
+    "x-review": true
+  },
+  "onboardingDemoSwitchOn": "Aktifkan",
+  "@onboardingDemoSwitchOn": {
+    "x-review": true
+  },
+  "onboardingDemoTapOk": "OK, lalu OK",
+  "@onboardingDemoTapOk": {
+    "x-review": true
+  },
+  "onboardingDemoComeBack": "Kembali",
+  "@onboardingDemoComeBack": {
+    "x-review": true
+  },
+  "onboardingDemoPick": "Pilih BooBoard",
+  "@onboardingDemoPick": {
+    "x-review": true
+  },
+  "onboardingDemoStartTyping": "Mulai mengetik",
+  "@onboardingDemoStartTyping": {
+    "x-review": true
+  },
+  "onboardingDemoRebootNote": "Catatan: Setelah dimulai ulang, aplikasi ini tidak dapat dimulai hingga Anda membuka kunci ponsel",
+  "@onboardingDemoRebootNote": {
+    "x-review": true
+  },
+  "onboardingDemoChatIn": "Ketemu jam 7?",
+  "@onboardingDemoChatIn": {
+    "x-review": true
+  },
+  "onboardingDemoChatOut": "Otw",
+  "@onboardingDemoChatOut": {
+    "x-review": true
+  },
+  "onboardingDemoMessage": "Pesan",
+  "@onboardingDemoMessage": {
+    "x-review": true
+  },
+  "onboardingShh": "sst",
+  "@onboardingShh": {
+    "x-review": true
+  },
+  "onboardingTryMe": "Coba aku",
+  "@onboardingTryMe": {
+    "x-review": true
+  },
+  "onboardingTurnOnTitle": "Aktifkan *BooBoard*",
+  "@onboardingTurnOnTitle": {
+    "x-review": true
+  },
+  "onboardingTurnOnBody": "Aktifkan di daftar keyboard Android, lalu kembali. Halaman ini akan tahu sendiri.",
+  "@onboardingTurnOnBody": {
+    "x-review": true
+  },
+  "onboardingKeyboardOn": "BooBoard sudah aktif",
+  "@onboardingKeyboardOn": {
+    "x-review": true
+  },
+  "onboardingKeyboardOff": "Belum aktif",
+  "@onboardingKeyboardOff": {
+    "x-review": true
+  },
+  "onboardingOpenKeyboardSettings": "Buka pengaturan keyboard",
+  "onboardingSwitchTitle": "Jadikan *milikmu*",
+  "@onboardingSwitchTitle": {
+    "x-review": true
+  },
+  "onboardingSwitchBody": "Pilih BooBoard dari daftar singkat Android. Kamu bisa beralih lagi kapan saja.",
+  "@onboardingSwitchBody": {
+    "x-review": true
+  },
+  "onboardingKeyboardIsYours": "BooBoard keyboard kamu",
+  "@onboardingKeyboardIsYours": {
+    "x-review": true
+  },
+  "onboardingKeyboardNotYours": "Belum jadi keyboard kamu",
+  "@onboardingKeyboardNotYours": {
+    "x-review": true
+  },
+  "onboardingTurnOnFirst": "Aktifkan dulu",
+  "@onboardingTurnOnFirst": {
+    "x-review": true
+  },
+  "onboardingChooseKeyboard": "Pilih keyboard",
+  "onboardingCheckingPermissions": "Memeriksa izin aplikasi…",
+  "onboardingDebugInternet": "Build debug ini bisa mengakses internet. Build debug memiliki izin itu hanya untuk pengembangan.",
+  "@onboardingDebugInternet": {
+    "x-review": true
+  },
+  "onboardingReleaseInternet": "Build ini bisa mengakses internet.",
+  "@onboardingReleaseInternet": {
+    "x-review": true
+  },
+  "onboardingNoInternet": "BooBoard tidak punya izin internet, jadi tidak bisa mengirim apa pun ke mana pun.",
+  "onboardingWarningTitle": "Soal *peringatan* itu",
+  "@onboardingWarningTitle": {
+    "x-review": true
+  },
+  "onboardingWarningBody": "Android menampilkannya untuk semua keyboard, karena keyboard bisa mengirim ketikanmu ke internet. BooBoard tidak bisa.",
+  "@onboardingWarningBody": {
+    "x-review": true
+  },
+  "onboardingInternetAccess": "Akses internet",
+  "onboardingEverythingHere": "Tetap di ponsel ini",
+  "@onboardingEverythingHere": {
+    "x-review": true
+  },
+  "onboardingEverythingHereBody": "Kata yang dipelajari, papan klip, dan pengaturan dienkripsi dengan kunci di Android Keystore.",
+  "@onboardingEverythingHereBody": {
+    "x-review": true
+  },
+  "onboardingLanguagesTitle": "*Bahasa* kamu",
+  "@onboardingLanguagesTitle": {
+    "x-review": true
+  },
+  "onboardingThemeTitle": "Tema",
+  "@onboardingThemeTitle": {
+    "x-review": true
+  },
+  "onboardingTryTyping": "Ketik satu kalimat",
+  "onboardingTrySwipe": "Geser satu kata, huruf ke huruf",
+  "@onboardingTrySwipe": {
+    "x-review": true
+  },
+  "onboardingTryAccents": "Tekan lama huruf untuk aksen",
+  "@onboardingTryAccents": {
+    "x-review": true
+  },
+  "onboardingTryTitle": "Coba *sekarang*",
+  "@onboardingTryTitle": {
+    "x-review": true
+  },
+  "onboardingTryField": "Ketik sesuatu di sini",
+  "@onboardingTryField": {
+    "x-review": true
+  },
+  "onboardingAllSetTitle": "Semua *siap.*",
+  "@onboardingAllSetTitle": {
+    "x-review": true
+  },
+  "onboardingAllSetBody": "Bahasa, pengetikan, tema, dan lainnya ada di Setelan kapan pun kamu mau.",
+  "@onboardingAllSetBody": {
+    "x-review": true
+  },
+  "onboardingStepOf": "Langkah {step} dari {total}",
+  "onboardingBack": "Kembali",
+  "onboardingNext": "Berikutnya",
+  "onboardingDone": "Selesai",
+  "onboardingSearchLanguages": "Cari bahasa",
+  "onboardingSelected": "Dipilih: {languages}",
+  "onboardingNoLanguageMatch": "Tidak ada bahasa yang cocok dengan pencarian itu.",
+  "themeCreate": "Buat tema",
+  "@themeCreate": {
+    "x-review": true
+  },
+  "themeSelectedLabel": "{name}, dipilih",
+  "themeCardOptions": "Opsi untuk {name}",
+  "themeEdit": "Edit",
+  "themeDuplicate": "Duplikat",
+  "themeRename": "Ganti nama",
+  "themeDeleteAction": "Hapus",
+  "themeTryTyping": "Coba mengetik",
+  "themeTryLabel": "Ketik di sini untuk mencoba tema",
+  "@themeTryLabel": {
+    "x-review": true
+  },
+  "themeTryHelper": "Keyboard muncul di sini saat BooBoard dipilih.",
+  "themeRenameTitle": "Ganti nama tema",
+  "@themeRenameTitle": {
+    "x-review": true
+  },
+  "themeNameField": "Nama",
+  "themeEditTitle": "Edit tema",
+  "@themeEditTitle": {
+    "x-review": true
+  },
+  "themeNewTitle": "Tema baru",
+  "@themeNewTitle": {
+    "x-review": true
+  },
+  "themeEditorTitle": "Tema",
+  "@themeEditorTitle": {
+    "x-review": true
+  },
+  "themeOpenFailed": "Tema ini tidak dapat dibuka.",
+  "@themeOpenFailed": {
+    "x-review": true
+  },
+  "themeSaveFailed": "Tema tidak dapat disimpan.",
+  "@themeSaveFailed": {
+    "x-review": true
+  },
+  "themePhotoPickerFailed": "Pemilih foto tidak dapat dibuka.",
+  "themeDiscardTitle": "Buang perubahan?",
+  "themeDiscardBody": "Perubahan pada tema ini akan hilang.",
+  "@themeDiscardBody": {
+    "x-review": true
+  },
+  "themeKeepEditing": "Lanjutkan mengedit",
+  "themeDiscard": "Buang",
+  "themeSave": "Simpan",
+  "themeNameRequired": "Nama diperlukan",
+  "themeNameLabel": "Nama tema",
+  "@themeNameLabel": {
+    "x-review": true
+  },
+  "themeDefaultName": "Tema saya",
+  "@themeDefaultName": {
+    "x-review": true
+  },
+  "themeSectionName": "Nama",
+  "themeSectionLook": "Tampilan",
+  "themeDarkMode": "Mode gelap",
+  "themeChoiceSystem": "Sistem",
+  "themeChoiceLight": "Terang",
+  "themeChoiceDark": "Gelap",
+  "themePureBlack": "Hitam pekat",
+  "themePureBlackBody": "Latar hitam",
+  "themePureBlackOnlyDark": "Hanya di mode gelap",
+  "themeGalleryPureBlackDark": "Latar hitam di mode gelap",
+  "themeContrast": "Kontras",
+  "themeChoiceStandard": "Standar",
+  "themeChoiceMedium": "Sedang",
+  "themeChoiceHigh": "Tinggi",
+  "themeKeyboardHeight": "Tinggi keyboard",
+  "themeSectionColours": "Warna",
+  "themeSource": "Sumber",
+  "themeSourceWallpaper": "Wallpaper",
+  "themeSourceSeed": "Warna dasar",
+  "themeSourcePerRole": "Per peran",
+  "themeWallpaperNeedsAndroid12": "Warna wallpaper memerlukan Android 12 atau yang lebih baru.",
+  "themeSeedColour": "Warna dasar",
+  "themeScheme": "Skema",
+  "themeColourRoles": "Peran warna",
+  "themeEditingColours": "{mode, select, dark {Mengedit warna gelap} other {Mengedit warna terang}}",
+  "themeResetRoles": "Atur ulang semua peran",
+  "themeKeys": "Tombol",
+  "themeShape": "Bentuk",
+  "themeShapePill": "Kapsul",
+  "themeShapeRounded": "Membulat",
+  "themeShapeSquare": "Persegi",
+  "themeKeyBorders": "Batas tombol",
+  "themeBorderWidth": "Lebar batas",
+  "themeKeyGap": "Jarak antar tombol",
+  "themeFontWeight": "Ketebalan huruf",
+  "themeFontSize": "Ukuran huruf",
+  "themeHintCharacters": "Karakter petunjuk",
+  "themeHintCharactersBody": "Karakter kecil saat ditekan lama",
+  "themeBackground": "Latar belakang",
+  "themeBackgroundType": "Jenis",
+  "themeTypeSolid": "Solid",
+  "themeTypeGradient": "Gradien",
+  "themeTypePhoto": "Foto",
+  "themeNoPhotoYet": "Belum ada foto. Pilih satu untuk dipotong ke ukuran keyboard.",
+  "themeChoosePhoto": "Pilih foto",
+  "themeEditCrop": "Edit potongan dan blur",
+  "themeDim": "Redupkan",
+  "themeSectionPopups": "Popup dan jejak",
+  "@themeSectionPopups": {
+    "x-review": true
+  },
+  "themeSolidPopups": "Popup solid",
+  "themeSolidPopupsBodyWallpaper": "Tidak dengan warna wallpaper",
+  "themeSolidPopupsBodyPrimary": "Popup dalam warna utama",
+  "themeSwipeTrail": "Jejak geser",
+  "@themeSwipeTrail": {
+    "x-review": true
+  },
+  "themeTrailWidth": "Lebar jejak",
+  "@themeTrailWidth": {
+    "x-review": true
+  },
+  "themeTrailFade": "Pudar jejak",
+  "@themeTrailFade": {
+    "x-review": true
+  },
+  "themeTrailInstant": "Seketika",
+  "themeTrailColours": "Warna jejak",
+  "@themeTrailColours": {
+    "x-review": true
+  },
+  "themeTrailStart": "Awal",
+  "themeTrailEnd": "Akhir",
+  "themeTrailStartTitle": "Awal jejak",
+  "@themeTrailStartTitle": {
+    "x-review": true
+  },
+  "themeTrailEndTitle": "Akhir jejak",
+  "@themeTrailEndTitle": {
+    "x-review": true
+  },
+  "themeAutomatic": "Otomatis",
+  "themeSectionMotion": "Gerak",
+  "themeKeyPressAnimation": "Animasi saat tombol ditekan",
+  "themeReduceMotion": "«Hapus animasi» aktif di pengaturan sistem, sehingga tombol tidak dianimasikan.",
+  "themeMotionOff": "Nonaktif",
+  "themeMotionSubtle": "Halus",
+  "themeMotionStandard": "Standar",
+  "themeMotionBouncy": "Memantul",
+  "themeSchemeTonalSpot": "Titik tonal",
+  "themeSchemeVibrant": "Cerah",
+  "themeSchemeExpressive": "Ekspresif",
+  "themeSchemeFidelity": "Kesetiaan",
+  "themeSchemeContent": "Konten",
+  "themeSchemeMonochrome": "Monokrom",
+  "themeSchemeNeutral": "Netral",
+  "themeSchemeRainbow": "Pelangi",
+  "themeSchemeFruitSalad": "Salad buah",
+  "themeCustomColourHex": "Warna kustom #{hex}",
+  "themeCustomColour": "Warna kustom",
+  "themeSwatchLabel": "Warna {label}, #{hex}",
+  "themeUseSchemeColour": "Gunakan warna skema untuk {label}",
+  "themeFromScheme": "Dari skema",
+  "themeOverridden": "Diatur",
+  "themeStopLabel": "Titik {n}",
+  "themePickStopTitle": "Titik {n}",
+  "themeAddStop": "Tambah titik",
+  "themeRemoveStop": "Hapus titik",
+  "themeAngle": "Sudut",
+  "themeUseSchemeTooltipLabel": "Gunakan warna skema",
+  "themeCropTitle": "Potong foto",
+  "themeUsePhoto": "Gunakan foto",
+  "themeCropSaveFailed": "Foto tidak dapat disimpan.",
+  "themeCropSemantics": "Potong foto. Seret untuk memindahkan foto dan cubit atau gunakan penggeser zoom untuk memperbesar.",
+  "themeCropZoom": "Zoom",
+  "themeCropBlur": "Blur",
+  "themeCropBlurOff": "Nonaktif",
+  "themeCropNote": "Blur disimpan ke dalam gambar. Redup diatur di editor dan langsung diterapkan.",
+  "themeHexLabel": "Hex",
+  "themeHexError": "Gunakan enam digit hex, misalnya F5B700",
+  "themeHue": "Rona",
+  "themeSaturation": "Saturasi",
+  "themeBrightness": "Kecerahan",
+  "themePickShadeHint": "Pilih warna, lalu ketuk Gunakan.",
+  "themePickColourUse": "Gunakan",
+  "themeCopySuffix": "salinan",
+  "themeCopyName": "Salinan {name}",
+  "themeDeleteTitle": "Hapus \"{name}\"?",
+  "themeDeleteSelectedBody": "Tema ini sedang dipilih. BooBoard Dynamic akan dipakai sebagai gantinya. Tidak bisa dibatalkan.",
+  "@themeDeleteSelectedBody": {
+    "x-review": true
+  },
+  "themeDeleteBody": "Tidak bisa dibatalkan.",
+  "themeDeleteFailed": "Tema tidak dapat dihapus.",
+  "@themeDeleteFailed": {
+    "x-review": true
+  },
+  "themeRenameFailed": "Tema tidak dapat diganti namanya.",
+  "@themeRenameFailed": {
+    "x-review": true
+  },
+  "themeDuplicateFailed": "Tema tidak dapat disalin.",
+  "@themeDuplicateFailed": {
+    "x-review": true
+  },
+  "themeSettingFailed": "Pengaturan tidak dapat disimpan.",
+  "themeSystemColoursUnavailable": "Warna sistem tidak tersedia.",
+  "themeBooBoardDynamicFollows": "BooBoard Dynamic mengikuti wallpaper Anda",
+  "themeBooBoardDynamicBody": "Warnanya diperbarui saat wallpaper berubah",
+  "themeSectionPresets": "Preset",
+  "themeSectionMyThemes": "Tema saya",
+  "themeSectionTry": "Coba mengetik",
+  "themeAppearance": "Tampilan",
+  "themesTitle": "Tema",
+  "privacyThemesSize": "{count, plural, other {{count} file tema}} · {size}",
+  "@privacyThemesSize": {
+    "x-review": true
+  },
+  "backupUnlockToSeeCount": "Buka kunci ponsel untuk melihat jumlahnya",
+  "shortcutHelp": "Pintasan mengubah singkatan menjadi teks yang lebih panjang. Contoh:\nomw → on my way\naddr → your address",
+  "@shortcutHelp": {
+    "x-review": true
+  },
+  "privacyStoredLearned": "Kata yang dipelajari ({language})",
+  "settingsComingLater": "Hadir di pembaruan berikutnya",
+  "backupExplainer": "Cadangan adalah satu file yang dienkripsi dengan frasa sandi pilihan Anda. Hanya frasa sandi itu yang bisa membukanya. Jika Anda lupa frasa sandinya, tidak ada yang bisa memulihkan cadangan, termasuk BooBoard.",
+  "@backupExplainer": {
+    "x-review": true
+  },
+  "privacyCategoryLine": "{title}: {detail}",
+  "shortcutShortFormHint": "omw",
+  "shortcutExpansionHint": "on my way",
+  "durationMinutes15": "15 menit",
+  "durationHour": "1 jam",
+  "durationDay": "1 hari",
+  "durationWeek": "1 minggu",
+  "onboardingCloseSetup": "Tutup pengaturan",
+  "packsCouldNotRead": "BooBoard tidak dapat membaca paketnya",
+  "packsDeleteTooltip": "Hapus {name}",
+  "privacyNothingStored": "Belum ada yang disimpan",
+  "privacyRemoveAppTooltip": "Hapus {app} dari daftar",
+  "chineseTitle": "Mandarin",
+  "@chineseTitle": {
+    "x-review": true
+  },
+  "chineseTraditional": "Aksara tradisional",
+  "@chineseTraditional": {
+    "x-review": true
+  },
+  "chineseTraditionalBody": "Tampilkan kandidat dalam aksara tradisional (standar Taiwan).",
+  "@chineseTraditionalBody": {
+    "x-review": true
+  },
+  "chineseFuzzy": "Pinyin longgar",
+  "@chineseFuzzy": {
+    "x-review": true
+  },
+  "chineseFuzzyBody": "Juga menerima z dan zh, c dan ch, s dan sh, n dan l, an dan ang, en dan eng, in dan ing.",
+  "@chineseFuzzyBody": {
+    "x-review": true
+  },
+  "cjkDictionary": "Kamus",
+  "@cjkDictionary": {
+    "x-review": true
+  },
+  "chineseClearPhrases": "Hapus frasa yang dipelajari",
+  "@chineseClearPhrases": {
+    "x-review": true
+  },
+  "chineseClearPhrasesBody": "Melupakan kata yang Anda pilih. Kamus tetap ada.",
+  "@chineseClearPhrasesBody": {
+    "x-review": true
+  },
+  "chineseFooter": "Bahasa Mandarin diketik di ponsel ini. Frasa yang dipelajari dienkripsi dan tidak pernah keluar dari ponsel.",
+  "@chineseFooter": {
+    "x-review": true
+  },
+  "chineseClearTitle": "Hapus frasa yang dipelajari?",
+  "@chineseClearTitle": {
+    "x-review": true
+  },
+  "chineseClearBody": "Kata yang Anda pilih untuk bahasa Mandarin dihapus. Tindakan ini tidak dapat dibatalkan.",
+  "@chineseClearBody": {
+    "x-review": true
+  },
+  "cjkClear": "Hapus",
+  "@cjkClear": {
+    "x-review": true
+  },
+  "chinesePhrasesCleared": "Frasa yang dipelajari dihapus",
+  "@chinesePhrasesCleared": {
+    "x-review": true
+  },
+  "chineseLooking": "Mencari kamus",
+  "@chineseLooking": {
+    "x-review": true
+  },
+  "chineseDictName": "Kamus Mandarin",
+  "@chineseDictName": {
+    "x-review": true
+  },
+  "chinesePackMissing": "Belum dipasang. Mengetik Mandarin memerlukannya; pasang di Paket model.",
+  "@chinesePackMissing": {
+    "x-review": true
+  },
+  "chinesePackInstalled": "Terpasang. {license}",
+  "@chinesePackInstalled": {
+    "x-review": true
+  },
+  "japaneseTitle": "Jepang",
+  "@japaneseTitle": {
+    "x-review": true
+  },
+  "japaneseLayout": "Tata letak",
+  "@japaneseLayout": {
+    "x-review": true
+  },
+  "japaneseLayout12": "12 tombol (geser)",
+  "@japaneseLayout12": {
+    "x-review": true
+  },
+  "japaneseLayoutRomaji": "Romaji (QWERTY)",
+  "@japaneseLayoutRomaji": {
+    "x-review": true
+  },
+  "japaneseTyping": "Mengetik",
+  "@japaneseTyping": {
+    "x-review": true
+  },
+  "japaneseFlickOnly": "Hanya geser",
+  "@japaneseFlickOnly": {
+    "x-review": true
+  },
+  "japaneseFlickOnlyBody": "Tanpa ketuk berulang: mengetuk あ dua kali mengetik ああ, bukan い",
+  "@japaneseFlickOnlyBody": {
+    "x-review": true
+  },
+  "japaneseHalfWidth": "Spasi lebar normal",
+  "@japaneseHalfWidth": {
+    "x-review": true
+  },
+  "japaneseHalfWidthBody": "Spasi mengetik spasi biasa saat tidak ada yang sedang diketik. Jika mati, mengetik spasi lebar penuh.",
+  "@japaneseHalfWidthBody": {
+    "x-review": true
+  },
+  "japaneseDictPack": "Paket kamus",
+  "@japaneseDictPack": {
+    "x-review": true
+  },
+  "japaneseChecking": "Memeriksa...",
+  "@japaneseChecking": {
+    "x-review": true
+  },
+  "japaneseInstalled": "{name} terpasang. Konversi kanji aktif.",
+  "@japaneseInstalled": {
+    "x-review": true
+  },
+  "japaneseNotInstalled": "Belum dipasang. Kana tetap bisa diketik; kanji memerlukan paket.",
+  "@japaneseNotInstalled": {
+    "x-review": true
+  },
+  "japaneseClearWords": "Hapus kata yang dipelajari",
+  "@japaneseClearWords": {
+    "x-review": true
+  },
+  "japaneseClearWordsBody": "Melupakan kata Jepang yang Anda pilih. Disimpan terenkripsi di ponsel ini.",
+  "@japaneseClearWordsBody": {
+    "x-review": true
+  },
+  "japaneseClearTitle": "Hapus kata Jepang yang dipelajari?",
+  "@japaneseClearTitle": {
+    "x-review": true
+  },
+  "japaneseClearBody": "Semua kata Jepang yang Anda pilih dihapus. Tindakan ini tidak dapat dibatalkan.",
+  "@japaneseClearBody": {
+    "x-review": true
+  },
+  "privacyStoredChinesePhrases": "Frasa Mandarin",
+  "@privacyStoredChinesePhrases": {
+    "x-review": true
+  },
+  "privacyStoredJapaneseWords": "Kata Jepang",
+  "@privacyStoredJapaneseWords": {
+    "x-review": true
+  }
+}

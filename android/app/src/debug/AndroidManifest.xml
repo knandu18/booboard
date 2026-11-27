@@ -1,0 +1,16 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- DEBUG ONLY. The Flutter tool needs INTERNET for breakpoints and hot
+         reload. Release builds strip it (src/release/AndroidManifest.xml). -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application>
+        <!-- DEBUG ONLY: test fields for automated typing tests (tool/adb_ime.ps1). -->
+        <activity
+            android:name=".testbed.TestbedActivity"
+            android:exported="true"
+            android:label="BooBoard testbed"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.Material.Light.NoActionBar"
+            android:windowSoftInputMode="adjustResize" />
+    </application>
+</manifest>

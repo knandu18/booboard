@@ -1,0 +1,3217 @@
+{
+  "@@locale": "en",
+  "appName": "BooBoard",
+  "@appName": {
+    "description": "The app's name. Never translated; keep it as it is in every language"
+  },
+  "homeTagline": "Private typing, on this phone",
+  "@homeTagline": {
+    "description": "Home screen header, under the app name. Max 40 characters"
+  },
+  "homeOfflinePromise": "BooBoard works offline and sends *nothing anywhere.*",
+  "@homeOfflinePromise": {
+    "description": "Home screen header: the privacy promise, in the serif headline font. Text between asterisks is set in italic. Three lines at most"
+  },
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Dialog and sheet cancel button"
+  },
+  "delete": "Delete",
+  "@delete": {
+    "description": "Delete button and menu item"
+  },
+  "save": "Save",
+  "@save": {
+    "description": "Save button"
+  },
+  "useAction": "Use",
+  "@useAction": {
+    "description": "Confirms a picked colour or photo, button. Max 12 characters"
+  },
+  "off": "Off",
+  "@off": {
+    "description": "Setting is off, short value label. Max 10 characters"
+  },
+  "left": "Left",
+  "@left": {
+    "description": "Side choice for one-handed mode. Max 10 characters"
+  },
+  "right": "Right",
+  "@right": {
+    "description": "Side choice for one-handed mode. Max 10 characters"
+  },
+  "settingsLanguages": "Languages",
+  "@settingsLanguages": {
+    "description": "Home row and section title for languages"
+  },
+  "settingsTyping": "Typing",
+  "@settingsTyping": {
+    "description": "Home row and section title for typing"
+  },
+  "settingsFeel": "Feel",
+  "@settingsFeel": {
+    "description": "Home row and title for the feel screen. Max 16 characters"
+  },
+  "settingsThemes": "Themes",
+  "@settingsThemes": {
+    "description": "Home row and title for themes. Max 16 characters"
+  },
+  "settingsPanels": "Panels",
+  "@settingsPanels": {
+    "description": "Home row and title for panels. Max 16 characters"
+  },
+  "settingsVoice": "Voice",
+  "@settingsVoice": {
+    "description": "Home row and title for voice. Max 16 characters"
+  },
+  "settingsTranslation": "Translation",
+  "@settingsTranslation": {
+    "description": "Home row and title for translation. Max 24 characters"
+  },
+  "settingsPrivacy": "Privacy",
+  "@settingsPrivacy": {
+    "description": "Home row and title for privacy. Max 16 characters"
+  },
+  "settingsAbout": "About",
+  "@settingsAbout": {
+    "description": "Home row and title for About. Max 16 characters"
+  },
+  "settingsModelPacks": "Model packs",
+  "@settingsModelPacks": {
+    "description": "Title of the packs screen, and a row that opens it. Max 24 characters"
+  },
+  "homeSetupTurnOn": "Turn BooBoard on in Android's keyboard list.",
+  "@homeSetupTurnOn": {
+    "description": "Home hint while BooBoard is off. Two lines at most"
+  },
+  "homeSetupChoose": "Choose BooBoard as the keyboard you type with.",
+  "@homeSetupChoose": {
+    "description": "Home hint when BooBoard is on but not chosen. Two lines at most"
+  },
+  "homeFinishSetup": "Finish setting up BooBoard",
+  "@homeFinishSetup": {
+    "description": "Home card title while setup is unfinished. Max 40 characters"
+  },
+  "homeTypingSubtitle": "Corrections, suggestions, keys and swipe",
+  "@homeTypingSubtitle": {
+    "description": "Home row subtitle for typing. Max 60 characters"
+  },
+  "homeFeelSubtitle": "Haptics, sounds, height and one-handed mode",
+  "@homeFeelSubtitle": {
+    "description": "Home row subtitle for feel. Max 60 characters"
+  },
+  "homePanelsSubtitle": "Clipboard and emoji",
+  "@homePanelsSubtitle": {
+    "description": "Home row subtitle for panels. Max 60 characters"
+  },
+  "homeVoiceSubtitle": "Speak to type, on this phone",
+  "@homeVoiceSubtitle": {
+    "description": "Home row subtitle for voice. Max 60 characters"
+  },
+  "homeTranslationSubtitle": "Translate as you type, offline",
+  "@homeTranslationSubtitle": {
+    "description": "Home row subtitle for translation. Max 60 characters"
+  },
+  "homePrivacySubtitle": "What is stored, incognito, app lock and backup",
+  "@homePrivacySubtitle": {
+    "description": "Home row subtitle for privacy. Max 60 characters"
+  },
+  "homeAboutSubtitle": "Version, licences and source code",
+  "@homeAboutSubtitle": {
+    "description": "Home row subtitle for About. Max 60 characters"
+  },
+  "homeImages": "Images",
+  "@homeImages": {
+    "description": "Home card for making pictures with the offline image model. Max 14 characters"
+  },
+  "homeAboutBooBoard": "About BooBoard",
+  "@homeAboutBooBoard": {
+    "description": "Home footer link to the About page. Max 24 characters"
+  },
+  "websiteOpenHint": "Opens booboard.com in your browser",
+  "@websiteOpenHint": {
+    "description": "Screen-reader hint on the booboard.com link (Home and About). Keep \"booboard.com\" as is"
+  },
+  "websiteNoBrowser": "No browser can open booboard.com.",
+  "@websiteNoBrowser": {
+    "description": "Shown when no browser app is installed. Keep \"booboard.com\" as is"
+  },
+  "imagesSoonTitle": "Images are *coming*",
+  "@imagesSoonTitle": {
+    "description": "Title of the Images page before the image model ships. Text between asterisks is set in italic. Max 28 characters"
+  },
+  "imagesSoonBody": "Make pictures from your words, right on this phone. Like everything in BooBoard, it will work offline.",
+  "@imagesSoonBody": {
+    "description": "Body of the Images page before the image model ships"
+  },
+  "aboutWebsite": "Website",
+  "@aboutWebsite": {
+    "description": "About page: row title for booboard.com. Max 24 characters"
+  },
+  "aboutTitle": "About",
+  "@aboutTitle": {
+    "description": "Title of the About screen. Max 24 characters"
+  },
+  "aboutVersion": "Version {versionName} ({versionCode})",
+  "@aboutVersion": {
+    "description": "About screen: app version under the name. Max 40 characters",
+    "placeholders": {
+      "versionCode": {
+        "type": "String"
+      },
+      "versionName": {
+        "type": "String"
+      }
+    }
+  },
+  "aboutVersionDebug": "Version {versionName} ({versionCode}) · debug build",
+  "@aboutVersionDebug": {
+    "description": "About screen: version line in a debug build. Max 60 characters",
+    "placeholders": {
+      "versionCode": {
+        "type": "String"
+      },
+      "versionName": {
+        "type": "String"
+      }
+    }
+  },
+  "aboutReadingVersion": "Reading version…",
+  "@aboutReadingVersion": {
+    "description": "About screen: shown while the version loads"
+  },
+  "aboutPrivacy": "Privacy",
+  "@aboutPrivacy": {
+    "description": "About section title"
+  },
+  "aboutNoInternet": "BooBoard cannot use the internet",
+  "@aboutNoInternet": {
+    "description": "About privacy tile title. Max 50 characters"
+  },
+  "aboutNoInternetBody": "Release builds have no internet permission, so nothing you type leaves this phone.",
+  "@aboutNoInternetBody": {
+    "description": "About privacy tile. Two lines at most"
+  },
+  "aboutLicence": "Licence",
+  "@aboutLicence": {
+    "description": "About section title. British spelling, as in the app"
+  },
+  "aboutGplTitle": "GNU General Public Licence v3 or later",
+  "@aboutGplTitle": {
+    "description": "About licence tile title. Keep the licence name"
+  },
+  "aboutGplBody": "BooBoard is free software. You may study, change and share it under the GPL.",
+  "@aboutGplBody": {
+    "description": "About licence tile. Two lines at most"
+  },
+  "aboutSourceCode": "Source code",
+  "@aboutSourceCode": {
+    "description": "About section title"
+  },
+  "aboutSourceBody": "BooBoard is GPL-3.0-or-later. Its source code is available from the project page.",
+  "@aboutSourceBody": {
+    "description": "About source tile. Two lines at most"
+  },
+  "aboutLicences": "Licences",
+  "@aboutLicences": {
+    "description": "About section title, for the open-source list"
+  },
+  "aboutOpenSource": "Open-source licences",
+  "@aboutOpenSource": {
+    "description": "About tile title. Max 40 characters"
+  },
+  "aboutOpenSourceBody": "Flutter, material_ui and every package BooBoard uses",
+  "@aboutOpenSourceBody": {
+    "description": "About tile subtitle. Lists the libraries. Two lines at most"
+  },
+  "aboutTextLoadFailed": "This text could not be loaded.",
+  "@aboutTextLoadFailed": {
+    "description": "About screen: a licence text failed to load"
+  },
+  "languagesEnabledHeader": "Enabled, first is the default",
+  "@languagesEnabledHeader": {
+    "description": "Languages: list heading. The first language is the default. Max 40 characters"
+  },
+  "languagesActive": "Active language",
+  "@languagesActive": {
+    "description": "Languages: the language the keyboard is using now. Max 30 characters"
+  },
+  "languagesAdd": "Add a language",
+  "@languagesAdd": {
+    "description": "Languages: adds a language to the list. Max 30 characters"
+  },
+  "languagesAllEnabled": "Every language is enabled",
+  "@languagesAllEnabled": {
+    "description": "Languages: shown when all are on. Max 40 characters"
+  },
+  "languagesAllEnabledBody": "Remove one above to make room.",
+  "@languagesAllEnabledBody": {
+    "description": "Languages: hint under the message above. Max 50 characters"
+  },
+  "languagesMultilingual": "Multilingual typing",
+  "@languagesMultilingual": {
+    "description": "Languages: title of the multilingual section. Max 40 characters"
+  },
+  "languagesMultilingualBody": "Suggest words from up to three enabled languages that share the layout's script. A word that any of them knows is never auto-corrected.",
+  "@languagesMultilingualBody": {
+    "description": "Languages: explains multilingual typing. Three lines at most"
+  },
+  "languagesNativeDigits": "Native digits",
+  "@languagesNativeDigits": {
+    "description": "Languages: title of the digits setting. Max 30 characters"
+  },
+  "languagesNativeDigitsBody": "Type digits in the script of the active language where it has them (०१२, ٠١٢).",
+  "@languagesNativeDigitsBody": {
+    "description": "Languages: explains native digits. Two lines at most"
+  },
+  "languagesOptions": "Language options",
+  "@languagesOptions": {
+    "description": "Languages: section for Chinese and Japanese options. Max 30 characters"
+  },
+  "languagesZhSubtitle": "Pinyin, Traditional characters and dictionary packs",
+  "@languagesZhSubtitle": {
+    "description": "Languages: Chinese row subtitle. Two lines at most"
+  },
+  "languagesJaSubtitle": "Flick input, conversion and dictionary packs",
+  "@languagesJaSubtitle": {
+    "description": "Languages: Japanese row subtitle. Two lines at most"
+  },
+  "languagesReorderLabel": "Drag to reorder {language}",
+  "@languagesReorderLabel": {
+    "description": "Languages: accessibility label of the drag handle. {language} is a language name",
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "languageDefaultLabel": "{language}, default",
+  "@languageDefaultLabel": {
+    "description": "Languages: label for the first language. {language} is a language name",
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "languageLayoutTooltip": "Layout for {language}",
+  "@languageLayoutTooltip": {
+    "description": "Languages: tooltip on the layout button. {language} is a language name. Max 40 characters",
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "languageRemoveTooltip": "Remove {language}",
+  "@languageRemoveTooltip": {
+    "description": "Languages: tooltip on the remove button. {language} is a language name. Max 30 characters",
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "feelHaptics": "Haptics",
+  "@feelHaptics": {
+    "description": "Feel: section title"
+  },
+  "feelHapticFeedback": "Haptic feedback",
+  "@feelHapticFeedback": {
+    "description": "Feel: switch title. Max 30 characters"
+  },
+  "feelHapticFeedbackBody": "A short vibration on each key, following the system setting",
+  "@feelHapticFeedbackBody": {
+    "description": "Feel: switch subtitle. Two lines at most"
+  },
+  "feelHapticStrength": "Haptic strength",
+  "@feelHapticStrength": {
+    "description": "Feel: slider title. Max 30 characters"
+  },
+  "feelSounds": "Sounds",
+  "@feelSounds": {
+    "description": "Feel: section title"
+  },
+  "feelKeySounds": "Key sounds",
+  "@feelKeySounds": {
+    "description": "Feel: switch title. Max 30 characters"
+  },
+  "feelKeySoundsBody": "Clicks for keys, space, delete and enter",
+  "@feelKeySoundsBody": {
+    "description": "Feel: switch subtitle. Two lines at most"
+  },
+  "feelUseSystemVolume": "Use system volume",
+  "@feelUseSystemVolume": {
+    "description": "Feel: switch title. Max 30 characters"
+  },
+  "feelKeySoundVolume": "Key sound volume",
+  "@feelKeySoundVolume": {
+    "description": "Feel: slider title. Max 30 characters"
+  },
+  "feelHeight": "Height",
+  "@feelHeight": {
+    "description": "Feel: section title"
+  },
+  "feelPortraitHeight": "Portrait height",
+  "@feelPortraitHeight": {
+    "description": "Feel: slider title. Max 30 characters"
+  },
+  "feelLandscapeHeight": "Landscape height",
+  "@feelLandscapeHeight": {
+    "description": "Feel: slider title. Max 30 characters"
+  },
+  "feelOneHandedFloating": "One-handed and floating",
+  "@feelOneHandedFloating": {
+    "description": "Feel: section title. Max 30 characters"
+  },
+  "feelOneHandedSide": "One-handed side",
+  "@feelOneHandedSide": {
+    "description": "Feel: label above the side choice. Max 30 characters"
+  },
+  "feelFloatingKeyboard": "Floating keyboard",
+  "@feelFloatingKeyboard": {
+    "description": "Feel: switch title. Max 30 characters"
+  },
+  "feelFloatingBody": "Drag it anywhere on the screen",
+  "@feelFloatingBody": {
+    "description": "Feel: switch subtitle. Two lines at most"
+  },
+  "panelsClipboard": "Clipboard",
+  "@panelsClipboard": {
+    "description": "Panels: section title"
+  },
+  "panelsClipboardHistory": "Clipboard history",
+  "@panelsClipboardHistory": {
+    "description": "Panels: switch title. Max 30 characters"
+  },
+  "panelsClipboardHistoryBody": "Keep what you copy, encrypted on this phone",
+  "@panelsClipboardHistoryBody": {
+    "description": "Panels: switch subtitle. Two lines at most"
+  },
+  "panelsRecentChip": "Recent-copy chip",
+  "@panelsRecentChip": {
+    "description": "Panels: switch title for the last-copy chip. Max 30 characters"
+  },
+  "panelsRecentChipBody": "Offer your last copy in the suggestion bar for a minute",
+  "@panelsRecentChipBody": {
+    "description": "Panels: switch subtitle. Two lines at most"
+  },
+  "panelsKeepUnpinned": "Keep unpinned copies for",
+  "@panelsKeepUnpinned": {
+    "description": "Panels: label above the duration choice. Max 40 characters"
+  },
+  "panelsClipsToKeep": "Clips to keep",
+  "@panelsClipsToKeep": {
+    "description": "Panels: slider title. Max 30 characters"
+  },
+  "panelsEmoji": "Emoji",
+  "@panelsEmoji": {
+    "description": "Panels: section title"
+  },
+  "emojiSuggestions": "Emoji suggestions",
+  "@emojiSuggestions": {
+    "description": "Emoji suggestions switch title, in Panels and Typing. Max 30 characters"
+  },
+  "emojiSuggestionsPanelBody": "Offer an emoji for some words in the suggestion bar",
+  "@emojiSuggestionsPanelBody": {
+    "description": "Panels: switch subtitle. Two lines at most"
+  },
+  "panelsPasswordsNeverSaved": "Passwords are never saved",
+  "@panelsPasswordsNeverSaved": {
+    "description": "Panels: switch title. Max 40 characters"
+  },
+  "panelsSensitiveBody": "Copies that Android marks as sensitive are never kept.",
+  "@panelsSensitiveBody": {
+    "description": "Panels: switch subtitle. Two lines at most"
+  },
+  "typingCorrections": "Corrections",
+  "@typingCorrections": {
+    "description": "Typing: section title"
+  },
+  "typingAutocorrect": "Autocorrect",
+  "@typingAutocorrect": {
+    "description": "Typing: switch title. Max 30 characters"
+  },
+  "typingAutocorrectBody": "Fix likely typos as you finish a word",
+  "@typingAutocorrectBody": {
+    "description": "Typing: switch subtitle. Two lines at most"
+  },
+  "typingAutoCapitalise": "Auto-capitalise",
+  "@typingAutoCapitalise": {
+    "description": "Typing: switch title. Max 30 characters"
+  },
+  "typingAutoCapitaliseBody": "Capital letters at the start of sentences",
+  "@typingAutoCapitaliseBody": {
+    "description": "Typing: switch subtitle. Two lines at most"
+  },
+  "typingDoubleSpace": "Double-space full stop",
+  "@typingDoubleSpace": {
+    "description": "Typing: switch title. Max 30 characters"
+  },
+  "typingDoubleSpaceBody": "Two taps of space write \". \"",
+  "@typingDoubleSpaceBody": {
+    "description": "Typing: switch subtitle. Two lines at most"
+  },
+  "typingSmartPunctuation": "Smart punctuation",
+  "@typingSmartPunctuation": {
+    "description": "Typing: switch title. Max 30 characters"
+  },
+  "typingSmartPunctuationBody": "Tidy spaces around punctuation and use local quotes",
+  "@typingSmartPunctuationBody": {
+    "description": "Typing: switch subtitle. Two lines at most"
+  },
+  "typingSuggestions": "Suggestions",
+  "@typingSuggestions": {
+    "description": "Typing: section and switch title. Max 30 characters"
+  },
+  "typingSuggestionsBody": "Show words in the suggestion bar",
+  "@typingSuggestionsBody": {
+    "description": "Typing: switch subtitle. Two lines at most"
+  },
+  "typingNextWord": "Next-word prediction",
+  "@typingNextWord": {
+    "description": "Typing: switch title. Max 30 characters"
+  },
+  "typingNextWordBody": "Suggest the word that often follows",
+  "@typingNextWordBody": {
+    "description": "Typing: switch subtitle. Two lines at most"
+  },
+  "typingEmojiBody": "Offer an emoji for some words",
+  "@typingEmojiBody": {
+    "description": "Typing: emoji switch subtitle. Two lines at most"
+  },
+  "typingHideOffensive": "Hide offensive words",
+  "@typingHideOffensive": {
+    "description": "Typing: switch title. Max 30 characters"
+  },
+  "typingHideOffensiveBody": "Never suggest them unless you type them in full",
+  "@typingHideOffensiveBody": {
+    "description": "Typing: switch subtitle. Two lines at most"
+  },
+  "typingKeys": "Keys",
+  "@typingKeys": {
+    "description": "Typing: section title"
+  },
+  "typingKeyPopups": "Key popups",
+  "@typingKeyPopups": {
+    "description": "Typing: switch title. Max 30 characters"
+  },
+  "typingKeyPopupsBody": "Enlarge a key while you press it",
+  "@typingKeyPopupsBody": {
+    "description": "Typing: switch subtitle. Two lines at most"
+  },
+  "typingLongPressDelay": "Long-press delay",
+  "@typingLongPressDelay": {
+    "description": "Typing: slider title. Max 30 characters"
+  },
+  "typingNumberRow": "Number row",
+  "@typingNumberRow": {
+    "description": "Typing: switch title. Max 30 characters"
+  },
+  "typingNumberRowBody": "Show 0 to 9 above the letters",
+  "@typingNumberRowBody": {
+    "description": "Typing: switch subtitle. Two lines at most"
+  },
+  "typingHintLabels": "Hint labels",
+  "@typingHintLabels": {
+    "description": "Typing: switch title. Max 30 characters"
+  },
+  "typingHintLabelsBody": "Small symbols on keys, such as accents",
+  "@typingHintLabelsBody": {
+    "description": "Typing: switch subtitle. Two lines at most"
+  },
+  "typingLowercaseLabels": "Lowercase labels",
+  "@typingLowercaseLabels": {
+    "description": "Typing: switch title. Max 30 characters"
+  },
+  "typingLowercaseLabelsBody": "Keep key letters lowercase when shift is on",
+  "@typingLowercaseLabelsBody": {
+    "description": "Typing: switch subtitle. Two lines at most"
+  },
+  "typingSwipe": "Swipe",
+  "@typingSwipe": {
+    "description": "Typing: section title"
+  },
+  "typingSwipeTyping": "Swipe typing",
+  "@typingSwipeTyping": {
+    "description": "Typing: switch title. Max 30 characters"
+  },
+  "typingSwipeTypingBody": "Glide across letters to write a word",
+  "@typingSwipeTypingBody": {
+    "description": "Typing: switch subtitle. Two lines at most"
+  },
+  "typingShowTrail": "Show trail",
+  "@typingShowTrail": {
+    "description": "Typing: switch title. Max 30 characters"
+  },
+  "typingTrailWidth": "Trail width",
+  "@typingTrailWidth": {
+    "description": "Typing: slider title. Max 30 characters"
+  },
+  "typingTrailFade": "Trail fade",
+  "@typingTrailFade": {
+    "description": "Typing: slider title. Max 30 characters"
+  },
+  "typingLivePreview": "Live preview",
+  "@typingLivePreview": {
+    "description": "Typing: switch title. Max 30 characters"
+  },
+  "typingLivePreviewBody": "Show the likely word while you glide",
+  "@typingLivePreviewBody": {
+    "description": "Typing: switch subtitle. Two lines at most"
+  },
+  "typingSpaceMovesCursor": "Space bar moves the cursor",
+  "@typingSpaceMovesCursor": {
+    "description": "Typing: switch title. Max 40 characters"
+  },
+  "typingSpaceMovesCursorBody": "Drag on the space bar to move the cursor",
+  "@typingSpaceMovesCursorBody": {
+    "description": "Typing: switch subtitle. Two lines at most"
+  },
+  "typingSwipeBackspace": "Swipe backspace to delete words",
+  "@typingSwipeBackspace": {
+    "description": "Typing: switch title. Max 40 characters"
+  },
+  "typingSwipeBackspaceBody": "Slide left on backspace to select and delete words",
+  "@typingSwipeBackspaceBody": {
+    "description": "Typing: switch subtitle. Two lines at most"
+  },
+  "voiceTyping": "Voice typing",
+  "@voiceTyping": {
+    "description": "Voice: switch title. Max 30 characters"
+  },
+  "voiceTypingBody": "Speak to type in English. Recognition runs on this phone.",
+  "@voiceTypingBody": {
+    "description": "Voice: switch subtitle. Two lines at most. Voice typing works in English only"
+  },
+  "voiceRecognition": "Recognition",
+  "@voiceRecognition": {
+    "description": "Voice: section title. Max 30 characters"
+  },
+  "voiceModelPacksBody": "Install or remove voice and translation packs",
+  "@voiceModelPacksBody": {
+    "description": "Voice and Translation: row subtitle for model packs. Two lines at most"
+  },
+  "voiceAudioStays": "Audio stays on this phone and is never saved.",
+  "@voiceAudioStays": {
+    "description": "Voice: footnote under the mic. Two lines at most"
+  },
+  "voicePackAutomatic": "Automatic",
+  "@voicePackAutomatic": {
+    "description": "Voice pack choice: the best installed pack. Max 20 characters"
+  },
+  "voicePackAutomaticSelected": "Automatic (selected)",
+  "@voicePackAutomaticSelected": {
+    "description": "Voice pack choice when Automatic is in use. Max 30 characters"
+  },
+  "voicePack": "Voice pack",
+  "@voicePack": {
+    "description": "Voice pack picker title. Max 30 characters"
+  },
+  "voiceNoPack": "No voice pack is installed. Install one under Model packs.",
+  "@voiceNoPack": {
+    "description": "Voice pack picker: shown when none is installed. Two lines at most"
+  },
+  "voiceLooking": "Looking for installed packs",
+  "@voiceLooking": {
+    "description": "Voice pack picker: shown while the packs load. Max 40 characters"
+  },
+  "voicePackItem": "{name} · {size}",
+  "@voicePackItem": {
+    "description": "Voice pack picker: a pack with its size. {name} is the pack name, {size} is a size such as 120 MB",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "voicePackItemSelected": "{name} · {size} (selected)",
+  "@voicePackItemSelected": {
+    "description": "Voice pack picker: the chosen pack with its size. {name} is the pack name, {size} a size",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "megabytes": "{count} MB",
+  "@megabytes": {
+    "description": "A size in megabytes, such as 120 MB. {count} is a number",
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "milliseconds": "{count} ms",
+  "@milliseconds": {
+    "description": "A duration in milliseconds. {count} is a number. Max 12 characters",
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "dpValue": "{count} dp",
+  "@dpValue": {
+    "description": "A size in density-independent pixels. {count} is a number. Max 12 characters",
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "packsOpenFailed": "BooBoard could not open the file picker.",
+  "@packsOpenFailed": {
+    "description": "Packs: shown when the file picker fails"
+  },
+  "packsInstalled": "Installed {name}.",
+  "@packsInstalled": {
+    "description": "Packs: snackbar after a pack installs. {name} is the pack name",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "packsDeleteTitle": "Delete {name}?",
+  "@packsDeleteTitle": {
+    "description": "Packs: dialog title before a pack is deleted. {name} is the pack name",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "packsDeleteBody": "Its files are removed from this phone. You can import the pack again later from its file.",
+  "@packsDeleteBody": {
+    "description": "Packs: body text of the delete confirmation dialog, under the title. Max 120 characters"
+  },
+  "packsDeleted": "Deleted {name}.",
+  "@packsDeleted": {
+    "description": "Packs: snackbar after a pack is deleted. {name} is the pack name",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "packsDeleteFailed": "BooBoard could not delete {name}. Try again.",
+  "@packsDeleteFailed": {
+    "description": "Packs: shown when a delete fails. {name} is the pack name",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "packsIntro": "Packs are checked before they are installed. They contain data only, never code.",
+  "@packsIntro": {
+    "description": "Packs: explains packs. Two lines at most"
+  },
+  "packsImport": "Import",
+  "@packsImport": {
+    "description": "Packs: section title"
+  },
+  "packsImportTitle": "Import a pack file",
+  "@packsImportTitle": {
+    "description": "Packs: row title for importing. Max 30 characters"
+  },
+  "packsChecking": "Checking and installing…",
+  "@packsChecking": {
+    "description": "Packs: row subtitle while an import runs"
+  },
+  "packsImportBody": "A .boopack file, for example from Downloads",
+  "@packsImportBody": {
+    "description": "Packs: row subtitle. Two lines at most. .boopack is a file extension"
+  },
+  "packsNoVoice": "No voice packs installed",
+  "@packsNoVoice": {
+    "description": "Packs: empty state in Voice. Max 40 characters"
+  },
+  "packsNoVoiceBody": "Voice typing needs a voice pack.",
+  "@packsNoVoiceBody": {
+    "description": "Packs: empty state detail. Max 60 characters"
+  },
+  "packsNoTranslation": "No translation packs installed",
+  "@packsNoTranslation": {
+    "description": "Packs: empty state in Translation. Max 40 characters"
+  },
+  "packsNoTranslationBody": "Translation needs one pack for each direction.",
+  "@packsNoTranslationBody": {
+    "description": "Packs: empty state detail. Max 60 characters"
+  },
+  "packsDictionaries": "Dictionaries",
+  "@packsDictionaries": {
+    "description": "Packs: section title"
+  },
+  "packsNoDictionary": "No dictionary packs installed",
+  "@packsNoDictionary": {
+    "description": "Packs: empty state in Dictionaries. Max 40 characters"
+  },
+  "packsNoDictionaryBody": "Chinese and Japanese typing need a dictionary pack.",
+  "@packsNoDictionaryBody": {
+    "description": "Packs: empty state detail. Max 60 characters"
+  },
+  "packsGetTitle": "Get packs",
+  "@packsGetTitle": {
+    "description": "Packs: heading of the section that explains how to get packs"
+  },
+  "packsExplainTitle": "Packs are files you add yourself.",
+  "@packsExplainTitle": {
+    "description": "Packs: first line of the explanation, in a foss build with no store delivery"
+  },
+  "packsExplainBody": "Download them from the project's release page on another device, copy them to this phone, then import.",
+  "@packsExplainBody": {
+    "description": "Packs: how to get a pack without the internet on the phone"
+  },
+  "packsCopyLink": "Copy the release page link",
+  "@packsCopyLink": {
+    "description": "Packs: button that copies the release page link to the clipboard"
+  },
+  "packsPrivateTitle": "How downloads stay private",
+  "@packsPrivateTitle": {
+    "description": "Title of the tile that explains that the browser, not BooBoard, downloads packs."
+  },
+  "packsPrivateBody": "BooBoard has no internet permission and never connects. Download opens your browser, which fetches the pack from the project's GitHub release. BooBoard then checks the pack's signature on this phone before it installs anything.",
+  "@packsPrivateBody": {
+    "description": "Body of the tile that explains private pack downloads."
+  },
+  "packsAvailableTitle": "Packs you can add",
+  "@packsAvailableTitle": {
+    "description": "Group title for the published packs that are not installed."
+  },
+  "packsDownload": "Download",
+  "@packsDownload": {
+    "description": "Button that opens a pack download in the browser."
+  },
+  "packsDownloadMeta": "{size} · opens your browser",
+  "@packsDownloadMeta": {
+    "description": "Subtitle of a downloadable pack.",
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "packsDownloadStarted": "Your browser is downloading {name}. When it is done, tap Import a pack file.",
+  "@packsDownloadStarted": {
+    "description": "Snackbar after the browser was asked to download a pack.",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "packsNoBrowser": "No browser can open the link. Copy the release page link instead.",
+  "@packsNoBrowser": {
+    "description": "Snackbar when no browser app is installed."
+  },
+  "packsImportCheckedBody": "Pick the downloaded .boopack file. It is checked on this phone, then installed.",
+  "@packsImportCheckedBody": {
+    "description": "Subtitle of the import tile."
+  },
+  "packsAllInstalled": "Every published pack is installed.",
+  "@packsAllInstalled": {
+    "description": "Shown when nothing is left to download."
+  },
+  "packsLinkCopied": "Link copied. Open it on another device.",
+  "@packsLinkCopied": {
+    "description": "Packs: shown after the link is copied"
+  },
+  "packsPlayTitle": "Get through Google Play",
+  "@packsPlayTitle": {
+    "description": "Packs: heading of the section for packs the Play store delivers"
+  },
+  "packsPlayNote": "Google Play downloads these packs, not BooBoard. BooBoard itself never uses the network.",
+  "@packsPlayNote": {
+    "description": "Packs: note that Google Play downloads the packs and BooBoard does not use the network"
+  },
+  "packsGet": "Get",
+  "@packsGet": {
+    "description": "Packs: button that asks Google Play for a pack"
+  },
+  "packsStatusNotRequested": "Not downloaded yet",
+  "@packsStatusNotRequested": {
+    "description": "Packs: status of a pack that has not been downloaded"
+  },
+  "packsStatusWaiting": "Waiting for Wi-Fi or mobile data",
+  "@packsStatusWaiting": {
+    "description": "Packs: status while Play waits for Wi-Fi or mobile data"
+  },
+  "packsStatusDownloading": "Downloading through Google Play",
+  "@packsStatusDownloading": {
+    "description": "Packs: status while Play downloads a pack"
+  },
+  "packsStatusInstalling": "Checking and installing",
+  "@packsStatusInstalling": {
+    "description": "Packs: status while BooBoard verifies and installs a pack from Play"
+  },
+  "packsStatusFailed": "Google Play could not deliver it. Try again.",
+  "@packsStatusFailed": {
+    "description": "Packs: status when Play could not deliver a pack"
+  },
+  "packsOfferMeta": "{size} · {status}",
+  "@packsOfferMeta": {
+    "description": "Packs: size and status of a pack the store can deliver. Max 60 characters"
+  },
+  "packsVerifyTitle": "Verify installed packs",
+  "@packsVerifyTitle": {
+    "description": "Packs: title of the tile that checks installed packs"
+  },
+  "packsVerifyBody": "Checks every file of each installed pack against its signed list. Nothing is changed.",
+  "@packsVerifyBody": {
+    "description": "Packs: what the verify action does"
+  },
+  "packsVerifyOk": "{count} installed packs checked. All files match.",
+  "@packsVerifyOk": {
+    "description": "Packs: result of verifying, all packs intact. Max 90 characters"
+  },
+  "packsVerifyDamaged": "{count} installed packs have damaged or missing files. Delete them and import again.",
+  "@packsVerifyDamaged": {
+    "description": "Packs: result of verifying, some packs damaged. Max 120 characters"
+  },
+  "packsVerifyUnavailable": "Checking installed packs is not available in this version of BooBoard.",
+  "@packsVerifyUnavailable": {
+    "description": "Packs: shown when this build cannot verify packs yet"
+  },
+  "packsVerifyFailed": "BooBoard could not check the packs. Nothing was changed.",
+  "@packsVerifyFailed": {
+    "description": "Packs: shown when the verify action itself failed"
+  },
+  "packsFreeSpace": "{size} free on this phone.",
+  "@packsFreeSpace": {
+    "description": "Packs: free storage for packs. Max 60 characters"
+  },
+  "packsNothingStored": "Nothing stored yet.",
+  "@packsNothingStored": {
+    "description": "Packs: footer when no pack is installed"
+  },
+  "packsInstalledUse": "Installed packs use {size} on this phone.",
+  "@packsInstalledUse": {
+    "description": "Packs: footer with the total size. {size} is a size such as 300 MB",
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "packErrorBadSignature": "This pack is not signed for BooBoard, so nothing was installed.",
+  "@packErrorBadSignature": {
+    "description": "Pack install error: the signature is wrong. Two lines at most"
+  },
+  "packErrorBadFormat": "This file is not a BooBoard pack. Nothing was installed.",
+  "@packErrorBadFormat": {
+    "description": "Pack install error: wrong file. Two lines at most"
+  },
+  "packErrorTooLarge": "This pack is too large to install on this phone.",
+  "@packErrorTooLarge": {
+    "description": "Pack install error: too big. Two lines at most"
+  },
+  "packErrorVersion": "This pack needs a newer version of BooBoard.",
+  "@packErrorVersion": {
+    "description": "Pack install error: version too old. Two lines at most"
+  },
+  "packErrorNoSpace": "There is not enough free space to install this pack.",
+  "@packErrorNoSpace": {
+    "description": "Pack install error: no storage. Two lines at most"
+  },
+  "packErrorGeneric": "The pack could not be installed. Nothing was changed.",
+  "@packErrorGeneric": {
+    "description": "Pack install error: any other failure. Two lines at most"
+  },
+  "translateDefaultPair": "Default language pair",
+  "@translateDefaultPair": {
+    "description": "Translation: section title for the default pair. Max 30 characters"
+  },
+  "translatePairName": "{from} → {to}",
+  "@translatePairName": {
+    "description": "Translation: a language pair. {from} and {to} are language names",
+    "placeholders": {
+      "from": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      }
+    }
+  },
+  "translateOffline": "Offline translation",
+  "@translateOffline": {
+    "description": "Translation: switch title. Max 30 characters"
+  },
+  "translateOfflineBody": "Translate as you type in the keyboard, and selected text in any app.",
+  "@translateOfflineBody": {
+    "description": "Translation: switch subtitle. Two lines at most"
+  },
+  "translateDefaultPairTile": "Default pair",
+  "@translateDefaultPairTile": {
+    "description": "Translation: row title for the default pair. Max 30 characters"
+  },
+  "translatePackInstalled": "Pack installed",
+  "@translatePackInstalled": {
+    "description": "Translation: status of a pair with its pack. Max 30 characters"
+  },
+  "translatePackNotInstalled": "Pack not installed. Get it in Model packs.",
+  "@translatePackNotInstalled": {
+    "description": "Translation: status of a pair without its pack. Two lines at most"
+  },
+  "translateInstalled": "Installed directions",
+  "@translateInstalled": {
+    "description": "Translation: section title for installed packs. Max 30 characters"
+  },
+  "translateInstalledBody": "Each direction is one pack, for example English → Spanish.",
+  "@translateInstalledBody": {
+    "description": "Translation: explains installed directions. Two lines at most"
+  },
+  "translatePackMeta": "{size} · {license}",
+  "@translatePackMeta": {
+    "description": "Translation: a pack's size and licence. {size} is a size, {license} a licence name",
+    "placeholders": {
+      "license": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "translateModelPacksBody": "Install or delete translation packs",
+  "@translateModelPacksBody": {
+    "description": "Translation: row subtitle for model packs. Two lines at most"
+  },
+  "translateRunsOnPhone": "Translation runs on this phone. Nothing you translate is saved.",
+  "@translateRunsOnPhone": {
+    "description": "Translation: footnote. Two lines at most"
+  },
+  "privacyUnlockReason": "Unlock BooBoard to see your settings and data",
+  "@privacyUnlockReason": {
+    "description": "Shown by the system fingerprint prompt. Max 60 characters"
+  },
+  "privacyLockUnavailable": "Your device lock is not available right now. Try again in a moment.",
+  "@privacyLockUnavailable": {
+    "description": "App lock: the device lock cannot be used now. Two lines at most"
+  },
+  "privacyLockedTitle": "BooBoard is locked",
+  "@privacyLockedTitle": {
+    "description": "App lock screen title. Max 30 characters"
+  },
+  "privacyLockedBody": "Unlock with your fingerprint or your device PIN to continue.",
+  "@privacyLockedBody": {
+    "description": "App lock screen: explains how to unlock. Two lines at most"
+  },
+  "privacyUnlock": "Unlock",
+  "@privacyUnlock": {
+    "description": "App lock screen: unlock button. Max 20 characters"
+  },
+  "backupSaved": "Backup saved ({size}). Keep your passphrase safe.",
+  "@backupSaved": {
+    "description": "Backup: snackbar after saving. {size} is a file size such as 2.4 MB",
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "backupUnlockRetrySaved": "Unlock your phone, then try again. Nothing was saved.",
+  "@backupUnlockRetrySaved": {
+    "description": "Backup: saving needs the phone unlocked. Two lines at most"
+  },
+  "backupSaveFailed": "The backup could not be saved. Nothing was changed.",
+  "@backupSaveFailed": {
+    "description": "Backup: saving failed. Two lines at most"
+  },
+  "backupCheckFailed": "The saved file could not be checked, so it may be damaged. Save the backup again as a new file.",
+  "@backupCheckFailed": {
+    "description": "Backup: the file was written but reading it back did not match. Two lines at most"
+  },
+  "backupWrongPassphrase": "Wrong passphrase, or the file is damaged. Nothing was changed.",
+  "@backupWrongPassphrase": {
+    "description": "Restore: wrong passphrase or broken file. Two lines at most"
+  },
+  "backupInvalidFile": "This file is not a valid BooBoard backup. Nothing was changed.",
+  "@backupInvalidFile": {
+    "description": "Restore: wrong file type. Two lines at most"
+  },
+  "backupTooLarge": "This file is too large to be a BooBoard backup.",
+  "@backupTooLarge": {
+    "description": "Restore: file too big. Two lines at most"
+  },
+  "backupNewerVersion": "This backup was made by a newer version of BooBoard. Update BooBoard to restore it.",
+  "@backupNewerVersion": {
+    "description": "Restore: backup from a newer app. Two lines at most"
+  },
+  "backupBusy": "Finish the other file window first, then try again.",
+  "@backupBusy": {
+    "description": "Restore: another file window is open. Two lines at most"
+  },
+  "backupOpenFailed": "The backup could not be opened. Nothing was changed.",
+  "@backupOpenFailed": {
+    "description": "Restore: any other open failure. Two lines at most"
+  },
+  "backupEmpty": "This backup has nothing in it.",
+  "@backupEmpty": {
+    "description": "Restore: the backup is empty. Max 50 characters"
+  },
+  "backupRestoreTitle": "Restore backup",
+  "@backupRestoreTitle": {
+    "description": "Restore: dialog title. Max 30 characters"
+  },
+  "backupMadeBy": "Made {date} by BooBoard {version}.",
+  "@backupMadeBy": {
+    "description": "Restore: when and with which version the backup was made. {date} and {version} are text",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "backupMerge": "Merge",
+  "@backupMerge": {
+    "description": "Restore: choice to add to existing data. Max 20 characters"
+  },
+  "backupMergeBody": "Keep what is on this phone and add what is in the backup.",
+  "@backupMergeBody": {
+    "description": "Restore: merge choice explanation. Two lines at most"
+  },
+  "backupReplace": "Replace",
+  "@backupReplace": {
+    "description": "Restore: choice to overwrite existing data. Max 20 characters"
+  },
+  "backupReplaceBody": "Make the chosen sections match the backup. Data here is deleted first.",
+  "@backupReplaceBody": {
+    "description": "Restore: replace choice explanation. Two lines at most"
+  },
+  "commonContinue": "Continue",
+  "@commonContinue": {
+    "description": "Continue button in dialogs and onboarding. Max 20 characters"
+  },
+  "backupReplaceTitle": "Replace data on this phone?",
+  "@backupReplaceTitle": {
+    "description": "Restore: confirmation title. Max 50 characters"
+  },
+  "backupReplaceConfirm": "The chosen sections on this phone are deleted and replaced. This cannot be undone.",
+  "@backupReplaceConfirm": {
+    "description": "Restore: replace confirmation. Three lines at most"
+  },
+  "backupPrivacyChangesTitle": "This backup changes your privacy settings",
+  "@backupPrivacyChangesTitle": {
+    "description": "Restore: title of the confirmation that lists privacy settings the backup would change"
+  },
+  "backupPrivacyChangesBody": "Restoring the settings will change these privacy settings on this phone. Check them before you continue.",
+  "@backupPrivacyChangesBody": {
+    "description": "Restore: explains the list of privacy settings below it"
+  },
+  "backupPrivacyChangeLine": "{setting}: {from} → {to}",
+  "@backupPrivacyChangeLine": {
+    "description": "Restore: one changed privacy setting. {setting} is the setting's name, {from} and {to} are the old and new value (On, Off, or a number of apps)",
+    "placeholders": {
+      "setting": {
+        "type": "String"
+      },
+      "from": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      }
+    }
+  },
+  "backupStateOn": "On",
+  "@backupStateOn": {
+    "description": "A privacy setting's value: on (the off value is the existing 'off' string)"
+  },
+  "backupAppsCount": "{count, plural, one {1 app} other {{count} apps}}",
+  "@backupAppsCount": {
+    "description": "Restore: number of apps in the always-incognito list",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "backupRestoreAndChange": "Restore and change",
+  "@backupRestoreAndChange": {
+    "description": "Restore: button that restores and changes the listed privacy settings"
+  },
+  "backupUnlockRetryChanged": "Unlock your phone, then try again. Nothing was changed.",
+  "@backupUnlockRetryChanged": {
+    "description": "Restore: needs the phone unlocked. Two lines at most"
+  },
+  "backupRestoreFailed": "BooBoard could not finish the restore. Some data may not have been written.",
+  "@backupRestoreFailed": {
+    "description": "Restore: failed partway. Two lines at most"
+  },
+  "restoreNothingNew": "Restored nothing new.",
+  "@restoreNothingNew": {
+    "description": "Restore summary when nothing was added. Max 40 characters"
+  },
+  "restoreSummary": "Restored {items}.",
+  "@restoreSummary": {
+    "description": "Restore summary: {items} is a list of added things, already written, such as \"3 shortcuts, settings\"",
+    "placeholders": {
+      "items": {
+        "type": "String"
+      }
+    }
+  },
+  "restoreSummarySkipped": "{added} Skipped: {skipped}.",
+  "@restoreSummarySkipped": {
+    "description": "Restore summary with things that were already here. {added} is the summary above, {skipped} a list",
+    "placeholders": {
+      "added": {
+        "type": "String"
+      },
+      "skipped": {
+        "type": "String"
+      }
+    }
+  },
+  "restoreLearnedFor": "learned words for {count, plural, one {1 language} other {{count} languages}}",
+  "@restoreLearnedFor": {
+    "description": "Restore summary part: learned words in some languages. Lowercase, it follows \"Restored\"",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "countFiles": "{count, plural, one {1 file} other {{count} files}}",
+  "@countFiles": {
+    "description": "Count of files. Max 30 characters",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "countWords": "{count, plural, one {1 word} other {{count} words}}",
+  "@countWords": {
+    "description": "Count of learned words. Max 30 characters",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "countLanguages": "{count, plural, one {1 language} other {{count} languages}}",
+  "@countLanguages": {
+    "description": "Count of languages. Max 30 characters",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "countShortcuts": "{count, plural, one {1 shortcut} other {{count} shortcuts}}",
+  "@countShortcuts": {
+    "description": "Count of personal shortcuts. Max 30 characters",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "countClipboardItems": "{count, plural, one {1 clipboard item} other {{count} clipboard items}}",
+  "@countClipboardItems": {
+    "description": "Count of clipboard items. Max 30 characters",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "countThemeFiles": "{count, plural, one {1 theme file} other {{count} theme files}}",
+  "@countThemeFiles": {
+    "description": "Count of theme files. Max 30 characters",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "countPinnedItems": "{count, plural, one {1 pinned item} other {{count} pinned items}}",
+  "@countPinnedItems": {
+    "description": "Count of pinned clipboard items. Max 30 characters",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "countPacks": "{count, plural, one {1 pack} other {{count} packs}}",
+  "@countPacks": {
+    "description": "Count of model packs. Max 30 characters",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "countBlockedWords": "{count, plural, one {1 blocked word} other {{count} blocked words}}",
+  "@countBlockedWords": {
+    "description": "Count of blocked words. Max 30 characters",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "countTimes": "{count, plural, one {1 time} other {{count} times}}",
+  "@countTimes": {
+    "description": "Count of how often a word was typed. Max 30 characters",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "timeMinutesAgo": "{count, plural, one {1 minute ago} other {{count} minutes ago}}",
+  "@timeMinutesAgo": {
+    "description": "Time since something happened, in minutes. Max 30 characters",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "timeHoursAgo": "{count, plural, one {1 hour ago} other {{count} hours ago}}",
+  "@timeHoursAgo": {
+    "description": "Time since something happened, in hours. Max 30 characters",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "timeDaysAgo": "{count, plural, one {1 day ago} other {{count} days ago}}",
+  "@timeDaysAgo": {
+    "description": "Time since something happened, in days. Max 30 characters",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "timeJustNow": "just now",
+  "@timeJustNow": {
+    "description": "Time since something happened: under a minute. Max 20 characters"
+  },
+  "languagePortuguese": "Portuguese",
+  "@languagePortuguese": {
+    "description": "Language name in English, used in pack and privacy lists. Max 30 characters"
+  },
+  "packMeta": "{languages} · {size} · {license}",
+  "@packMeta": {
+    "description": "Pack line: languages, size and licence, joined with middle dots. Max 80 characters",
+    "placeholders": {
+      "languages": {
+        "type": "String"
+      },
+      "license": {
+        "type": "String"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyLearnedWordsTitle": "Learned words ({language})",
+  "@privacyLearnedWordsTitle": {
+    "description": "Privacy: title of learned words for one language. {language} is a language name",
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyClearLanguageTitle": "Clear {language} words?",
+  "@privacyClearLanguageTitle": {
+    "description": "Privacy: confirmation title. {language} is a language name. Max 40 characters",
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyClearLanguageBody": "This deletes every word learned in this language, and the words you blocked. It cannot be undone.",
+  "@privacyClearLanguageBody": {
+    "description": "Privacy: confirmation text. Three lines at most"
+  },
+  "privacyClear": "Clear",
+  "@privacyClear": {
+    "description": "Privacy: confirm button that clears data. Max 20 characters"
+  },
+  "privacySaveFailed": "Could not save the change. Try again.",
+  "@privacySaveFailed": {
+    "description": "Privacy: a change failed to save. Two lines at most"
+  },
+  "privacyCouldNotReadWords": "BooBoard could not read these words.",
+  "@privacyCouldNotReadWords": {
+    "description": "Learned words: failed to load. Two lines at most"
+  },
+  "privacyCannotReadWordsNow": "BooBoard cannot read these words right now. Unlock your phone, then try again.",
+  "@privacyCannotReadWordsNow": {
+    "description": "Learned words: locked data. Two lines at most"
+  },
+  "privacyNoWordsLanguage": "No words learned in this language yet. BooBoard learns a word after you type it a few times.",
+  "@privacyNoWordsLanguage": {
+    "description": "Learned words: empty list. Two lines at most"
+  },
+  "privacyBlockedWordsTooltip": "Blocked words ({count})",
+  "@privacyBlockedWordsTooltip": {
+    "description": "Learned words: button tooltip with the blocked count. Max 30 characters",
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "privacySortTooltip": "Sort",
+  "@privacySortTooltip": {
+    "description": "Learned words: sort button tooltip. Max 20 characters"
+  },
+  "privacySortMostUsed": "Most used first",
+  "@privacySortMostUsed": {
+    "description": "Learned words: sort option. Max 30 characters"
+  },
+  "privacySortAZ": "A to Z",
+  "@privacySortAZ": {
+    "description": "Learned words: sort option. Max 20 characters"
+  },
+  "privacyMoreTooltip": "More",
+  "@privacyMoreTooltip": {
+    "description": "Learned words and others: more-actions button tooltip. Max 20 characters"
+  },
+  "privacyClearThisLanguage": "Clear this language",
+  "@privacyClearThisLanguage": {
+    "description": "Learned words: menu item. Max 30 characters"
+  },
+  "privacySearchWords": "Search words",
+  "@privacySearchWords": {
+    "description": "Learned words: search field label. Max 30 characters"
+  },
+  "privacyWordsSummary": "{words} · {blocked}",
+  "@privacyWordsSummary": {
+    "description": "Learned words: summary line. {words} and {blocked} are counts such as \"3 words\"",
+    "placeholders": {
+      "blocked": {
+        "type": "String"
+      },
+      "words": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyNoWordsYet": "No words yet.",
+  "@privacyNoWordsYet": {
+    "description": "Learned words: empty search list. Max 40 characters"
+  },
+  "privacyNoWordsMatch": "No words match \"{query}\".",
+  "@privacyNoWordsMatch": {
+    "description": "Learned words: search with no result. {query} is what the user searched for",
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyNeverSuggested": "Never suggested",
+  "@privacyNeverSuggested": {
+    "description": "Learned words: section title for blocked words. Max 30 characters"
+  },
+  "privacyBlockedExplain": "BooBoard will not suggest or correct to these words.",
+  "@privacyBlockedExplain": {
+    "description": "Learned words: explains blocked words. Two lines at most"
+  },
+  "privacyNoBlockedWords": "No blocked words.",
+  "@privacyNoBlockedWords": {
+    "description": "Learned words: empty blocked list. Max 40 characters"
+  },
+  "privacyAllowAgain": "Allow again",
+  "@privacyAllowAgain": {
+    "description": "Learned words: unblock a word. Max 30 characters"
+  },
+  "privacyWordLastUsed": "Typed {count, plural, one {1 time} other {{count} times}} · last {when}",
+  "@privacyWordLastUsed": {
+    "description": "Learned word detail: how often, and when it was last typed. {when} is a time phrase such as \"today\"",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "when": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyWordNotYetSuggested": "Typed once so far, not suggested yet · last {when}",
+  "@privacyWordNotYetSuggested": {
+    "description": "Learned word detail: typed once, not suggested yet. {when} is a time phrase",
+    "placeholders": {
+      "when": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyToday": "today",
+  "@privacyToday": {
+    "description": "Time phrase used in word details. Max 20 characters"
+  },
+  "privacyYesterday": "yesterday",
+  "@privacyYesterday": {
+    "description": "Time phrase used in word details. Max 20 characters"
+  },
+  "privacyActionsFor": "Actions for {word}",
+  "@privacyActionsFor": {
+    "description": "Learned word: tooltip of the word's menu. {word} is a learned word",
+    "placeholders": {
+      "word": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyForgetWord": "Forget this word",
+  "@privacyForgetWord": {
+    "description": "Learned word menu item. Max 30 characters"
+  },
+  "privacyNeverSuggestWord": "Never suggest this word",
+  "@privacyNeverSuggestWord": {
+    "description": "Learned word menu item. Max 40 characters"
+  },
+  "privacyTryAgain": "Try again",
+  "@privacyTryAgain": {
+    "description": "Error state button. Max 20 characters"
+  },
+  "privacyCenterLoadFailed": "BooBoard could not read its privacy data. Try again later.",
+  "@privacyCenterLoadFailed": {
+    "description": "Privacy center: failed to load. Two lines at most"
+  },
+  "privacyDevBuildNetwork": "This build requests internet access. BooBoard should never do that. Please report it.",
+  "@privacyDevBuildNetwork": {
+    "description": "Privacy center: a release build asks for internet. Two lines at most"
+  },
+  "privacyNoInternetPermission": "BooBoard has no internet permission. It cannot send anything.",
+  "@privacyNoInternetPermission": {
+    "description": "Privacy center: release build status. Two lines at most"
+  },
+  "privacyDevBuildNote": "This is a development build. Its network permission is for development tools only.",
+  "@privacyDevBuildNote": {
+    "description": "Privacy center: debug build status. Two lines at most"
+  },
+  "privacyDevBuildShort": "Development build. BooBoard still has no internet permission.",
+  "@privacyDevBuildShort": {
+    "description": "Privacy center: short debug build status. Two lines at most"
+  },
+  "privacyStorageSize": "{size} · changed {when}",
+  "@privacyStorageSize": {
+    "description": "Privacy center: stored data size and when it changed. {size} is a size, {when} a time phrase",
+    "placeholders": {
+      "size": {
+        "type": "String"
+      },
+      "when": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyCustomThemes": "Custom themes",
+  "@privacyCustomThemes": {
+    "description": "Privacy center: stored data row. Max 30 characters"
+  },
+  "privacyNoPacks": "None installed. Voice and translation packs appear here.",
+  "@privacyNoPacks": {
+    "description": "Privacy center: no packs installed. Two lines at most"
+  },
+  "privacyPacksSize": "{count, plural, one {1 pack} other {{count} packs}} · {size}",
+  "@privacyPacksSize": {
+    "description": "Privacy center: packs count and size. {size} is a size",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyWhatBooBoardStores": "What BooBoard stores",
+  "@privacyWhatBooBoardStores": {
+    "description": "Privacy center: group title. Max 30 characters"
+  },
+  "privacyShowsSizesOnly": "BooBoard shows only sizes here, never what is inside. Sizes include the last saved copy, which keeps your data safe if a save is interrupted.",
+  "@privacyShowsSizesOnly": {
+    "description": "Privacy center: explains sizes. Three lines at most"
+  },
+  "privacyTypingPrivacy": "Typing privacy",
+  "@privacyTypingPrivacy": {
+    "description": "Privacy center: section title. Max 30 characters"
+  },
+  "privacyLearnNewWords": "Learn new words",
+  "@privacyLearnNewWords": {
+    "description": "Privacy center: switch title. Max 30 characters"
+  },
+  "privacyLearnNewWordsBody": "Learn words and phrases from what you type. Never in password fields or incognito.",
+  "@privacyLearnNewWordsBody": {
+    "description": "Privacy center: switch subtitle. Two lines at most"
+  },
+  "privacyIncognito": "Incognito",
+  "@privacyIncognito": {
+    "description": "Privacy center: switch title. Max 20 characters"
+  },
+  "privacyIncognitoBody": "Learn and remember nothing while on. Browser incognito tabs turn this on by themselves.",
+  "@privacyIncognitoBody": {
+    "description": "Privacy center: switch subtitle. Two lines at most"
+  },
+  "privacyHideScreenshots": "Hide from screenshots",
+  "@privacyHideScreenshots": {
+    "description": "Privacy center: switch title. Max 30 characters"
+  },
+  "privacyHideScreenshotsBody": "Stop screenshots and screen recordings of the keyboard in every app. Password fields are always hidden.",
+  "@privacyHideScreenshotsBody": {
+    "description": "Privacy center: switch subtitle. Two lines at most"
+  },
+  "privacyAutoOffApps": "Turned off automatically in these apps",
+  "@privacyAutoOffApps": {
+    "description": "Privacy center: section title for apps where BooBoard turns off. Max 50 characters"
+  },
+  "privacyAutoOffAppsBody": "BooBoard keeps app names only to fill this list. They are encrypted, never recorded while incognito, and you can clear them below.",
+  "@privacyAutoOffAppsBody": {
+    "description": "Privacy center: explains the app list. Three lines at most"
+  },
+  "privacyNoAppsYet": "No apps yet",
+  "@privacyNoAppsYet": {
+    "description": "Privacy center: empty app list. Max 30 characters"
+  },
+  "privacyNoAppsYetBody": "Apps you type in will appear here.",
+  "@privacyNoAppsYetBody": {
+    "description": "Privacy center: empty app list detail. Two lines at most"
+  },
+  "privacyAlwaysIncognitoApps": "Always incognito apps",
+  "@privacyAlwaysIncognitoApps": {
+    "description": "Privacy center: group title. Max 40 characters"
+  },
+  "privacyPersonalShortcuts": "Personal shortcuts",
+  "@privacyPersonalShortcuts": {
+    "description": "Privacy center and shortcuts screen title. Max 30 characters"
+  },
+  "privacyOfferShortcuts": "Offer shortcuts",
+  "@privacyOfferShortcuts": {
+    "description": "Privacy center: switch title. Max 30 characters"
+  },
+  "privacyOfferShortcutsBody": "Show your short forms, such as \"omw\", as the first suggestion.",
+  "@privacyOfferShortcutsBody": {
+    "description": "Privacy center: switch subtitle. Two lines at most"
+  },
+  "privacyEditShortcuts": "Edit shortcuts",
+  "@privacyEditShortcuts": {
+    "description": "Privacy center: row title. Max 30 characters"
+  },
+  "privacyNoShortcutsYet": "None yet",
+  "@privacyNoShortcutsYet": {
+    "description": "Privacy center: no shortcuts yet. Max 30 characters"
+  },
+  "privacyLearnedAndClipboard": "Learned words and clipboard",
+  "@privacyLearnedAndClipboard": {
+    "description": "Privacy center: section title. Max 40 characters"
+  },
+  "privacyNoWordsLearnedYet": "No words learned yet",
+  "@privacyNoWordsLearnedYet": {
+    "description": "Privacy center: empty learned words. Max 40 characters"
+  },
+  "privacyWordsLearnedBody": "Words you type are learned here once BooBoard has seen them a few times.",
+  "@privacyWordsLearnedBody": {
+    "description": "Privacy center: explains learned words. Two lines at most"
+  },
+  "privacyReviewWords": "Review, remove or block words · {when}",
+  "@privacyReviewWords": {
+    "description": "Privacy center: row subtitle for learned words. {when} is a time phrase",
+    "placeholders": {
+      "when": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyClipboardHistoryEmpty": "History is empty. Change clipboard settings in Panels.",
+  "@privacyClipboardHistoryEmpty": {
+    "description": "Privacy center: clipboard history empty. Two lines at most"
+  },
+  "privacyClipboardInHistory": "{size} in history. Change clipboard settings in Panels.",
+  "@privacyClipboardInHistory": {
+    "description": "Privacy center: clipboard history size. {size} is a size",
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyAppLock": "App lock",
+  "@privacyAppLock": {
+    "description": "Privacy center: section title. Max 30 characters"
+  },
+  "privacyLockBooBoard": "Lock BooBoard",
+  "@privacyLockBooBoard": {
+    "description": "Privacy center: switch title. Max 30 characters"
+  },
+  "privacyLockBooBoardBody": "Ask for your fingerprint or device PIN when the app opens, or after it was in the background.",
+  "@privacyLockBooBoardBody": {
+    "description": "Privacy center: switch subtitle. Three lines at most"
+  },
+  "privacyLockAfter": "Lock after",
+  "@privacyLockAfter": {
+    "description": "Privacy center: slider and dialog title. Max 30 characters"
+  },
+  "privacySetScreenLockFirst": "Set a screen lock first",
+  "@privacySetScreenLockFirst": {
+    "description": "Privacy center: dialog title when the device has no lock. Max 40 characters"
+  },
+  "privacySetScreenLockBody": "App lock uses your fingerprint or device PIN. Set a PIN, pattern or password in Android's security settings, then come back.",
+  "@privacySetScreenLockBody": {
+    "description": "Privacy center: dialog text. Three lines at most"
+  },
+  "privacyTurnOnAppLockReason": "Turn on app lock for BooBoard",
+  "@privacyTurnOnAppLockReason": {
+    "description": "Shown by the system fingerprint prompt when turning on app lock. Max 60 characters"
+  },
+  "privacyNotAvailable": "Not available right now",
+  "@privacyNotAvailable": {
+    "description": "Privacy center: dialog title when the device lock cannot be used. Max 40 characters"
+  },
+  "privacyNotAvailableBody": "Your device lock could not be used. App lock stays off.",
+  "@privacyNotAvailableBody": {
+    "description": "Privacy center: dialog text. Two lines at most"
+  },
+  "privacyBackupTitle": "Backup",
+  "@privacyBackupTitle": {
+    "description": "Privacy center: section title. Max 20 characters"
+  },
+  "privacyBackupRestore": "Backup and restore",
+  "@privacyBackupRestore": {
+    "description": "Privacy center row title. Max 30 characters"
+  },
+  "privacyBackupRestoreBody": "An encrypted .boobackup file you keep. You choose what goes in it.",
+  "@privacyBackupRestoreBody": {
+    "description": "Privacy center row subtitle. Two lines at most. .boobackup is a file extension"
+  },
+  "privacyDeleteData": "Delete data",
+  "@privacyDeleteData": {
+    "description": "Privacy center: section title. Max 30 characters"
+  },
+  "privacyEraseEverything": "Erase everything",
+  "@privacyEraseEverything": {
+    "description": "Privacy center row title. Max 30 characters"
+  },
+  "privacyEraseEverythingBody": "Every category above, your custom themes, and the key that protects them.",
+  "@privacyEraseEverythingBody": {
+    "description": "Privacy center row subtitle. Two lines at most"
+  },
+  "privacyDeleteTitle": "Delete {category}?",
+  "@privacyDeleteTitle": {
+    "description": "Privacy center: confirmation title. {category} is a category name in lower case",
+    "placeholders": {
+      "category": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyEraseTitle": "Erase everything?",
+  "@privacyEraseTitle": {
+    "description": "Privacy center: confirmation title for erasing all. Max 40 characters"
+  },
+  "privacyWillDelete": "This will permanently delete:",
+  "@privacyWillDelete": {
+    "description": "Privacy center: confirmation list heading. Max 60 characters"
+  },
+  "privacyResetSettings": "Also reset all settings to their defaults",
+  "@privacyResetSettings": {
+    "description": "Privacy center: switch in the erase dialog. Max 60 characters"
+  },
+  "privacyCannotBeUndone": "This cannot be undone.",
+  "@privacyCannotBeUndone": {
+    "description": "Confirmation dialog: warning text. Max 60 characters"
+  },
+  "privacyDeleted": "Deleted.",
+  "@privacyDeleted": {
+    "description": "Privacy center: snackbar after deleting. Max 30 characters"
+  },
+  "privacyDeleteFailed": "BooBoard could not delete everything. Try again.",
+  "@privacyDeleteFailed": {
+    "description": "Privacy center: deletion failed. Two lines at most"
+  },
+  "privacyOk": "OK",
+  "@privacyOk": {
+    "description": "Dialog confirm button for information dialogs. Max 10 characters"
+  },
+  "backupMakeTitle": "Make a backup",
+  "@backupMakeTitle": {
+    "description": "Backup screen: section title. Max 30 characters"
+  },
+  "backupIncludeImages": "Include background images",
+  "@backupIncludeImages": {
+    "description": "Backup: switch title. Max 40 characters"
+  },
+  "backupPhotosLarger": "Photos make the file much larger.",
+  "@backupPhotosLarger": {
+    "description": "Backup: switch subtitle. Max 60 characters"
+  },
+  "backupCreateButton": "Create encrypted backup",
+  "@backupCreateButton": {
+    "description": "Backup: button. Max 30 characters"
+  },
+  "backupRestoreSection": "Restore",
+  "@backupRestoreSection": {
+    "description": "Backup screen: section title. Max 20 characters"
+  },
+  "backupRestoreFromFile": "Restore from a backup file",
+  "@backupRestoreFromFile": {
+    "description": "Backup: row title. Max 40 characters"
+  },
+  "backupRestoreFromFileBody": "Open a .boobackup file, check what is in it, then merge or replace.",
+  "@backupRestoreFromFileBody": {
+    "description": "Backup: row subtitle. Two lines at most"
+  },
+  "backupChoosePassphrase": "Choose a passphrase",
+  "@backupChoosePassphrase": {
+    "description": "Backup: passphrase dialog title when creating. Max 40 characters"
+  },
+  "backupEnterPassphrase": "Enter the passphrase",
+  "@backupEnterPassphrase": {
+    "description": "Backup: passphrase dialog title when opening. Max 40 characters"
+  },
+  "backupWriteItDown": "Write it down somewhere safe. A lost passphrase cannot be recovered.",
+  "@backupWriteItDown": {
+    "description": "Backup: warning when creating. Two lines at most"
+  },
+  "backupPassphrase": "Passphrase",
+  "@backupPassphrase": {
+    "description": "Backup: passphrase field label. Max 20 characters"
+  },
+  "backupTypeAgain": "Type it again",
+  "@backupTypeAgain": {
+    "description": "Backup: confirm passphrase field label. Max 30 characters"
+  },
+  "backupMismatch": "The passphrases do not match",
+  "@backupMismatch": {
+    "description": "Backup: error under the confirm field. Max 50 characters"
+  },
+  "backupStrength": "Passphrase strength: {strength}",
+  "@backupStrength": {
+    "description": "Backup: strength meter label. {strength} is Too short, Weak, Fair, Good or Strong",
+    "placeholders": {
+      "strength": {
+        "type": "String"
+      }
+    }
+  },
+  "strengthTooShort": "Use at least 8 characters",
+  "@strengthTooShort": {
+    "description": "Passphrase strength label: too short. Max 40 characters"
+  },
+  "strengthWeak": "Weak",
+  "@strengthWeak": {
+    "description": "Passphrase strength: weak. Max 20 characters"
+  },
+  "strengthFair": "Fair",
+  "@strengthFair": {
+    "description": "Passphrase strength: fair. Max 20 characters"
+  },
+  "strengthGood": "Good",
+  "@strengthGood": {
+    "description": "Passphrase strength: good. Max 20 characters"
+  },
+  "strengthStrong": "Strong",
+  "@strengthStrong": {
+    "description": "Passphrase strength: strong. Max 20 characters"
+  },
+  "backupOpen": "Open",
+  "@backupOpen": {
+    "description": "Backup: button to open a file. Max 20 characters"
+  },
+  "backupNothingYet": "Nothing yet",
+  "@backupNothingYet": {
+    "description": "Backup: section size when the store is empty. Max 20 characters"
+  },
+  "backupSettingsSummary": "Theme, languages, typing and privacy choices",
+  "@backupSettingsSummary": {
+    "description": "Backup: what the settings section holds. Two lines at most"
+  },
+  "backupLearnedSummary": "{words} in {languages}",
+  "@backupLearnedSummary": {
+    "description": "Backup: learned words summary. {words} and {languages} are counts such as \"3 words in 2 languages\"",
+    "placeholders": {
+      "languages": {
+        "type": "String"
+      },
+      "words": {
+        "type": "String"
+      }
+    }
+  },
+  "backupPinnedOff": "{items}. Off unless you turn it on.",
+  "@backupPinnedOff": {
+    "description": "Backup: clipboard section summary when it is off. {items} is a count such as \"2 pinned items\"",
+    "placeholders": {
+      "items": {
+        "type": "String"
+      }
+    }
+  },
+  "backupAlreadyHere": "{count, plural, one {1 shortcut already here} other {{count} shortcuts already here}}",
+  "@backupAlreadyHere": {
+    "description": "Restore summary: shortcuts skipped because they exist. Max 60 characters",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "backupThemesAlreadyHere": "{count, plural, one {1 theme file already here} other {{count} theme files already here}}",
+  "@backupThemesAlreadyHere": {
+    "description": "Restore summary: theme files skipped because they exist. Max 60 characters",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "backupClipboardKept": "clipboard left alone (unknown layout)",
+  "@backupClipboardKept": {
+    "description": "Restore summary part: clipboard not restored. Lowercase, follows \"Restored\""
+  },
+  "backupEmojiKept": "emoji recents kept",
+  "@backupEmojiKept": {
+    "description": "Restore summary part: recent emoji kept. Lowercase"
+  },
+  "backupSettingsApplied": "settings",
+  "@backupSettingsApplied": {
+    "description": "Restore summary part: settings were applied. Lowercase"
+  },
+  "backupLearnedAdded": "learned words for {count, plural, one {1 language} other {{count} languages}}",
+  "@backupLearnedAdded": {
+    "description": "Restore summary part: learned words added. Lowercase. Same wording as restoreLearnedFor",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "shortcutDeleteTitle": "Delete \"{trigger}\"?",
+  "@shortcutDeleteTitle": {
+    "description": "Shortcuts: dialog title. {trigger} is the short form. Max 40 characters",
+    "placeholders": {
+      "trigger": {
+        "type": "String"
+      }
+    }
+  },
+  "shortcutDeleteBody": "This removes the shortcut. It cannot be undone.",
+  "@shortcutDeleteBody": {
+    "description": "Shortcuts: dialog text. Two lines at most"
+  },
+  "shortcutAdd": "Add shortcut",
+  "@shortcutAdd": {
+    "description": "Shortcuts: button. Max 30 characters"
+  },
+  "shortcutSearch": "Search shortcuts",
+  "@shortcutSearch": {
+    "description": "Shortcuts: search field label. Max 30 characters"
+  },
+  "shortcutNoMatch": "No shortcuts match your search.",
+  "@shortcutNoMatch": {
+    "description": "Shortcuts: empty search result. Max 50 characters"
+  },
+  "shortcutDeleteTooltip": "Delete {trigger}",
+  "@shortcutDeleteTooltip": {
+    "description": "Shortcuts: delete button tooltip. {trigger} is the short form. Max 30 characters",
+    "placeholders": {
+      "trigger": {
+        "type": "String"
+      }
+    }
+  },
+  "shortcutNoneYet": "No shortcuts yet",
+  "@shortcutNoneYet": {
+    "description": "Shortcuts: empty list title. Max 30 characters"
+  },
+  "shortcutExplain": "A shortcut turns a short form into longer text. Examples:",
+  "@shortcutExplain": {
+    "description": "Shortcuts: explains what a shortcut is. Two lines at most"
+  },
+  "shortcutExamples": "{first}\n{second}",
+  "@shortcutExamples": {
+    "description": "Shortcuts: two example lines, each \"short form → expansion\". {first} and {second} are the example lines",
+    "placeholders": {
+      "first": {
+        "type": "String"
+      },
+      "second": {
+        "type": "String"
+      }
+    }
+  },
+  "shortcutEncrypted": "Shortcuts are encrypted on this phone, like your learned words.",
+  "@shortcutEncrypted": {
+    "description": "Shortcuts: privacy note. Two lines at most"
+  },
+  "shortcutNew": "New shortcut",
+  "@shortcutNew": {
+    "description": "Shortcuts: dialog title for a new shortcut. Max 30 characters"
+  },
+  "shortcutEdit": "Edit shortcut",
+  "@shortcutEdit": {
+    "description": "Shortcuts: dialog title for editing. Max 30 characters"
+  },
+  "shortcutShortForm": "Short form",
+  "@shortcutShortForm": {
+    "description": "Shortcuts: field label. Max 20 characters"
+  },
+  "shortcutExpandsTo": "Expands to",
+  "@shortcutExpandsTo": {
+    "description": "Shortcuts: field label. Max 20 characters"
+  },
+  "privacyMascotLabel": "BooBoard privacy mascot",
+  "@privacyMascotLabel": {
+    "description": "Accessibility label of the privacy mascot picture. Max 40 characters"
+  },
+  "privacyStoredEmoji": "Emoji recents",
+  "@privacyStoredEmoji": {
+    "description": "Privacy: stored data name. Max 30 characters"
+  },
+  "privacyStoredApps": "Apps list",
+  "@privacyStoredApps": {
+    "description": "Privacy: stored data name for the app list. Max 30 characters"
+  },
+  "privacyStoredOther": "Other stored data",
+  "@privacyStoredOther": {
+    "description": "Privacy: stored data name for anything else. Max 30 characters"
+  },
+  "privacyUnitBytes": "{count} B",
+  "@privacyUnitBytes": {
+    "description": "A size in bytes. {count} is a number",
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "privacyUnitKilobytes": "{count} KB",
+  "@privacyUnitKilobytes": {
+    "description": "A size in kilobytes. {count} is a number",
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "privacyUnitMegabytes": "{count} MB",
+  "@privacyUnitMegabytes": {
+    "description": "A size in megabytes. {count} is a number",
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "shortcutProblemEmptyTrigger": "Type the short form you want to expand.",
+  "@shortcutProblemEmptyTrigger": {
+    "description": "Shortcut error: empty short form. Two lines at most"
+  },
+  "shortcutProblemTriggerTooLong": "The short form can be at most {count} characters.",
+  "@shortcutProblemTriggerTooLong": {
+    "description": "Shortcut error: too long. {count} is a number",
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "shortcutProblemTriggerCharacters": "Use only letters, digits and apostrophes in the short form.",
+  "@shortcutProblemTriggerCharacters": {
+    "description": "Shortcut error: bad characters. Two lines at most"
+  },
+  "shortcutProblemEmptyExpansion": "Type what the short form should expand to.",
+  "@shortcutProblemEmptyExpansion": {
+    "description": "Shortcut error: empty expansion. Two lines at most"
+  },
+  "shortcutProblemExpansionTooLong": "The expansion can be at most {count} characters.",
+  "@shortcutProblemExpansionTooLong": {
+    "description": "Shortcut error: expansion too long. {count} is a number",
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "shortcutProblemDuplicate": "You already have a shortcut with this short form.",
+  "@shortcutProblemDuplicate": {
+    "description": "Shortcut error: duplicate. Two lines at most"
+  },
+  "shortcutProblemTooMany": "You can keep at most {count} shortcuts.",
+  "@shortcutProblemTooMany": {
+    "description": "Shortcut error: too many. {count} is a number",
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "onboardingWelcomeTitle": "Hi, I'm *Boo.*",
+  "@onboardingWelcomeTitle": {
+    "description": "Onboarding welcome page headline, spoken by Boo the ghost mascot. Text between asterisks is set in italic; keep the asterisks. Max 20 characters"
+  },
+  "onboardingWelcomeBody": "I'm a keyboard that never goes online. What you type stays on this phone, locked away.",
+  "@onboardingWelcomeBody": {
+    "description": "Onboarding welcome page: Boo introduces the keyboard, in the first person. Two short sentences"
+  },
+  "onboardingWelcomeStart": "Let's set up",
+  "@onboardingWelcomeStart": {
+    "description": "Onboarding welcome page button that starts setup. Max 20 characters"
+  },
+  "onboardingMascotLabel": "Boo, the BooBoard ghost",
+  "@onboardingMascotLabel": {
+    "description": "Screen reader label for the floating ghost mascot on the welcome page"
+  },
+  "onboardingFactNoInternet": "No internet permission",
+  "@onboardingFactNoInternet": {
+    "description": "Onboarding privacy step: row title. Max 30 characters"
+  },
+  "onboardingFactOpenSource": "Open source",
+  "@onboardingFactOpenSource": {
+    "description": "Onboarding privacy step: row title. Max 30 characters"
+  },
+  "onboardingFactOpenSourceBody": "Anyone can read the code and check.",
+  "@onboardingFactOpenSourceBody": {
+    "description": "Onboarding privacy step: row text under \"Open source\""
+  },
+  "onboardingDemoKeyboards": "Keyboard apps",
+  "@onboardingDemoKeyboards": {
+    "description": "Onboarding demo animation: title of Android's keyboard list (as Android shows it)"
+  },
+  "onboardingDemoOtherKeyboard": "Other keyboard",
+  "@onboardingDemoOtherKeyboard": {
+    "description": "Onboarding demo animation: a placeholder name for the phone's other keyboard"
+  },
+  "onboardingDemoAttention": "Attention",
+  "@onboardingDemoAttention": {
+    "description": "Onboarding demo animation: title of Android's warning dialog"
+  },
+  "onboardingDemoAttentionBody": "This input method may be able to collect all the text you type… Use this input method?",
+  "@onboardingDemoAttentionBody": {
+    "description": "Onboarding demo animation: Android's warning text, shortened"
+  },
+  "onboardingDemoOk": "OK",
+  "@onboardingDemoOk": {
+    "description": "Onboarding demo animation: the OK button in Android's dialog"
+  },
+  "onboardingDemoChooseInput": "Choose input method",
+  "@onboardingDemoChooseInput": {
+    "description": "Onboarding demo animation: title of Android's keyboard picker"
+  },
+  "onboardingDemoSwitchOn": "Switch on",
+  "@onboardingDemoSwitchOn": {
+    "description": "Onboarding demo caption, step 1 of 3. Max 14 characters"
+  },
+  "onboardingDemoTapOk": "OK, then OK",
+  "@onboardingDemoTapOk": {
+    "description": "Onboarding demo caption, step 2 of 3. Max 14 characters"
+  },
+  "onboardingDemoComeBack": "Come back",
+  "@onboardingDemoComeBack": {
+    "description": "Onboarding demo caption, step 3 of 3. Max 14 characters"
+  },
+  "onboardingDemoPick": "Pick BooBoard",
+  "@onboardingDemoPick": {
+    "description": "Onboarding demo caption, step 1 of 2. Max 16 characters"
+  },
+  "onboardingDemoStartTyping": "Start typing",
+  "@onboardingDemoStartTyping": {
+    "description": "Onboarding demo caption, step 2 of 2. Max 16 characters"
+  },
+  "onboardingDemoRebootNote": "Note: After a reboot, this app can't start until you unlock your phone",
+  "@onboardingDemoRebootNote": {
+    "description": "Onboarding demo animation: Android's second notice after switching a keyboard on (as Android shows it)"
+  },
+  "onboardingDemoChatIn": "See you at 7?",
+  "@onboardingDemoChatIn": {
+    "description": "Onboarding demo animation: a short incoming chat message. Keep it short"
+  },
+  "onboardingDemoChatOut": "On my way",
+  "@onboardingDemoChatOut": {
+    "description": "Onboarding demo animation: a short outgoing chat reply. Keep it short"
+  },
+  "onboardingDemoMessage": "Message",
+  "@onboardingDemoMessage": {
+    "description": "Onboarding demo animation: placeholder of a chat app's message field"
+  },
+  "onboardingShh": "shh",
+  "@onboardingShh": {
+    "description": "Onboarding, privacy step: Boo's whisper in a speech bubble (a sound for 'quiet'). Max 6 characters"
+  },
+  "onboardingTryMe": "Try me",
+  "@onboardingTryMe": {
+    "description": "Onboarding, try step: Boo's speech bubble. Max 12 characters"
+  },
+  "onboardingTurnOnTitle": "Turn on *BooBoard*",
+  "@onboardingTurnOnTitle": {
+    "description": "Onboarding: serif headline. Text between asterisks is set in italic; keep the asterisks around one word or short phrase. Max 30 characters"
+  },
+  "onboardingTurnOnBody": "Switch it on in Android's keyboard list, then come back. This page notices by itself.",
+  "@onboardingTurnOnBody": {
+    "description": "Onboarding: step explanation. Three lines at most"
+  },
+  "onboardingKeyboardOn": "BooBoard is on",
+  "@onboardingKeyboardOn": {
+    "description": "Onboarding: status when BooBoard is on. Max 40 characters"
+  },
+  "onboardingKeyboardOff": "Not on yet",
+  "@onboardingKeyboardOff": {
+    "description": "Onboarding: status when BooBoard is off. Max 40 characters"
+  },
+  "onboardingOpenKeyboardSettings": "Open keyboard settings",
+  "@onboardingOpenKeyboardSettings": {
+    "description": "Onboarding: button. Max 30 characters"
+  },
+  "onboardingSwitchTitle": "Make it *yours*",
+  "@onboardingSwitchTitle": {
+    "description": "Onboarding: serif headline. Text between asterisks is set in italic; keep the asterisks around one word or short phrase. Max 30 characters"
+  },
+  "onboardingSwitchBody": "Pick BooBoard from Android's short list. You can switch back any time.",
+  "@onboardingSwitchBody": {
+    "description": "Onboarding: step explanation. Three lines at most"
+  },
+  "onboardingKeyboardIsYours": "BooBoard is your keyboard",
+  "@onboardingKeyboardIsYours": {
+    "description": "Onboarding: status when BooBoard is chosen. Max 40 characters"
+  },
+  "onboardingKeyboardNotYours": "Not your keyboard yet",
+  "@onboardingKeyboardNotYours": {
+    "description": "Onboarding: status when BooBoard is on but not chosen. Max 40 characters"
+  },
+  "onboardingTurnOnFirst": "Turn it on first",
+  "@onboardingTurnOnFirst": {
+    "description": "Onboarding: status when the previous step is not done. Two lines at most"
+  },
+  "onboardingChooseKeyboard": "Choose keyboard",
+  "@onboardingChooseKeyboard": {
+    "description": "Onboarding: button. Max 30 characters"
+  },
+  "onboardingCheckingPermissions": "Checking the app permissions…",
+  "@onboardingCheckingPermissions": {
+    "description": "Onboarding: privacy step while permissions are read. Max 60 characters"
+  },
+  "onboardingDebugInternet": "This debug build can reach the internet. Debug builds have that permission for development only.",
+  "@onboardingDebugInternet": {
+    "description": "Onboarding: debug build privacy note. Three lines at most"
+  },
+  "onboardingReleaseInternet": "This build can reach the internet.",
+  "@onboardingReleaseInternet": {
+    "description": "Onboarding: privacy note for a build that can reach the internet. Two lines at most"
+  },
+  "onboardingNoInternet": "BooBoard has no internet permission, so it cannot send anything anywhere.",
+  "@onboardingNoInternet": {
+    "description": "Onboarding: privacy note. Two lines at most"
+  },
+  "onboardingWarningTitle": "About that *warning*",
+  "@onboardingWarningTitle": {
+    "description": "Onboarding: serif headline. Text between asterisks is set in italic; keep the asterisks around one word or short phrase. Max 30 characters"
+  },
+  "onboardingWarningBody": "Android shows it for every keyboard, because a keyboard could send what you type online. BooBoard can't.",
+  "@onboardingWarningBody": {
+    "description": "Onboarding: explanation. Four lines at most"
+  },
+  "onboardingInternetAccess": "Internet access",
+  "@onboardingInternetAccess": {
+    "description": "Onboarding: privacy row title. Max 30 characters"
+  },
+  "onboardingEverythingHere": "Kept on this phone",
+  "@onboardingEverythingHere": {
+    "description": "Onboarding: privacy row title. Max 40 characters"
+  },
+  "onboardingEverythingHereBody": "Learned words, clipboard and settings are encrypted with a key in Android Keystore.",
+  "@onboardingEverythingHereBody": {
+    "description": "Onboarding: privacy row subtitle. Two lines at most. Android Keystore is the name of the Android key store"
+  },
+  "onboardingLanguagesTitle": "Your *languages*",
+  "@onboardingLanguagesTitle": {
+    "description": "Onboarding: serif headline. Text between asterisks is set in italic; keep the asterisks around one word or short phrase. Max 30 characters"
+  },
+  "onboardingThemeTitle": "Theme",
+  "@onboardingThemeTitle": {
+    "description": "Onboarding: theme card title. Max 20 characters"
+  },
+  "onboardingTryTyping": "Type a sentence",
+  "@onboardingTryTyping": {
+    "description": "Onboarding: try-it checklist item. Max 40 characters"
+  },
+  "onboardingTrySwipe": "Swipe a word, letter to letter",
+  "@onboardingTrySwipe": {
+    "description": "Onboarding: try-it checklist item. Two lines at most"
+  },
+  "onboardingTryAccents": "Long-press a letter for accents",
+  "@onboardingTryAccents": {
+    "description": "Onboarding: try-it checklist item. Two lines at most"
+  },
+  "onboardingTryTitle": "Give it a *try*",
+  "@onboardingTryTitle": {
+    "description": "Onboarding: serif headline. Text between asterisks is set in italic; keep the asterisks around one word or short phrase. Max 30 characters"
+  },
+  "onboardingTryField": "Type something here",
+  "@onboardingTryField": {
+    "description": "Onboarding: text field label. Max 30 characters"
+  },
+  "onboardingAllSetTitle": "You're *all set.*",
+  "@onboardingAllSetTitle": {
+    "description": "Onboarding: serif headline. Text between asterisks is set in italic; keep the asterisks around one word or short phrase. Max 30 characters"
+  },
+  "onboardingAllSetBody": "Languages, typing, themes and more are in Settings whenever you want them.",
+  "@onboardingAllSetBody": {
+    "description": "Onboarding: last step explanation. Three lines at most"
+  },
+  "onboardingStepOf": "Step {step} of {total}",
+  "@onboardingStepOf": {
+    "description": "Onboarding: progress label for screen readers. {step} and {total} are numbers",
+    "placeholders": {
+      "step": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "onboardingBack": "Back",
+  "@onboardingBack": {
+    "description": "Onboarding: back button. Max 20 characters"
+  },
+  "onboardingNext": "Next",
+  "@onboardingNext": {
+    "description": "Onboarding: next button. Max 20 characters"
+  },
+  "onboardingDone": "Done",
+  "@onboardingDone": {
+    "description": "Onboarding and dialogs: finish button. Max 20 characters"
+  },
+  "onboardingSearchLanguages": "Search languages",
+  "@onboardingSearchLanguages": {
+    "description": "Onboarding: search field hint. Max 30 characters"
+  },
+  "onboardingSelected": "Selected: {languages}",
+  "@onboardingSelected": {
+    "description": "Onboarding: summary of the selected languages. {languages} is a list of names",
+    "placeholders": {
+      "languages": {
+        "type": "String"
+      }
+    }
+  },
+  "onboardingNoLanguageMatch": "No language matches that search.",
+  "@onboardingNoLanguageMatch": {
+    "description": "Onboarding: empty search result. Max 50 characters"
+  },
+  "themeCreate": "Create theme",
+  "@themeCreate": {
+    "description": "Themes: button and label to create a theme. Max 30 characters"
+  },
+  "themeSelectedLabel": "{name}, selected",
+  "@themeSelectedLabel": {
+    "description": "Themes: card label when selected. {name} is the theme name",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "themeCardOptions": "Options for {name}",
+  "@themeCardOptions": {
+    "description": "Themes: tooltip of a theme card's menu. {name} is the theme name",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "themeEdit": "Edit",
+  "@themeEdit": {
+    "description": "Themes: menu item. Max 20 characters"
+  },
+  "themeDuplicate": "Duplicate",
+  "@themeDuplicate": {
+    "description": "Themes: menu item. Max 20 characters"
+  },
+  "themeRename": "Rename",
+  "@themeRename": {
+    "description": "Themes: menu item. Max 20 characters"
+  },
+  "themeDeleteAction": "Delete",
+  "@themeDeleteAction": {
+    "description": "Themes: menu item to delete a theme. Max 20 characters"
+  },
+  "themeTryTyping": "Try typing",
+  "@themeTryTyping": {
+    "description": "Themes: section title for the try-it field. Max 30 characters"
+  },
+  "themeTryLabel": "Type here to try the theme",
+  "@themeTryLabel": {
+    "description": "Themes: label of the try-it field. Max 40 characters"
+  },
+  "themeTryHelper": "The keyboard appears here when BooBoard is selected.",
+  "@themeTryHelper": {
+    "description": "Themes: helper under the try-it field. Two lines at most"
+  },
+  "themeRenameTitle": "Rename theme",
+  "@themeRenameTitle": {
+    "description": "Themes: rename dialog title. Max 30 characters"
+  },
+  "themeNameField": "Name",
+  "@themeNameField": {
+    "description": "Theme editor and rename dialog: field label. Max 20 characters"
+  },
+  "themeEditTitle": "Edit theme",
+  "@themeEditTitle": {
+    "description": "Theme editor: app bar title when editing. Max 30 characters"
+  },
+  "themeNewTitle": "New theme",
+  "@themeNewTitle": {
+    "description": "Theme editor: app bar title when creating. Max 30 characters"
+  },
+  "themeEditorTitle": "Theme",
+  "@themeEditorTitle": {
+    "description": "Theme editor: app bar title while loading. Max 20 characters"
+  },
+  "themeOpenFailed": "This theme could not be opened.",
+  "@themeOpenFailed": {
+    "description": "Theme editor: loading failed. Two lines at most"
+  },
+  "themeSaveFailed": "Could not save the theme.",
+  "@themeSaveFailed": {
+    "description": "Theme editor: save failed. Max 50 characters"
+  },
+  "themePhotoPickerFailed": "The photo picker could not open.",
+  "@themePhotoPickerFailed": {
+    "description": "Theme editor: photo picker failed. Max 50 characters"
+  },
+  "themeDiscardTitle": "Discard changes?",
+  "@themeDiscardTitle": {
+    "description": "Theme editor: confirmation title. Max 40 characters"
+  },
+  "themeDiscardBody": "Your changes to this theme will be lost.",
+  "@themeDiscardBody": {
+    "description": "Theme editor: confirmation text. Two lines at most"
+  },
+  "themeKeepEditing": "Keep editing",
+  "@themeKeepEditing": {
+    "description": "Theme editor: button to stay. Max 30 characters"
+  },
+  "themeDiscard": "Discard",
+  "@themeDiscard": {
+    "description": "Theme editor: button to discard. Max 20 characters"
+  },
+  "themeSave": "Save",
+  "@themeSave": {
+    "description": "Theme editor: save button. Max 20 characters"
+  },
+  "themeNameRequired": "A name is required",
+  "@themeNameRequired": {
+    "description": "Theme editor: error under the name field. Max 40 characters"
+  },
+  "themeNameLabel": "Theme name",
+  "@themeNameLabel": {
+    "description": "Theme editor: name field label. Max 30 characters"
+  },
+  "themeDefaultName": "My theme",
+  "@themeDefaultName": {
+    "description": "Default name for a new theme. Max 30 characters"
+  },
+  "themeSectionName": "Name",
+  "@themeSectionName": {
+    "description": "Theme editor: section title. Max 20 characters"
+  },
+  "themeSectionLook": "Look",
+  "@themeSectionLook": {
+    "description": "Theme editor: section title. Max 20 characters"
+  },
+  "themeDarkMode": "Dark mode",
+  "@themeDarkMode": {
+    "description": "Theme editor: setting title. Max 30 characters"
+  },
+  "themeChoiceSystem": "System",
+  "@themeChoiceSystem": {
+    "description": "Theme editor: segmented choice. Max 20 characters"
+  },
+  "themeChoiceLight": "Light",
+  "@themeChoiceLight": {
+    "description": "Theme editor: segmented choice. Max 20 characters"
+  },
+  "themeChoiceDark": "Dark",
+  "@themeChoiceDark": {
+    "description": "Theme editor: segmented choice. Max 20 characters"
+  },
+  "themePureBlack": "Pure black",
+  "@themePureBlack": {
+    "description": "Theme editor: switch title. Max 30 characters"
+  },
+  "themePureBlackBody": "Black background",
+  "@themePureBlackBody": {
+    "description": "Theme editor: switch subtitle when dark. Max 40 characters"
+  },
+  "themePureBlackOnlyDark": "Only in dark mode",
+  "@themePureBlackOnlyDark": {
+    "description": "Theme editor: switch subtitle when not dark. Max 40 characters"
+  },
+  "themeGalleryPureBlackDark": "Black background in dark mode",
+  "@themeGalleryPureBlackDark": {
+    "description": "Themes gallery: switch subtitle when dark. Max 50 characters"
+  },
+  "themeContrast": "Contrast",
+  "@themeContrast": {
+    "description": "Theme editor: setting title. Max 30 characters"
+  },
+  "themeChoiceStandard": "Standard",
+  "@themeChoiceStandard": {
+    "description": "Theme editor: segmented choice. Max 20 characters"
+  },
+  "themeChoiceMedium": "Medium",
+  "@themeChoiceMedium": {
+    "description": "Theme editor: segmented choice. Max 20 characters"
+  },
+  "themeChoiceHigh": "High",
+  "@themeChoiceHigh": {
+    "description": "Theme editor: segmented choice. Max 20 characters"
+  },
+  "themeKeyboardHeight": "Keyboard height",
+  "@themeKeyboardHeight": {
+    "description": "Theme editor: slider title. Max 30 characters"
+  },
+  "themeSectionColours": "Colours",
+  "@themeSectionColours": {
+    "description": "Theme editor: section title. Max 20 characters"
+  },
+  "themeSource": "Source",
+  "@themeSource": {
+    "description": "Theme editor: colour source title. Max 20 characters"
+  },
+  "themeSourceWallpaper": "Wallpaper",
+  "@themeSourceWallpaper": {
+    "description": "Theme editor: colour source choice. Max 20 characters"
+  },
+  "themeSourceSeed": "Seed",
+  "@themeSourceSeed": {
+    "description": "Theme editor: colour source choice. Max 20 characters"
+  },
+  "themeSourcePerRole": "Per role",
+  "@themeSourcePerRole": {
+    "description": "Theme editor: colour source choice. Max 20 characters"
+  },
+  "themeWallpaperNeedsAndroid12": "Wallpaper colours need Android 12 or newer.",
+  "@themeWallpaperNeedsAndroid12": {
+    "description": "Theme editor: note when the wallpaper source is not available. Two lines at most"
+  },
+  "themeSeedColour": "Seed colour",
+  "@themeSeedColour": {
+    "description": "Theme editor: colour setting title. Max 30 characters"
+  },
+  "themeScheme": "Scheme",
+  "@themeScheme": {
+    "description": "Theme editor: colour scheme title. Max 20 characters"
+  },
+  "themeColourRoles": "Colour roles",
+  "@themeColourRoles": {
+    "description": "Theme editor: row title for each colour role. Max 30 characters"
+  },
+  "themeEditingColours": "{mode, select, dark {Editing the dark colours} other {Editing the light colours}}",
+  "@themeEditingColours": {
+    "description": "Theme editor: subtitle of colour roles. {mode} is dark or light",
+    "placeholders": {
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
+  "themeResetRoles": "Reset all roles",
+  "@themeResetRoles": {
+    "description": "Theme editor: button to reset every colour role. Max 30 characters"
+  },
+  "themeKeys": "Keys",
+  "@themeKeys": {
+    "description": "Theme editor: section title. Max 20 characters"
+  },
+  "themeShape": "Shape",
+  "@themeShape": {
+    "description": "Theme editor: key shape slider title. Max 20 characters"
+  },
+  "themeShapePill": "Pill",
+  "@themeShapePill": {
+    "description": "Theme editor: key shape named Pill. Max 20 characters"
+  },
+  "themeShapeRounded": "Rounded",
+  "@themeShapeRounded": {
+    "description": "Theme editor: key shape named Rounded. Max 20 characters"
+  },
+  "themeShapeSquare": "Square",
+  "@themeShapeSquare": {
+    "description": "Theme editor: key shape named Square. Max 20 characters"
+  },
+  "themeKeyBorders": "Key borders",
+  "@themeKeyBorders": {
+    "description": "Theme editor: switch title. Max 30 characters"
+  },
+  "themeBorderWidth": "Border width",
+  "@themeBorderWidth": {
+    "description": "Theme editor: slider title. Max 30 characters"
+  },
+  "themeKeyGap": "Key gap",
+  "@themeKeyGap": {
+    "description": "Theme editor: slider title. Max 20 characters"
+  },
+  "themeFontWeight": "Font weight",
+  "@themeFontWeight": {
+    "description": "Theme editor: slider title. Max 20 characters"
+  },
+  "themeFontSize": "Font size",
+  "@themeFontSize": {
+    "description": "Theme editor: slider title. Max 20 characters"
+  },
+  "themeHintCharacters": "Hint characters",
+  "@themeHintCharacters": {
+    "description": "Theme editor: switch title. Max 30 characters"
+  },
+  "themeHintCharactersBody": "Small characters on long press",
+  "@themeHintCharactersBody": {
+    "description": "Theme editor: switch subtitle. Max 40 characters"
+  },
+  "themeBackground": "Background",
+  "@themeBackground": {
+    "description": "Theme editor: section title. Max 20 characters"
+  },
+  "themeBackgroundType": "Type",
+  "@themeBackgroundType": {
+    "description": "Theme editor: background type title. Max 20 characters"
+  },
+  "themeTypeSolid": "Solid",
+  "@themeTypeSolid": {
+    "description": "Theme editor: background type choice. Max 20 characters"
+  },
+  "themeTypeGradient": "Gradient",
+  "@themeTypeGradient": {
+    "description": "Theme editor: background type choice. Max 20 characters"
+  },
+  "themeTypePhoto": "Photo",
+  "@themeTypePhoto": {
+    "description": "Theme editor: background type choice. Max 20 characters"
+  },
+  "themeNoPhotoYet": "No photo yet. Choose one to crop it to the keyboard.",
+  "@themeNoPhotoYet": {
+    "description": "Theme editor: empty photo background. Two lines at most"
+  },
+  "themeChoosePhoto": "Choose photo",
+  "@themeChoosePhoto": {
+    "description": "Theme editor: button. Max 20 characters"
+  },
+  "themeEditCrop": "Edit crop and blur",
+  "@themeEditCrop": {
+    "description": "Theme editor: button for the photo crop screen. Max 30 characters"
+  },
+  "themeDim": "Dim",
+  "@themeDim": {
+    "description": "Theme editor: slider title. Max 20 characters"
+  },
+  "themeSectionPopups": "Popups and trail",
+  "@themeSectionPopups": {
+    "description": "Theme editor: section title. Max 30 characters"
+  },
+  "themeSolidPopups": "Solid popups",
+  "@themeSolidPopups": {
+    "description": "Theme editor: switch title. Max 30 characters"
+  },
+  "themeSolidPopupsBodyWallpaper": "Not with wallpaper colours",
+  "@themeSolidPopupsBodyWallpaper": {
+    "description": "Theme editor: switch subtitle with wallpaper colours. Max 40 characters"
+  },
+  "themeSolidPopupsBodyPrimary": "Popups in the primary colour",
+  "@themeSolidPopupsBodyPrimary": {
+    "description": "Theme editor: switch subtitle. Max 40 characters"
+  },
+  "themeSwipeTrail": "Swipe trail",
+  "@themeSwipeTrail": {
+    "description": "Theme editor: switch title. Max 30 characters"
+  },
+  "themeTrailWidth": "Trail width",
+  "@themeTrailWidth": {
+    "description": "Theme editor: slider title. Max 30 characters"
+  },
+  "themeTrailFade": "Trail fade",
+  "@themeTrailFade": {
+    "description": "Theme editor: slider title. Max 30 characters"
+  },
+  "themeTrailInstant": "Instant",
+  "@themeTrailInstant": {
+    "description": "Theme editor: trail fade value when zero. Max 20 characters"
+  },
+  "themeTrailColours": "Trail colours",
+  "@themeTrailColours": {
+    "description": "Theme editor: section title. Max 30 characters"
+  },
+  "themeTrailStart": "Start",
+  "@themeTrailStart": {
+    "description": "Theme editor: trail colour label. Max 20 characters"
+  },
+  "themeTrailEnd": "End",
+  "@themeTrailEnd": {
+    "description": "Theme editor: trail colour label. Max 20 characters"
+  },
+  "themeTrailStartTitle": "Trail start",
+  "@themeTrailStartTitle": {
+    "description": "Theme editor: colour picker title. Max 30 characters"
+  },
+  "themeTrailEndTitle": "Trail end",
+  "@themeTrailEndTitle": {
+    "description": "Theme editor: colour picker title. Max 30 characters"
+  },
+  "themeAutomatic": "Automatic",
+  "@themeAutomatic": {
+    "description": "Theme editor: trail colour choice. Max 20 characters"
+  },
+  "themeSectionMotion": "Motion",
+  "@themeSectionMotion": {
+    "description": "Theme editor: section title. Max 20 characters"
+  },
+  "themeKeyPressAnimation": "Key press animation",
+  "@themeKeyPressAnimation": {
+    "description": "Theme editor: switch title. Max 30 characters"
+  },
+  "themeReduceMotion": "Remove animations is on in system settings, so keys do not animate.",
+  "@themeReduceMotion": {
+    "description": "Theme editor: note when the system reduces motion. Two lines at most"
+  },
+  "themeMotionOff": "Off",
+  "@themeMotionOff": {
+    "description": "Theme editor: motion choice: none. Max 20 characters"
+  },
+  "themeMotionSubtle": "Subtle",
+  "@themeMotionSubtle": {
+    "description": "Theme editor: motion choice. Max 20 characters"
+  },
+  "themeMotionStandard": "Standard",
+  "@themeMotionStandard": {
+    "description": "Theme editor: motion choice. Max 20 characters"
+  },
+  "themeMotionBouncy": "Bouncy",
+  "@themeMotionBouncy": {
+    "description": "Theme editor: motion choice. Max 20 characters"
+  },
+  "themeSchemeTonalSpot": "Tonal spot",
+  "@themeSchemeTonalSpot": {
+    "description": "Theme editor: Material colour scheme name. Max 30 characters"
+  },
+  "themeSchemeVibrant": "Vibrant",
+  "@themeSchemeVibrant": {
+    "description": "Theme editor: Material colour scheme name. Max 20 characters"
+  },
+  "themeSchemeExpressive": "Expressive",
+  "@themeSchemeExpressive": {
+    "description": "Theme editor: Material colour scheme name. Max 20 characters"
+  },
+  "themeSchemeFidelity": "Fidelity",
+  "@themeSchemeFidelity": {
+    "description": "Theme editor: Material colour scheme name. Max 20 characters"
+  },
+  "themeSchemeContent": "Content",
+  "@themeSchemeContent": {
+    "description": "Theme editor: Material colour scheme name. Max 20 characters"
+  },
+  "themeSchemeMonochrome": "Monochrome",
+  "@themeSchemeMonochrome": {
+    "description": "Theme editor: Material colour scheme name. Max 20 characters"
+  },
+  "themeSchemeNeutral": "Neutral",
+  "@themeSchemeNeutral": {
+    "description": "Theme editor: Material colour scheme name. Max 20 characters"
+  },
+  "themeSchemeRainbow": "Rainbow",
+  "@themeSchemeRainbow": {
+    "description": "Theme editor: Material colour scheme name. Max 20 characters"
+  },
+  "themeSchemeFruitSalad": "Fruit salad",
+  "@themeSchemeFruitSalad": {
+    "description": "Theme editor: Material colour scheme name. Max 20 characters"
+  },
+  "themeCustomColourHex": "Custom colour #{hex}",
+  "@themeCustomColourHex": {
+    "description": "Theme editor: a custom colour with its hex code. {hex} is six hex digits",
+    "placeholders": {
+      "hex": {
+        "type": "String"
+      }
+    }
+  },
+  "themeCustomColour": "Custom colour",
+  "@themeCustomColour": {
+    "description": "Theme editor: colour swatch label. Max 30 characters"
+  },
+  "themeSwatchLabel": "{label} colour, #{hex}",
+  "@themeSwatchLabel": {
+    "description": "Theme editor: colour swatch label. {label} is a role name, {hex} six hex digits",
+    "placeholders": {
+      "hex": {
+        "type": "String"
+      },
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "themeUseSchemeColour": "Use the scheme colour for {label}",
+  "@themeUseSchemeColour": {
+    "description": "Theme editor: tooltip to reset one colour. {label} is a role name",
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "themeFromScheme": "From the scheme",
+  "@themeFromScheme": {
+    "description": "Theme editor: colour role subtitle when not overridden. Max 40 characters"
+  },
+  "themeOverridden": "Set",
+  "@themeOverridden": {
+    "description": "Theme editor: colour role subtitle when overridden. Max 20 characters"
+  },
+  "themeStopLabel": "Stop {n}",
+  "@themeStopLabel": {
+    "description": "Theme editor: gradient colour stop name. {n} is a number",
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "themePickStopTitle": "Stop {n}",
+  "@themePickStopTitle": {
+    "description": "Theme editor: colour picker title for a gradient stop. {n} is a number",
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "themeAddStop": "Add stop",
+  "@themeAddStop": {
+    "description": "Theme editor: button. Max 20 characters"
+  },
+  "themeRemoveStop": "Remove stop",
+  "@themeRemoveStop": {
+    "description": "Theme editor: button. Max 20 characters"
+  },
+  "themeAngle": "Angle",
+  "@themeAngle": {
+    "description": "Theme editor: gradient angle slider title. Max 20 characters"
+  },
+  "themeUseSchemeTooltipLabel": "Use the scheme colour",
+  "@themeUseSchemeTooltipLabel": {
+    "description": "Theme editor: tooltip. Max 40 characters"
+  },
+  "themeCropTitle": "Crop photo",
+  "@themeCropTitle": {
+    "description": "Photo crop screen: title. Max 30 characters"
+  },
+  "themeUsePhoto": "Use photo",
+  "@themeUsePhoto": {
+    "description": "Photo crop screen: confirm button. Max 20 characters"
+  },
+  "themeCropSaveFailed": "The photo could not be saved.",
+  "@themeCropSaveFailed": {
+    "description": "Photo crop: save failed. Max 50 characters"
+  },
+  "themeCropSemantics": "Photo crop. Drag to move the photo and pinch or use the zoom slider to zoom.",
+  "@themeCropSemantics": {
+    "description": "Photo crop: accessibility label of the crop area. Two lines at most"
+  },
+  "themeCropZoom": "Zoom",
+  "@themeCropZoom": {
+    "description": "Photo crop: slider title. Max 20 characters"
+  },
+  "themeCropBlur": "Blur",
+  "@themeCropBlur": {
+    "description": "Photo crop: slider title. Max 20 characters"
+  },
+  "themeCropBlurOff": "Off",
+  "@themeCropBlurOff": {
+    "description": "Photo crop: blur value when zero. Max 20 characters"
+  },
+  "themeCropNote": "The blur is saved into the picture. The dim is set in the editor and applied live.",
+  "@themeCropNote": {
+    "description": "Photo crop: note. Two lines at most"
+  },
+  "themeHexLabel": "Hex",
+  "@themeHexLabel": {
+    "description": "Colour picker: hex field label. Max 20 characters"
+  },
+  "themeHexError": "Use six hex digits, such as F5B700",
+  "@themeHexError": {
+    "description": "Colour picker: error for a bad hex code. Max 50 characters"
+  },
+  "themeHue": "Hue",
+  "@themeHue": {
+    "description": "Colour picker: slider. Max 20 characters"
+  },
+  "themeSaturation": "Saturation",
+  "@themeSaturation": {
+    "description": "Colour picker: slider. Max 20 characters"
+  },
+  "themeBrightness": "Brightness",
+  "@themeBrightness": {
+    "description": "Colour picker: slider. Max 20 characters"
+  },
+  "themePickShadeHint": "Pick a shade, then tap Use.",
+  "@themePickShadeHint": {
+    "description": "Colour picker: instruction. Two lines at most"
+  },
+  "themePickColourUse": "Use",
+  "@themePickColourUse": {
+    "description": "Colour picker: confirm button. Max 12 characters"
+  },
+  "themeCopySuffix": " copy",
+  "@themeCopySuffix": {
+    "description": "Suffix added to a duplicated theme name. Starts with a space"
+  },
+  "themeCopyName": "{name} copy",
+  "@themeCopyName": {
+    "description": "Name of a duplicated theme. {name} is the original name",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "themeDeleteTitle": "Delete \"{name}\"?",
+  "@themeDeleteTitle": {
+    "description": "Themes gallery: delete dialog title. {name} is the theme name. Max 40 characters",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "themeDeleteSelectedBody": "This theme is selected. BooBoard Dynamic will be used instead. This cannot be undone.",
+  "@themeDeleteSelectedBody": {
+    "description": "Themes gallery: delete dialog text for the selected theme. Three lines at most"
+  },
+  "themeDeleteBody": "This cannot be undone.",
+  "@themeDeleteBody": {
+    "description": "Themes gallery: delete dialog text. Max 60 characters"
+  },
+  "themeDeleteFailed": "Could not delete the theme.",
+  "@themeDeleteFailed": {
+    "description": "Themes gallery: delete failed. Max 50 characters"
+  },
+  "themeRenameFailed": "Could not rename the theme.",
+  "@themeRenameFailed": {
+    "description": "Themes gallery: rename failed. Max 50 characters"
+  },
+  "themeDuplicateFailed": "Could not copy the theme.",
+  "@themeDuplicateFailed": {
+    "description": "Themes gallery: duplicate failed. Max 50 characters"
+  },
+  "themeSettingFailed": "Could not save the setting.",
+  "@themeSettingFailed": {
+    "description": "Themes gallery: setting write failed. Max 50 characters"
+  },
+  "themeSystemColoursUnavailable": "System colours are unavailable.",
+  "@themeSystemColoursUnavailable": {
+    "description": "Themes: snackbar when the system colours cannot be read. Max 60 characters"
+  },
+  "themeBooBoardDynamicFollows": "BooBoard Dynamic follows your wallpaper",
+  "@themeBooBoardDynamicFollows": {
+    "description": "Themes gallery: switch title. Max 50 characters"
+  },
+  "themeBooBoardDynamicBody": "Its colours update when the wallpaper changes",
+  "@themeBooBoardDynamicBody": {
+    "description": "Themes gallery: switch subtitle. Two lines at most"
+  },
+  "themeSectionPresets": "Presets",
+  "@themeSectionPresets": {
+    "description": "Themes gallery: section title. Max 20 characters"
+  },
+  "themeSectionMyThemes": "My themes",
+  "@themeSectionMyThemes": {
+    "description": "Themes gallery: section title. Max 20 characters"
+  },
+  "themeSectionTry": "Try typing",
+  "@themeSectionTry": {
+    "description": "Themes gallery: section title. Max 20 characters"
+  },
+  "themeAppearance": "Appearance",
+  "@themeAppearance": {
+    "description": "Themes gallery: section title. Max 20 characters"
+  },
+  "themesTitle": "Themes",
+  "@themesTitle": {
+    "description": "Themes gallery: title. Max 20 characters"
+  },
+  "privacyThemesSize": "{count, plural, one {1 theme file} other {{count} theme files}} · {size}",
+  "@privacyThemesSize": {
+    "description": "Privacy center and backup: custom themes count and size. {size} is a size such as 14 KB",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "backupUnlockToSeeCount": "Unlock your phone to see the count",
+  "@backupUnlockToSeeCount": {
+    "description": "Backup: a section count is locked until the phone is unlocked. Max 60 characters"
+  },
+  "shortcutHelp": "A shortcut turns a short form into longer text. Examples:\nomw → on my way\naddr → your address",
+  "@shortcutHelp": {
+    "description": "Shortcuts screen: explains shortcuts with two examples. Three lines. Keep the arrows and the line breaks"
+  },
+  "privacyStoredLearned": "Learned words ({language})",
+  "@privacyStoredLearned": {
+    "description": "Privacy: stored data name for learned words of one language. {language} is a language name",
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsComingLater": "Coming in a later update",
+  "@settingsComingLater": {
+    "description": "Settings: tooltip on an option that is not available yet. Max 40 characters"
+  },
+  "backupExplainer": "A backup is one file, encrypted with a passphrase you choose. Only that passphrase opens it. If you forget the passphrase, nobody can recover the backup, including BooBoard.",
+  "@backupExplainer": {
+    "description": "Backup screen: explains how backups are protected. Three lines at most"
+  },
+  "privacyCategoryLine": "{title}: {detail}",
+  "@privacyCategoryLine": {
+    "description": "Privacy center: one line of a deletion list, a category name and what it holds. {title} and {detail} are text. Max 80 characters",
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      },
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "shortcutShortFormHint": "omw",
+  "@shortcutShortFormHint": {
+    "description": "Shortcuts: example short form shown as a hint. Replace with a short example that fits the language"
+  },
+  "shortcutExpansionHint": "on my way",
+  "@shortcutExpansionHint": {
+    "description": "Shortcuts: example expansion shown as a hint. Replace with a short example that fits the language"
+  },
+  "durationMinutes15": "15 minutes",
+  "@durationMinutes15": {
+    "description": "Panels: clipboard duration option. Max 20 characters"
+  },
+  "durationHour": "1 hour",
+  "@durationHour": {
+    "description": "Panels: clipboard duration option. Max 20 characters"
+  },
+  "durationDay": "1 day",
+  "@durationDay": {
+    "description": "Panels: clipboard duration option. Max 20 characters"
+  },
+  "durationWeek": "1 week",
+  "@durationWeek": {
+    "description": "Panels: clipboard duration option. Max 20 characters"
+  },
+  "onboardingCloseSetup": "Close setup",
+  "@onboardingCloseSetup": {
+    "description": "Onboarding: close button tooltip. Max 30 characters"
+  },
+  "packsCouldNotRead": "BooBoard could not read its packs",
+  "@packsCouldNotRead": {
+    "description": "Packs: list failed to load. Two lines at most"
+  },
+  "packsDeleteTooltip": "Delete {name}",
+  "@packsDeleteTooltip": {
+    "description": "Packs: delete button tooltip. {name} is the pack name. Max 40 characters",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyNothingStored": "Nothing stored yet",
+  "@privacyNothingStored": {
+    "description": "Privacy center: no stored data. Max 30 characters"
+  },
+  "privacyRemoveAppTooltip": "Remove {app} from the list",
+  "@privacyRemoveAppTooltip": {
+    "description": "Privacy center: button to remove an app from the list. {app} is an app name. Max 60 characters",
+    "placeholders": {
+      "app": {
+        "type": "String"
+      }
+    }
+  },
+  "chineseTitle": "Chinese",
+  "@chineseTitle": {
+    "description": "Chinese/Japanese options screen text"
+  },
+  "chineseTraditional": "Traditional characters",
+  "@chineseTraditional": {
+    "description": "Chinese/Japanese options screen text"
+  },
+  "chineseTraditionalBody": "Show candidates in Traditional characters (Taiwan standard).",
+  "@chineseTraditionalBody": {
+    "description": "Chinese/Japanese options screen text"
+  },
+  "chineseFuzzy": "Fuzzy pinyin",
+  "@chineseFuzzy": {
+    "description": "Chinese/Japanese options screen text"
+  },
+  "chineseFuzzyBody": "Also accept z and zh, c and ch, s and sh, n and l, an and ang, en and eng, in and ing.",
+  "@chineseFuzzyBody": {
+    "description": "Chinese/Japanese options screen text"
+  },
+  "cjkDictionary": "Dictionary",
+  "@cjkDictionary": {
+    "description": "Chinese/Japanese options screen text"
+  },
+  "chineseClearPhrases": "Clear learned phrases",
+  "@chineseClearPhrases": {
+    "description": "Chinese/Japanese options screen text"
+  },
+  "chineseClearPhrasesBody": "Forget the words you picked. The dictionary stays.",
+  "@chineseClearPhrasesBody": {
+    "description": "Chinese/Japanese options screen text"
+  },
+  "chineseFooter": "Chinese is typed on this phone. Learned phrases are encrypted and never leave it.",
+  "@chineseFooter": {
+    "description": "Chinese/Japanese options screen text"
+  },
+  "chineseClearTitle": "Clear learned phrases?",
+  "@chineseClearTitle": {
+    "description": "Chinese/Japanese options screen text"
+  },
+  "chineseClearBody": "The words you picked for Chinese are removed. This cannot be undone.",
+  "@chineseClearBody": {
+    "description": "Chinese/Japanese options screen text"
+  },
+  "cjkClear": "Clear",
+  "@cjkClear": {
+    "description": "Chinese/Japanese options screen text"
+  },
+  "chinesePhrasesCleared": "Learned phrases cleared",
+  "@chinesePhrasesCleared": {
+    "description": "Chinese/Japanese options screen text"
+  },
+  "chineseLooking": "Looking for the dictionary",
+  "@chineseLooking": {
+    "description": "Chinese/Japanese options screen text"
+  },
+  "chineseDictName": "Chinese dictionary",
+  "@chineseDictName": {
+    "description": "Chinese/Japanese options screen text"
+  },
+  "chinesePackMissing": "Not installed. Chinese typing needs it; install it under Model packs.",
+  "@chinesePackMissing": {
+    "description": "Chinese/Japanese options screen text"
+  },
+  "chinesePackInstalled": "Installed. {license}",
+  "@chinesePackInstalled": {
+    "description": "Chinese/Japanese options screen text",
+    "placeholders": {
+      "license": {
+        "type": "String"
+      }
+    }
+  },
+  "japaneseTitle": "Japanese",
+  "@japaneseTitle": {
+    "description": "Chinese/Japanese options screen text"
+  },
+  "japaneseLayout": "Layout",
+  "@japaneseLayout": {
+    "description": "Chinese/Japanese options screen text"
+  },
+  "japaneseLayout12": "12-key (flick)",
+  "@japaneseLayout12": {
+    "description": "Chinese/Japanese options screen text"
+  },
+  "japaneseLayoutRomaji": "Romaji (QWERTY)",
+  "@japaneseLayoutRomaji": {
+    "description": "Chinese/Japanese options screen text"
+  },
+  "japaneseTyping": "Typing",
+  "@japaneseTyping": {
+    "description": "Chinese/Japanese options screen text"
+  },
+  "japaneseFlickOnly": "Flick only",
+  "@japaneseFlickOnly": {
+    "description": "Chinese/Japanese options screen text"
+  },
+  "japaneseFlickOnlyBody": "No multi-tap: tapping あ twice types ああ, not い",
+  "@japaneseFlickOnlyBody": {
+    "description": "Chinese/Japanese options screen text"
+  },
+  "japaneseHalfWidth": "Half-width space",
+  "@japaneseHalfWidth": {
+    "description": "Chinese/Japanese options screen text"
+  },
+  "japaneseHalfWidthBody": "Space types a normal space when nothing is being typed. Off types a full-width space.",
+  "@japaneseHalfWidthBody": {
+    "description": "Chinese/Japanese options screen text"
+  },
+  "japaneseDictPack": "Dictionary pack",
+  "@japaneseDictPack": {
+    "description": "Chinese/Japanese options screen text"
+  },
+  "japaneseChecking": "Checking...",
+  "@japaneseChecking": {
+    "description": "Chinese/Japanese options screen text"
+  },
+  "japaneseInstalled": "{name} is installed. Kanji conversion is on.",
+  "@japaneseInstalled": {
+    "description": "Chinese/Japanese options screen text",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "japaneseNotInstalled": "Not installed. Kana still types; kanji need the pack.",
+  "@japaneseNotInstalled": {
+    "description": "Chinese/Japanese options screen text"
+  },
+  "japaneseClearWords": "Clear learned words",
+  "@japaneseClearWords": {
+    "description": "Chinese/Japanese options screen text"
+  },
+  "japaneseClearWordsBody": "Forgets the Japanese words you picked. Stored encrypted on this phone.",
+  "@japaneseClearWordsBody": {
+    "description": "Chinese/Japanese options screen text"
+  },
+  "japaneseClearTitle": "Clear learned Japanese words?",
+  "@japaneseClearTitle": {
+    "description": "Chinese/Japanese options screen text"
+  },
+  "japaneseClearBody": "This deletes every Japanese word you picked. It cannot be undone.",
+  "@japaneseClearBody": {
+    "description": "Chinese/Japanese options screen text"
+  },
+  "privacyStoredChinesePhrases": "Chinese phrases",
+  "@privacyStoredChinesePhrases": {
+    "description": "Chinese/Japanese options screen text"
+  },
+  "privacyStoredJapaneseWords": "Japanese words",
+  "@privacyStoredJapaneseWords": {
+    "description": "Chinese/Japanese options screen text"
+  }
+}

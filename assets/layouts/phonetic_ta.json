@@ -1,0 +1,202 @@
+{
+ "id": "phonetic_ta",
+ "name": "Phonetic",
+ "script": "Taml",
+ "direction": "ltr",
+ "rows": [
+  {
+   "keys": [
+    {
+     "output": "ௌ",
+     "shiftedOutput": "ஔ",
+     "popup": [
+      "அ"
+     ]
+    },
+    {
+     "output": "ை",
+     "shiftedOutput": "ஐ",
+     "popup": [
+      "ஈ"
+     ]
+    },
+    {
+     "output": "ா",
+     "shiftedOutput": "ஆ",
+     "popup": [
+      "ஊ"
+     ]
+    },
+    {
+     "output": "ர",
+     "shiftedOutput": "ற",
+     "popup": [
+      "எ"
+     ]
+    },
+    {
+     "output": "த",
+     "shiftedOutput": "ட",
+     "popup": [
+      "ஏ"
+     ]
+    },
+    {
+     "output": "ய",
+     "shiftedOutput": "ஞ",
+     "popup": [
+      "ஓ"
+     ]
+    },
+    {
+     "output": "ு",
+     "shiftedOutput": "உ",
+     "popup": [
+      "ீ"
+     ]
+    },
+    {
+     "output": "ி",
+     "shiftedOutput": "இ",
+     "popup": [
+      "ூ"
+     ]
+    },
+    {
+     "output": "ொ",
+     "shiftedOutput": "ஒ",
+     "popup": [
+      "ெ"
+     ]
+    },
+    {
+     "output": "ப",
+     "popup": [
+      "ே"
+     ]
+    }
+   ]
+  },
+  {
+   "keys": [
+    {
+     "output": "ஂ",
+     "popup": [
+      "ோ"
+     ]
+    },
+    {
+     "output": "ஸ",
+     "shiftedOutput": "ஷ",
+     "popup": [
+      "ழ"
+     ]
+    },
+    {
+     "output": "த",
+     "popup": [
+      "ன"
+     ]
+    },
+    {
+     "output": "ப"
+    },
+    {
+     "output": "ஹ"
+    },
+    {
+     "output": "ஜ"
+    },
+    {
+     "output": "க"
+    },
+    {
+     "output": "ல",
+     "shiftedOutput": "ள"
+    }
+   ],
+   "padding": 0.5
+  },
+  {
+   "keys": [
+    {
+     "type": "shift",
+     "width": 1.5
+    },
+    {
+     "output": "்",
+     "popup": [
+      "‌",
+      "‍"
+     ]
+    },
+    {
+     "output": "ச",
+     "shiftedOutput": "ச"
+    },
+    {
+     "output": "வ",
+     "shiftedOutput": "ங"
+    },
+    {
+     "output": "ப"
+    },
+    {
+     "output": "ந",
+     "shiftedOutput": "ண"
+    },
+    {
+     "output": "ம",
+     "shiftedOutput": "க்ஷ"
+    },
+    {
+     "type": "backspace",
+     "width": 1.5
+    }
+   ]
+  },
+  {
+   "keys": [
+    {
+     "type": "symbols",
+     "label": "?123",
+     "width": 1.5
+    },
+    {
+     "type": "emoji",
+     "width": 1
+    },
+    {
+     "type": "comma",
+     "output": ","
+    },
+    {
+     "type": "space",
+     "width": 4
+    },
+    {
+     "type": "period",
+     "output": ".",
+     "popup": [
+      ",",
+      "?",
+      "!",
+      "'",
+      "\"",
+      ":",
+      ";",
+      "-",
+      "(",
+      ")",
+      "@",
+      "#"
+     ]
+    },
+    {
+     "type": "enter",
+     "width": 1.5
+    }
+   ]
+  }
+ ]
+}

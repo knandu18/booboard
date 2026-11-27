@@ -1,0 +1,59 @@
+{
+ "id": "urdu_phonetic",
+ "name": "Phonetic",
+ "script": "Arab",
+ "direction": "ltr",
+ "rows": [
+  {
+   "keys": [
+    {"output": "ق"},
+    {"output": "و"},
+    {"output": "ے"},
+    {"output": "ر", "popup": ["ڑ"]},
+    {"output": "ت", "popup": ["ٹ", "ث", "ط"]},
+    {"output": "ی"},
+    {"output": "ع", "popup": ["غ"]},
+    {"output": "ئ", "popup": ["ء"]},
+    {"output": "ؤ"},
+    {"output": "پ"}
+   ]
+  },
+  {
+   "padding": 0.5,
+   "keys": [
+    {"output": "ا", "popup": ["آ", "أ", "إ"]},
+    {"output": "س", "popup": ["ش", "ص"]},
+    {"output": "د", "popup": ["ڈ", "ذ"]},
+    "ف",
+    {"output": "گ", "popup": ["غ"]},
+    {"output": "ہ", "popup": ["ھ", "ح"]},
+    {"output": "ج", "popup": ["ژ", "ض"]},
+    "ک",
+    "ل"
+   ]
+  },
+  {
+   "keys": [
+    {"output": "َ", "label": "ـَ", "width": 1.5, "popup": ["ُ", "ِ", "ً", "ٌ", "ٍ", "ْ", "ّ"]},
+    {"output": "ز", "popup": ["ذ", "ظ", "ض"]},
+    "خ",
+    {"output": "چ", "popup": ["ث"]},
+    {"output": "ش", "popup": ["ط", "ظ"]},
+    "ب",
+    {"output": "ن", "popup": ["ں"]},
+    "م",
+    {"type": "backspace", "width": 1.5}
+   ]
+  },
+  {
+   "keys": [
+    {"type": "symbols", "label": "?123", "width": 1.5},
+    {"type": "emoji", "width": 1},
+    {"type": "comma", "output": "،"},
+    {"type": "space", "width": 4},
+    {"type": "period", "output": "۔", "popup": [".", "؟", "!"]},
+    {"type": "enter", "width": 1.5}
+   ]
+  }
+ ]
+}

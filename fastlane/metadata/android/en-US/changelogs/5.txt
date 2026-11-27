@@ -1,0 +1,1 @@
+BooBoard 1.8.0: a new look (Dark Glass keyboard, lime app), a Gboard-style translator that works across all keyboard languages through English, new Settings pages, and the tool bar works in private fields. Still no internet permission.

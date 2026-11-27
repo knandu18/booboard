@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: GPL-3.0-or-later
+     Distribution id for the play flavour (Google Play). Read by nothing yet: Dart cannot see it without a Pigeon method. -->
+<resources>
+    <string name="booboard_distribution" translatable="false">play</string>
+</resources>

@@ -1,0 +1,1 @@
+First release. Private, offline typing with suggestions, swipe typing, themes, emoji, clipboard history, a privacy centre with app lock and encrypted backups, and TalkBack support.

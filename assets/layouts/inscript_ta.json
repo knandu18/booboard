@@ -1,0 +1,200 @@
+{
+ "id": "inscript_ta",
+ "name": "InScript",
+ "script": "Taml",
+ "direction": "ltr",
+ "rows": [
+  {
+   "padding": 0.1,
+   "keys": [
+    {
+     "output": "ௌ",
+     "shiftedOutput": "ஔ",
+     "width": 1.2
+    },
+    {
+     "output": "ை",
+     "shiftedOutput": "ஐ",
+     "width": 1.2
+    },
+    {
+     "output": "ா",
+     "shiftedOutput": "ஆ",
+     "width": 1.2
+    },
+    {
+     "output": "ீ",
+     "shiftedOutput": "ஈ",
+     "width": 1.2
+    },
+    {
+     "output": "ூ",
+     "shiftedOutput": "ஊ",
+     "width": 1.2
+    },
+    {
+     "output": "ஹ",
+     "shiftedOutput": "ங",
+     "width": 1.2
+    },
+    {
+     "output": "ஜ",
+     "width": 1.2
+    },
+    {
+     "output": "ஞ",
+     "width": 1.2
+    },
+    {
+     "output": "ஃ",
+     "width": 1.2
+    }
+   ]
+  },
+  {
+   "keys": [
+    {
+     "output": "ோ",
+     "shiftedOutput": "ஓ",
+     "popup": [
+      "ொ",
+      "ஒ"
+     ]
+    },
+    {
+     "output": "ே",
+     "shiftedOutput": "ஏ"
+    },
+    {
+     "output": "்",
+     "shiftedOutput": "அ",
+     "popup": [
+      "‌",
+      "‍"
+     ]
+    },
+    {
+     "output": "ி",
+     "shiftedOutput": "இ"
+    },
+    {
+     "output": "ு",
+     "shiftedOutput": "உ"
+    },
+    {
+     "output": "ப"
+    },
+    {
+     "output": "ர",
+     "shiftedOutput": "ற"
+    },
+    {
+     "output": "க",
+     "popup": [
+      "க்ஷ"
+     ]
+    },
+    {
+     "output": "த"
+    },
+    {
+     "output": "ச"
+    },
+    {
+     "output": "ட"
+    }
+   ]
+  },
+  {
+   "keys": [
+    {
+     "type": "shift",
+     "width": 1.5
+    },
+    {
+     "output": "ெ",
+     "shiftedOutput": "எ"
+    },
+    {
+     "output": "ம",
+     "shiftedOutput": "ண",
+     "popup": [
+      "ஂ"
+     ]
+    },
+    {
+     "output": "ந",
+     "shiftedOutput": "ன"
+    },
+    {
+     "output": "வ",
+     "shiftedOutput": "ழ"
+    },
+    {
+     "output": "ல",
+     "shiftedOutput": "ள"
+    },
+    {
+     "output": "ஸ",
+     "shiftedOutput": "ஶ",
+     "popup": [
+      "ஸ்ரீ"
+     ]
+    },
+    {
+     "output": "ஷ"
+    },
+    {
+     "output": "ய"
+    },
+    {
+     "type": "backspace",
+     "width": 1.5
+    }
+   ]
+  },
+  {
+   "keys": [
+    {
+     "type": "symbols",
+     "label": "?123",
+     "width": 1.5
+    },
+    {
+     "type": "emoji",
+     "width": 1
+    },
+    {
+     "type": "comma",
+     "output": ","
+    },
+    {
+     "type": "space",
+     "width": 5
+    },
+    {
+     "type": "period",
+     "output": ".",
+     "popup": [
+      ",",
+      "?",
+      "!",
+      "'",
+      "\"",
+      ":",
+      ";",
+      "-",
+      "(",
+      ")",
+      "@",
+      "#"
+     ]
+    },
+    {
+     "type": "enter",
+     "width": 1.5
+    }
+   ]
+  }
+ ]
+}

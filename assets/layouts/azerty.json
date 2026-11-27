@@ -1,0 +1,218 @@
+{
+ "id": "azerty",
+ "name": "AZERTY",
+ "script": "Latn",
+ "direction": "ltr",
+ "rows": [
+  {
+   "keys": [
+    {
+     "output": "a",
+     "hint": "1",
+     "popup": [
+      "1",
+      "à",
+      "â",
+      "æ"
+     ]
+    },
+    {
+     "output": "z",
+     "hint": "2",
+     "popup": [
+      "2"
+     ]
+    },
+    {
+     "output": "e",
+     "hint": "3",
+     "popup": [
+      "3",
+      "é",
+      "è",
+      "ê",
+      "ë"
+     ]
+    },
+    {
+     "output": "r",
+     "hint": "4",
+     "popup": [
+      "4"
+     ]
+    },
+    {
+     "output": "t",
+     "hint": "5",
+     "popup": [
+      "5"
+     ]
+    },
+    {
+     "output": "y",
+     "hint": "6",
+     "popup": [
+      "6"
+     ]
+    },
+    {
+     "output": "u",
+     "hint": "7",
+     "popup": [
+      "7",
+      "ù",
+      "û",
+      "ü"
+     ]
+    },
+    {
+     "output": "i",
+     "hint": "8",
+     "popup": [
+      "8",
+      "î",
+      "ï"
+     ]
+    },
+    {
+     "output": "o",
+     "hint": "9",
+     "popup": [
+      "9",
+      "ô",
+      "œ",
+      "ö"
+     ]
+    },
+    {
+     "output": "p",
+     "hint": "0",
+     "popup": [
+      "0"
+     ]
+    }
+   ]
+  },
+  {
+   "keys": [
+    {
+     "output": "q"
+    },
+    {
+     "output": "s",
+     "popup": [
+      "ß"
+     ]
+    },
+    {
+     "output": "d"
+    },
+    {
+     "output": "f"
+    },
+    {
+     "output": "g"
+    },
+    {
+     "output": "h"
+    },
+    {
+     "output": "j"
+    },
+    {
+     "output": "k"
+    },
+    {
+     "output": "l"
+    },
+    {
+     "output": "m"
+    }
+   ]
+  },
+  {
+   "keys": [
+    {
+     "type": "shift",
+     "width": 1.5
+    },
+    {
+     "output": "w"
+    },
+    {
+     "output": "x"
+    },
+    {
+     "output": "c",
+     "popup": [
+      "ç"
+     ]
+    },
+    {
+     "output": "v"
+    },
+    {
+     "output": "b"
+    },
+    {
+     "output": "n"
+    },
+    {
+     "output": "'",
+     "popup": [
+      "’",
+      "‘",
+      "\""
+     ]
+    },
+    {
+     "type": "backspace",
+     "width": 1.5
+    }
+   ]
+  },
+  {
+   "keys": [
+    {
+     "type": "symbols",
+     "label": "?123",
+     "width": 1.5
+    },
+    {
+     "type": "emoji",
+     "width": 1
+    },
+    {
+     "type": "comma",
+     "output": ","
+    },
+    {
+     "type": "space",
+     "width": 4
+    },
+    {
+     "type": "period",
+     "output": ".",
+     "popup": [
+      ",",
+      "?",
+      "!",
+      ":",
+      ";",
+      "'",
+      "\"",
+      "-",
+      "(",
+      ")",
+      "@",
+      "#"
+     ]
+    },
+    {
+     "type": "enter",
+     "width": 1.5
+    }
+   ]
+  }
+ ]
+}

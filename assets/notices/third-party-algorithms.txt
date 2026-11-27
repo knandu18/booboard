@@ -1,0 +1,15 @@
+## Algorithm references (no code copied)
+
+The swipe decoder in `lib/src/engine/gesture/` is an original implementation of ideas from:
+- **SHARK²**: P.-O. Kristensson and S. Zhai, "SHARK2: A Large Vocabulary Shorthand Writing System for Pen-Based Computers", ACM UIST 2004. Template matching through key centres, equal arc-length resampling, location and shape channels.
+- **FlorisBoard `StatisticalGlideTypingClassifier`** (https://github.com/florisboard/florisboard, Apache-2.0): Gaussian channel likelihoods with a language-model prior, and pruning by first and last key. If any of its code is ever ported, keep the Apache-2.0 notice and attribute it here.
+
+## Test-only data (not shipped in the app)
+
+- `test/engine/gesture/fixtures/en_words.tsv.gz`: the 50,000 most frequent plain entries of AOSP LatinIME `en_US_wordlist.combined` (Apache-2.0, The Android Open Source Project), stored as `word<TAB>frequency` and gzip-compressed. Used only by the gesture accuracy and latency tests.
+
+Rules for adding data:
+- Only CC0, CC-BY, Apache-2.0, BSD, MIT, OFL, Unicode or GPL-3-compatible sources.
+- "GPLv2-only" and anything non-commercial (NC) are not allowed.
+- Record the exact source URL, version and license here before committing the data.
+- Each wave's agents write `docs/notices/<area>.md`; the orchestrator folds them into this file after merging and deletes them.

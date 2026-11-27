@@ -1,0 +1,29 @@
+BooBoard is a private keyboard for Android. It works offline. The app has no internet permission and no network code, so what you type, say or copy stays on your phone.
+
+TYPING
+- Suggestions, autocorrect and next-word prediction for the languages whose dictionaries ship with the app, including English, Spanish, French, German, Portuguese, Indonesian, Russian, Ukrainian, Hindi, Marathi, Bengali, Tamil, Telugu, Arabic and Urdu.
+- Swipe (glide) typing.
+- Words you use are learned on your phone and encrypted with a key kept in the Android Keystore. You can review, edit or wipe them.
+- Transliteration for Indian languages: type with English letters, or use the native layouts.
+- Emoji panel with search.
+- Clipboard history for text only: at most 30 items, expiring after an hour by default (you choose the time) unless you pin them. Copies that Android marks as sensitive are never stored.
+- Themes, including Material You colours that follow your wallpaper.
+- One-handed, floating, split and compact layouts, and a height handle.
+
+LANGUAGES THAT NEED A DOWNLOAD
+- Chinese (Pinyin) and Japanese (romaji and 12-key) use large dictionaries. In the foss build you import them from a dictionary file you download yourself. In the Google Play build they are delivered by Play.
+- Offline voice typing in English and offline translation need the matching model pack, which you import the same way.
+
+PRIVACY BY DESIGN
+- No internet permission. BooBoard asks for vibration, the microphone (only the first time you tap the microphone key; audio is processed in memory and never saved) and biometrics for the optional app lock.
+- Password and other sensitive fields: no suggestions, no learning, no key pop-ups and no voice input.
+- Incognito: a switch that stops BooBoard from learning new words, and a list of apps where it is always on (for example banking apps).
+- Privacy centre: app lock, wipe everything or one category at a time, and encrypted backups protected with your own passphrase.
+- No analytics, no advertising, no crash reporting, no accounts.
+
+ACCESSIBILITY
+- TalkBack support for the keyboard and the settings app.
+
+PLEASE NOTE
+- Some translations of the app are first drafts and are being checked by native speakers. Corrections are welcome.
+- BooBoard is free software under the GNU GPL v3 or later. Source code, licences and third-party notices are in the project repository.

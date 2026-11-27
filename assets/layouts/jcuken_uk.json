@@ -1,0 +1,222 @@
+{
+ "id": "jcuken_uk",
+ "name": "ЙЦУКЕН",
+ "script": "Cyrl",
+ "direction": "ltr",
+ "rows": [
+  {
+   "keys": [
+    {
+     "output": "й",
+     "hint": "1",
+     "popup": [
+      "1"
+     ]
+    },
+    {
+     "output": "ц",
+     "hint": "2",
+     "popup": [
+      "2"
+     ]
+    },
+    {
+     "output": "у",
+     "hint": "3",
+     "popup": [
+      "3"
+     ]
+    },
+    {
+     "output": "к",
+     "hint": "4",
+     "popup": [
+      "4"
+     ]
+    },
+    {
+     "output": "е",
+     "hint": "5",
+     "popup": [
+      "5"
+     ]
+    },
+    {
+     "output": "н",
+     "hint": "6",
+     "popup": [
+      "6"
+     ]
+    },
+    {
+     "output": "г",
+     "hint": "7",
+     "popup": [
+      "7",
+      "ґ"
+     ]
+    },
+    {
+     "output": "ш",
+     "hint": "8",
+     "popup": [
+      "8"
+     ]
+    },
+    {
+     "output": "щ",
+     "hint": "9",
+     "popup": [
+      "9"
+     ]
+    },
+    {
+     "output": "з",
+     "hint": "0",
+     "popup": [
+      "0"
+     ]
+    },
+    {
+     "output": "х"
+    }
+   ]
+  },
+  {
+   "keys": [
+    {
+     "output": "ф"
+    },
+    {
+     "output": "і",
+     "popup": [
+      "ї"
+     ]
+    },
+    {
+     "output": "в"
+    },
+    {
+     "output": "а"
+    },
+    {
+     "output": "п"
+    },
+    {
+     "output": "р"
+    },
+    {
+     "output": "о"
+    },
+    {
+     "output": "л"
+    },
+    {
+     "output": "д"
+    },
+    {
+     "output": "ж"
+    },
+    {
+     "output": "є"
+    }
+   ]
+  },
+  {
+   "keys": [
+    {
+     "type": "shift",
+     "width": 1.25
+    },
+    {
+     "output": "я",
+     "width": 0.94
+    },
+    {
+     "output": "ч",
+     "width": 0.94
+    },
+    {
+     "output": "с",
+     "width": 0.94
+    },
+    {
+     "output": "м",
+     "width": 0.94
+    },
+    {
+     "output": "и",
+     "width": 0.94
+    },
+    {
+     "output": "т",
+     "width": 0.94
+    },
+    {
+     "output": "ь",
+     "popup": [
+      "ʼ"
+     ],
+     "width": 0.94
+    },
+    {
+     "output": "б",
+     "width": 0.94
+    },
+    {
+     "output": "ю",
+     "width": 0.94
+    },
+    {
+     "type": "backspace",
+     "width": 1.25
+    }
+   ]
+  },
+  {
+   "keys": [
+    {
+     "type": "symbols",
+     "label": "?123",
+     "width": 1.5
+    },
+    {
+     "type": "emoji",
+     "width": 1
+    },
+    {
+     "type": "comma",
+     "output": ","
+    },
+    {
+     "type": "space",
+     "width": 4
+    },
+    {
+     "type": "period",
+     "output": ".",
+     "popup": [
+      ".",
+      ",",
+      "«",
+      "»",
+      "!",
+      "?",
+      ":",
+      ";",
+      "-",
+      "(",
+      ")",
+      "—",
+      "…",
+      "ʼ"
+     ]
+    },
+    {
+     "type": "enter",
+     "width": 1.5
+    }
+   ]
+  }
+ ]
+}

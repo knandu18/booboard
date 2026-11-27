@@ -1,0 +1,80 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!--
+      BooBoard never needs the network. The only permissions are listed here; the
+      release manifest (src/release) additionally strips INTERNET in case any
+      library ever tries to add it, and CI fails the build if it appears.
+    -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- Offline voice typing (Wave 3). Asked only when the user taps the mic; audio never leaves RAM. -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:localeConfig="@xml/locales_config"
+        android:name=".BooBoardApplication"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:allowBackup="false"
+        android:fullBackupContent="false"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:supportsRtl="true"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:taskAffinity=""
+            android:theme="@style/LaunchTheme"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+            android:hardwareAccelerated="true"
+            android:windowSoftInputMode="adjustResize">
+            <meta-data
+                android:name="io.flutter.embedding.android.NormalTheme"
+                android:resource="@style/NormalTheme" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Asks for the microphone on behalf of the keyboard (an IME cannot show the dialog). -->
+        <activity
+            android:name=".voice.MicPermissionActivity"
+            android:exported="false"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
+            android:taskAffinity=""
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <!-- The keyboard. Only the system can bind it (BIND_INPUT_METHOD). -->
+        <service
+            android:name=".ime.BooBoardImeService"
+            android:label="@string/ime_name"
+            android:permission="android.permission.BIND_INPUT_METHOD"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.view.InputMethod" />
+            </intent-filter>
+            <meta-data
+                android:name="android.view.im"
+                android:resource="@xml/method" />
+        </service>
+
+        <!--
+          Offline pictures (Images). Runs in its own process so that running out of memory ends only this
+          helper, never the keyboard. Only the keyboard (this app) can bind it; no foreground service.
+        -->
+        <service
+            android:name=".images.ImagesService"
+            android:process=":images"
+            android:exported="false" />
+
+        <!-- Don't delete: used by the Flutter tool to generate GeneratedPluginRegistrant. -->
+        <meta-data
+            android:name="flutterEmbedding"
+            android:value="2" />
+    </application>
+</manifest>

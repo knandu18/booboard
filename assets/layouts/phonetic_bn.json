@@ -1,0 +1,224 @@
+{
+ "id": "phonetic_bn",
+ "name": "Phonetic",
+ "script": "Beng",
+ "direction": "ltr",
+ "rows": [
+  {
+   "keys": [
+    {
+     "output": "ৌ",
+     "shiftedOutput": "ঔ",
+     "popup": [
+      "অ"
+     ]
+    },
+    {
+     "output": "ৈ",
+     "shiftedOutput": "ঐ",
+     "popup": [
+      "ঈ"
+     ]
+    },
+    {
+     "output": "া",
+     "shiftedOutput": "আ",
+     "popup": [
+      "ঊ"
+     ]
+    },
+    {
+     "output": "র",
+     "shiftedOutput": "ড়",
+     "popup": [
+      "ঋ"
+     ]
+    },
+    {
+     "output": "ত",
+     "shiftedOutput": "ট",
+     "popup": [
+      "এ"
+     ]
+    },
+    {
+     "output": "য",
+     "shiftedOutput": "ঞ",
+     "popup": [
+      "ী"
+     ]
+    },
+    {
+     "output": "ু",
+     "shiftedOutput": "উ",
+     "popup": [
+      "ূ"
+     ]
+    },
+    {
+     "output": "ি",
+     "shiftedOutput": "ই",
+     "popup": [
+      "ে"
+     ]
+    },
+    {
+     "output": "ো",
+     "shiftedOutput": "ও",
+     "popup": [
+      "ঠ"
+     ]
+    },
+    {
+     "output": "প",
+     "shiftedOutput": "ফ",
+     "popup": [
+      "ঢ"
+     ]
+    }
+   ]
+  },
+  {
+   "keys": [
+    {
+     "output": "ং",
+     "shiftedOutput": "ঁ",
+     "popup": [
+      "থ"
+     ]
+    },
+    {
+     "output": "স",
+     "shiftedOutput": "শ",
+     "popup": [
+      "ধ"
+     ]
+    },
+    {
+     "output": "দ",
+     "shiftedOutput": "ড",
+     "popup": [
+      "ষ"
+     ]
+    },
+    {
+     "output": "ফ",
+     "popup": [
+      "জ্ঞ"
+     ]
+    },
+    {
+     "output": "গ",
+     "shiftedOutput": "ঘ",
+     "popup": [
+      "য়"
+     ]
+    },
+    {
+     "output": "হ",
+     "shiftedOutput": "ঃ"
+    },
+    {
+     "output": "জ",
+     "shiftedOutput": "ঝ"
+    },
+    {
+     "output": "ক",
+     "shiftedOutput": "খ"
+    },
+    {
+     "output": "ল"
+    }
+   ],
+   "padding": 0.5
+  },
+  {
+   "keys": [
+    {
+     "type": "shift",
+     "width": 1.5
+    },
+    {
+     "output": "়",
+     "shiftedOutput": "ঽ"
+    },
+    {
+     "output": "্",
+     "popup": [
+      "‌",
+      "‍"
+     ]
+    },
+    {
+     "output": "চ",
+     "shiftedOutput": "ছ"
+    },
+    {
+     "output": "ভ",
+     "shiftedOutput": "ঙ"
+    },
+    {
+     "output": "ব",
+     "shiftedOutput": "ভ"
+    },
+    {
+     "output": "ন",
+     "shiftedOutput": "ণ"
+    },
+    {
+     "output": "ম",
+     "shiftedOutput": "ক্ষ"
+    },
+    {
+     "type": "backspace",
+     "width": 1.5
+    }
+   ]
+  },
+  {
+   "keys": [
+    {
+     "type": "symbols",
+     "label": "?123",
+     "width": 1.5
+    },
+    {
+     "type": "emoji",
+     "width": 1
+    },
+    {
+     "type": "comma",
+     "output": ","
+    },
+    {
+     "type": "space",
+     "width": 4
+    },
+    {
+     "type": "period",
+     "output": ".",
+     "popup": [
+      "।",
+      "॥",
+      ",",
+      "?",
+      "!",
+      "'",
+      "\"",
+      ":",
+      ";",
+      "-",
+      "(",
+      ")",
+      "@",
+      "#"
+     ]
+    },
+    {
+     "type": "enter",
+     "width": 1.5
+    }
+   ]
+  }
+ ]
+}

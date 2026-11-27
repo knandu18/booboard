@@ -1,0 +1,249 @@
+{
+ "id": "qwerty_es",
+ "name": "QWERTY (Ñ)",
+ "script": "Latn",
+ "direction": "ltr",
+ "rows": [
+  {
+   "keys": [
+    {
+     "output": "q",
+     "hint": "1",
+     "popup": [
+      "1"
+     ]
+    },
+    {
+     "output": "w",
+     "hint": "2",
+     "popup": [
+      "2"
+     ]
+    },
+    {
+     "output": "e",
+     "hint": "3",
+     "popup": [
+      "3",
+      "é",
+      "è",
+      "ê",
+      "ë",
+      "ē",
+      "ė",
+      "ę"
+     ]
+    },
+    {
+     "output": "r",
+     "hint": "4",
+     "popup": [
+      "4"
+     ]
+    },
+    {
+     "output": "t",
+     "hint": "5",
+     "popup": [
+      "5"
+     ]
+    },
+    {
+     "output": "y",
+     "hint": "6",
+     "popup": [
+      "6",
+      "ý",
+      "ÿ"
+     ]
+    },
+    {
+     "output": "u",
+     "hint": "7",
+     "popup": [
+      "7",
+      "ú",
+      "ù",
+      "û",
+      "ü",
+      "ū"
+     ]
+    },
+    {
+     "output": "i",
+     "hint": "8",
+     "popup": [
+      "8",
+      "í",
+      "ì",
+      "î",
+      "ï",
+      "ī"
+     ]
+    },
+    {
+     "output": "o",
+     "hint": "9",
+     "popup": [
+      "9",
+      "ó",
+      "ò",
+      "ô",
+      "ö",
+      "õ",
+      "ø",
+      "ō",
+      "œ"
+     ]
+    },
+    {
+     "output": "p",
+     "hint": "0",
+     "popup": [
+      "0"
+     ]
+    }
+   ]
+  },
+  {
+   "padding": 0.25,
+   "keys": [
+    {
+     "output": "a",
+     "popup": [
+      "á",
+      "à",
+      "ä",
+      "â",
+      "ã",
+      "å",
+      "ā"
+     ],
+     "width": 0.95
+    },
+    {
+     "output": "s",
+     "popup": [
+      "ß",
+      "ś",
+      "š"
+     ],
+     "width": 0.95
+    },
+    {
+     "output": "d",
+     "width": 0.95
+    },
+    {
+     "output": "f",
+     "width": 0.95
+    },
+    {
+     "output": "g",
+     "width": 0.95
+    },
+    {
+     "output": "h",
+     "width": 0.95
+    },
+    {
+     "output": "j",
+     "width": 0.95
+    },
+    {
+     "output": "k",
+     "width": 0.95
+    },
+    {
+     "output": "l",
+     "width": 0.95
+    },
+    {
+     "output": "ñ",
+     "width": 0.95
+    }
+   ]
+  },
+  {
+   "keys": [
+    {
+     "type": "shift",
+     "width": 1.5
+    },
+    {
+     "output": "z",
+     "popup": [
+      "ž",
+      "ź",
+      "ż"
+     ]
+    },
+    "x",
+    {
+     "output": "c",
+     "popup": [
+      "ç",
+      "ć",
+      "č"
+     ]
+    },
+    "v",
+    "b",
+    {
+     "output": "n",
+     "popup": []
+    },
+    "m",
+    {
+     "type": "backspace",
+     "width": 1.5
+    }
+   ]
+  },
+  {
+   "keys": [
+    {
+     "type": "symbols",
+     "label": "?123",
+     "width": 1.5
+    },
+    {
+     "type": "emoji",
+     "width": 1
+    },
+    {
+     "type": "comma",
+     "output": ","
+    },
+    {
+     "type": "space",
+     "width": 4
+    },
+    {
+     "type": "period",
+     "output": ".",
+     "popup": [
+      ",",
+      "?",
+      "¿",
+      "!",
+      "¡",
+      "'",
+      "\"",
+      ":",
+      ";",
+      "-",
+      "(",
+      ")",
+      "@",
+      "#"
+     ]
+    },
+    {
+     "type": "enter",
+     "width": 1.5
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+# DRAFT F-Droid build recipe (fdroiddata format). NOT SUBMITTED. See docs/release/fdroid.md.
+#
+# The file name is the applicationId. tool/release/set_application_id.ps1 renames this file and the
+# applicationId mentions below when the placeholder id changes.
+#
+# Open items before a merge request:
+#   - the first tag (v1.0.0) and its commit
+#   - a flutter srclib at 3.50.0 in fdroiddata (srclibs/flutter.yml); if only older versions exist, ask first
+#   - the committed prebuilt .so files (src/main/jniLibs: libsherpa-onnx-jni.so) need source provenance or removal,
+#     see docs/release/fdroid.md, "Prebuilt binaries"
+#   - run `fdroid lint`, `fdroid readmeta`, `fdroid checkupdates`, `fdroid build` (not run here)
+
+Categories:
+  - Writing
+License: GPL-3.0-or-later
+AuthorName: BooBoard contributors
+WebSite: https://github.com/knandu18/booboard
+SourceCode: https://github.com/knandu18/booboard
+IssueTracker: https://github.com/knandu18/booboard/issues
+Changelog: https://github.com/knandu18/booboard/releases
+Donate: ""
+AutoName: BooBoard
+RepoType: git
+Repo: https://github.com/knandu18/booboard.git
+
+Builds:
+  - versionName: 1.0.0
+    versionCode: 1
+    commit: v1.0.0
+    # Flavour foss is the full build; play is never built for F-Droid.
+    # The build command mirrors tool/release/build_release.ps1 exactly.
+    srclibs:
+      - flutter@3.50.0
+    ndk: r28c
+    sudo:
+      - apt-get update
+      - apt-get install -y openjdk-17-jdk-headless
+    build:
+      - $$flutter$$/bin/flutter config --no-analytics
+      - $$flutter$$/bin/flutter pub get
+      - $$flutter$$/bin/flutter build apk --release --flavor foss --split-per-abi --target-platform android-arm64
+    output: build/app/outputs/flutter-apk/app-arm64-v8a-foss-release.apk
+    # Keep the Google Play code path out of the foss build (the play flavour is a separate APK).
+    # Add a `prebuild:` that deletes any non-free data here if the Wave 5 audit finds some.
+    # rm:
+    #   - <path>
+
+AutoUpdateMode: Version
+UpdateCheckMode: Tags
+# Prebuilt binaries: F-Droid builds from source only. Once the binaries are rebuilt from source, the
+# developer-signed APK published with the release is the verification reference (Binaries:).
+# Binaries: https://github.com/knandu18/booboard/releases/download/v%v/app-arm64-v8a-foss-release.apk
+AntiFeatures: []

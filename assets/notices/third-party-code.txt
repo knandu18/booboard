@@ -1,0 +1,19 @@
+## Code
+
+| Component | License | Use |
+|---|---|---|
+| Flutter engine and framework | BSD-3-Clause | UI runtime |
+| material_ui | BSD-3-Clause | Material widgets (settings app) |
+| flutter_riverpod | MIT | State management |
+| path_provider | BSD-3-Clause | App directories |
+| collection, meta, characters | BSD-3-Clause | Dart utilities |
+| pigeon (build-time only) | BSD-3-Clause | Kotlin and Dart bridge generation |
+| androidx.autofill:autofill 1.3.0 | Apache-2.0 | Styles the inline autofill chips from password managers (Android 11+). UI helpers only: no network code, no permissions, no native code. Source: https://maven.google.com, code at https://android.googlesource.com/platform/frameworks/support/+/refs/heads/androidx-main/autofill/ |
+| kotlinx-coroutines-android 1.9.0 | Apache-2.0 | Runs Pigeon's async Kotlin handlers. Copyright JetBrains s.r.o. (https://github.com/Kotlin/kotlinx.coroutines) |
+| image_picker | BSD-3-Clause | Android Photo Picker for theme backgrounds (no storage permission) |
+| local_auth | BSD-3-Clause | BiometricPrompt app lock |
+| junit:junit 4.13.2 (tests only, not in the APK) | EPL-1.0 | JVM unit tests under `android/app/src/test` |
+| onnxruntime-android 1.28.0 | MIT | Inference runtime shared by voice and translation. Copyright Microsoft Corporation (https://github.com/microsoft/onnxruntime). No network code. |
+| sherpa-onnx v2.0.1 (`libsherpa-onnx-jni.so` and Kotlin API sources) | Apache-2.0 | Offline speech recognition (Wave 3-D). Copyright Xiaomi Corporation and the k2-fsa authors (https://github.com/k2-fsa/sherpa-onnx). Details in the voice section. |
+| org.json 20240303 (tests only, not in the APK) | Public domain (JSON License text) | JVM tests of the pack store |
+| onnxruntime 1.28.0 desktop (tests only, not in the APK) | MIT | JVM tests of the translation engine |

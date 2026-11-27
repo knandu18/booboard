@@ -1,0 +1,3262 @@
+{
+  "@@locale": "hi",
+  "appName": "BooBoard",
+  "homeTagline": "निजी टाइपिंग, इसी फ़ोन पर",
+  "@homeTagline": {
+    "description": "Home screen header, under the app name. Max 40 characters",
+    "x-review": true
+  },
+  "homeOfflinePromise": "BooBoard ऑफ़लाइन काम करता है और *कहीं कुछ नहीं भेजता।*",
+  "@homeOfflinePromise": {
+    "description": "Home screen header: the privacy promise. Two lines at most",
+    "x-review": true
+  },
+  "cancel": "रद्द करें",
+  "@cancel": {
+    "description": "Dialog and sheet cancel button",
+    "x-review": true
+  },
+  "delete": "हटाएं",
+  "@delete": {
+    "description": "Delete button and menu item",
+    "x-review": true
+  },
+  "save": "सहेजें",
+  "@save": {
+    "description": "Save button",
+    "x-review": true
+  },
+  "useAction": "उपयोग करें",
+  "@useAction": {
+    "description": "Confirms a picked colour or photo, button. Max 12 characters",
+    "x-review": true
+  },
+  "off": "बंद",
+  "@off": {
+    "description": "Setting is off, short value label. Max 10 characters",
+    "x-review": true
+  },
+  "left": "बाएँ",
+  "@left": {
+    "description": "Side choice for one-handed mode. Max 10 characters",
+    "x-review": true
+  },
+  "right": "दाएँ",
+  "@right": {
+    "description": "Side choice for one-handed mode. Max 10 characters",
+    "x-review": true
+  },
+  "settingsLanguages": "भाषाएँ",
+  "@settingsLanguages": {
+    "description": "Home row and section title for languages",
+    "x-review": true
+  },
+  "settingsTyping": "टाइपिंग",
+  "@settingsTyping": {
+    "description": "Home row and section title for typing",
+    "x-review": true
+  },
+  "settingsFeel": "अनुभव",
+  "@settingsFeel": {
+    "description": "Home row and title for the feel screen. Max 16 characters",
+    "x-review": true
+  },
+  "settingsThemes": "थीम",
+  "@settingsThemes": {
+    "description": "Home row and title for themes. Max 16 characters",
+    "x-review": true
+  },
+  "settingsPanels": "पैनल",
+  "@settingsPanels": {
+    "description": "Home row and title for panels. Max 16 characters",
+    "x-review": true
+  },
+  "settingsVoice": "वॉइस",
+  "@settingsVoice": {
+    "description": "Home row and title for voice. Max 16 characters",
+    "x-review": true
+  },
+  "settingsTranslation": "अनुवाद",
+  "@settingsTranslation": {
+    "description": "Home row and title for translation. Max 24 characters",
+    "x-review": true
+  },
+  "settingsPrivacy": "गोपनीयता",
+  "@settingsPrivacy": {
+    "description": "Home row and title for privacy. Max 16 characters",
+    "x-review": true
+  },
+  "settingsAbout": "के बारे में",
+  "@settingsAbout": {
+    "description": "Home row and title for About. Max 16 characters",
+    "x-review": true
+  },
+  "settingsModelPacks": "मॉडल पैक",
+  "@settingsModelPacks": {
+    "description": "Title of the packs screen, and a row that opens it. Max 24 characters",
+    "x-review": true
+  },
+  "homeSetupTurnOn": "Android के कीबोर्ड की सूची में BooBoard चालू करें।",
+  "@homeSetupTurnOn": {
+    "description": "Home hint while BooBoard is off. Two lines at most",
+    "x-review": true
+  },
+  "homeSetupChoose": "जिस कीबोर्ड से आप टाइप करते हैं, उसके रूप में BooBoard चुनें।",
+  "@homeSetupChoose": {
+    "description": "Home hint when BooBoard is on but not chosen. Two lines at most",
+    "x-review": true
+  },
+  "homeFinishSetup": "BooBoard का सेटअप पूरा करें",
+  "@homeFinishSetup": {
+    "description": "Home card title while setup is unfinished. Max 40 characters",
+    "x-review": true
+  },
+  "homeTypingSubtitle": "सुधार, सुझाव, कुंजियाँ और स्वाइप",
+  "@homeTypingSubtitle": {
+    "description": "Home row subtitle for typing. Max 60 characters",
+    "x-review": true
+  },
+  "homeFeelSubtitle": "हैप्टिक्स, ध्वनि, ऊँचाई और एक-हाथ मोड",
+  "@homeFeelSubtitle": {
+    "description": "Home row subtitle for feel. Max 60 characters",
+    "x-review": true
+  },
+  "homePanelsSubtitle": "क्लिपबोर्ड और इमोजी",
+  "@homePanelsSubtitle": {
+    "description": "Home row subtitle for panels. Max 60 characters",
+    "x-review": true
+  },
+  "homeVoiceSubtitle": "बोलकर टाइप करें, इसी फ़ोन पर",
+  "@homeVoiceSubtitle": {
+    "description": "Home row subtitle for voice. Max 60 characters",
+    "x-review": true
+  },
+  "homeTranslationSubtitle": "टाइप करते समय अनुवाद करें, ऑफ़लाइन",
+  "@homeTranslationSubtitle": {
+    "description": "Home row subtitle for translation. Max 60 characters",
+    "x-review": true
+  },
+  "homePrivacySubtitle": "क्या सहेजा जाता है, इनकॉग्निटो, ऐप लॉक और बैकअप",
+  "@homePrivacySubtitle": {
+    "description": "Home row subtitle for privacy. Max 60 characters",
+    "x-review": true
+  },
+  "homeAboutSubtitle": "संस्करण, लाइसेंस और स्रोत कोड",
+  "homeImages": "चित्र",
+  "@homeImages": {
+    "x-review": true
+  },
+  "homeAboutBooBoard": "BooBoard के बारे में",
+  "@homeAboutBooBoard": {
+    "x-review": true
+  },
+  "websiteOpenHint": "booboard.com को आपके ब्राउज़र में खोलता है",
+  "@websiteOpenHint": {
+    "x-review": true
+  },
+  "websiteNoBrowser": "कोई ब्राउज़र booboard.com नहीं खोल सकता।",
+  "@websiteNoBrowser": {
+    "x-review": true
+  },
+  "imagesSoonTitle": "चित्र *जल्द आ रहे हैं*",
+  "@imagesSoonTitle": {
+    "x-review": true
+  },
+  "imagesSoonBody": "अपने शब्दों से चित्र बनाएँ, इसी फ़ोन पर। BooBoard की हर चीज़ की तरह, यह भी ऑफ़लाइन काम करेगा।",
+  "@imagesSoonBody": {
+    "x-review": true
+  },
+  "aboutWebsite": "वेबसाइट",
+  "@aboutWebsite": {
+    "x-review": true
+  },
+  "@homeAboutSubtitle": {
+    "description": "Home row subtitle for About. Max 60 characters",
+    "x-review": true
+  },
+  "aboutTitle": "के बारे में",
+  "@aboutTitle": {
+    "description": "Title of the About screen. Max 24 characters",
+    "x-review": true
+  },
+  "aboutVersion": "संस्करण {versionName} ({versionCode})",
+  "@aboutVersion": {
+    "description": "About screen: app version under the name. Max 40 characters",
+    "x-review": true
+  },
+  "aboutVersionDebug": "संस्करण {versionName} ({versionCode}) · डीबग बिल्ड",
+  "@aboutVersionDebug": {
+    "description": "About screen: version line in a debug build. Max 60 characters",
+    "x-review": true
+  },
+  "aboutReadingVersion": "संस्करण पढ़ा जा रहा है…",
+  "@aboutReadingVersion": {
+    "description": "About screen: shown while the version loads",
+    "x-review": true
+  },
+  "aboutPrivacy": "गोपनीयता",
+  "@aboutPrivacy": {
+    "description": "About section title",
+    "x-review": true
+  },
+  "aboutNoInternet": "BooBoard इंटरनेट का उपयोग नहीं कर सकता",
+  "@aboutNoInternet": {
+    "description": "About privacy tile title. Max 50 characters",
+    "x-review": true
+  },
+  "aboutNoInternetBody": "रिलीज़ बिल्ड में इंटरनेट की अनुमति नहीं होती, इसलिए आप जो टाइप करते हैं वह इस फ़ोन से बाहर नहीं जाता।",
+  "@aboutNoInternetBody": {
+    "description": "About privacy tile. Two lines at most",
+    "x-review": true
+  },
+  "aboutLicence": "लाइसेंस",
+  "@aboutLicence": {
+    "description": "About section title. British spelling, as in the app",
+    "x-review": true
+  },
+  "aboutGplTitle": "GNU General Public License v3 या बाद का",
+  "@aboutGplTitle": {
+    "description": "About licence tile title. Keep the licence name",
+    "x-review": true
+  },
+  "aboutGplBody": "BooBoard मुक्त सॉफ़्टवेयर है। आप इसे GPL के तहत पढ़, बदल और साझा कर सकते हैं।",
+  "@aboutGplBody": {
+    "description": "About licence tile. Two lines at most",
+    "x-review": true
+  },
+  "aboutSourceCode": "स्रोत कोड",
+  "@aboutSourceCode": {
+    "description": "About section title",
+    "x-review": true
+  },
+  "aboutSourceBody": "BooBoard GPL-3.0-or-later के तहत है। इसका स्रोत कोड प्रोजेक्ट पेज पर उपलब्ध है।",
+  "@aboutSourceBody": {
+    "description": "About source tile. Two lines at most",
+    "x-review": true
+  },
+  "aboutLicences": "लाइसेंस",
+  "@aboutLicences": {
+    "description": "About section title, for the open-source list",
+    "x-review": true
+  },
+  "aboutOpenSource": "ओपन-सोर्स लाइसेंस",
+  "@aboutOpenSource": {
+    "description": "About tile title. Max 40 characters",
+    "x-review": true
+  },
+  "aboutOpenSourceBody": "Flutter, material_ui और BooBoard द्वारा उपयोग किए गए हर पैकेज",
+  "@aboutOpenSourceBody": {
+    "description": "About tile subtitle. Lists the libraries. Two lines at most",
+    "x-review": true
+  },
+  "aboutTextLoadFailed": "यह पाठ लोड नहीं हो सका।",
+  "@aboutTextLoadFailed": {
+    "description": "About screen: a licence text failed to load",
+    "x-review": true
+  },
+  "languagesEnabledHeader": "सक्षम, पहली भाषा डिफ़ॉल्ट है",
+  "@languagesEnabledHeader": {
+    "description": "Languages: list heading. The first language is the default. Max 40 characters",
+    "x-review": true
+  },
+  "languagesActive": "सक्रिय भाषा",
+  "@languagesActive": {
+    "description": "Languages: the language the keyboard is using now. Max 30 characters",
+    "x-review": true
+  },
+  "languagesAdd": "भाषा जोड़ें",
+  "@languagesAdd": {
+    "description": "Languages: adds a language to the list. Max 30 characters",
+    "x-review": true
+  },
+  "languagesAllEnabled": "सभी भाषाएँ सक्षम हैं",
+  "@languagesAllEnabled": {
+    "description": "Languages: shown when all are on. Max 40 characters",
+    "x-review": true
+  },
+  "languagesAllEnabledBody": "जगह बनाने के लिए ऊपर से कोई एक हटाएँ।",
+  "@languagesAllEnabledBody": {
+    "description": "Languages: hint under the message above. Max 50 characters",
+    "x-review": true
+  },
+  "languagesMultilingual": "बहुभाषी टाइपिंग",
+  "@languagesMultilingual": {
+    "description": "Languages: title of the multilingual section. Max 40 characters",
+    "x-review": true
+  },
+  "languagesMultilingualBody": "सक्षम तीन भाषाओं तक से शब्द सुझाता है, जिनकी लिपि कीबोर्ड की लिपि से मिलती है। जिस शब्द को उनमें से कोई भी जानती है, उसे कभी अपने-आप नहीं सुधारा जाता।",
+  "@languagesMultilingualBody": {
+    "description": "Languages: explains multilingual typing. Three lines at most",
+    "x-review": true
+  },
+  "languagesNativeDigits": "स्थानीय अंक",
+  "@languagesNativeDigits": {
+    "description": "Languages: title of the digits setting. Max 30 characters",
+    "x-review": true
+  },
+  "languagesNativeDigitsBody": "जहाँ सक्रिय भाषा की अपनी लिपि में अंक हों, वहाँ उसी लिपि में अंक टाइप करता है (०१२, ٠١٢)।",
+  "@languagesNativeDigitsBody": {
+    "description": "Languages: explains native digits. Two lines at most",
+    "x-review": true
+  },
+  "languagesOptions": "भाषा विकल्प",
+  "@languagesOptions": {
+    "description": "Languages: section for Chinese and Japanese options. Max 30 characters",
+    "x-review": true
+  },
+  "languagesZhSubtitle": "पिनयिन, परंपरागत अक्षर और शब्दकोश पैक",
+  "@languagesZhSubtitle": {
+    "description": "Languages: Chinese row subtitle. Two lines at most",
+    "x-review": true
+  },
+  "languagesJaSubtitle": "फ़्लिक इनपुट, रूपांतरण और शब्दकोश पैक",
+  "@languagesJaSubtitle": {
+    "description": "Languages: Japanese row subtitle. Two lines at most",
+    "x-review": true
+  },
+  "languagesReorderLabel": "{language} को क्रम बदलने के लिए खींचें",
+  "@languagesReorderLabel": {
+    "description": "Languages: accessibility label of the drag handle. {language} is a language name",
+    "x-review": true
+  },
+  "languageDefaultLabel": "{language}, डिफ़ॉल्ट",
+  "@languageDefaultLabel": {
+    "description": "Languages: label for the first language. {language} is a language name",
+    "x-review": true
+  },
+  "languageLayoutTooltip": "{language} का लेआउट",
+  "@languageLayoutTooltip": {
+    "description": "Languages: tooltip on the layout button. {language} is a language name. Max 40 characters",
+    "x-review": true
+  },
+  "languageRemoveTooltip": "{language} हटाएँ",
+  "@languageRemoveTooltip": {
+    "description": "Languages: tooltip on the remove button. {language} is a language name. Max 30 characters",
+    "x-review": true
+  },
+  "feelHaptics": "हैप्टिक्स",
+  "@feelHaptics": {
+    "description": "Feel: section title",
+    "x-review": true
+  },
+  "feelHapticFeedback": "हैप्टिक फ़ीडबैक",
+  "@feelHapticFeedback": {
+    "description": "Feel: switch title. Max 30 characters",
+    "x-review": true
+  },
+  "feelHapticFeedbackBody": "हर कुंजी पर एक छोटा कंपन, सिस्टम सेटिंग के अनुसार",
+  "@feelHapticFeedbackBody": {
+    "description": "Feel: switch subtitle. Two lines at most",
+    "x-review": true
+  },
+  "feelHapticStrength": "हैप्टिक तीव्रता",
+  "@feelHapticStrength": {
+    "description": "Feel: slider title. Max 30 characters",
+    "x-review": true
+  },
+  "feelSounds": "ध्वनियाँ",
+  "@feelSounds": {
+    "description": "Feel: section title",
+    "x-review": true
+  },
+  "feelKeySounds": "कुंजी ध्वनियाँ",
+  "@feelKeySounds": {
+    "description": "Feel: switch title. Max 30 characters",
+    "x-review": true
+  },
+  "feelKeySoundsBody": "कुंजी, स्पेस, हटाने और एंटर के लिए क्लिक",
+  "@feelKeySoundsBody": {
+    "description": "Feel: switch subtitle. Two lines at most",
+    "x-review": true
+  },
+  "feelUseSystemVolume": "सिस्टम वॉल्यूम का उपयोग करें",
+  "@feelUseSystemVolume": {
+    "description": "Feel: switch title. Max 30 characters",
+    "x-review": true
+  },
+  "feelKeySoundVolume": "कुंजी ध्वनि का वॉल्यूम",
+  "@feelKeySoundVolume": {
+    "description": "Feel: slider title. Max 30 characters",
+    "x-review": true
+  },
+  "feelHeight": "ऊँचाई",
+  "@feelHeight": {
+    "description": "Feel: section title",
+    "x-review": true
+  },
+  "feelPortraitHeight": "पोर्ट्रेट ऊँचाई",
+  "@feelPortraitHeight": {
+    "description": "Feel: slider title. Max 30 characters",
+    "x-review": true
+  },
+  "feelLandscapeHeight": "लैंडस्केप ऊँचाई",
+  "@feelLandscapeHeight": {
+    "description": "Feel: slider title. Max 30 characters",
+    "x-review": true
+  },
+  "feelOneHandedFloating": "एक-हाथ और फ़्लोटिंग",
+  "@feelOneHandedFloating": {
+    "description": "Feel: section title. Max 30 characters",
+    "x-review": true
+  },
+  "feelOneHandedSide": "एक-हाथ मोड की ओर",
+  "@feelOneHandedSide": {
+    "description": "Feel: label above the side choice. Max 30 characters",
+    "x-review": true
+  },
+  "feelFloatingKeyboard": "फ़्लोटिंग कीबोर्ड",
+  "@feelFloatingKeyboard": {
+    "description": "Feel: switch title. Max 30 characters",
+    "x-review": true
+  },
+  "feelFloatingBody": "स्क्रीन पर कहीं भी खींचें",
+  "@feelFloatingBody": {
+    "description": "Feel: switch subtitle. Two lines at most",
+    "x-review": true
+  },
+  "panelsClipboard": "क्लिपबोर्ड",
+  "@panelsClipboard": {
+    "description": "Panels: section title",
+    "x-review": true
+  },
+  "panelsClipboardHistory": "क्लिपबोर्ड इतिहास",
+  "@panelsClipboardHistory": {
+    "description": "Panels: switch title. Max 30 characters",
+    "x-review": true
+  },
+  "panelsClipboardHistoryBody": "आप जो कॉपी करते हैं, वह इसी फ़ोन पर एन्क्रिप्ट करके रखा जाता है",
+  "@panelsClipboardHistoryBody": {
+    "description": "Panels: switch subtitle. Two lines at most",
+    "x-review": true
+  },
+  "panelsRecentChip": "हाल की कॉपी चिप",
+  "@panelsRecentChip": {
+    "description": "Panels: switch title for the last-copy chip. Max 30 characters",
+    "x-review": true
+  },
+  "panelsRecentChipBody": "आपकी आखिरी कॉपी एक मिनट तक सुझाव पट्टी में दिखती है",
+  "@panelsRecentChipBody": {
+    "description": "Panels: switch subtitle. Two lines at most",
+    "x-review": true
+  },
+  "panelsKeepUnpinned": "बिना पिन की कॉपी इतने समय तक रखें",
+  "@panelsKeepUnpinned": {
+    "description": "Panels: label above the duration choice. Max 40 characters",
+    "x-review": true
+  },
+  "panelsClipsToKeep": "रखने वाली क्लिप",
+  "@panelsClipsToKeep": {
+    "description": "Panels: slider title. Max 30 characters",
+    "x-review": true
+  },
+  "panelsEmoji": "इमोजी",
+  "@panelsEmoji": {
+    "description": "Panels: section title",
+    "x-review": true
+  },
+  "emojiSuggestions": "इमोजी सुझाव",
+  "@emojiSuggestions": {
+    "description": "Emoji suggestions switch title, in Panels and Typing. Max 30 characters",
+    "x-review": true
+  },
+  "emojiSuggestionsPanelBody": "कुछ शब्दों के लिए सुझाव पट्टी में इमोजी दिखाता है",
+  "@emojiSuggestionsPanelBody": {
+    "description": "Panels: switch subtitle. Two lines at most",
+    "x-review": true
+  },
+  "panelsPasswordsNeverSaved": "पासवर्ड कभी सहेजे नहीं जाते",
+  "@panelsPasswordsNeverSaved": {
+    "description": "Panels: switch title. Max 40 characters",
+    "x-review": true
+  },
+  "panelsSensitiveBody": "Android जिन कॉपी को संवेदनशील बताता है, उन्हें कभी नहीं रखा जाता।",
+  "@panelsSensitiveBody": {
+    "description": "Panels: switch subtitle. Two lines at most",
+    "x-review": true
+  },
+  "typingCorrections": "सुधार",
+  "@typingCorrections": {
+    "description": "Typing: section title",
+    "x-review": true
+  },
+  "typingAutocorrect": "स्वतः सुधार",
+  "@typingAutocorrect": {
+    "description": "Typing: switch title. Max 30 characters",
+    "x-review": true
+  },
+  "typingAutocorrectBody": "शब्द पूरा होने पर संभावित टाइपो ठीक करता है",
+  "@typingAutocorrectBody": {
+    "description": "Typing: switch subtitle. Two lines at most",
+    "x-review": true
+  },
+  "typingAutoCapitalise": "स्वतः बड़े अक्षर",
+  "@typingAutoCapitalise": {
+    "description": "Typing: switch title. Max 30 characters",
+    "x-review": true
+  },
+  "typingAutoCapitaliseBody": "वाक्य की शुरुआत में बड़े अक्षर",
+  "@typingAutoCapitaliseBody": {
+    "description": "Typing: switch subtitle. Two lines at most",
+    "x-review": true
+  },
+  "typingDoubleSpace": "डबल स्पेस से पूर्ण विराम",
+  "@typingDoubleSpace": {
+    "description": "Typing: switch title. Max 30 characters",
+    "x-review": true
+  },
+  "typingDoubleSpaceBody": "स्पेस दो बार दबाने पर \". \" लिखा जाता है",
+  "@typingDoubleSpaceBody": {
+    "description": "Typing: switch subtitle. Two lines at most",
+    "x-review": true
+  },
+  "typingSmartPunctuation": "स्मार्ट विराम चिह्न",
+  "@typingSmartPunctuation": {
+    "description": "Typing: switch title. Max 30 characters",
+    "x-review": true
+  },
+  "typingSmartPunctuationBody": "विराम चिह्नों के आसपास की जगह ठीक करता है और स्थानीय उद्धरण चिह्न लगाता है",
+  "@typingSmartPunctuationBody": {
+    "description": "Typing: switch subtitle. Two lines at most",
+    "x-review": true
+  },
+  "typingSuggestions": "सुझाव",
+  "@typingSuggestions": {
+    "description": "Typing: section and switch title. Max 30 characters",
+    "x-review": true
+  },
+  "typingSuggestionsBody": "सुझाव पट्टी में शब्द दिखाता है",
+  "@typingSuggestionsBody": {
+    "description": "Typing: switch subtitle. Two lines at most",
+    "x-review": true
+  },
+  "typingNextWord": "अगला शब्द अनुमान",
+  "@typingNextWord": {
+    "description": "Typing: switch title. Max 30 characters",
+    "x-review": true
+  },
+  "typingNextWordBody": "वह शब्द सुझाता है जो अक्सर आता है",
+  "@typingNextWordBody": {
+    "description": "Typing: switch subtitle. Two lines at most",
+    "x-review": true
+  },
+  "typingEmojiBody": "कुछ शब्दों के लिए इमोजी सुझाता है",
+  "@typingEmojiBody": {
+    "description": "Typing: emoji switch subtitle. Two lines at most",
+    "x-review": true
+  },
+  "typingHideOffensive": "अपमानजनक शब्द छिपाएँ",
+  "@typingHideOffensive": {
+    "description": "Typing: switch title. Max 30 characters",
+    "x-review": true
+  },
+  "typingHideOffensiveBody": "पूरे रूप में टाइप करने पर ही सुझाए जाते हैं",
+  "@typingHideOffensiveBody": {
+    "description": "Typing: switch subtitle. Two lines at most",
+    "x-review": true
+  },
+  "typingKeys": "कुंजियाँ",
+  "@typingKeys": {
+    "description": "Typing: section title",
+    "x-review": true
+  },
+  "typingKeyPopups": "कुंजी पॉपअप",
+  "@typingKeyPopups": {
+    "description": "Typing: switch title. Max 30 characters",
+    "x-review": true
+  },
+  "typingKeyPopupsBody": "दबाते समय कुंजी को बड़ा करता है",
+  "@typingKeyPopupsBody": {
+    "description": "Typing: switch subtitle. Two lines at most",
+    "x-review": true
+  },
+  "typingLongPressDelay": "लंबे दबाव की देरी",
+  "@typingLongPressDelay": {
+    "description": "Typing: slider title. Max 30 characters",
+    "x-review": true
+  },
+  "typingNumberRow": "अंक पंक्ति",
+  "@typingNumberRow": {
+    "description": "Typing: switch title. Max 30 characters",
+    "x-review": true
+  },
+  "typingNumberRowBody": "अक्षरों के ऊपर 0 से 9 दिखाता है",
+  "@typingNumberRowBody": {
+    "description": "Typing: switch subtitle. Two lines at most",
+    "x-review": true
+  },
+  "typingHintLabels": "संकेत लेबल",
+  "@typingHintLabels": {
+    "description": "Typing: switch title. Max 30 characters",
+    "x-review": true
+  },
+  "typingHintLabelsBody": "कुंजियों पर छोटे चिह्न, जैसे मात्राएँ या स्वर चिह्न",
+  "@typingHintLabelsBody": {
+    "description": "Typing: switch subtitle. Two lines at most",
+    "x-review": true
+  },
+  "typingLowercaseLabels": "छोटे अक्षरों के लेबल",
+  "@typingLowercaseLabels": {
+    "description": "Typing: switch title. Max 30 characters",
+    "x-review": true
+  },
+  "typingLowercaseLabelsBody": "शिफ़्ट चालू होने पर भी कुंजी के अक्षर छोटे रखता है",
+  "@typingLowercaseLabelsBody": {
+    "description": "Typing: switch subtitle. Two lines at most",
+    "x-review": true
+  },
+  "typingSwipe": "स्वाइप",
+  "@typingSwipe": {
+    "description": "Typing: section title",
+    "x-review": true
+  },
+  "typingSwipeTyping": "स्वाइप टाइपिंग",
+  "@typingSwipeTyping": {
+    "description": "Typing: switch title. Max 30 characters",
+    "x-review": true
+  },
+  "typingSwipeTypingBody": "कोई शब्द लिखने के लिए अक्षरों पर फिसलाएँ",
+  "@typingSwipeTypingBody": {
+    "description": "Typing: switch subtitle. Two lines at most",
+    "x-review": true
+  },
+  "typingShowTrail": "पथ दिखाएँ",
+  "@typingShowTrail": {
+    "description": "Typing: switch title. Max 30 characters",
+    "x-review": true
+  },
+  "typingTrailWidth": "पथ की चौड़ाई",
+  "@typingTrailWidth": {
+    "description": "Typing: slider title. Max 30 characters",
+    "x-review": true
+  },
+  "typingTrailFade": "पथ धुंधलापन",
+  "@typingTrailFade": {
+    "description": "Typing: slider title. Max 30 characters",
+    "x-review": true
+  },
+  "typingLivePreview": "लाइव पूर्वावलोकन",
+  "@typingLivePreview": {
+    "description": "Typing: switch title. Max 30 characters",
+    "x-review": true
+  },
+  "typingLivePreviewBody": "फिसलते समय संभावित शब्द दिखाता है",
+  "@typingLivePreviewBody": {
+    "description": "Typing: switch subtitle. Two lines at most",
+    "x-review": true
+  },
+  "typingSpaceMovesCursor": "स्पेस बार कर्सर को हिलाता है",
+  "@typingSpaceMovesCursor": {
+    "description": "Typing: switch title. Max 40 characters",
+    "x-review": true
+  },
+  "typingSpaceMovesCursorBody": "कर्सर हिलाने के लिए स्पेस बार पर खींचें",
+  "@typingSpaceMovesCursorBody": {
+    "description": "Typing: switch subtitle. Two lines at most",
+    "x-review": true
+  },
+  "typingSwipeBackspace": "हटाएँ कुंजी पर स्वाइप करके शब्द हटाएँ",
+  "@typingSwipeBackspace": {
+    "description": "Typing: switch title. Max 40 characters",
+    "x-review": true
+  },
+  "typingSwipeBackspaceBody": "शब्द चुनने और हटाने के लिए हटाएँ कुंजी को बाईं ओर स्वाइप करें",
+  "@typingSwipeBackspaceBody": {
+    "description": "Typing: switch subtitle. Two lines at most",
+    "x-review": true
+  },
+  "voiceTyping": "वॉइस टाइपिंग",
+  "@voiceTyping": {
+    "description": "Voice: switch title. Max 30 characters",
+    "x-review": true
+  },
+  "voiceTypingBody": "अंग्रेज़ी में बोलकर टाइप करें। पहचान इसी फ़ोन पर होती है।",
+  "@voiceTypingBody": {
+    "description": "Voice: switch subtitle. Two lines at most",
+    "x-review": true
+  },
+  "voiceRecognition": "पहचान",
+  "@voiceRecognition": {
+    "description": "Voice: section title. Max 30 characters",
+    "x-review": true
+  },
+  "voiceModelPacksBody": "वॉइस और अनुवाद पैक इंस्टॉल या हटाएँ",
+  "@voiceModelPacksBody": {
+    "description": "Voice and Translation: row subtitle for model packs. Two lines at most",
+    "x-review": true
+  },
+  "voiceAudioStays": "ऑडियो इसी फ़ोन पर रहता है और कभी सहेजा नहीं जाता।",
+  "@voiceAudioStays": {
+    "description": "Voice: footnote under the mic. Two lines at most",
+    "x-review": true
+  },
+  "voicePackAutomatic": "स्वचालित",
+  "@voicePackAutomatic": {
+    "description": "Voice pack choice: the best installed pack. Max 20 characters",
+    "x-review": true
+  },
+  "voicePackAutomaticSelected": "स्वचालित (चुना गया)",
+  "@voicePackAutomaticSelected": {
+    "description": "Voice pack choice when Automatic is in use. Max 30 characters",
+    "x-review": true
+  },
+  "voicePack": "वॉइस पैक",
+  "@voicePack": {
+    "description": "Voice pack picker title. Max 30 characters",
+    "x-review": true
+  },
+  "voiceNoPack": "कोई वॉइस पैक इंस्टॉल नहीं है। मॉडल पैक के अंतर्गत एक इंस्टॉल करें।",
+  "@voiceNoPack": {
+    "description": "Voice pack picker: shown when none is installed. Two lines at most",
+    "x-review": true
+  },
+  "voiceLooking": "इंस्टॉल किए गए पैक खोजे जा रहे हैं",
+  "@voiceLooking": {
+    "description": "Voice pack picker: shown while the packs load. Max 40 characters",
+    "x-review": true
+  },
+  "voicePackItem": "{name} · {size}",
+  "@voicePackItem": {
+    "description": "Voice pack picker: a pack with its size. {name} is the pack name, {size} is a size such as 120 MB",
+    "x-review": true
+  },
+  "voicePackItemSelected": "{name} · {size} (चुना गया)",
+  "@voicePackItemSelected": {
+    "description": "Voice pack picker: the chosen pack with its size. {name} is the pack name, {size} a size",
+    "x-review": true
+  },
+  "megabytes": "{count} MB",
+  "@megabytes": {
+    "description": "A size in megabytes, such as 120 MB. {count} is a number",
+    "x-review": true
+  },
+  "milliseconds": "{count} ms",
+  "@milliseconds": {
+    "description": "A duration in milliseconds. {count} is a number. Max 12 characters",
+    "x-review": true
+  },
+  "dpValue": "{count} dp",
+  "@dpValue": {
+    "description": "A size in density-independent pixels. {count} is a number. Max 12 characters",
+    "x-review": true
+  },
+  "packsOpenFailed": "BooBoard फ़ाइल चुनने वाला टूल नहीं खोल सका।",
+  "@packsOpenFailed": {
+    "description": "Packs: shown when the file picker fails",
+    "x-review": true
+  },
+  "packsInstalled": "{name} इंस्टॉल किया गया।",
+  "@packsInstalled": {
+    "description": "Packs: snackbar after a pack installs. {name} is the pack name",
+    "x-review": true
+  },
+  "packsDeleteTitle": "{name} हटाएँ?",
+  "@packsDeleteTitle": {
+    "description": "Packs: dialog title before a pack is deleted. {name} is the pack name",
+    "x-review": true
+  },
+  "packsDeleteBody": "इसकी फ़ाइलें इस फ़ोन से हटा दी जाएँगी। बाद में इसकी फ़ाइल से पैक फिर से आयात किया जा सकता है।",
+  "@packsDeleteBody": {
+    "description": "Packs: body text of the delete confirmation dialog, under the title. Max 120 characters",
+    "x-review": true
+  },
+  "packsDeleted": "{name} हटाया गया।",
+  "@packsDeleted": {
+    "description": "Packs: snackbar after a pack is deleted. {name} is the pack name",
+    "x-review": true
+  },
+  "packsDeleteFailed": "BooBoard {name} हटा नहीं सका। फिर से कोशिश करें।",
+  "@packsDeleteFailed": {
+    "description": "Packs: shown when a delete fails. {name} is the pack name",
+    "x-review": true
+  },
+  "packsIntro": "पैक इंस्टॉल होने से पहले जाँचे जाते हैं। इनमें केवल डेटा होता है, कोड कभी नहीं।",
+  "@packsIntro": {
+    "description": "Packs: explains packs. Two lines at most",
+    "x-review": true
+  },
+  "packsImport": "आयात करें",
+  "@packsImport": {
+    "description": "Packs: section title",
+    "x-review": true
+  },
+  "packsImportTitle": "पैक फ़ाइल आयात करें",
+  "@packsImportTitle": {
+    "description": "Packs: row title for importing. Max 30 characters",
+    "x-review": true
+  },
+  "packsChecking": "जाँच और इंस्टॉल हो रहा है…",
+  "@packsChecking": {
+    "description": "Packs: row subtitle while an import runs",
+    "x-review": true
+  },
+  "packsImportBody": "एक .boopack फ़ाइल, जैसे डाउनलोड से",
+  "@packsImportBody": {
+    "description": "Packs: row subtitle. Two lines at most. .boopack is a file extension",
+    "x-review": true
+  },
+  "packsNoVoice": "कोई वॉइस पैक इंस्टॉल नहीं है",
+  "@packsNoVoice": {
+    "description": "Packs: empty state in Voice. Max 40 characters",
+    "x-review": true
+  },
+  "packsNoVoiceBody": "वॉइस टाइपिंग के लिए वॉइस पैक चाहिए।",
+  "@packsNoVoiceBody": {
+    "description": "Packs: empty state detail. Max 60 characters",
+    "x-review": true
+  },
+  "packsNoTranslation": "कोई अनुवाद पैक इंस्टॉल नहीं है",
+  "@packsNoTranslation": {
+    "description": "Packs: empty state in Translation. Max 40 characters",
+    "x-review": true
+  },
+  "packsNoTranslationBody": "अनुवाद के लिए हर दिशा का एक पैक चाहिए।",
+  "@packsNoTranslationBody": {
+    "description": "Packs: empty state detail. Max 60 characters",
+    "x-review": true
+  },
+  "packsDictionaries": "शब्दकोश",
+  "@packsDictionaries": {
+    "description": "Packs: section title",
+    "x-review": true
+  },
+  "packsNoDictionary": "कोई शब्दकोश पैक इंस्टॉल नहीं है",
+  "@packsNoDictionary": {
+    "description": "Packs: empty state in Dictionaries. Max 40 characters",
+    "x-review": true
+  },
+  "packsNoDictionaryBody": "चीनी और जापानी टाइपिंग के लिए शब्दकोश पैक चाहिए।",
+  "@packsNoDictionaryBody": {
+    "description": "Packs: empty state detail. Max 60 characters",
+    "x-review": true
+  },
+  "packsGetTitle": "पैक प्राप्त करें",
+  "@packsGetTitle": {
+    "x-review": true
+  },
+  "packsExplainTitle": "पैक वे फ़ाइलें हैं जिन्हें आप खुद जोड़ते हैं।",
+  "@packsExplainTitle": {
+    "x-review": true
+  },
+  "packsExplainBody": "इन्हें किसी दूसरे डिवाइस पर प्रोजेक्ट के रिलीज़ पेज से डाउनलोड करें, इस फ़ोन पर कॉपी करें, फिर आयात करें।",
+  "@packsExplainBody": {
+    "x-review": true
+  },
+  "packsCopyLink": "रिलीज़ पेज का लिंक कॉपी करें",
+  "@packsCopyLink": {
+    "x-review": true
+  },
+  "packsPrivateTitle": "डाउनलोड निजी कैसे रहते हैं",
+  "@packsPrivateTitle": {
+    "x-review": true
+  },
+  "packsPrivateBody": "BooBoard के पास इंटरनेट की अनुमति नहीं है और यह कभी कनेक्ट नहीं होता। डाउनलोड आपका ब्राउज़र खोलता है, जो पैक को प्रोजेक्ट की GitHub रिलीज़ से लाता है। फिर BooBoard कुछ भी इंस्टॉल करने से पहले इसी फ़ोन पर पैक का हस्ताक्षर जाँचता है।",
+  "@packsPrivateBody": {
+    "x-review": true
+  },
+  "packsAvailableTitle": "पैक जो आप जोड़ सकते हैं",
+  "@packsAvailableTitle": {
+    "x-review": true
+  },
+  "packsDownload": "डाउनलोड करें",
+  "@packsDownload": {
+    "x-review": true
+  },
+  "packsDownloadMeta": "{size} · आपका ब्राउज़र खुलता है",
+  "@packsDownloadMeta": {
+    "x-review": true
+  },
+  "packsDownloadStarted": "आपका ब्राउज़र {name} डाउनलोड कर रहा है। पूरा होने पर पैक फ़ाइल इंपोर्ट करें पर टैप करें।",
+  "@packsDownloadStarted": {
+    "x-review": true
+  },
+  "packsNoBrowser": "कोई ब्राउज़र यह लिंक नहीं खोल सकता। इसके बजाय रिलीज़ पेज का लिंक कॉपी करें।",
+  "@packsNoBrowser": {
+    "x-review": true
+  },
+  "packsImportCheckedBody": "डाउनलोड की गई .boopack फ़ाइल चुनें। इसे इसी फ़ोन पर जाँचा जाता है, फिर इंस्टॉल किया जाता है।",
+  "@packsImportCheckedBody": {
+    "x-review": true
+  },
+  "packsAllInstalled": "सभी प्रकाशित पैक इंस्टॉल हैं।",
+  "@packsAllInstalled": {
+    "x-review": true
+  },
+  "packsLinkCopied": "लिंक कॉपी हो गया। इसे दूसरे डिवाइस पर खोलें।",
+  "@packsLinkCopied": {
+    "x-review": true
+  },
+  "packsPlayTitle": "Google Play से प्राप्त करें",
+  "@packsPlayTitle": {
+    "x-review": true
+  },
+  "packsPlayNote": "ये पैक Google Play डाउनलोड करता है, BooBoard नहीं। BooBoard खुद कभी नेटवर्क का इस्तेमाल नहीं करता।",
+  "@packsPlayNote": {
+    "x-review": true
+  },
+  "packsGet": "प्राप्त करें",
+  "@packsGet": {
+    "x-review": true
+  },
+  "packsStatusNotRequested": "अभी डाउनलोड नहीं हुआ",
+  "@packsStatusNotRequested": {
+    "x-review": true
+  },
+  "packsStatusWaiting": "Wi-Fi या मोबाइल डेटा का इंतज़ार",
+  "@packsStatusWaiting": {
+    "x-review": true
+  },
+  "packsStatusDownloading": "Google Play से डाउनलोड हो रहा है",
+  "@packsStatusDownloading": {
+    "x-review": true
+  },
+  "packsStatusInstalling": "जाँच और इंस्टॉल हो रहा है",
+  "@packsStatusInstalling": {
+    "x-review": true
+  },
+  "packsStatusFailed": "Google Play इसे पहुँचा नहीं सका। फिर से कोशिश करें।",
+  "@packsStatusFailed": {
+    "x-review": true
+  },
+  "packsOfferMeta": "{size} · {status}",
+  "@packsOfferMeta": {
+    "x-review": true
+  },
+  "packsVerifyTitle": "इंस्टॉल किए गए पैक जाँचें",
+  "@packsVerifyTitle": {
+    "x-review": true
+  },
+  "packsVerifyBody": "हर इंस्टॉल किए गए पैक की हर फ़ाइल को उसकी हस्ताक्षरित सूची से मिलाता है। कुछ नहीं बदला जाता।",
+  "@packsVerifyBody": {
+    "x-review": true
+  },
+  "packsVerifyOk": "{count} इंस्टॉल किए गए पैक जाँचे गए। सभी फ़ाइलें मेल खाती हैं।",
+  "@packsVerifyOk": {
+    "x-review": true
+  },
+  "packsVerifyDamaged": "{count} इंस्टॉल किए गए पैक की फ़ाइलें खराब या गायब हैं। उन्हें हटाकर फिर से आयात करें।",
+  "@packsVerifyDamaged": {
+    "x-review": true
+  },
+  "packsVerifyUnavailable": "BooBoard के इस संस्करण में इंस्टॉल किए गए पैक की जाँच उपलब्ध नहीं है।",
+  "@packsVerifyUnavailable": {
+    "x-review": true
+  },
+  "packsVerifyFailed": "BooBoard पैक की जाँच नहीं कर सका। कुछ नहीं बदला गया।",
+  "@packsVerifyFailed": {
+    "x-review": true
+  },
+  "packsFreeSpace": "इस फ़ोन पर {size} खाली है।",
+  "@packsFreeSpace": {
+    "x-review": true
+  },
+  "packsNothingStored": "अभी कुछ सहेजा नहीं गया है।",
+  "@packsNothingStored": {
+    "description": "Packs: footer when no pack is installed",
+    "x-review": true
+  },
+  "packsInstalledUse": "इंस्टॉल पैक इस फ़ोन पर {size} लेते हैं।",
+  "@packsInstalledUse": {
+    "description": "Packs: footer with the total size. {size} is a size such as 300 MB",
+    "x-review": true
+  },
+  "packErrorBadSignature": "यह पैक BooBoard के लिए हस्ताक्षरित नहीं है, इसलिए कुछ भी इंस्टॉल नहीं हुआ।",
+  "@packErrorBadSignature": {
+    "description": "Pack install error: the signature is wrong. Two lines at most",
+    "x-review": true
+  },
+  "packErrorBadFormat": "यह फ़ाइल BooBoard पैक नहीं है। कुछ भी इंस्टॉल नहीं हुआ।",
+  "@packErrorBadFormat": {
+    "description": "Pack install error: wrong file. Two lines at most",
+    "x-review": true
+  },
+  "packErrorTooLarge": "यह पैक इस फ़ोन पर इंस्टॉल करने के लिए बहुत बड़ा है।",
+  "@packErrorTooLarge": {
+    "description": "Pack install error: too big. Two lines at most",
+    "x-review": true
+  },
+  "packErrorVersion": "इस पैक के लिए BooBoard का नया संस्करण चाहिए।",
+  "@packErrorVersion": {
+    "description": "Pack install error: version too old. Two lines at most",
+    "x-review": true
+  },
+  "packErrorNoSpace": "इस पैक को इंस्टॉल करने के लिए पर्याप्त खाली जगह नहीं है।",
+  "@packErrorNoSpace": {
+    "description": "Pack install error: no storage. Two lines at most",
+    "x-review": true
+  },
+  "packErrorGeneric": "पैक इंस्टॉल नहीं हो सका। कुछ भी नहीं बदला गया।",
+  "@packErrorGeneric": {
+    "description": "Pack install error: any other failure. Two lines at most",
+    "x-review": true
+  },
+  "translateDefaultPair": "डिफ़ॉल्ट भाषा जोड़ी",
+  "@translateDefaultPair": {
+    "description": "Translation: section title for the default pair. Max 30 characters",
+    "x-review": true
+  },
+  "translatePairName": "{from} → {to}",
+  "@translatePairName": {
+    "description": "Translation: a language pair. {from} and {to} are language names",
+    "x-review": true
+  },
+  "translateOffline": "ऑफ़लाइन अनुवाद",
+  "@translateOffline": {
+    "description": "Translation: switch title. Max 30 characters",
+    "x-review": true
+  },
+  "translateOfflineBody": "कीबोर्ड में टाइप करते समय और किसी भी ऐप में चुने गए टेक्स्ट का अनुवाद करता है।",
+  "@translateOfflineBody": {
+    "description": "Translation: switch subtitle. Two lines at most",
+    "x-review": true
+  },
+  "translateDefaultPairTile": "डिफ़ॉल्ट जोड़ी",
+  "@translateDefaultPairTile": {
+    "description": "Translation: row title for the default pair. Max 30 characters",
+    "x-review": true
+  },
+  "translatePackInstalled": "पैक इंस्टॉल है",
+  "@translatePackInstalled": {
+    "description": "Translation: status of a pair with its pack. Max 30 characters",
+    "x-review": true
+  },
+  "translatePackNotInstalled": "पैक इंस्टॉल नहीं है। इसे मॉडल पैक में पाएँ।",
+  "@translatePackNotInstalled": {
+    "description": "Translation: status of a pair without its pack. Two lines at most",
+    "x-review": true
+  },
+  "translateInstalled": "इंस्टॉल की गई दिशाएँ",
+  "@translateInstalled": {
+    "description": "Translation: section title for installed packs. Max 30 characters",
+    "x-review": true
+  },
+  "translateInstalledBody": "हर दिशा एक पैक है, जैसे अंग्रेज़ी → स्पेनिश।",
+  "@translateInstalledBody": {
+    "description": "Translation: explains installed directions. Two lines at most",
+    "x-review": true
+  },
+  "translatePackMeta": "{size} · {license}",
+  "@translatePackMeta": {
+    "description": "Translation: a pack's size and licence. {size} is a size, {license} a licence name",
+    "x-review": true
+  },
+  "translateModelPacksBody": "अनुवाद पैक इंस्टॉल या हटाएँ",
+  "@translateModelPacksBody": {
+    "description": "Translation: row subtitle for model packs. Two lines at most",
+    "x-review": true
+  },
+  "translateRunsOnPhone": "अनुवाद इसी फ़ोन पर होता है। आप जो अनुवाद करते हैं, वह सहेजा नहीं जाता।",
+  "@translateRunsOnPhone": {
+    "description": "Translation: footnote. Two lines at most",
+    "x-review": true
+  },
+  "privacyUnlockReason": "अपनी सेटिंग और डेटा देखने के लिए BooBoard अनलॉक करें",
+  "@privacyUnlockReason": {
+    "description": "Shown by the system fingerprint prompt. Max 60 characters",
+    "x-review": true
+  },
+  "privacyLockUnavailable": "डिवाइस लॉक अभी उपलब्ध नहीं है। थोड़ी देर बाद फिर कोशिश करें।",
+  "@privacyLockUnavailable": {
+    "description": "App lock: the device lock cannot be used now. Two lines at most",
+    "x-review": true
+  },
+  "privacyLockedTitle": "BooBoard लॉक है",
+  "@privacyLockedTitle": {
+    "description": "App lock screen title. Max 30 characters",
+    "x-review": true
+  },
+  "privacyLockedBody": "जारी रखने के लिए अपनी फ़िंगरप्रिंट या डिवाइस PIN से अनलॉक करें।",
+  "@privacyLockedBody": {
+    "description": "App lock screen: explains how to unlock. Two lines at most",
+    "x-review": true
+  },
+  "privacyUnlock": "अनलॉक करें",
+  "@privacyUnlock": {
+    "description": "App lock screen: unlock button. Max 20 characters",
+    "x-review": true
+  },
+  "backupSaved": "बैकअप सहेजा गया ({size})। अपना पासफ़्रेज़ सुरक्षित रखें।",
+  "@backupSaved": {
+    "description": "Backup: snackbar after saving. {size} is a file size such as 2.4 MB",
+    "x-review": true
+  },
+  "backupUnlockRetrySaved": "फ़ोन अनलॉक करके फिर कोशिश करें। कुछ सहेजा नहीं गया।",
+  "@backupUnlockRetrySaved": {
+    "description": "Backup: saving needs the phone unlocked. Two lines at most",
+    "x-review": true
+  },
+  "backupSaveFailed": "बैकअप सहेजा नहीं जा सका। कुछ भी नहीं बदला गया।",
+  "@backupSaveFailed": {
+    "description": "Backup: saving failed. Two lines at most",
+    "x-review": true
+  },
+  "backupCheckFailed": "सहेजी गई फ़ाइल की जाँच नहीं हो सकी, वह खराब हो सकती है। बैकअप को नई फ़ाइल के रूप में फिर से सहेजें।",
+  "@backupCheckFailed": {
+    "x-review": true
+  },
+  "backupWrongPassphrase": "पासफ़्रेज़ गलत है, या फ़ाइल खराब है। कुछ भी नहीं बदला गया।",
+  "@backupWrongPassphrase": {
+    "description": "Restore: wrong passphrase or broken file. Two lines at most",
+    "x-review": true
+  },
+  "backupInvalidFile": "यह फ़ाइल वैध BooBoard बैकअप नहीं है। कुछ भी नहीं बदला गया।",
+  "@backupInvalidFile": {
+    "description": "Restore: wrong file type. Two lines at most",
+    "x-review": true
+  },
+  "backupTooLarge": "यह फ़ाइल BooBoard बैकअप के लिए बहुत बड़ी है।",
+  "@backupTooLarge": {
+    "description": "Restore: file too big. Two lines at most",
+    "x-review": true
+  },
+  "backupNewerVersion": "यह बैकअप BooBoard के नए संस्करण से बना है। पुनर्स्थापित करने के लिए BooBoard अपडेट करें।",
+  "@backupNewerVersion": {
+    "description": "Restore: backup from a newer app. Two lines at most",
+    "x-review": true
+  },
+  "backupBusy": "पहले दूसरी फ़ाइल विंडो बंद करें, फिर कोशिश करें।",
+  "@backupBusy": {
+    "description": "Restore: another file window is open. Two lines at most",
+    "x-review": true
+  },
+  "backupOpenFailed": "बैकअप नहीं खुल सका। कुछ भी नहीं बदला गया।",
+  "@backupOpenFailed": {
+    "description": "Restore: any other open failure. Two lines at most",
+    "x-review": true
+  },
+  "backupEmpty": "इस बैकअप में कुछ नहीं है।",
+  "@backupEmpty": {
+    "description": "Restore: the backup is empty. Max 50 characters",
+    "x-review": true
+  },
+  "backupRestoreTitle": "बैकअप पुनर्स्थापित करें",
+  "@backupRestoreTitle": {
+    "description": "Restore: dialog title. Max 30 characters",
+    "x-review": true
+  },
+  "backupMadeBy": "{date} को BooBoard {version} से बनाया गया।",
+  "@backupMadeBy": {
+    "description": "Restore: when and with which version the backup was made. {date} and {version} are text",
+    "x-review": true
+  },
+  "backupMerge": "मिलाएँ",
+  "@backupMerge": {
+    "description": "Restore: choice to add to existing data. Max 20 characters",
+    "x-review": true
+  },
+  "backupMergeBody": "इस फ़ोन पर जो है उसे रखें और बैकअप में जो है उसे जोड़ें।",
+  "@backupMergeBody": {
+    "description": "Restore: merge choice explanation. Two lines at most",
+    "x-review": true
+  },
+  "backupReplace": "बदलें",
+  "@backupReplace": {
+    "description": "Restore: choice to overwrite existing data. Max 20 characters",
+    "x-review": true
+  },
+  "backupReplaceBody": "चुने गए भागों को बैकअप जैसा बनाएँ। यहाँ का डेटा पहले मिटा दिया जाता है।",
+  "@backupReplaceBody": {
+    "description": "Restore: replace choice explanation. Two lines at most",
+    "x-review": true
+  },
+  "commonContinue": "जारी रखें",
+  "@commonContinue": {
+    "description": "Continue button in dialogs and onboarding. Max 20 characters",
+    "x-review": true
+  },
+  "backupReplaceTitle": "इस फ़ोन का डेटा बदलें?",
+  "@backupReplaceTitle": {
+    "description": "Restore: confirmation title. Max 50 characters",
+    "x-review": true
+  },
+  "backupReplaceConfirm": "इस फ़ोन पर चुने गए भाग मिटाकर बदल दिए जाएँगे। इसे वापस नहीं लाया जा सकता।",
+  "@backupReplaceConfirm": {
+    "description": "Restore: replace confirmation. Three lines at most",
+    "x-review": true
+  },
+  "backupPrivacyChangesTitle": "यह बैकअप आपकी गोपनीयता सेटिंग बदलता है",
+  "backupPrivacyChangesBody": "सेटिंग बहाल करने पर इस फ़ोन की ये गोपनीयता सेटिंग बदल जाएँगी। आगे बढ़ने से पहले इन्हें देख लें।",
+  "backupPrivacyChangeLine": "{setting}: {from} → {to}",
+  "backupStateOn": "चालू",
+  "backupAppsCount": "{count, plural, one {1 ऐप} other {{count} ऐप}}",
+  "backupRestoreAndChange": "बहाल करें और बदलें",
+  "backupUnlockRetryChanged": "फ़ोन अनलॉक करके फिर कोशिश करें। कुछ भी नहीं बदला गया।",
+  "@backupUnlockRetryChanged": {
+    "description": "Restore: needs the phone unlocked. Two lines at most",
+    "x-review": true
+  },
+  "backupRestoreFailed": "BooBoard पुनर्स्थापना पूरी नहीं कर सका। कुछ डेटा शायद नहीं लिखा गया।",
+  "@backupRestoreFailed": {
+    "description": "Restore: failed partway. Two lines at most",
+    "x-review": true
+  },
+  "restoreNothingNew": "कुछ नया पुनर्स्थापित नहीं हुआ।",
+  "@restoreNothingNew": {
+    "description": "Restore summary when nothing was added. Max 40 characters",
+    "x-review": true
+  },
+  "restoreSummary": "पुनर्स्थापित: {items}।",
+  "@restoreSummary": {
+    "description": "Restore summary: {items} is a list of added things, already written, such as \"3 shortcuts, settings\"",
+    "x-review": true
+  },
+  "restoreSummarySkipped": "{added} छोड़ा गया: {skipped}।",
+  "@restoreSummarySkipped": {
+    "description": "Restore summary with things that were already here. {added} is the summary above, {skipped} a list",
+    "x-review": true
+  },
+  "restoreLearnedFor": "{count, plural, one {1 भाषा} other {{count} भाषाएँ}} के लिए सीखे गए शब्द",
+  "@restoreLearnedFor": {
+    "description": "Restore summary part: learned words in some languages. Lowercase, it follows \"Restored\"",
+    "x-review": true
+  },
+  "countFiles": "{count, plural, one {1 फ़ाइल} other {{count} फ़ाइलें}}",
+  "@countFiles": {
+    "description": "Count of files. Max 30 characters",
+    "x-review": true
+  },
+  "countWords": "{count, plural, one {1 शब्द} other {{count} शब्द}}",
+  "@countWords": {
+    "description": "Count of learned words. Max 30 characters",
+    "x-review": true
+  },
+  "countLanguages": "{count, plural, one {1 भाषा} other {{count} भाषाएँ}}",
+  "@countLanguages": {
+    "description": "Count of languages. Max 30 characters",
+    "x-review": true
+  },
+  "countShortcuts": "{count, plural, one {1 शॉर्टकट} other {{count} शॉर्टकट}}",
+  "@countShortcuts": {
+    "description": "Count of personal shortcuts. Max 30 characters",
+    "x-review": true
+  },
+  "countClipboardItems": "{count, plural, one {1 क्लिपबोर्ड आइटम} other {{count} क्लिपबोर्ड आइटम}}",
+  "@countClipboardItems": {
+    "description": "Count of clipboard items. Max 30 characters",
+    "x-review": true
+  },
+  "countThemeFiles": "{count, plural, one {1 थीम फ़ाइल} other {{count} थीम फ़ाइलें}}",
+  "@countThemeFiles": {
+    "description": "Count of theme files. Max 30 characters",
+    "x-review": true
+  },
+  "countPinnedItems": "{count, plural, one {1 पिन किया आइटम} other {{count} पिन किए आइटम}}",
+  "@countPinnedItems": {
+    "description": "Count of pinned clipboard items. Max 30 characters",
+    "x-review": true
+  },
+  "countPacks": "{count, plural, one {1 पैक} other {{count} पैक}}",
+  "@countPacks": {
+    "description": "Count of model packs. Max 30 characters",
+    "x-review": true
+  },
+  "countBlockedWords": "{count, plural, one {1 अवरुद्ध शब्द} other {{count} अवरुद्ध शब्द}}",
+  "@countBlockedWords": {
+    "description": "Count of blocked words. Max 30 characters",
+    "x-review": true
+  },
+  "countTimes": "{count, plural, one {1 बार} other {{count} बार}}",
+  "@countTimes": {
+    "description": "Count of how often a word was typed. Max 30 characters",
+    "x-review": true
+  },
+  "timeMinutesAgo": "{count, plural, one {1 मिनट पहले} other {{count} मिनट पहले}}",
+  "@timeMinutesAgo": {
+    "description": "Time since something happened, in minutes. Max 30 characters",
+    "x-review": true
+  },
+  "timeHoursAgo": "{count, plural, one {1 घंटे पहले} other {{count} घंटे पहले}}",
+  "@timeHoursAgo": {
+    "description": "Time since something happened, in hours. Max 30 characters",
+    "x-review": true
+  },
+  "timeDaysAgo": "{count, plural, one {1 दिन पहले} other {{count} दिन पहले}}",
+  "@timeDaysAgo": {
+    "description": "Time since something happened, in days. Max 30 characters",
+    "x-review": true
+  },
+  "timeJustNow": "अभी-अभी",
+  "@timeJustNow": {
+    "description": "Time since something happened: under a minute. Max 20 characters",
+    "x-review": true
+  },
+  "languagePortuguese": "पुर्तगाली",
+  "@languagePortuguese": {
+    "description": "Language name in English, used in pack and privacy lists. Max 30 characters",
+    "x-review": true
+  },
+  "packMeta": "{languages} · {size} · {license}",
+  "@packMeta": {
+    "description": "Pack line: languages, size and licence, joined with middle dots. Max 80 characters",
+    "x-review": true
+  },
+  "privacyLearnedWordsTitle": "सीखे गए शब्द ({language})",
+  "@privacyLearnedWordsTitle": {
+    "description": "Privacy: title of learned words for one language. {language} is a language name",
+    "x-review": true
+  },
+  "privacyClearLanguageTitle": "{language} के शब्द मिटाएँ?",
+  "@privacyClearLanguageTitle": {
+    "description": "Privacy: confirmation title. {language} is a language name. Max 40 characters",
+    "x-review": true
+  },
+  "privacyClearLanguageBody": "इस भाषा में सीखे गए सभी शब्द और अवरुद्ध शब्द मिट जाएँगे। इसे वापस नहीं लाया जा सकता।",
+  "@privacyClearLanguageBody": {
+    "description": "Privacy: confirmation text. Three lines at most",
+    "x-review": true
+  },
+  "privacyClear": "मिटाएँ",
+  "@privacyClear": {
+    "description": "Privacy: confirm button that clears data. Max 20 characters",
+    "x-review": true
+  },
+  "privacySaveFailed": "बदलाव सहेजा नहीं जा सका। फिर से कोशिश करें।",
+  "@privacySaveFailed": {
+    "description": "Privacy: a change failed to save. Two lines at most",
+    "x-review": true
+  },
+  "privacyCouldNotReadWords": "BooBoard ये शब्द नहीं पढ़ सका।",
+  "@privacyCouldNotReadWords": {
+    "description": "Learned words: failed to load. Two lines at most",
+    "x-review": true
+  },
+  "privacyCannotReadWordsNow": "BooBoard अभी ये शब्द नहीं पढ़ सकता। फ़ोन अनलॉक करके फिर कोशिश करें।",
+  "@privacyCannotReadWordsNow": {
+    "description": "Learned words: locked data. Two lines at most",
+    "x-review": true
+  },
+  "privacyNoWordsLanguage": "इस भाषा में अभी कोई शब्द नहीं सीखा गया। आपके कई बार टाइप करने के बाद BooBoard कोई शब्द सीखता है।",
+  "@privacyNoWordsLanguage": {
+    "description": "Learned words: empty list. Two lines at most",
+    "x-review": true
+  },
+  "privacyBlockedWordsTooltip": "अवरुद्ध शब्द ({count})",
+  "@privacyBlockedWordsTooltip": {
+    "description": "Learned words: button tooltip with the blocked count. Max 30 characters",
+    "x-review": true
+  },
+  "privacySortTooltip": "क्रमबद्ध करें",
+  "@privacySortTooltip": {
+    "description": "Learned words: sort button tooltip. Max 20 characters",
+    "x-review": true
+  },
+  "privacySortMostUsed": "सबसे ज़्यादा इस्तेमाल किए गए पहले",
+  "@privacySortMostUsed": {
+    "description": "Learned words: sort option. Max 30 characters",
+    "x-review": true
+  },
+  "privacySortAZ": "A से Z",
+  "@privacySortAZ": {
+    "description": "Learned words: sort option. Max 20 characters",
+    "x-review": true
+  },
+  "privacyMoreTooltip": "और",
+  "@privacyMoreTooltip": {
+    "description": "Learned words and others: more-actions button tooltip. Max 20 characters",
+    "x-review": true
+  },
+  "privacyClearThisLanguage": "यह भाषा मिटाएँ",
+  "@privacyClearThisLanguage": {
+    "description": "Learned words: menu item. Max 30 characters",
+    "x-review": true
+  },
+  "privacySearchWords": "शब्द खोजें",
+  "@privacySearchWords": {
+    "description": "Learned words: search field label. Max 30 characters",
+    "x-review": true
+  },
+  "privacyWordsSummary": "{words} · {blocked}",
+  "@privacyWordsSummary": {
+    "description": "Learned words: summary line. {words} and {blocked} are counts such as \"3 words\"",
+    "x-review": true
+  },
+  "privacyNoWordsYet": "अभी कोई शब्द नहीं है।",
+  "@privacyNoWordsYet": {
+    "description": "Learned words: empty search list. Max 40 characters",
+    "x-review": true
+  },
+  "privacyNoWordsMatch": "\"{query}\" से मेल खाने वाला कोई शब्द नहीं है।",
+  "@privacyNoWordsMatch": {
+    "description": "Learned words: search with no result. {query} is what the user searched for",
+    "x-review": true
+  },
+  "privacyNeverSuggested": "कभी सुझाए नहीं गए",
+  "@privacyNeverSuggested": {
+    "description": "Learned words: section title for blocked words. Max 30 characters",
+    "x-review": true
+  },
+  "privacyBlockedExplain": "BooBoard इन शब्दों के सुझाव या सुधार नहीं करेगा।",
+  "@privacyBlockedExplain": {
+    "description": "Learned words: explains blocked words. Two lines at most",
+    "x-review": true
+  },
+  "privacyNoBlockedWords": "कोई अवरुद्ध शब्द नहीं।",
+  "@privacyNoBlockedWords": {
+    "description": "Learned words: empty blocked list. Max 40 characters",
+    "x-review": true
+  },
+  "privacyAllowAgain": "फिर से अनुमति दें",
+  "@privacyAllowAgain": {
+    "description": "Learned words: unblock a word. Max 30 characters",
+    "x-review": true
+  },
+  "privacyWordLastUsed": "{count, plural, one {एक बार टाइप किया} other {{count} बार टाइप किया}} · आखिरी बार {when}",
+  "@privacyWordLastUsed": {
+    "description": "Learned word detail: how often, and when it was last typed. {when} is a time phrase such as \"today\"",
+    "x-review": true
+  },
+  "privacyWordNotYetSuggested": "अब तक एक बार टाइप किया, अभी सुझाया नहीं गया · आखिरी बार {when}",
+  "@privacyWordNotYetSuggested": {
+    "description": "Learned word detail: typed once, not suggested yet. {when} is a time phrase",
+    "x-review": true
+  },
+  "privacyToday": "आज",
+  "@privacyToday": {
+    "description": "Time phrase used in word details. Max 20 characters",
+    "x-review": true
+  },
+  "privacyYesterday": "कल",
+  "@privacyYesterday": {
+    "description": "Time phrase used in word details. Max 20 characters",
+    "x-review": true
+  },
+  "privacyActionsFor": "{word} के लिए कार्रवाइयाँ",
+  "@privacyActionsFor": {
+    "description": "Learned word: tooltip of the word's menu. {word} is a learned word",
+    "x-review": true
+  },
+  "privacyForgetWord": "यह शब्द भूल जाएँ",
+  "@privacyForgetWord": {
+    "description": "Learned word menu item. Max 30 characters",
+    "x-review": true
+  },
+  "privacyNeverSuggestWord": "यह शब्द कभी न सुझाएँ",
+  "@privacyNeverSuggestWord": {
+    "description": "Learned word menu item. Max 40 characters",
+    "x-review": true
+  },
+  "privacyTryAgain": "फिर से कोशिश करें",
+  "@privacyTryAgain": {
+    "description": "Error state button. Max 20 characters",
+    "x-review": true
+  },
+  "privacyCenterLoadFailed": "BooBoard अपना गोपनीयता डेटा नहीं पढ़ सका। बाद में फिर कोशिश करें।",
+  "@privacyCenterLoadFailed": {
+    "description": "Privacy center: failed to load. Two lines at most",
+    "x-review": true
+  },
+  "privacyDevBuildNetwork": "इस बिल्ड में इंटरनेट की अनुमति माँगी गई है। BooBoard को ऐसा कभी नहीं करना चाहिए। कृपया इसकी रिपोर्ट करें।",
+  "@privacyDevBuildNetwork": {
+    "description": "Privacy center: a release build asks for internet. Two lines at most",
+    "x-review": true
+  },
+  "privacyNoInternetPermission": "BooBoard के पास इंटरनेट की अनुमति नहीं है। यह कुछ भी नहीं भेज सकता।",
+  "@privacyNoInternetPermission": {
+    "description": "Privacy center: release build status. Two lines at most",
+    "x-review": true
+  },
+  "privacyDevBuildNote": "यह एक डेवलपमेंट बिल्ड है। इसकी नेटवर्क अनुमति केवल डेवलपमेंट टूल्स के लिए है।",
+  "@privacyDevBuildNote": {
+    "description": "Privacy center: debug build status. Two lines at most",
+    "x-review": true
+  },
+  "privacyDevBuildShort": "डेवलपमेंट बिल्ड। BooBoard के पास फिर भी इंटरनेट की अनुमति नहीं है।",
+  "@privacyDevBuildShort": {
+    "description": "Privacy center: short debug build status. Two lines at most",
+    "x-review": true
+  },
+  "privacyStorageSize": "{size} · {when} बदला गया",
+  "@privacyStorageSize": {
+    "description": "Privacy center: stored data size and when it changed. {size} is a size, {when} a time phrase",
+    "x-review": true
+  },
+  "privacyCustomThemes": "कस्टम थीम",
+  "@privacyCustomThemes": {
+    "description": "Privacy center: stored data row. Max 30 characters",
+    "x-review": true
+  },
+  "privacyNoPacks": "कोई इंस्टॉल नहीं। वॉइस और अनुवाद पैक यहाँ दिखते हैं।",
+  "@privacyNoPacks": {
+    "description": "Privacy center: no packs installed. Two lines at most",
+    "x-review": true
+  },
+  "privacyPacksSize": "{count, plural, one {1 पैक} other {{count} पैक}} · {size}",
+  "@privacyPacksSize": {
+    "description": "Privacy center: packs count and size. {size} is a size",
+    "x-review": true
+  },
+  "privacyWhatBooBoardStores": "BooBoard क्या सहेजता है",
+  "@privacyWhatBooBoardStores": {
+    "description": "Privacy center: group title. Max 30 characters",
+    "x-review": true
+  },
+  "privacyShowsSizesOnly": "BooBoard यहाँ केवल आकार दिखाता है, अंदर की चीज़ें नहीं। आकार में पिछली सहेजी गई प्रति शामिल है, जो सहेजना रुकने पर आपके डेटा को सुरक्षित रखती है।",
+  "@privacyShowsSizesOnly": {
+    "description": "Privacy center: explains sizes. Three lines at most",
+    "x-review": true
+  },
+  "privacyTypingPrivacy": "टाइपिंग गोपनीयता",
+  "@privacyTypingPrivacy": {
+    "description": "Privacy center: section title. Max 30 characters",
+    "x-review": true
+  },
+  "privacyLearnNewWords": "नए शब्द सीखें",
+  "@privacyLearnNewWords": {
+    "description": "Privacy center: switch title. Max 30 characters",
+    "x-review": true
+  },
+  "privacyLearnNewWordsBody": "आप जो टाइप करते हैं उससे शब्द और वाक्यांश सीखता है। पासवर्ड फ़ील्ड या इनकॉग्निटो में कभी नहीं।",
+  "@privacyLearnNewWordsBody": {
+    "description": "Privacy center: switch subtitle. Two lines at most",
+    "x-review": true
+  },
+  "privacyIncognito": "इनकॉग्निटो",
+  "@privacyIncognito": {
+    "description": "Privacy center: switch title. Max 20 characters",
+    "x-review": true
+  },
+  "privacyIncognitoBody": "चालू होने पर कुछ भी नहीं सीखता या याद रखता। ब्राउज़र की इनकॉग्निटो टैब इसे अपने-आप चालू कर देते हैं।",
+  "@privacyIncognitoBody": {
+    "description": "Privacy center: switch subtitle. Two lines at most",
+    "x-review": true
+  },
+  "privacyHideScreenshots": "स्क्रीनशॉट से छिपाएँ",
+  "@privacyHideScreenshots": {
+    "description": "Privacy center: switch title. Max 30 characters",
+    "x-review": true
+  },
+  "privacyHideScreenshotsBody": "हर ऐप में कीबोर्ड के स्क्रीनशॉट और स्क्रीन रिकॉर्डिंग रोकता है। पासवर्ड फ़ील्ड हमेशा छिपे रहते हैं।",
+  "@privacyHideScreenshotsBody": {
+    "description": "Privacy center: switch subtitle. Two lines at most",
+    "x-review": true
+  },
+  "privacyAutoOffApps": "इन ऐप्स में अपने-आप बंद",
+  "@privacyAutoOffApps": {
+    "description": "Privacy center: section title for apps where BooBoard turns off. Max 50 characters",
+    "x-review": true
+  },
+  "privacyAutoOffAppsBody": "BooBoard यह सूची भरने के लिए केवल ऐप के नाम रखता है। ये एन्क्रिप्टेड रहते हैं, इनकॉग्निटो में कभी दर्ज नहीं होते, और आप इन्हें नीचे मिटा सकते हैं।",
+  "@privacyAutoOffAppsBody": {
+    "description": "Privacy center: explains the app list. Three lines at most",
+    "x-review": true
+  },
+  "privacyNoAppsYet": "अभी कोई ऐप नहीं",
+  "@privacyNoAppsYet": {
+    "description": "Privacy center: empty app list. Max 30 characters",
+    "x-review": true
+  },
+  "privacyNoAppsYetBody": "जिन ऐप्स में आप टाइप करेंगे, वे यहाँ दिखेंगे।",
+  "@privacyNoAppsYetBody": {
+    "description": "Privacy center: empty app list detail. Two lines at most",
+    "x-review": true
+  },
+  "privacyAlwaysIncognitoApps": "हमेशा इनकॉग्निटो वाले ऐप्स",
+  "@privacyAlwaysIncognitoApps": {
+    "description": "Privacy center: group title. Max 40 characters",
+    "x-review": true
+  },
+  "privacyPersonalShortcuts": "निजी शॉर्टकट",
+  "@privacyPersonalShortcuts": {
+    "description": "Privacy center and shortcuts screen title. Max 30 characters",
+    "x-review": true
+  },
+  "privacyOfferShortcuts": "शॉर्टकट सुझाएँ",
+  "@privacyOfferShortcuts": {
+    "description": "Privacy center: switch title. Max 30 characters",
+    "x-review": true
+  },
+  "privacyOfferShortcutsBody": "आपके छोटे रूप, जैसे \"omw\", पहले सुझाव के रूप में दिखाता है।",
+  "@privacyOfferShortcutsBody": {
+    "description": "Privacy center: switch subtitle. Two lines at most",
+    "x-review": true
+  },
+  "privacyEditShortcuts": "शॉर्टकट संपादित करें",
+  "@privacyEditShortcuts": {
+    "description": "Privacy center: row title. Max 30 characters",
+    "x-review": true
+  },
+  "privacyNoShortcutsYet": "अभी कोई नहीं",
+  "@privacyNoShortcutsYet": {
+    "description": "Privacy center: no shortcuts yet. Max 30 characters",
+    "x-review": true
+  },
+  "privacyLearnedAndClipboard": "सीखे गए शब्द और क्लिपबोर्ड",
+  "@privacyLearnedAndClipboard": {
+    "description": "Privacy center: section title. Max 40 characters",
+    "x-review": true
+  },
+  "privacyNoWordsLearnedYet": "अभी कोई शब्द नहीं सीखा गया",
+  "@privacyNoWordsLearnedYet": {
+    "description": "Privacy center: empty learned words. Max 40 characters",
+    "x-review": true
+  },
+  "privacyWordsLearnedBody": "आप जो शब्द टाइप करते हैं, वे यहाँ तब सीखे जाते हैं जब BooBoard उन्हें कुछ बार देख लेता है।",
+  "@privacyWordsLearnedBody": {
+    "description": "Privacy center: explains learned words. Two lines at most",
+    "x-review": true
+  },
+  "privacyReviewWords": "शब्द देखें, हटाएँ या अवरुद्ध करें · {when}",
+  "@privacyReviewWords": {
+    "description": "Privacy center: row subtitle for learned words. {when} is a time phrase",
+    "x-review": true
+  },
+  "privacyClipboardHistoryEmpty": "इतिहास खाली है। क्लिपबोर्ड की सेटिंग पैनल में बदलें।",
+  "@privacyClipboardHistoryEmpty": {
+    "description": "Privacy center: clipboard history empty. Two lines at most",
+    "x-review": true
+  },
+  "privacyClipboardInHistory": "इतिहास में {size}। क्लिपबोर्ड की सेटिंग पैनल में बदलें।",
+  "@privacyClipboardInHistory": {
+    "description": "Privacy center: clipboard history size. {size} is a size",
+    "x-review": true
+  },
+  "privacyAppLock": "ऐप लॉक",
+  "@privacyAppLock": {
+    "description": "Privacy center: section title. Max 30 characters",
+    "x-review": true
+  },
+  "privacyLockBooBoard": "BooBoard लॉक करें",
+  "@privacyLockBooBoard": {
+    "description": "Privacy center: switch title. Max 30 characters",
+    "x-review": true
+  },
+  "privacyLockBooBoardBody": "ऐप खुलने पर, या पृष्ठभूमि में जाने के बाद, फ़िंगरप्रिंट या डिवाइस PIN माँगता है।",
+  "@privacyLockBooBoardBody": {
+    "description": "Privacy center: switch subtitle. Three lines at most",
+    "x-review": true
+  },
+  "privacyLockAfter": "इसके बाद लॉक करें",
+  "@privacyLockAfter": {
+    "description": "Privacy center: slider and dialog title. Max 30 characters",
+    "x-review": true
+  },
+  "privacySetScreenLockFirst": "पहले स्क्रीन लॉक सेट करें",
+  "@privacySetScreenLockFirst": {
+    "description": "Privacy center: dialog title when the device has no lock. Max 40 characters",
+    "x-review": true
+  },
+  "privacySetScreenLockBody": "ऐप लॉक आपके फ़िंगरप्रिंट या डिवाइस PIN का उपयोग करता है। Android की सुरक्षा सेटिंग में PIN, पैटर्न या पासवर्ड सेट करें, फिर लौटें।",
+  "@privacySetScreenLockBody": {
+    "description": "Privacy center: dialog text. Three lines at most",
+    "x-review": true
+  },
+  "privacyTurnOnAppLockReason": "BooBoard के लिए ऐप लॉक चालू करें",
+  "@privacyTurnOnAppLockReason": {
+    "description": "Shown by the system fingerprint prompt when turning on app lock. Max 60 characters",
+    "x-review": true
+  },
+  "privacyNotAvailable": "अभी उपलब्ध नहीं",
+  "@privacyNotAvailable": {
+    "description": "Privacy center: dialog title when the device lock cannot be used. Max 40 characters",
+    "x-review": true
+  },
+  "privacyNotAvailableBody": "डिवाइस लॉक इस्तेमाल नहीं हो सका। ऐप लॉक बंद रहेगा।",
+  "@privacyNotAvailableBody": {
+    "description": "Privacy center: dialog text. Two lines at most",
+    "x-review": true
+  },
+  "privacyBackupTitle": "बैकअप",
+  "@privacyBackupTitle": {
+    "description": "Privacy center: section title. Max 20 characters",
+    "x-review": true
+  },
+  "privacyBackupRestore": "बैकअप और पुनर्स्थापना",
+  "@privacyBackupRestore": {
+    "description": "Privacy center row title. Max 30 characters",
+    "x-review": true
+  },
+  "privacyBackupRestoreBody": "एक एन्क्रिप्टेड .boobackup फ़ाइल जिसे आप रखते हैं। कौन सी चीज़ें इसमें हों, यह आप चुनते हैं।",
+  "@privacyBackupRestoreBody": {
+    "description": "Privacy center row subtitle. Two lines at most. .boobackup is a file extension",
+    "x-review": true
+  },
+  "privacyDeleteData": "डेटा मिटाएँ",
+  "@privacyDeleteData": {
+    "description": "Privacy center: section title. Max 30 characters",
+    "x-review": true
+  },
+  "privacyEraseEverything": "सब कुछ मिटाएँ",
+  "@privacyEraseEverything": {
+    "description": "Privacy center row title. Max 30 characters",
+    "x-review": true
+  },
+  "privacyEraseEverythingBody": "ऊपर की सभी श्रेणियाँ, आपकी कस्टम थीम, और उन्हें सुरक्षित रखने वाली कुंजी।",
+  "@privacyEraseEverythingBody": {
+    "description": "Privacy center row subtitle. Two lines at most",
+    "x-review": true
+  },
+  "privacyDeleteTitle": "{category} मिटाएँ?",
+  "@privacyDeleteTitle": {
+    "description": "Privacy center: confirmation title. {category} is a category name in lower case",
+    "x-review": true
+  },
+  "privacyEraseTitle": "सब कुछ मिटाएँ?",
+  "@privacyEraseTitle": {
+    "description": "Privacy center: confirmation title for erasing all. Max 40 characters",
+    "x-review": true
+  },
+  "privacyWillDelete": "यह स्थायी रूप से मिटा देगा:",
+  "@privacyWillDelete": {
+    "description": "Privacy center: confirmation list heading. Max 60 characters",
+    "x-review": true
+  },
+  "privacyResetSettings": "सभी सेटिंग्स भी डिफ़ॉल्ट पर रीसेट करें",
+  "@privacyResetSettings": {
+    "description": "Privacy center: switch in the erase dialog. Max 60 characters",
+    "x-review": true
+  },
+  "privacyCannotBeUndone": "इसे वापस नहीं लाया जा सकता।",
+  "@privacyCannotBeUndone": {
+    "description": "Confirmation dialog: warning text. Max 60 characters",
+    "x-review": true
+  },
+  "privacyDeleted": "मिटाया गया।",
+  "@privacyDeleted": {
+    "description": "Privacy center: snackbar after deleting. Max 30 characters",
+    "x-review": true
+  },
+  "privacyDeleteFailed": "BooBoard सब कुछ नहीं मिटा सका। फिर से कोशिश करें।",
+  "@privacyDeleteFailed": {
+    "description": "Privacy center: deletion failed. Two lines at most",
+    "x-review": true
+  },
+  "privacyOk": "ठीक है",
+  "@privacyOk": {
+    "description": "Dialog confirm button for information dialogs. Max 10 characters",
+    "x-review": true
+  },
+  "backupMakeTitle": "बैकअप बनाएँ",
+  "@backupMakeTitle": {
+    "description": "Backup screen: section title. Max 30 characters",
+    "x-review": true
+  },
+  "backupIncludeImages": "पृष्ठभूमि की छवियाँ शामिल करें",
+  "@backupIncludeImages": {
+    "description": "Backup: switch title. Max 40 characters",
+    "x-review": true
+  },
+  "backupPhotosLarger": "फ़ोटो से फ़ाइल काफ़ी बड़ी हो जाती है।",
+  "@backupPhotosLarger": {
+    "description": "Backup: switch subtitle. Max 60 characters",
+    "x-review": true
+  },
+  "backupCreateButton": "एन्क्रिप्टेड बैकअप बनाएँ",
+  "@backupCreateButton": {
+    "description": "Backup: button. Max 30 characters",
+    "x-review": true
+  },
+  "backupRestoreSection": "पुनर्स्थापित करें",
+  "@backupRestoreSection": {
+    "description": "Backup screen: section title. Max 20 characters",
+    "x-review": true
+  },
+  "backupRestoreFromFile": "बैकअप फ़ाइल से पुनर्स्थापित करें",
+  "@backupRestoreFromFile": {
+    "description": "Backup: row title. Max 40 characters",
+    "x-review": true
+  },
+  "backupRestoreFromFileBody": "एक .boobackup फ़ाइल खोलें, उसमें क्या है देखें, फिर मिलाएँ या बदलें।",
+  "@backupRestoreFromFileBody": {
+    "description": "Backup: row subtitle. Two lines at most",
+    "x-review": true
+  },
+  "backupChoosePassphrase": "पासफ़्रेज़ चुनें",
+  "@backupChoosePassphrase": {
+    "description": "Backup: passphrase dialog title when creating. Max 40 characters",
+    "x-review": true
+  },
+  "backupEnterPassphrase": "पासफ़्रेज़ दर्ज करें",
+  "@backupEnterPassphrase": {
+    "description": "Backup: passphrase dialog title when opening. Max 40 characters",
+    "x-review": true
+  },
+  "backupWriteItDown": "इसे किसी सुरक्षित जगह लिख लें। खोया हुआ पासफ़्रेज़ वापस नहीं मिल सकता।",
+  "@backupWriteItDown": {
+    "description": "Backup: warning when creating. Two lines at most",
+    "x-review": true
+  },
+  "backupPassphrase": "पासफ़्रेज़",
+  "@backupPassphrase": {
+    "description": "Backup: passphrase field label. Max 20 characters",
+    "x-review": true
+  },
+  "backupTypeAgain": "फिर से लिखें",
+  "@backupTypeAgain": {
+    "description": "Backup: confirm passphrase field label. Max 30 characters",
+    "x-review": true
+  },
+  "backupMismatch": "पासफ़्रेज़ मेल नहीं खाते",
+  "@backupMismatch": {
+    "description": "Backup: error under the confirm field. Max 50 characters",
+    "x-review": true
+  },
+  "backupStrength": "पासफ़्रेज़ की मज़बूती: {strength}",
+  "@backupStrength": {
+    "description": "Backup: strength meter label. {strength} is Too short, Weak, Fair, Good or Strong",
+    "x-review": true
+  },
+  "strengthTooShort": "कम से कम 8 अक्षर इस्तेमाल करें",
+  "@strengthTooShort": {
+    "description": "Passphrase strength label: too short. Max 40 characters",
+    "x-review": true
+  },
+  "strengthWeak": "कमज़ोर",
+  "@strengthWeak": {
+    "description": "Passphrase strength: weak. Max 20 characters",
+    "x-review": true
+  },
+  "strengthFair": "ठीक-ठाक",
+  "@strengthFair": {
+    "description": "Passphrase strength: fair. Max 20 characters",
+    "x-review": true
+  },
+  "strengthGood": "अच्छी",
+  "@strengthGood": {
+    "description": "Passphrase strength: good. Max 20 characters",
+    "x-review": true
+  },
+  "strengthStrong": "मज़बूत",
+  "@strengthStrong": {
+    "description": "Passphrase strength: strong. Max 20 characters",
+    "x-review": true
+  },
+  "backupOpen": "खोलें",
+  "@backupOpen": {
+    "description": "Backup: button to open a file. Max 20 characters",
+    "x-review": true
+  },
+  "backupNothingYet": "अभी कुछ नहीं",
+  "@backupNothingYet": {
+    "description": "Backup: section size when the store is empty. Max 20 characters",
+    "x-review": true
+  },
+  "backupSettingsSummary": "थीम, भाषाएँ, टाइपिंग और गोपनीयता की पसंद",
+  "@backupSettingsSummary": {
+    "description": "Backup: what the settings section holds. Two lines at most",
+    "x-review": true
+  },
+  "backupLearnedSummary": "{languages} में {words}",
+  "@backupLearnedSummary": {
+    "description": "Backup: learned words summary. {words} and {languages} are counts such as \"3 words in 2 languages\"",
+    "x-review": true
+  },
+  "backupPinnedOff": "{items}। इसे चालू करने तक बंद रहता है।",
+  "@backupPinnedOff": {
+    "description": "Backup: clipboard section summary when it is off. {items} is a count such as \"2 pinned items\"",
+    "x-review": true
+  },
+  "backupAlreadyHere": "{count, plural, one {1 शॉर्टकट पहले से है} other {{count} शॉर्टकट पहले से हैं}}",
+  "@backupAlreadyHere": {
+    "description": "Restore summary: shortcuts skipped because they exist. Max 60 characters",
+    "x-review": true
+  },
+  "backupThemesAlreadyHere": "{count, plural, one {1 थीम फ़ाइल पहले से है} other {{count} थीम फ़ाइलें पहले से हैं}}",
+  "@backupThemesAlreadyHere": {
+    "description": "Restore summary: theme files skipped because they exist. Max 60 characters",
+    "x-review": true
+  },
+  "backupClipboardKept": "क्लिपबोर्ड छोड़ा गया (अज्ञात लेआउट)",
+  "@backupClipboardKept": {
+    "description": "Restore summary part: clipboard not restored. Lowercase, follows \"Restored\"",
+    "x-review": true
+  },
+  "backupEmojiKept": "हाल के इमोजी रखे गए",
+  "@backupEmojiKept": {
+    "description": "Restore summary part: recent emoji kept. Lowercase",
+    "x-review": true
+  },
+  "backupSettingsApplied": "सेटिंग्स",
+  "@backupSettingsApplied": {
+    "description": "Restore summary part: settings were applied. Lowercase",
+    "x-review": true
+  },
+  "backupLearnedAdded": "{count, plural, one {1 भाषा} other {{count} भाषाएँ}} के लिए सीखे गए शब्द",
+  "@backupLearnedAdded": {
+    "description": "Restore summary part: learned words added. Lowercase. Same wording as restoreLearnedFor",
+    "x-review": true
+  },
+  "shortcutDeleteTitle": "\"{trigger}\" हटाएँ?",
+  "@shortcutDeleteTitle": {
+    "description": "Shortcuts: dialog title. {trigger} is the short form. Max 40 characters",
+    "x-review": true
+  },
+  "shortcutDeleteBody": "इससे शॉर्टकट हट जाएगा। इसे वापस नहीं लाया जा सकता।",
+  "@shortcutDeleteBody": {
+    "description": "Shortcuts: dialog text. Two lines at most",
+    "x-review": true
+  },
+  "shortcutAdd": "शॉर्टकट जोड़ें",
+  "@shortcutAdd": {
+    "description": "Shortcuts: button. Max 30 characters",
+    "x-review": true
+  },
+  "shortcutSearch": "शॉर्टकट खोजें",
+  "@shortcutSearch": {
+    "description": "Shortcuts: search field label. Max 30 characters",
+    "x-review": true
+  },
+  "shortcutNoMatch": "आपकी खोज से कोई शॉर्टकट मेल नहीं खाता।",
+  "@shortcutNoMatch": {
+    "description": "Shortcuts: empty search result. Max 50 characters",
+    "x-review": true
+  },
+  "shortcutDeleteTooltip": "{trigger} हटाएँ",
+  "@shortcutDeleteTooltip": {
+    "description": "Shortcuts: delete button tooltip. {trigger} is the short form. Max 30 characters",
+    "x-review": true
+  },
+  "shortcutNoneYet": "अभी कोई शॉर्टकट नहीं",
+  "@shortcutNoneYet": {
+    "description": "Shortcuts: empty list title. Max 30 characters",
+    "x-review": true
+  },
+  "shortcutExplain": "शॉर्टकट एक छोटे रूप को लंबे टेक्स्ट में बदलता है। उदाहरण:",
+  "@shortcutExplain": {
+    "description": "Shortcuts: explains what a shortcut is. Two lines at most",
+    "x-review": true
+  },
+  "shortcutExamples": "{first}\n{second}",
+  "@shortcutExamples": {
+    "description": "Shortcuts: two example lines, each \"short form → expansion\". {first} and {second} are the example lines",
+    "x-review": true
+  },
+  "shortcutEncrypted": "शॉर्टकट इसी फ़ोन पर एन्क्रिप्टेड रहते हैं, आपके सीखे गए शब्दों की तरह।",
+  "@shortcutEncrypted": {
+    "description": "Shortcuts: privacy note. Two lines at most",
+    "x-review": true
+  },
+  "shortcutNew": "नया शॉर्टकट",
+  "@shortcutNew": {
+    "description": "Shortcuts: dialog title for a new shortcut. Max 30 characters",
+    "x-review": true
+  },
+  "shortcutEdit": "शॉर्टकट संपादित करें",
+  "@shortcutEdit": {
+    "description": "Shortcuts: dialog title for editing. Max 30 characters",
+    "x-review": true
+  },
+  "shortcutShortForm": "छोटा रूप",
+  "@shortcutShortForm": {
+    "description": "Shortcuts: field label. Max 20 characters",
+    "x-review": true
+  },
+  "shortcutExpandsTo": "इसमें विस्तारित होता है",
+  "@shortcutExpandsTo": {
+    "description": "Shortcuts: field label. Max 20 characters",
+    "x-review": true
+  },
+  "privacyMascotLabel": "BooBoard गोपनीयता मैस्कॉट",
+  "@privacyMascotLabel": {
+    "description": "Accessibility label of the privacy mascot picture. Max 40 characters",
+    "x-review": true
+  },
+  "privacyStoredEmoji": "हाल के इमोजी",
+  "@privacyStoredEmoji": {
+    "description": "Privacy: stored data name. Max 30 characters",
+    "x-review": true
+  },
+  "privacyStoredApps": "ऐप्स की सूची",
+  "@privacyStoredApps": {
+    "description": "Privacy: stored data name for the app list. Max 30 characters",
+    "x-review": true
+  },
+  "privacyStoredOther": "अन्य सहेजा गया डेटा",
+  "@privacyStoredOther": {
+    "description": "Privacy: stored data name for anything else. Max 30 characters",
+    "x-review": true
+  },
+  "privacyUnitBytes": "{count} B",
+  "@privacyUnitBytes": {
+    "description": "A size in bytes. {count} is a number",
+    "x-review": true
+  },
+  "privacyUnitKilobytes": "{count} KB",
+  "@privacyUnitKilobytes": {
+    "description": "A size in kilobytes. {count} is a number",
+    "x-review": true
+  },
+  "privacyUnitMegabytes": "{count} MB",
+  "@privacyUnitMegabytes": {
+    "description": "A size in megabytes. {count} is a number",
+    "x-review": true
+  },
+  "shortcutProblemEmptyTrigger": "वह छोटा रूप लिखें जिसे विस्तारित करना है।",
+  "@shortcutProblemEmptyTrigger": {
+    "description": "Shortcut error: empty short form. Two lines at most",
+    "x-review": true
+  },
+  "shortcutProblemTriggerTooLong": "छोटे रूप में अधिकतम {count} अक्षर हो सकते हैं।",
+  "@shortcutProblemTriggerTooLong": {
+    "description": "Shortcut error: too long. {count} is a number",
+    "x-review": true
+  },
+  "shortcutProblemTriggerCharacters": "छोटे रूप में केवल अक्षर, अंक और एपोस्ट्रॉफ़ इस्तेमाल करें।",
+  "@shortcutProblemTriggerCharacters": {
+    "description": "Shortcut error: bad characters. Two lines at most",
+    "x-review": true
+  },
+  "shortcutProblemEmptyExpansion": "बताएँ कि छोटा रूप किसमें विस्तारित हो।",
+  "@shortcutProblemEmptyExpansion": {
+    "description": "Shortcut error: empty expansion. Two lines at most",
+    "x-review": true
+  },
+  "shortcutProblemExpansionTooLong": "विस्तार में अधिकतम {count} अक्षर हो सकते हैं।",
+  "@shortcutProblemExpansionTooLong": {
+    "description": "Shortcut error: expansion too long. {count} is a number",
+    "x-review": true
+  },
+  "shortcutProblemDuplicate": "इस छोटे रूप वाला शॉर्टकट पहले से है।",
+  "@shortcutProblemDuplicate": {
+    "description": "Shortcut error: duplicate. Two lines at most",
+    "x-review": true
+  },
+  "shortcutProblemTooMany": "आप अधिकतम {count} शॉर्टकट रख सकते हैं।",
+  "@shortcutProblemTooMany": {
+    "description": "Shortcut error: too many. {count} is a number",
+    "x-review": true
+  },
+  "onboardingWelcomeTitle": "नमस्ते, मैं *Boo* हूँ।",
+  "@onboardingWelcomeTitle": {
+    "x-review": true
+  },
+  "onboardingWelcomeBody": "मैं एक कीबोर्ड हूँ जो कभी ऑनलाइन नहीं जाता। आप जो लिखते हैं, वह इसी फ़ोन पर ताले में रहता है।",
+  "@onboardingWelcomeBody": {
+    "x-review": true
+  },
+  "onboardingWelcomeStart": "सेट अप करें",
+  "@onboardingWelcomeStart": {
+    "x-review": true
+  },
+  "onboardingMascotLabel": "Boo, BooBoard का भूत",
+  "@onboardingMascotLabel": {
+    "x-review": true
+  },
+  "onboardingFactNoInternet": "इंटरनेट की अनुमति नहीं",
+  "@onboardingFactNoInternet": {
+    "x-review": true
+  },
+  "onboardingFactOpenSource": "ओपन सोर्स",
+  "@onboardingFactOpenSource": {
+    "x-review": true
+  },
+  "onboardingFactOpenSourceBody": "कोई भी कोड पढ़कर जाँच सकता है।",
+  "@onboardingFactOpenSourceBody": {
+    "x-review": true
+  },
+  "onboardingDemoKeyboards": "कीबोर्ड ऐप्लिकेशन",
+  "@onboardingDemoKeyboards": {
+    "x-review": true
+  },
+  "onboardingDemoOtherKeyboard": "दूसरा कीबोर्ड",
+  "@onboardingDemoOtherKeyboard": {
+    "x-review": true
+  },
+  "onboardingDemoAttention": "ध्यान दें",
+  "@onboardingDemoAttention": {
+    "x-review": true
+  },
+  "onboardingDemoAttentionBody": "यह कीबोर्ड आपका लिखा सारा टेक्स्ट इकट्ठा कर सकता है…",
+  "@onboardingDemoAttentionBody": {
+    "x-review": true
+  },
+  "onboardingDemoOk": "ठीक है",
+  "@onboardingDemoOk": {
+    "x-review": true
+  },
+  "onboardingDemoChooseInput": "इनपुट विधि चुनें",
+  "@onboardingDemoChooseInput": {
+    "x-review": true
+  },
+  "onboardingDemoSwitchOn": "चालू करें",
+  "@onboardingDemoSwitchOn": {
+    "x-review": true
+  },
+  "onboardingDemoTapOk": "OK, फिर OK",
+  "@onboardingDemoTapOk": {
+    "x-review": true
+  },
+  "onboardingDemoComeBack": "वापस आएँ",
+  "@onboardingDemoComeBack": {
+    "x-review": true
+  },
+  "onboardingDemoPick": "BooBoard चुनें",
+  "@onboardingDemoPick": {
+    "x-review": true
+  },
+  "onboardingDemoStartTyping": "टाइप करना शुरू करें",
+  "@onboardingDemoStartTyping": {
+    "x-review": true
+  },
+  "onboardingDemoRebootNote": "ध्यान दें: रीबूट के बाद, फ़ोन अनलॉक करने तक यह ऐप शुरू नहीं हो सकता",
+  "@onboardingDemoRebootNote": {
+    "x-review": true
+  },
+  "onboardingDemoChatIn": "7 बजे मिलें?",
+  "@onboardingDemoChatIn": {
+    "x-review": true
+  },
+  "onboardingDemoChatOut": "आ रहा हूँ",
+  "@onboardingDemoChatOut": {
+    "x-review": true
+  },
+  "onboardingDemoMessage": "मैसेज",
+  "@onboardingDemoMessage": {
+    "x-review": true
+  },
+  "onboardingShh": "श्श",
+  "@onboardingShh": {
+    "x-review": true
+  },
+  "onboardingTryMe": "मुझे आज़माओ",
+  "@onboardingTryMe": {
+    "x-review": true
+  },
+  "onboardingTurnOnTitle": "*BooBoard* चालू करें",
+  "@onboardingTurnOnTitle": {
+    "description": "Onboarding: step title. Max 30 characters",
+    "x-review": true
+  },
+  "onboardingTurnOnBody": "Android की कीबोर्ड सूची में इसे चालू करें, फिर वापस आएँ। यह पेज अपने आप पहचान लेता है।",
+  "@onboardingTurnOnBody": {
+    "description": "Onboarding: step explanation. Three lines at most",
+    "x-review": true
+  },
+  "onboardingKeyboardOn": "BooBoard चालू है",
+  "@onboardingKeyboardOn": {
+    "description": "Onboarding: status when BooBoard is on. Max 40 characters",
+    "x-review": true
+  },
+  "onboardingKeyboardOff": "अभी चालू नहीं है",
+  "@onboardingKeyboardOff": {
+    "description": "Onboarding: status when BooBoard is off. Max 40 characters",
+    "x-review": true
+  },
+  "onboardingOpenKeyboardSettings": "कीबोर्ड सेटिंग खोलें",
+  "@onboardingOpenKeyboardSettings": {
+    "description": "Onboarding: button. Max 30 characters",
+    "x-review": true
+  },
+  "onboardingSwitchTitle": "इसे *अपना* बनाएँ",
+  "@onboardingSwitchTitle": {
+    "description": "Onboarding: step title. Max 30 characters",
+    "x-review": true
+  },
+  "onboardingSwitchBody": "Android की छोटी सूची से BooBoard चुनें। आप कभी भी वापस बदल सकते हैं।",
+  "@onboardingSwitchBody": {
+    "description": "Onboarding: step explanation. Three lines at most",
+    "x-review": true
+  },
+  "onboardingKeyboardIsYours": "BooBoard आपका कीबोर्ड है",
+  "@onboardingKeyboardIsYours": {
+    "description": "Onboarding: status when BooBoard is chosen. Max 40 characters",
+    "x-review": true
+  },
+  "onboardingKeyboardNotYours": "अभी आपका कीबोर्ड नहीं है",
+  "@onboardingKeyboardNotYours": {
+    "description": "Onboarding: status when BooBoard is on but not chosen. Max 40 characters",
+    "x-review": true
+  },
+  "onboardingTurnOnFirst": "पहले इसे चालू करें",
+  "@onboardingTurnOnFirst": {
+    "description": "Onboarding: status when the previous step is not done. Two lines at most",
+    "x-review": true
+  },
+  "onboardingChooseKeyboard": "कीबोर्ड चुनें",
+  "@onboardingChooseKeyboard": {
+    "description": "Onboarding: button. Max 30 characters",
+    "x-review": true
+  },
+  "onboardingCheckingPermissions": "ऐप की अनुमतियाँ जाँची जा रही हैं…",
+  "@onboardingCheckingPermissions": {
+    "description": "Onboarding: privacy step while permissions are read. Max 60 characters",
+    "x-review": true
+  },
+  "onboardingDebugInternet": "इस डीबग बिल्ड की इंटरनेट तक पहुँच है। डीबग बिल्ड में यह अनुमति केवल डेवलपमेंट के लिए होती है।",
+  "@onboardingDebugInternet": {
+    "description": "Onboarding: debug build privacy note. Three lines at most",
+    "x-review": true
+  },
+  "onboardingReleaseInternet": "इस बिल्ड की इंटरनेट तक पहुँच है।",
+  "@onboardingReleaseInternet": {
+    "description": "Onboarding: privacy note for a build that can reach the internet. Two lines at most",
+    "x-review": true
+  },
+  "onboardingNoInternet": "BooBoard के पास इंटरनेट की अनुमति नहीं है, इसलिए यह कहीं कुछ नहीं भेज सकता।",
+  "@onboardingNoInternet": {
+    "description": "Onboarding: privacy note. Two lines at most",
+    "x-review": true
+  },
+  "onboardingWarningTitle": "उस *चेतावनी* के बारे में",
+  "@onboardingWarningTitle": {
+    "description": "Onboarding: explanation title. Max 40 characters",
+    "x-review": true
+  },
+  "onboardingWarningBody": "Android यह हर कीबोर्ड के लिए दिखाता है, क्योंकि कोई कीबोर्ड आपका लिखा ऑनलाइन भेज सकता है। BooBoard नहीं भेज सकता।",
+  "@onboardingWarningBody": {
+    "description": "Onboarding: explanation. Four lines at most",
+    "x-review": true
+  },
+  "onboardingInternetAccess": "इंटरनेट पहुँच",
+  "@onboardingInternetAccess": {
+    "description": "Onboarding: privacy row title. Max 30 characters",
+    "x-review": true
+  },
+  "onboardingEverythingHere": "इसी फ़ोन पर रहता है",
+  "@onboardingEverythingHere": {
+    "description": "Onboarding: privacy row title. Max 40 characters",
+    "x-review": true
+  },
+  "onboardingEverythingHereBody": "सीखे गए शब्द, क्लिपबोर्ड और सेटिंग Android Keystore की कुंजी से एन्क्रिप्ट हैं।",
+  "@onboardingEverythingHereBody": {
+    "description": "Onboarding: privacy row subtitle. Two lines at most. Android Keystore is the name of the Android key store",
+    "x-review": true
+  },
+  "onboardingLanguagesTitle": "आपकी *भाषाएँ*",
+  "@onboardingLanguagesTitle": {
+    "description": "Onboarding: step title. Max 40 characters",
+    "x-review": true
+  },
+  "onboardingThemeTitle": "थीम",
+  "@onboardingThemeTitle": {
+    "description": "Onboarding: theme card title. Max 20 characters",
+    "x-review": true
+  },
+  "onboardingTryTyping": "एक वाक्य टाइप करें",
+  "@onboardingTryTyping": {
+    "description": "Onboarding: try-it checklist item. Max 40 characters",
+    "x-review": true
+  },
+  "onboardingTrySwipe": "एक शब्द स्वाइप करें, अक्षर से अक्षर",
+  "@onboardingTrySwipe": {
+    "description": "Onboarding: try-it checklist item. Two lines at most",
+    "x-review": true
+  },
+  "onboardingTryAccents": "मात्राओं के लिए अक्षर दबाए रखें",
+  "@onboardingTryAccents": {
+    "description": "Onboarding: try-it checklist item. Two lines at most",
+    "x-review": true
+  },
+  "onboardingTryTitle": "इसे *आज़माएँ*",
+  "@onboardingTryTitle": {
+    "description": "Onboarding: step title. Max 20 characters",
+    "x-review": true
+  },
+  "onboardingTryField": "यहाँ कुछ लिखें",
+  "@onboardingTryField": {
+    "description": "Onboarding: text field label. Max 30 characters",
+    "x-review": true
+  },
+  "onboardingAllSetTitle": "सब *तैयार है।*",
+  "@onboardingAllSetTitle": {
+    "description": "Onboarding: last step title. Max 30 characters",
+    "x-review": true
+  },
+  "onboardingAllSetBody": "भाषाएँ, टाइपिंग, थीम और बहुत कुछ जब चाहें सेटिंग में मिलेंगे।",
+  "@onboardingAllSetBody": {
+    "description": "Onboarding: last step explanation. Three lines at most",
+    "x-review": true
+  },
+  "onboardingStepOf": "चरण {step} / {total}",
+  "@onboardingStepOf": {
+    "description": "Onboarding: progress label for screen readers. {step} and {total} are numbers",
+    "x-review": true
+  },
+  "onboardingBack": "वापस",
+  "@onboardingBack": {
+    "description": "Onboarding: back button. Max 20 characters",
+    "x-review": true
+  },
+  "onboardingNext": "आगे",
+  "@onboardingNext": {
+    "description": "Onboarding: next button. Max 20 characters",
+    "x-review": true
+  },
+  "onboardingDone": "पूर्ण",
+  "@onboardingDone": {
+    "description": "Onboarding and dialogs: finish button. Max 20 characters",
+    "x-review": true
+  },
+  "onboardingSearchLanguages": "भाषाएँ खोजें",
+  "@onboardingSearchLanguages": {
+    "description": "Onboarding: search field hint. Max 30 characters",
+    "x-review": true
+  },
+  "onboardingSelected": "चुनी गई: {languages}",
+  "@onboardingSelected": {
+    "description": "Onboarding: summary of the selected languages. {languages} is a list of names",
+    "x-review": true
+  },
+  "onboardingNoLanguageMatch": "इस खोज से कोई भाषा मेल नहीं खाती।",
+  "@onboardingNoLanguageMatch": {
+    "description": "Onboarding: empty search result. Max 50 characters",
+    "x-review": true
+  },
+  "themeCreate": "थीम बनाएँ",
+  "@themeCreate": {
+    "description": "Themes: button and label to create a theme. Max 30 characters",
+    "x-review": true
+  },
+  "themeSelectedLabel": "{name}, चुना गया",
+  "@themeSelectedLabel": {
+    "description": "Themes: card label when selected. {name} is the theme name",
+    "x-review": true
+  },
+  "themeCardOptions": "{name} के विकल्प",
+  "@themeCardOptions": {
+    "description": "Themes: tooltip of a theme card's menu. {name} is the theme name",
+    "x-review": true
+  },
+  "themeEdit": "बदलें",
+  "@themeEdit": {
+    "description": "Themes: menu item. Max 20 characters",
+    "x-review": true
+  },
+  "themeDuplicate": "डुप्लिकेट करें",
+  "@themeDuplicate": {
+    "description": "Themes: menu item. Max 20 characters",
+    "x-review": true
+  },
+  "themeRename": "नाम बदलें",
+  "@themeRename": {
+    "description": "Themes: menu item. Max 20 characters",
+    "x-review": true
+  },
+  "themeDeleteAction": "हटाएँ",
+  "@themeDeleteAction": {
+    "description": "Themes: menu item to delete a theme. Max 20 characters",
+    "x-review": true
+  },
+  "themeTryTyping": "टाइप करके देखें",
+  "@themeTryTyping": {
+    "description": "Themes: section title for the try-it field. Max 30 characters",
+    "x-review": true
+  },
+  "themeTryLabel": "थीम आज़माने के लिए यहाँ टाइप करें",
+  "@themeTryLabel": {
+    "description": "Themes: label of the try-it field. Max 40 characters",
+    "x-review": true
+  },
+  "themeTryHelper": "जब BooBoard चुना होता है, तब कीबोर्ड यहाँ दिखता है।",
+  "@themeTryHelper": {
+    "description": "Themes: helper under the try-it field. Two lines at most",
+    "x-review": true
+  },
+  "themeRenameTitle": "थीम का नाम बदलें",
+  "@themeRenameTitle": {
+    "description": "Themes: rename dialog title. Max 30 characters",
+    "x-review": true
+  },
+  "themeNameField": "नाम",
+  "@themeNameField": {
+    "description": "Theme editor and rename dialog: field label. Max 20 characters",
+    "x-review": true
+  },
+  "themeEditTitle": "थीम संपादित करें",
+  "@themeEditTitle": {
+    "description": "Theme editor: app bar title when editing. Max 30 characters",
+    "x-review": true
+  },
+  "themeNewTitle": "नई थीम",
+  "@themeNewTitle": {
+    "description": "Theme editor: app bar title when creating. Max 30 characters",
+    "x-review": true
+  },
+  "themeEditorTitle": "थीम",
+  "@themeEditorTitle": {
+    "description": "Theme editor: app bar title while loading. Max 20 characters",
+    "x-review": true
+  },
+  "themeOpenFailed": "यह थीम नहीं खुल सकी।",
+  "@themeOpenFailed": {
+    "description": "Theme editor: loading failed. Two lines at most",
+    "x-review": true
+  },
+  "themeSaveFailed": "थीम सहेजी नहीं जा सकी।",
+  "@themeSaveFailed": {
+    "description": "Theme editor: save failed. Max 50 characters",
+    "x-review": true
+  },
+  "themePhotoPickerFailed": "फ़ोटो चुनने वाला टूल नहीं खुल सका।",
+  "@themePhotoPickerFailed": {
+    "description": "Theme editor: photo picker failed. Max 50 characters",
+    "x-review": true
+  },
+  "themeDiscardTitle": "बदलाव छोड़ें?",
+  "@themeDiscardTitle": {
+    "description": "Theme editor: confirmation title. Max 40 characters",
+    "x-review": true
+  },
+  "themeDiscardBody": "इस थीम में आपके बदलाव खो जाएँगे।",
+  "@themeDiscardBody": {
+    "description": "Theme editor: confirmation text. Two lines at most",
+    "x-review": true
+  },
+  "themeKeepEditing": "संपादन जारी रखें",
+  "@themeKeepEditing": {
+    "description": "Theme editor: button to stay. Max 30 characters",
+    "x-review": true
+  },
+  "themeDiscard": "छोड़ें",
+  "@themeDiscard": {
+    "description": "Theme editor: button to discard. Max 20 characters",
+    "x-review": true
+  },
+  "themeSave": "सहेजें",
+  "@themeSave": {
+    "description": "Theme editor: save button. Max 20 characters",
+    "x-review": true
+  },
+  "themeNameRequired": "नाम ज़रूरी है",
+  "@themeNameRequired": {
+    "description": "Theme editor: error under the name field. Max 40 characters",
+    "x-review": true
+  },
+  "themeNameLabel": "थीम का नाम",
+  "@themeNameLabel": {
+    "description": "Theme editor: name field label. Max 30 characters",
+    "x-review": true
+  },
+  "themeDefaultName": "मेरी थीम",
+  "@themeDefaultName": {
+    "description": "Default name for a new theme. Max 30 characters",
+    "x-review": true
+  },
+  "themeSectionName": "नाम",
+  "@themeSectionName": {
+    "description": "Theme editor: section title. Max 20 characters",
+    "x-review": true
+  },
+  "themeSectionLook": "रूप",
+  "@themeSectionLook": {
+    "description": "Theme editor: section title. Max 20 characters",
+    "x-review": true
+  },
+  "themeDarkMode": "डार्क मोड",
+  "@themeDarkMode": {
+    "description": "Theme editor: setting title. Max 30 characters",
+    "x-review": true
+  },
+  "themeChoiceSystem": "सिस्टम",
+  "@themeChoiceSystem": {
+    "description": "Theme editor: segmented choice. Max 20 characters",
+    "x-review": true
+  },
+  "themeChoiceLight": "हल्का",
+  "@themeChoiceLight": {
+    "description": "Theme editor: segmented choice. Max 20 characters",
+    "x-review": true
+  },
+  "themeChoiceDark": "गहरा",
+  "@themeChoiceDark": {
+    "description": "Theme editor: segmented choice. Max 20 characters",
+    "x-review": true
+  },
+  "themePureBlack": "पूरा काला",
+  "@themePureBlack": {
+    "description": "Theme editor: switch title. Max 30 characters",
+    "x-review": true
+  },
+  "themePureBlackBody": "काली पृष्ठभूमि",
+  "@themePureBlackBody": {
+    "description": "Theme editor: switch subtitle when dark. Max 40 characters",
+    "x-review": true
+  },
+  "themePureBlackOnlyDark": "केवल डार्क मोड में",
+  "@themePureBlackOnlyDark": {
+    "description": "Theme editor: switch subtitle when not dark. Max 40 characters",
+    "x-review": true
+  },
+  "themeGalleryPureBlackDark": "डार्क मोड में काली पृष्ठभूमि",
+  "@themeGalleryPureBlackDark": {
+    "description": "Themes gallery: switch subtitle when dark. Max 50 characters",
+    "x-review": true
+  },
+  "themeContrast": "कंट्रास्ट",
+  "@themeContrast": {
+    "description": "Theme editor: setting title. Max 30 characters",
+    "x-review": true
+  },
+  "themeChoiceStandard": "मानक",
+  "@themeChoiceStandard": {
+    "description": "Theme editor: segmented choice. Max 20 characters",
+    "x-review": true
+  },
+  "themeChoiceMedium": "मध्यम",
+  "@themeChoiceMedium": {
+    "description": "Theme editor: segmented choice. Max 20 characters",
+    "x-review": true
+  },
+  "themeChoiceHigh": "उच्च",
+  "@themeChoiceHigh": {
+    "description": "Theme editor: segmented choice. Max 20 characters",
+    "x-review": true
+  },
+  "themeKeyboardHeight": "कीबोर्ड की ऊँचाई",
+  "@themeKeyboardHeight": {
+    "description": "Theme editor: slider title. Max 30 characters",
+    "x-review": true
+  },
+  "themeSectionColours": "रंग",
+  "@themeSectionColours": {
+    "description": "Theme editor: section title. Max 20 characters",
+    "x-review": true
+  },
+  "themeSource": "स्रोत",
+  "@themeSource": {
+    "description": "Theme editor: colour source title. Max 20 characters",
+    "x-review": true
+  },
+  "themeSourceWallpaper": "वॉलपेपर",
+  "@themeSourceWallpaper": {
+    "description": "Theme editor: colour source choice. Max 20 characters",
+    "x-review": true
+  },
+  "themeSourceSeed": "सीड रंग",
+  "@themeSourceSeed": {
+    "description": "Theme editor: colour source choice. Max 20 characters",
+    "x-review": true
+  },
+  "themeSourcePerRole": "भूमिका के अनुसार",
+  "@themeSourcePerRole": {
+    "description": "Theme editor: colour source choice. Max 20 characters",
+    "x-review": true
+  },
+  "themeWallpaperNeedsAndroid12": "वॉलपेपर रंगों के लिए Android 12 या नया संस्करण चाहिए।",
+  "@themeWallpaperNeedsAndroid12": {
+    "description": "Theme editor: note when the wallpaper source is not available. Two lines at most",
+    "x-review": true
+  },
+  "themeSeedColour": "सीड रंग",
+  "@themeSeedColour": {
+    "description": "Theme editor: colour setting title. Max 30 characters",
+    "x-review": true
+  },
+  "themeScheme": "स्कीम",
+  "@themeScheme": {
+    "description": "Theme editor: colour scheme title. Max 20 characters",
+    "x-review": true
+  },
+  "themeColourRoles": "रंग भूमिकाएँ",
+  "@themeColourRoles": {
+    "description": "Theme editor: row title for each colour role. Max 30 characters",
+    "x-review": true
+  },
+  "themeEditingColours": "{mode, select, dark {गहरे रंग संपादित हो रहे हैं} other {हल्के रंग संपादित हो रहे हैं}}",
+  "@themeEditingColours": {
+    "description": "Theme editor: subtitle of colour roles. {mode} is dark or light",
+    "x-review": true
+  },
+  "themeResetRoles": "सभी भूमिकाएँ रीसेट करें",
+  "@themeResetRoles": {
+    "description": "Theme editor: button to reset every colour role. Max 30 characters",
+    "x-review": true
+  },
+  "themeKeys": "कुंजियाँ",
+  "@themeKeys": {
+    "description": "Theme editor: section title. Max 20 characters",
+    "x-review": true
+  },
+  "themeShape": "आकार",
+  "@themeShape": {
+    "description": "Theme editor: key shape slider title. Max 20 characters",
+    "x-review": true
+  },
+  "themeShapePill": "पिल",
+  "@themeShapePill": {
+    "description": "Theme editor: key shape named Pill. Max 20 characters",
+    "x-review": true
+  },
+  "themeShapeRounded": "गोल",
+  "@themeShapeRounded": {
+    "description": "Theme editor: key shape named Rounded. Max 20 characters",
+    "x-review": true
+  },
+  "themeShapeSquare": "वर्गाकार",
+  "@themeShapeSquare": {
+    "description": "Theme editor: key shape named Square. Max 20 characters",
+    "x-review": true
+  },
+  "themeKeyBorders": "कुंजी की सीमाएँ",
+  "@themeKeyBorders": {
+    "description": "Theme editor: switch title. Max 30 characters",
+    "x-review": true
+  },
+  "themeBorderWidth": "सीमा की चौड़ाई",
+  "@themeBorderWidth": {
+    "description": "Theme editor: slider title. Max 30 characters",
+    "x-review": true
+  },
+  "themeKeyGap": "कुंजियों के बीच की जगह",
+  "@themeKeyGap": {
+    "description": "Theme editor: slider title. Max 20 characters",
+    "x-review": true
+  },
+  "themeFontWeight": "फ़ॉन्ट वज़न",
+  "@themeFontWeight": {
+    "description": "Theme editor: slider title. Max 20 characters",
+    "x-review": true
+  },
+  "themeFontSize": "फ़ॉन्ट आकार",
+  "@themeFontSize": {
+    "description": "Theme editor: slider title. Max 20 characters",
+    "x-review": true
+  },
+  "themeHintCharacters": "संकेत अक्षर",
+  "@themeHintCharacters": {
+    "description": "Theme editor: switch title. Max 30 characters",
+    "x-review": true
+  },
+  "themeHintCharactersBody": "दबाए रखने पर छोटे अक्षर",
+  "@themeHintCharactersBody": {
+    "description": "Theme editor: switch subtitle. Max 40 characters",
+    "x-review": true
+  },
+  "themeBackground": "पृष्ठभूमि",
+  "@themeBackground": {
+    "description": "Theme editor: section title. Max 20 characters",
+    "x-review": true
+  },
+  "themeBackgroundType": "प्रकार",
+  "@themeBackgroundType": {
+    "description": "Theme editor: background type title. Max 20 characters",
+    "x-review": true
+  },
+  "themeTypeSolid": "ठोस",
+  "@themeTypeSolid": {
+    "description": "Theme editor: background type choice. Max 20 characters",
+    "x-review": true
+  },
+  "themeTypeGradient": "ग्रेडिएंट",
+  "@themeTypeGradient": {
+    "description": "Theme editor: background type choice. Max 20 characters",
+    "x-review": true
+  },
+  "themeTypePhoto": "फ़ोटो",
+  "@themeTypePhoto": {
+    "description": "Theme editor: background type choice. Max 20 characters",
+    "x-review": true
+  },
+  "themeNoPhotoYet": "अभी कोई फ़ोटो नहीं है। कीबोर्ड के लिए उसे काटने हेतु एक चुनें।",
+  "@themeNoPhotoYet": {
+    "description": "Theme editor: empty photo background. Two lines at most",
+    "x-review": true
+  },
+  "themeChoosePhoto": "फ़ोटो चुनें",
+  "@themeChoosePhoto": {
+    "description": "Theme editor: button. Max 20 characters",
+    "x-review": true
+  },
+  "themeEditCrop": "क्रॉप और ब्लर संपादित करें",
+  "@themeEditCrop": {
+    "description": "Theme editor: button for the photo crop screen. Max 30 characters",
+    "x-review": true
+  },
+  "themeDim": "धुंधलापन",
+  "@themeDim": {
+    "description": "Theme editor: slider title. Max 20 characters",
+    "x-review": true
+  },
+  "themeSectionPopups": "पॉपअप और पथ",
+  "@themeSectionPopups": {
+    "description": "Theme editor: section title. Max 30 characters",
+    "x-review": true
+  },
+  "themeSolidPopups": "ठोस पॉपअप",
+  "@themeSolidPopups": {
+    "description": "Theme editor: switch title. Max 30 characters",
+    "x-review": true
+  },
+  "themeSolidPopupsBodyWallpaper": "वॉलपेपर रंगों के साथ नहीं",
+  "@themeSolidPopupsBodyWallpaper": {
+    "description": "Theme editor: switch subtitle with wallpaper colours. Max 40 characters",
+    "x-review": true
+  },
+  "themeSolidPopupsBodyPrimary": "मुख्य रंग में पॉपअप",
+  "@themeSolidPopupsBodyPrimary": {
+    "description": "Theme editor: switch subtitle. Max 40 characters",
+    "x-review": true
+  },
+  "themeSwipeTrail": "स्वाइप पथ",
+  "@themeSwipeTrail": {
+    "description": "Theme editor: switch title. Max 30 characters",
+    "x-review": true
+  },
+  "themeTrailWidth": "पथ की चौड़ाई",
+  "@themeTrailWidth": {
+    "description": "Theme editor: slider title. Max 30 characters",
+    "x-review": true
+  },
+  "themeTrailFade": "पथ धुंधलापन",
+  "@themeTrailFade": {
+    "description": "Theme editor: slider title. Max 30 characters",
+    "x-review": true
+  },
+  "themeTrailInstant": "तुरंत",
+  "@themeTrailInstant": {
+    "description": "Theme editor: trail fade value when zero. Max 20 characters",
+    "x-review": true
+  },
+  "themeTrailColours": "पथ के रंग",
+  "@themeTrailColours": {
+    "description": "Theme editor: section title. Max 30 characters",
+    "x-review": true
+  },
+  "themeTrailStart": "शुरू",
+  "@themeTrailStart": {
+    "description": "Theme editor: trail colour label. Max 20 characters",
+    "x-review": true
+  },
+  "themeTrailEnd": "अंत",
+  "@themeTrailEnd": {
+    "description": "Theme editor: trail colour label. Max 20 characters",
+    "x-review": true
+  },
+  "themeTrailStartTitle": "पथ की शुरुआत",
+  "@themeTrailStartTitle": {
+    "description": "Theme editor: colour picker title. Max 30 characters",
+    "x-review": true
+  },
+  "themeTrailEndTitle": "पथ का अंत",
+  "@themeTrailEndTitle": {
+    "description": "Theme editor: colour picker title. Max 30 characters",
+    "x-review": true
+  },
+  "themeAutomatic": "स्वचालित",
+  "@themeAutomatic": {
+    "description": "Theme editor: trail colour choice. Max 20 characters",
+    "x-review": true
+  },
+  "themeSectionMotion": "गति",
+  "@themeSectionMotion": {
+    "description": "Theme editor: section title. Max 20 characters",
+    "x-review": true
+  },
+  "themeKeyPressAnimation": "कुंजी दबाने की एनिमेशन",
+  "@themeKeyPressAnimation": {
+    "description": "Theme editor: switch title. Max 30 characters",
+    "x-review": true
+  },
+  "themeReduceMotion": "सिस्टम सेटिंग्स में \"एनिमेशन हटाएँ\" चालू है, इसलिए कुंजियाँ एनिमेट नहीं होतीं।",
+  "@themeReduceMotion": {
+    "description": "Theme editor: note when the system reduces motion. Two lines at most",
+    "x-review": true
+  },
+  "themeMotionOff": "बंद",
+  "@themeMotionOff": {
+    "description": "Theme editor: motion choice: none. Max 20 characters",
+    "x-review": true
+  },
+  "themeMotionSubtle": "हल्का",
+  "@themeMotionSubtle": {
+    "description": "Theme editor: motion choice. Max 20 characters",
+    "x-review": true
+  },
+  "themeMotionStandard": "मानक",
+  "@themeMotionStandard": {
+    "description": "Theme editor: motion choice. Max 20 characters",
+    "x-review": true
+  },
+  "themeMotionBouncy": "उछलता हुआ",
+  "@themeMotionBouncy": {
+    "description": "Theme editor: motion choice. Max 20 characters",
+    "x-review": true
+  },
+  "themeSchemeTonalSpot": "टोनल स्पॉट",
+  "@themeSchemeTonalSpot": {
+    "description": "Theme editor: Material colour scheme name. Max 30 characters",
+    "x-review": true
+  },
+  "themeSchemeVibrant": "जीवंत",
+  "@themeSchemeVibrant": {
+    "description": "Theme editor: Material colour scheme name. Max 20 characters",
+    "x-review": true
+  },
+  "themeSchemeExpressive": "अभिव्यंजक",
+  "@themeSchemeExpressive": {
+    "description": "Theme editor: Material colour scheme name. Max 20 characters",
+    "x-review": true
+  },
+  "themeSchemeFidelity": "निष्ठा",
+  "@themeSchemeFidelity": {
+    "description": "Theme editor: Material colour scheme name. Max 20 characters",
+    "x-review": true
+  },
+  "themeSchemeContent": "सामग्री",
+  "@themeSchemeContent": {
+    "description": "Theme editor: Material colour scheme name. Max 20 characters",
+    "x-review": true
+  },
+  "themeSchemeMonochrome": "एकवर्णी",
+  "@themeSchemeMonochrome": {
+    "description": "Theme editor: Material colour scheme name. Max 20 characters",
+    "x-review": true
+  },
+  "themeSchemeNeutral": "तटस्थ",
+  "@themeSchemeNeutral": {
+    "description": "Theme editor: Material colour scheme name. Max 20 characters",
+    "x-review": true
+  },
+  "themeSchemeRainbow": "इंद्रधनुष",
+  "@themeSchemeRainbow": {
+    "description": "Theme editor: Material colour scheme name. Max 20 characters",
+    "x-review": true
+  },
+  "themeSchemeFruitSalad": "फ़्रूट सलाद",
+  "@themeSchemeFruitSalad": {
+    "description": "Theme editor: Material colour scheme name. Max 20 characters",
+    "x-review": true
+  },
+  "themeCustomColourHex": "कस्टम रंग #{hex}",
+  "@themeCustomColourHex": {
+    "description": "Theme editor: a custom colour with its hex code. {hex} is six hex digits",
+    "x-review": true
+  },
+  "themeCustomColour": "कस्टम रंग",
+  "@themeCustomColour": {
+    "description": "Theme editor: colour swatch label. Max 30 characters",
+    "x-review": true
+  },
+  "themeSwatchLabel": "{label} रंग, #{hex}",
+  "@themeSwatchLabel": {
+    "description": "Theme editor: colour swatch label. {label} is a role name, {hex} six hex digits",
+    "x-review": true
+  },
+  "themeUseSchemeColour": "{label} के लिए स्कीम का रंग इस्तेमाल करें",
+  "@themeUseSchemeColour": {
+    "description": "Theme editor: tooltip to reset one colour. {label} is a role name",
+    "x-review": true
+  },
+  "themeFromScheme": "स्कीम से",
+  "@themeFromScheme": {
+    "description": "Theme editor: colour role subtitle when not overridden. Max 40 characters",
+    "x-review": true
+  },
+  "themeOverridden": "सेट",
+  "@themeOverridden": {
+    "description": "Theme editor: colour role subtitle when overridden. Max 20 characters",
+    "x-review": true
+  },
+  "themeStopLabel": "चरण {n}",
+  "@themeStopLabel": {
+    "description": "Theme editor: gradient colour stop name. {n} is a number",
+    "x-review": true
+  },
+  "themePickStopTitle": "चरण {n}",
+  "@themePickStopTitle": {
+    "description": "Theme editor: colour picker title for a gradient stop. {n} is a number",
+    "x-review": true
+  },
+  "themeAddStop": "चरण जोड़ें",
+  "@themeAddStop": {
+    "description": "Theme editor: button. Max 20 characters",
+    "x-review": true
+  },
+  "themeRemoveStop": "चरण हटाएँ",
+  "@themeRemoveStop": {
+    "description": "Theme editor: button. Max 20 characters",
+    "x-review": true
+  },
+  "themeAngle": "कोण",
+  "@themeAngle": {
+    "description": "Theme editor: gradient angle slider title. Max 20 characters",
+    "x-review": true
+  },
+  "themeUseSchemeTooltipLabel": "स्कीम का रंग इस्तेमाल करें",
+  "@themeUseSchemeTooltipLabel": {
+    "description": "Theme editor: tooltip. Max 40 characters",
+    "x-review": true
+  },
+  "themeCropTitle": "फ़ोटो क्रॉप करें",
+  "@themeCropTitle": {
+    "description": "Photo crop screen: title. Max 30 characters",
+    "x-review": true
+  },
+  "themeUsePhoto": "फ़ोटो उपयोग करें",
+  "@themeUsePhoto": {
+    "description": "Photo crop screen: confirm button. Max 20 characters",
+    "x-review": true
+  },
+  "themeCropSaveFailed": "फ़ोटो सहेजी नहीं जा सकी।",
+  "@themeCropSaveFailed": {
+    "description": "Photo crop: save failed. Max 50 characters",
+    "x-review": true
+  },
+  "themeCropSemantics": "फ़ोटो क्रॉप। फ़ोटो हिलाने के लिए खींचें, और ज़ूम के लिए पिंच करें या ज़ूम स्लाइडर इस्तेमाल करें।",
+  "@themeCropSemantics": {
+    "description": "Photo crop: accessibility label of the crop area. Two lines at most",
+    "x-review": true
+  },
+  "themeCropZoom": "ज़ूम",
+  "@themeCropZoom": {
+    "description": "Photo crop: slider title. Max 20 characters",
+    "x-review": true
+  },
+  "themeCropBlur": "ब्लर",
+  "@themeCropBlur": {
+    "description": "Photo crop: slider title. Max 20 characters",
+    "x-review": true
+  },
+  "themeCropBlurOff": "बंद",
+  "@themeCropBlurOff": {
+    "description": "Photo crop: blur value when zero. Max 20 characters",
+    "x-review": true
+  },
+  "themeCropNote": "ब्लर चित्र में सहेजा जाता है। धुंधलापन संपादक में तय होता है और तुरंत लागू होता है।",
+  "@themeCropNote": {
+    "description": "Photo crop: note. Two lines at most",
+    "x-review": true
+  },
+  "themeHexLabel": "हेक्स",
+  "@themeHexLabel": {
+    "description": "Colour picker: hex field label. Max 20 characters",
+    "x-review": true
+  },
+  "themeHexError": "छह हेक्स अंक इस्तेमाल करें, जैसे F5B700",
+  "@themeHexError": {
+    "description": "Colour picker: error for a bad hex code. Max 50 characters",
+    "x-review": true
+  },
+  "themeHue": "रंगत",
+  "@themeHue": {
+    "description": "Colour picker: slider. Max 20 characters",
+    "x-review": true
+  },
+  "themeSaturation": "संतृप्ति",
+  "@themeSaturation": {
+    "description": "Colour picker: slider. Max 20 characters",
+    "x-review": true
+  },
+  "themeBrightness": "चमक",
+  "@themeBrightness": {
+    "description": "Colour picker: slider. Max 20 characters",
+    "x-review": true
+  },
+  "themePickShadeHint": "कोई शेड चुनें, फिर उपयोग करें दबाएँ।",
+  "@themePickShadeHint": {
+    "description": "Colour picker: instruction. Two lines at most",
+    "x-review": true
+  },
+  "themePickColourUse": "उपयोग करें",
+  "@themePickColourUse": {
+    "description": "Colour picker: confirm button. Max 12 characters",
+    "x-review": true
+  },
+  "themeCopySuffix": "प्रति",
+  "@themeCopySuffix": {
+    "description": "Suffix added to a duplicated theme name. Starts with a space",
+    "x-review": true
+  },
+  "themeCopyName": "{name} की प्रति",
+  "@themeCopyName": {
+    "description": "Name of a duplicated theme. {name} is the original name",
+    "x-review": true
+  },
+  "themeDeleteTitle": "\"{name}\" हटाएँ?",
+  "@themeDeleteTitle": {
+    "description": "Themes gallery: delete dialog title. {name} is the theme name. Max 40 characters",
+    "x-review": true
+  },
+  "themeDeleteSelectedBody": "यह थीम चुनी हुई है। इसके बजाय BooBoard Dynamic इस्तेमाल होगा। इसे वापस नहीं लाया जा सकता।",
+  "@themeDeleteSelectedBody": {
+    "description": "Themes gallery: delete dialog text for the selected theme. Three lines at most",
+    "x-review": true
+  },
+  "themeDeleteBody": "इसे वापस नहीं लाया जा सकता।",
+  "@themeDeleteBody": {
+    "description": "Themes gallery: delete dialog text. Max 60 characters",
+    "x-review": true
+  },
+  "themeDeleteFailed": "थीम हटाई नहीं जा सकी।",
+  "@themeDeleteFailed": {
+    "description": "Themes gallery: delete failed. Max 50 characters",
+    "x-review": true
+  },
+  "themeRenameFailed": "थीम का नाम नहीं बदला जा सका।",
+  "@themeRenameFailed": {
+    "description": "Themes gallery: rename failed. Max 50 characters",
+    "x-review": true
+  },
+  "themeDuplicateFailed": "थीम की प्रति नहीं बनाई जा सकी।",
+  "@themeDuplicateFailed": {
+    "description": "Themes gallery: duplicate failed. Max 50 characters",
+    "x-review": true
+  },
+  "themeSettingFailed": "सेटिंग सहेजी नहीं जा सकी।",
+  "@themeSettingFailed": {
+    "description": "Themes gallery: setting write failed. Max 50 characters",
+    "x-review": true
+  },
+  "themeSystemColoursUnavailable": "सिस्टम के रंग उपलब्ध नहीं हैं।",
+  "@themeSystemColoursUnavailable": {
+    "description": "Themes: snackbar when the system colours cannot be read. Max 60 characters",
+    "x-review": true
+  },
+  "themeBooBoardDynamicFollows": "BooBoard Dynamic आपके वॉलपेपर का अनुसरण करता है",
+  "@themeBooBoardDynamicFollows": {
+    "description": "Themes gallery: switch title. Max 50 characters",
+    "x-review": true
+  },
+  "themeBooBoardDynamicBody": "वॉलपेपर बदलने पर इसके रंग अपडेट होते हैं",
+  "@themeBooBoardDynamicBody": {
+    "description": "Themes gallery: switch subtitle. Two lines at most",
+    "x-review": true
+  },
+  "themeSectionPresets": "प्रीसेट",
+  "@themeSectionPresets": {
+    "description": "Themes gallery: section title. Max 20 characters",
+    "x-review": true
+  },
+  "themeSectionMyThemes": "मेरी थीम",
+  "@themeSectionMyThemes": {
+    "description": "Themes gallery: section title. Max 20 characters",
+    "x-review": true
+  },
+  "themeSectionTry": "टाइप करके देखें",
+  "@themeSectionTry": {
+    "description": "Themes gallery: section title. Max 20 characters",
+    "x-review": true
+  },
+  "themeAppearance": "रूप",
+  "@themeAppearance": {
+    "description": "Themes gallery: section title. Max 20 characters",
+    "x-review": true
+  },
+  "themesTitle": "थीम",
+  "@themesTitle": {
+    "description": "Themes gallery: title. Max 20 characters",
+    "x-review": true
+  },
+  "privacyThemesSize": "{count, plural, one {1 थीम फ़ाइल} other {{count} थीम फ़ाइलें}} · {size}",
+  "@privacyThemesSize": {
+    "description": "Privacy center and backup: custom themes count and size. {size} is a size such as 14 KB",
+    "x-review": true
+  },
+  "backupUnlockToSeeCount": "गिनती देखने के लिए फ़ोन अनलॉक करें",
+  "@backupUnlockToSeeCount": {
+    "description": "Backup: a section count is locked until the phone is unlocked. Max 60 characters",
+    "x-review": true
+  },
+  "shortcutHelp": "शॉर्टकट एक छोटे रूप को लंबे टेक्स्ट में बदलता है। उदाहरण:\nomw → on my way\naddr → your address",
+  "@shortcutHelp": {
+    "description": "Shortcuts screen: explains shortcuts with two examples. Three lines. Keep the arrows and the line breaks",
+    "x-review": true
+  },
+  "privacyStoredLearned": "सीखे गए शब्द ({language})",
+  "@privacyStoredLearned": {
+    "description": "Privacy: stored data name for learned words of one language. {language} is a language name",
+    "x-review": true
+  },
+  "settingsComingLater": "बाद के अपडेट में उपलब्ध होगा",
+  "@settingsComingLater": {
+    "description": "Settings: tooltip on an option that is not available yet. Max 40 characters",
+    "x-review": true
+  },
+  "backupExplainer": "बैकअप एक ही फ़ाइल है, जो आपके चुने पासफ़्रेज़ से एन्क्रिप्ट होती है। केवल वही पासफ़्रेज़ इसे खोलता है। पासफ़्रेज़ भूल गए तो बैकअप कोई भी वापस नहीं ला सकता, BooBoard भी नहीं।",
+  "@backupExplainer": {
+    "description": "Backup screen: explains how backups are protected. Three lines at most",
+    "x-review": true
+  },
+  "privacyCategoryLine": "{title}: {detail}",
+  "@privacyCategoryLine": {
+    "description": "Privacy center: one line of a deletion list, a category name and what it holds. {title} and {detail} are text. Max 80 characters",
+    "x-review": true
+  },
+  "shortcutShortFormHint": "omw",
+  "@shortcutShortFormHint": {
+    "description": "Shortcuts: example short form shown as a hint. Replace with a short example that fits the language",
+    "x-review": true
+  },
+  "shortcutExpansionHint": "रास्ते में",
+  "@shortcutExpansionHint": {
+    "description": "Shortcuts: example expansion shown as a hint. Replace with a short example that fits the language",
+    "x-review": true
+  },
+  "durationMinutes15": "15 मिनट",
+  "@durationMinutes15": {
+    "description": "Panels: clipboard duration option. Max 20 characters",
+    "x-review": true
+  },
+  "durationHour": "1 घंटा",
+  "@durationHour": {
+    "description": "Panels: clipboard duration option. Max 20 characters",
+    "x-review": true
+  },
+  "durationDay": "1 दिन",
+  "@durationDay": {
+    "description": "Panels: clipboard duration option. Max 20 characters",
+    "x-review": true
+  },
+  "durationWeek": "1 सप्ताह",
+  "@durationWeek": {
+    "description": "Panels: clipboard duration option. Max 20 characters",
+    "x-review": true
+  },
+  "onboardingCloseSetup": "सेटअप बंद करें",
+  "@onboardingCloseSetup": {
+    "description": "Onboarding: close button tooltip. Max 30 characters",
+    "x-review": true
+  },
+  "packsCouldNotRead": "BooBoard अपने पैक नहीं पढ़ सका",
+  "@packsCouldNotRead": {
+    "description": "Packs: list failed to load. Two lines at most",
+    "x-review": true
+  },
+  "packsDeleteTooltip": "{name} हटाएँ",
+  "@packsDeleteTooltip": {
+    "description": "Packs: delete button tooltip. {name} is the pack name. Max 40 characters",
+    "x-review": true
+  },
+  "privacyNothingStored": "अभी कुछ सहेजा नहीं गया",
+  "@privacyNothingStored": {
+    "description": "Privacy center: no stored data. Max 30 characters",
+    "x-review": true
+  },
+  "privacyRemoveAppTooltip": "सूची से {app} हटाएँ",
+  "@privacyRemoveAppTooltip": {
+    "description": "Privacy center: button to remove an app from the list. {app} is an app name. Max 60 characters",
+    "x-review": true
+  },
+  "chineseTitle": "चीनी",
+  "@chineseTitle": {
+    "x-review": true
+  },
+  "chineseTraditional": "पारंपरिक अक्षर",
+  "@chineseTraditional": {
+    "x-review": true
+  },
+  "chineseTraditionalBody": "उम्मीदवार पारंपरिक अक्षरों में दिखाएँ (ताइवान मानक)।",
+  "@chineseTraditionalBody": {
+    "x-review": true
+  },
+  "chineseFuzzy": "अनुमानित पिनयिन",
+  "@chineseFuzzy": {
+    "x-review": true
+  },
+  "chineseFuzzyBody": "z और zh, c और ch, s और sh, n और l, an और ang, en और eng, in और ing भी स्वीकार करें।",
+  "@chineseFuzzyBody": {
+    "x-review": true
+  },
+  "cjkDictionary": "शब्दकोश",
+  "@cjkDictionary": {
+    "x-review": true
+  },
+  "chineseClearPhrases": "सीखे गए वाक्यांश मिटाएँ",
+  "@chineseClearPhrases": {
+    "x-review": true
+  },
+  "chineseClearPhrasesBody": "आपके चुने शब्द भूल जाएगा। शब्दकोश बना रहेगा।",
+  "@chineseClearPhrasesBody": {
+    "x-review": true
+  },
+  "chineseFooter": "चीनी इसी फ़ोन पर टाइप होती है। सीखे गए वाक्यांश एन्क्रिप्टेड हैं और फ़ोन से बाहर नहीं जाते।",
+  "@chineseFooter": {
+    "x-review": true
+  },
+  "chineseClearTitle": "सीखे गए वाक्यांश मिटाएँ?",
+  "@chineseClearTitle": {
+    "x-review": true
+  },
+  "chineseClearBody": "चीनी के लिए आपके चुने शब्द हटा दिए जाएँगे। इसे पूर्ववत नहीं किया जा सकता।",
+  "@chineseClearBody": {
+    "x-review": true
+  },
+  "cjkClear": "मिटाएँ",
+  "@cjkClear": {
+    "x-review": true
+  },
+  "chinesePhrasesCleared": "सीखे गए वाक्यांश मिटा दिए गए",
+  "@chinesePhrasesCleared": {
+    "x-review": true
+  },
+  "chineseLooking": "शब्दकोश खोजा जा रहा है",
+  "@chineseLooking": {
+    "x-review": true
+  },
+  "chineseDictName": "चीनी शब्दकोश",
+  "@chineseDictName": {
+    "x-review": true
+  },
+  "chinesePackMissing": "इंस्टॉल नहीं है। चीनी टाइपिंग को इसकी ज़रूरत है; इसे मॉडल पैक में इंस्टॉल करें।",
+  "@chinesePackMissing": {
+    "x-review": true
+  },
+  "chinesePackInstalled": "इंस्टॉल है। {license}",
+  "@chinesePackInstalled": {
+    "x-review": true
+  },
+  "japaneseTitle": "जापानी",
+  "@japaneseTitle": {
+    "x-review": true
+  },
+  "japaneseLayout": "लेआउट",
+  "@japaneseLayout": {
+    "x-review": true
+  },
+  "japaneseLayout12": "12-कुंजी (फ़्लिक)",
+  "@japaneseLayout12": {
+    "x-review": true
+  },
+  "japaneseLayoutRomaji": "रोमाजी (QWERTY)",
+  "@japaneseLayoutRomaji": {
+    "x-review": true
+  },
+  "japaneseTyping": "टाइपिंग",
+  "@japaneseTyping": {
+    "x-review": true
+  },
+  "japaneseFlickOnly": "केवल फ़्लिक",
+  "@japaneseFlickOnly": {
+    "x-review": true
+  },
+  "japaneseFlickOnlyBody": "मल्टी-टैप नहीं: あ को दो बार टैप करने पर ああ लिखा जाता है, い नहीं",
+  "@japaneseFlickOnlyBody": {
+    "x-review": true
+  },
+  "japaneseHalfWidth": "आधी चौड़ाई का स्पेस",
+  "@japaneseHalfWidth": {
+    "x-review": true
+  },
+  "japaneseHalfWidthBody": "कुछ टाइप न हो रहा हो तो स्पेस सामान्य स्पेस लिखता है। बंद होने पर पूरी चौड़ाई का स्पेस लिखता है।",
+  "@japaneseHalfWidthBody": {
+    "x-review": true
+  },
+  "japaneseDictPack": "शब्दकोश पैक",
+  "@japaneseDictPack": {
+    "x-review": true
+  },
+  "japaneseChecking": "जाँच हो रही है...",
+  "@japaneseChecking": {
+    "x-review": true
+  },
+  "japaneseInstalled": "{name} इंस्टॉल है। कांजी रूपांतरण चालू है।",
+  "@japaneseInstalled": {
+    "x-review": true
+  },
+  "japaneseNotInstalled": "इंस्टॉल नहीं है। काना फिर भी टाइप होता है; कांजी के लिए पैक चाहिए।",
+  "@japaneseNotInstalled": {
+    "x-review": true
+  },
+  "japaneseClearWords": "सीखे गए शब्द मिटाएँ",
+  "@japaneseClearWords": {
+    "x-review": true
+  },
+  "japaneseClearWordsBody": "आपके चुने जापानी शब्द भूल जाएगा। इस फ़ोन पर एन्क्रिप्टेड रूप में संग्रहीत।",
+  "@japaneseClearWordsBody": {
+    "x-review": true
+  },
+  "japaneseClearTitle": "सीखे गए जापानी शब्द मिटाएँ?",
+  "@japaneseClearTitle": {
+    "x-review": true
+  },
+  "japaneseClearBody": "आपके चुने सभी जापानी शब्द मिटा दिए जाएँगे। इसे पूर्ववत नहीं किया जा सकता।",
+  "@japaneseClearBody": {
+    "x-review": true
+  },
+  "privacyStoredChinesePhrases": "चीनी वाक्यांश",
+  "@privacyStoredChinesePhrases": {
+    "x-review": true
+  },
+  "privacyStoredJapaneseWords": "जापानी शब्द",
+  "@privacyStoredJapaneseWords": {
+    "x-review": true
+  }
+}

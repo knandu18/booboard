@@ -1,0 +1,156 @@
+{
+ "id": "kana12_ja",
+ "name": "12-key (flick)",
+ "script": "Hira",
+ "direction": "ltr",
+ "rows": [
+  {
+   "keys": [
+    {
+     "type": "custom",
+     "code": "undo_cycle",
+     "label": "↶",
+     "spoken": "Undo last kana step"
+    },
+    {
+     "output": "あ",
+     "flick": {
+      "left": "い",
+      "up": "う",
+      "right": "え",
+      "down": "お"
+     }
+    },
+    {
+     "output": "か",
+     "flick": {
+      "left": "き",
+      "up": "く",
+      "right": "け",
+      "down": "こ"
+     }
+    },
+    {
+     "output": "さ",
+     "flick": {
+      "left": "し",
+      "up": "す",
+      "right": "せ",
+      "down": "そ"
+     }
+    },
+    {
+     "type": "backspace"
+    }
+   ]
+  },
+  {
+   "keys": [
+    {
+     "type": "cursorLeft"
+    },
+    {
+     "output": "た",
+     "flick": {
+      "left": "ち",
+      "up": "つ",
+      "right": "て",
+      "down": "と"
+     }
+    },
+    {
+     "output": "な",
+     "flick": {
+      "left": "に",
+      "up": "ぬ",
+      "right": "ね",
+      "down": "の"
+     }
+    },
+    {
+     "output": "は",
+     "flick": {
+      "left": "ひ",
+      "up": "ふ",
+      "right": "へ",
+      "down": "ほ"
+     }
+    },
+    {
+     "type": "cursorRight"
+    }
+   ]
+  },
+  {
+   "keys": [
+    {
+     "type": "symbols",
+     "label": "記号"
+    },
+    {
+     "output": "ま",
+     "flick": {
+      "left": "み",
+      "up": "む",
+      "right": "め",
+      "down": "も"
+     }
+    },
+    {
+     "output": "や",
+     "flick": {
+      "left": "（",
+      "up": "ゆ",
+      "right": "）",
+      "down": "よ"
+     }
+    },
+    {
+     "output": "ら",
+     "flick": {
+      "left": "り",
+      "up": "る",
+      "right": "れ",
+      "down": "ろ"
+     }
+    },
+    {
+     "type": "space"
+    }
+   ]
+  },
+  {
+   "keys": [
+    {
+     "type": "globe"
+    },
+    {
+     "type": "custom",
+     "code": "kana_modifier",
+     "label": "゛゜小",
+     "spoken": "Dakuten, handakuten and small kana"
+    },
+    {
+     "output": "わ",
+     "flick": {
+      "left": "を",
+      "up": "ん",
+      "right": "ー"
+     }
+    },
+    {
+     "output": "、",
+     "flick": {
+      "left": "。",
+      "up": "？",
+      "right": "！",
+      "down": "…"
+     }
+    },
+    {
+     "type": "enter"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,157 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+#
+# Release build on a version tag (v*). Builds both flavours (foss, play), runs the gates, and attaches
+# the APKs, SHA-256 sums and the permission report to a DRAFT GitHub release. Nothing is published by
+# this workflow: a person reviews the draft and presses Publish. Signing material comes from encrypted
+# repository secrets (named in docs/release/RELEASING.md, "Secrets"); it is never in this file.
+# Actions are pinned by commit SHA (tag in the comment).
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    # The environment can require a reviewer before any secret is read (set up in GitHub by the user).
+    environment: release
+    env:
+      BOOBOARD_KEY_ALIAS: ${{ secrets.BOOBOARD_KEY_ALIAS }}
+      BOOBOARD_KEYSTORE_PASSWORD: ${{ secrets.BOOBOARD_KEYSTORE_PASSWORD }}
+      BOOBOARD_KEY_PASSWORD: ${{ secrets.BOOBOARD_KEY_PASSWORD }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+
+      - name: Read the pinned Flutter version
+        id: pin
+        run: echo "flutter=$(tr -d '[:space:]' < tool/release/flutter-version.txt)" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/setup-java@cf277c60eb25467037889841efdb72551f06f6c3 # v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - uses: subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2 # v2
+        with:
+          flutter-version: ${{ steps.pin.outputs.flutter }}
+          channel: stable
+          cache: true
+
+      - name: Restore the release keystore outside the workspace
+        if: env.BOOBOARD_KEYSTORE_PASSWORD != ''
+        env:
+          KEYSTORE_B64: ${{ secrets.BOOBOARD_KEYSTORE_BASE64 }}
+        run: |
+          set -euo pipefail
+          umask 077
+          if [ -z "$KEYSTORE_B64" ]; then
+            echo "::error::BOOBOARD_KEYSTORE_BASE64 is not set in the release environment."
+            exit 1
+          fi
+          dir="$RUNNER_TEMP/booboard-keys"
+          mkdir -p "$dir"
+          printf '%s' "$KEYSTORE_B64" | base64 --decode > "$dir/booboard-release.p12"
+          echo "BOOBOARD_KEYSTORE_PATH=$dir/booboard-release.p12" >> "$GITHUB_ENV"
+
+      - name: Checks
+        run: |
+          flutter pub get
+          dart format --line-length 120 --output=none --set-exit-if-changed lib test pigeons
+          flutter analyze
+          flutter test
+          cd android && ./gradlew :app:testFossDebugUnitTest :app:testPlayDebugUnitTest
+
+      - name: Build foss and play (split per ABI)
+        env:
+          SOURCE_URL: ${{ vars.BOOBOARD_SOURCE_URL }}
+        run: |
+          set -euo pipefail
+          extra=()
+          if [ -n "$SOURCE_URL" ]; then extra=("--dart-define=BOOBOARD_SOURCE_URL=$SOURCE_URL"); fi
+          for flavor in foss play; do
+            flutter build apk --release --flavor "$flavor" --split-per-abi "${extra[@]}"
+          done
+
+      - name: Permission gate (no INTERNET, no network state, no telemetry)
+        run: |
+          set -euo pipefail
+          bash tool/check_release_permissions.sh build/app/outputs/flutter-apk/app-*-release.apk \
+            | tee permission-report.txt
+
+      - name: Refuse debug-signed APKs
+        env:
+          EXPECTED_CERT_SHA256: ${{ vars.BOOBOARD_RELEASE_CERT_SHA256 }}
+        run: |
+          set -euo pipefail
+          sdk_tools="$(ls -d "$ANDROID_HOME"/build-tools/* | sort -V | tail -n 1)"
+          for apk in build/app/outputs/flutter-apk/app-*-release.apk; do
+            certs="$("$sdk_tools/apksigner" verify --print-certs "$apk")"
+            if echo "$certs" | grep -q 'CN=Android Debug'; then
+              echo "::error file=$apk::signed with the Android debug key; refusing to publish"
+              exit 1
+            fi
+            if [ -n "$EXPECTED_CERT_SHA256" ]; then
+              got="$(echo "$certs" | grep -m1 'certificate SHA-256 digest' | awk '{print $NF}')"
+              if [ "$got" != "$EXPECTED_CERT_SHA256" ]; then
+                echo "::error file=$apk::signing certificate $got does not match BOOBOARD_RELEASE_CERT_SHA256"
+                exit 1
+              fi
+            fi
+          done
+
+      - name: Sums and sizes
+        run: |
+          set -euo pipefail
+          cd build/app/outputs/flutter-apk
+          sha256sum app-*-release.apk > SHA256SUMS.txt
+          ls -l app-*-release.apk | tee "$GITHUB_WORKSPACE/sizes.txt"
+
+      - name: Upload the draft artifacts
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: booboard-release-candidate
+          path: |
+            build/app/outputs/flutter-apk/app-*-release.apk
+            build/app/outputs/flutter-apk/SHA256SUMS.txt
+            permission-report.txt
+            sizes.txt
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Remove the keystore
+        if: always()
+        run: rm -rf "$RUNNER_TEMP/booboard-keys"
+
+  draft-release:
+    # Only for a version tag. A workflow_dispatch run stops after the build (no release).
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - name: Download the candidate
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+        with:
+          name: booboard-release-candidate
+          path: release
+
+      - name: Create a DRAFT release (never published here)
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.ref_name }}
+        run: |
+          set -euo pipefail
+          cd release
+          gh release create "$TAG" --draft --verify-tag --title "BooBoard $TAG" --generate-notes \
+            app-*-release.apk SHA256SUMS.txt permission-report.txt sizes.txt

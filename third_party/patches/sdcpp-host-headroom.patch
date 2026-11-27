@@ -1,0 +1,23 @@
+BooBoard patch for stable-diffusion.cpp master-1133-52491bd (see third_party/README.md).
+
+ModelManager::ensure_host_capacity keeps 1 GB of free RAM spare before it
+loads weights. That is a sensible margin on a desktop, but a phone has far
+less memory to give: on a 4 GB device it leaves about 0.6 GB and loading the
+1.7 GB LCM-Dreamshaper q8_0 model fails with "RAM weight capacity exceeded".
+With the margin at 256 MB the same model loads and runs (about 1.5 GB free is
+needed). Android's low-memory killer already protects the rest of the system,
+and the model runs in a helper process, so only that process is at risk.
+
+diff --git a/src/model_manager.cpp b/src/model_manager.cpp
+--- a/src/model_manager.cpp
++++ b/src/model_manager.cpp
+@@ -1309,7 +1309,8 @@
+ }
+
+ bool ModelManager::ensure_host_capacity(size_t pending, const std::vector<TensorState*>& required_states, bool weight_allocation, size_t pending_device_commit) {
+-    constexpr size_t headroom = 1024ULL * 1024 * 1024;
++    // BooBoard: phones need a smaller free-RAM margin than desktops (1 GB -> 256 MB).
++    constexpr size_t headroom = 256ULL * 1024 * 1024;
+     size_t available          = 0;
+     auto fits                 = [&] {
+         const size_t resident  = max_ram_bytes_ ? host_weight_bytes() : 0;

@@ -1,0 +1,1 @@
+﻿Oceanblue is the default theme for new installs and the only theme in the app. Swipe typing and emoji work in fields that ask for no suggestions, such as the browser address bar; private browsing now only turns off learning. Voice keeps words after short pauses. New English voice pack (Parakeet): it needs about 700 MB of free memory while you dictate.

@@ -1,0 +1,1 @@
+BooBoard 1.8.1: new Light Glass theme and Auto (follows your phone's light or dark mode), a swipe carousel for themes, emoji sit cleanly on the glass keyboard, the keyboard repaints reliably when it comes back, and the Model packs text is readable in dark mode.

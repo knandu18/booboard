@@ -13,6 +13,10 @@ import 'keyboard_theme_data.dart';
 abstract final class GlassThemeIds {
   static const String dark = 'booboard_glass_dark';
   static const String lime = 'booboard_glass_lime';
+  static const String light = 'booboard_glass_light';
+
+  /// Light Glass in light mode, Dark Glass in dark mode (follows the phone, not the app's dark-mode choice).
+  static const String auto = 'booboard_glass_auto';
 }
 
 const Color _lime = Color(0xFFE3F794);
@@ -22,15 +26,26 @@ const Color _paper = Color(0xFFF3F1EC);
 Color _white(double a) => Colors.white.withValues(alpha: a);
 
 /// The glass theme for [id], or null when [id] is not a glass preset. [motion] comes from the resolver.
-KeyboardThemeData? glassThemeFor(String id, {required MotionSpec motion, bool highContrast = false}) => switch (id) {
-  GlassThemeIds.dark => _darkGlass(motion, highContrast),
+/// [systemDark] is the phone's night mode; only Auto uses it.
+KeyboardThemeData? glassThemeFor(
+  String id, {
+  required MotionSpec motion,
+  bool highContrast = false,
+  bool systemDark = false,
+}) => switch (id) {
+  GlassThemeIds.dark => _darkGlass(motion, highContrast, GlassThemeIds.dark),
   GlassThemeIds.lime => _limeGlass(motion, highContrast),
+  GlassThemeIds.light => _lightGlass(motion, highContrast, GlassThemeIds.light),
+  GlassThemeIds.auto =>
+    systemDark
+        ? _darkGlass(motion, highContrast, GlassThemeIds.auto)
+        : _lightGlass(motion, highContrast, GlassThemeIds.auto),
   _ => null,
 };
 
 List<FontVariation> _variations() => BooBoardType.variations(weight: 500, roundness: 50);
 
-KeyboardThemeData _darkGlass(MotionSpec motion, bool highContrast) {
+KeyboardThemeData _darkGlass(MotionSpec motion, bool highContrast, String id) {
   // High contrast: nearly opaque dark keys, so labels never depend on what glows behind them.
   final hc = highContrast;
   final letter = KeyStyle(
@@ -44,7 +59,7 @@ KeyboardThemeData _darkGlass(MotionSpec motion, bool highContrast) {
     shadow: Colors.black.withValues(alpha: 0.35),
   );
   return KeyboardThemeData(
-    id: GlassThemeIds.dark,
+    id: id,
     brightness: Brightness.dark,
     background: _ink,
     backgroundGradient: const LinearGradient(
@@ -185,6 +200,90 @@ KeyboardThemeData _limeGlass(MotionSpec motion, bool highContrast) {
     suggestionHighlightFill: Colors.white,
     suggestionHighlightText: _ink,
     suggestionDivider: _ink.withValues(alpha: 0.18),
+    toolbarIcon: _ink,
+    trailStart: _ink,
+    trailEnd: const Color(0xFF4E5E12),
+    keyCornerRadius: 0.25,
+    keyGap: 6,
+    borderWidth: 1,
+    fontFamily: 'GoogleSansFlex',
+    labelFontVariations: _variations(),
+    labelScale: 0.9,
+    showHints: false,
+    motion: motion,
+  );
+}
+
+/// Light Glass (2026-11-27): frosted white keys on a soft paper board with a faint lime glow, lime Enter.
+/// Auto uses it while the phone is in light mode.
+KeyboardThemeData _lightGlass(MotionSpec motion, bool highContrast, String id) {
+  final hc = highContrast;
+  final letter = KeyStyle(
+    fill: hc ? Colors.white : _white(0.62),
+    fillTop: hc ? Colors.white : _white(0.96),
+    pressedFill: const Color(0xFFDCD8CF),
+    label: _ink,
+    hint: (hc ? _ink : _ink.withValues(alpha: 0.75)),
+    border: hc ? _ink.withValues(alpha: 0.35) : _ink.withValues(alpha: 0.07),
+    edgeTop: _white(1),
+    shadow: _ink.withValues(alpha: 0.14),
+  );
+  return KeyboardThemeData(
+    id: id,
+    brightness: Brightness.light,
+    background: const Color(0xFFEFEDE7),
+    backgroundGradient: const LinearGradient(
+      begin: Alignment(-0.5, -1),
+      end: Alignment(0.5, 1),
+      colors: [Color(0xFFFAF9F5), Color(0xFFEFECE5), Color(0xFFE4E0D7)],
+    ),
+    backgroundLayers: [
+      RadialGradient(
+        center: const Alignment(-0.6, -0.5),
+        radius: 0.7,
+        colors: [_lime.withValues(alpha: 0.45), _lime.withValues(alpha: 0)],
+      ),
+      RadialGradient(center: const Alignment(0.7, 0.6), radius: 0.8, colors: [_white(0.8), _white(0)]),
+    ],
+    letterKey: letter,
+    functionKey: KeyStyle(
+      fill: hc ? const Color(0xFFE6E3DC) : _ink.withValues(alpha: 0.05),
+      fillTop: hc ? const Color(0xFFF1EFEA) : _white(0.55),
+      pressedFill: const Color(0xFFD3CFC5),
+      label: _ink,
+      hint: (hc ? _ink : _ink.withValues(alpha: 0.75)),
+      border: hc ? _ink.withValues(alpha: 0.35) : _ink.withValues(alpha: 0.06),
+      edgeTop: _white(0.9),
+      shadow: _ink.withValues(alpha: 0.10),
+    ),
+    actionKey: KeyStyle(
+      fill: _lime,
+      fillTop: const Color(0xFFEFFCB8),
+      pressedFill: const Color(0xFFC6DB70),
+      label: _ink,
+      hint: _ink,
+      border: const Color(0xFFCFE47A),
+      edgeTop: _white(0.9),
+      shadow: const Color(0xFF506400).withValues(alpha: 0.22),
+    ),
+    spaceKey: KeyStyle(
+      fill: letter.fill,
+      fillTop: letter.fillTop,
+      pressedFill: letter.pressedFill,
+      label: (hc ? _ink : _ink.withValues(alpha: 0.75)),
+      hint: (hc ? _ink : _ink.withValues(alpha: 0.75)),
+      border: letter.border,
+      edgeTop: letter.edgeTop,
+      shadow: letter.shadow,
+    ),
+    popupFill: Colors.white,
+    popupLabel: _ink,
+    popupSelectedFill: _lime,
+    popupSelectedLabel: _ink,
+    suggestionText: _ink,
+    suggestionHighlightFill: _lime,
+    suggestionHighlightText: _ink,
+    suggestionDivider: _ink.withValues(alpha: 0.14),
     toolbarIcon: _ink,
     trailStart: _ink,
     trailEnd: const Color(0xFF4E5E12),

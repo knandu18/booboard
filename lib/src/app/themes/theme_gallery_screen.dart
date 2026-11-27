@@ -4,6 +4,7 @@
 // and a Create card. Selecting a card writes appearance.themeId, and the keyboard engine updates
 // at once. The dark, pure black and contrast controls apply to every theme.
 import 'dart:async';
+import 'dart:math' as math;
 
 import 'package:material_ui/material_ui.dart';
 
@@ -218,7 +219,8 @@ class _ThemeGalleryScreenState extends State<ThemeGalleryScreen> {
     KeyboardThemeData themeFor(ThemeSpec spec) => _previews.resolve(
       spec,
       themesDirectory: _store?.directory,
-      dark: dark,
+      // Auto previews what the phone shows right now.
+      dark: spec.id == GlassThemeIds.auto ? systemDark : dark,
       pureBlack: appearance.pureBlack,
       contrast: appearance.contrast,
       palettes: palettes,
@@ -280,22 +282,23 @@ class _ThemeGalleryScreenState extends State<ThemeGalleryScreen> {
         _SectionTitle(context.l10n.themeSectionPresets),
         SizedBox(
           height: 268,
-          child: CarouselView(
-            itemExtent: kThemeCardWidth,
-            itemSnapping: true,
-            // The cards handle their own taps (and menus); the default splash layer would cover them.
-            enableSplash: false,
-            children: [
-              for (final preset in ThemePresets.all)
-                ThemeCard(
-                  theme: themeFor(preset),
-                  settings: settings,
-                  name: preset.name,
-                  selected: appearance.themeId == preset.id,
-                  demoPress: appearance.themeId == preset.id,
-                  onTap: () => _select(preset.id),
-                ),
-            ],
+          child: _PresetCarousel(
+            count: ThemePresets.all.length,
+            initialIndex: ThemePresets.all.indexWhere((p) => p.id == appearance.themeId),
+            itemBuilder: (context, i, centre) {
+              final preset = ThemePresets.all[i];
+              return ThemeCard(
+                theme: themeFor(preset),
+                settings: settings,
+                name: preset.name,
+                selected: appearance.themeId == preset.id,
+                demoPress: appearance.themeId == preset.id,
+                onTap: () {
+                  centre();
+                  _select(preset.id);
+                },
+              );
+            },
           ),
         ),
         _SectionTitle(context.l10n.themeSectionMyThemes),
@@ -340,6 +343,89 @@ class _ThemeGalleryScreenState extends State<ThemeGalleryScreen> {
         ),
         const SizedBox(height: 24),
       ],
+    );
+  }
+}
+
+/// The presets as a swipe carousel: the centred card is full size, its neighbours shrink and fade, and it
+/// snaps to each card. Tapping a card glides it to the centre (the gallery then applies it).
+class _PresetCarousel extends StatefulWidget {
+  const _PresetCarousel({required this.count, required this.initialIndex, required this.itemBuilder});
+
+  final int count;
+
+  /// The card shown in the centre first (the theme in use); -1 starts at the first card.
+  final int initialIndex;
+
+  /// Builds card [index]; calling `centre` glides that card to the middle.
+  final Widget Function(BuildContext context, int index, VoidCallback centre) itemBuilder;
+
+  @override
+  State<_PresetCarousel> createState() => _PresetCarouselState();
+}
+
+class _PresetCarouselState extends State<_PresetCarousel> {
+  PageController? _controller;
+  double? _fraction;
+
+  PageController _controllerFor(double fraction) {
+    final current = _controller;
+    if (current != null && _fraction == fraction) return current;
+    final page = current != null && current.hasClients ? (current.page ?? 0).round() : math.max(0, widget.initialIndex);
+    current?.dispose();
+    _fraction = fraction;
+    return _controller = PageController(viewportFraction: fraction, initialPage: page);
+  }
+
+  @override
+  void dispose() {
+    _controller?.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final reduce = MediaQuery.disableAnimationsOf(context);
+    return LayoutBuilder(
+      builder: (context, box) {
+        // One card plus a little air per page, so the neighbours peek in on both sides.
+        final fraction = ((kThemeCardWidth + 16) / box.maxWidth).clamp(0.3, 1.0);
+        final controller = _controllerFor(fraction);
+        return PageView.builder(
+          controller: controller,
+          itemCount: widget.count,
+          itemBuilder: (context, i) {
+            void centre() {
+              if (!controller.hasClients) return;
+              if (reduce) {
+                controller.jumpToPage(i);
+              } else {
+                unawaited(
+                  controller.animateToPage(i, duration: const Duration(milliseconds: 380), curve: Curves.easeOutCubic),
+                );
+              }
+            }
+
+            return AnimatedBuilder(
+              animation: controller,
+              builder: (context, child) {
+                final page = controller.hasClients && controller.position.haveDimensions
+                    ? controller.page ?? controller.initialPage.toDouble()
+                    : controller.initialPage.toDouble();
+                final d = (page - i).abs().clamp(0.0, 1.0);
+                return Opacity(
+                  opacity: 1 - 0.4 * d,
+                  child: Transform.scale(scale: 1 - 0.1 * d, child: child),
+                );
+              },
+              child: Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 8),
+                child: widget.itemBuilder(context, i, centre),
+              ),
+            );
+          },
+        );
+      },
     );
   }
 }

@@ -67,7 +67,16 @@ class ThemeCard extends StatelessWidget {
                 child: Row(
                   children: [
                     if (selected) ...[
-                      Icon(Icons.check_circle, size: 18, color: scheme.onSecondaryContainer),
+                      // The check pops in when a card becomes the chosen one.
+                      TweenAnimationBuilder<double>(
+                        tween: Tween(begin: 0, end: 1),
+                        duration: MediaQuery.disableAnimationsOf(context)
+                            ? Duration.zero
+                            : const Duration(milliseconds: 480),
+                        curve: Curves.elasticOut,
+                        builder: (context, v, child) => Transform.scale(scale: v, child: child),
+                        child: Icon(Icons.check_circle, size: 18, color: scheme.onSecondaryContainer),
+                      ),
                       const SizedBox(width: 6),
                     ],
                     Expanded(

@@ -168,8 +168,36 @@ abstract final class ThemePresets {
     motionIntensity: 2,
   );
 
-  /// Shown in the app: the two glass keyboards.
-  static const List<ThemeSpec> all = [darkGlass, limeGlass];
+  /// Light Glass: frosted white keys on a soft paper board with a faint lime glow, lime Enter. Always light.
+  static const ThemeSpec lightGlass = ThemeSpec(
+    id: GlassThemeIds.light,
+    name: 'Light Glass',
+    colorSource: ThemeColorSource.custom,
+    seedColor: 0xFFE3F794,
+    keyRadius: 0.25,
+    borderWidth: 1,
+    keyGap: 6,
+    labelScale: 0.9,
+    showHints: false,
+    background: ThemeBackgroundSpec(type: ThemeBackgroundType.gradient, gradientColors: [0xFFFAF9F5, 0xFFE9E6DE]),
+  );
+
+  /// Auto: Light Glass while the phone is in light mode, Dark Glass while it is in dark mode.
+  static const ThemeSpec autoGlass = ThemeSpec(
+    id: GlassThemeIds.auto,
+    name: 'Auto (follows phone)',
+    colorSource: ThemeColorSource.custom,
+    seedColor: 0xFFE3F794,
+    keyRadius: 0.25,
+    borderWidth: 1,
+    keyGap: 6,
+    labelScale: 0.9,
+    showHints: false,
+    background: ThemeBackgroundSpec(type: ThemeBackgroundType.gradient, gradientColors: [0xFFFAF9F5, 0xFF161015]),
+  );
+
+  /// Shown in the app: the glass keyboards (Light Glass and Auto added 2026-11-27).
+  static const List<ThemeSpec> all = [darkGlass, lightGlass, autoGlass, limeGlass];
 
   /// What new installs and unknown ids get.
   static const ThemeSpec defaultPreset = darkGlass;

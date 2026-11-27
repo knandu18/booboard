@@ -84,7 +84,16 @@ class _LimeHeader extends StatelessWidget {
                   ),
                 ),
                 Padding(padding: const EdgeInsets.fromLTRB(20, 8, 20, 0), child: OnboardingTitle(title, fontSize: 40)),
-                if (header != null) Padding(padding: const EdgeInsets.only(top: 12), child: header),
+                // Plain text in the header takes the page's text colour, which is light in dark mode and would
+                // vanish on lime: give it ink, like everything else on the lime top.
+                if (header != null)
+                  Padding(
+                    padding: const EdgeInsets.only(top: 12),
+                    child: DefaultTextStyle.merge(
+                      style: const TextStyle(color: BooColors.ink),
+                      child: header!,
+                    ),
+                  ),
               ],
             ),
           ),

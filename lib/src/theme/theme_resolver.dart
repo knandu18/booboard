@@ -39,7 +39,8 @@ KeyboardThemeData resolveKeyboardTheme({
   String? customThemesDirectory,
 }) {
   final spec = specForId(appearance.themeId, customThemesDirectory);
-  final dark = _isDark(appearance.darkMode, systemDark);
+  // Auto follows the phone itself; the app's dark-mode choice is hidden for glass themes.
+  final dark = spec.id == GlassThemeIds.auto ? systemDark : _isDark(appearance.darkMode, systemDark);
   return _cache.resolve(
     _ThemeKey(
       spec: spec,
@@ -102,11 +103,12 @@ KeyboardThemeData resolveKeyboardThemeFromSpec(
   List<int>? palettes,
   bool disableAnimations = false,
 }) {
-  // The glass keyboards are hand-made: the same in light and dark mode, without Material You colours.
+  // The glass keyboards are hand-made, without Material You colours. Only Auto changes with [dark].
   final glass = glassThemeFor(
     spec.id,
     motion: _motion(spec.motionIntensity, disableAnimations),
     highContrast: contrast == ContrastPreference.high,
+    systemDark: dark,
   );
   if (glass != null) return glass;
   final level = switch (contrast) {

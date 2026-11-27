@@ -101,6 +101,31 @@ class BooBoardImeService : InputMethodService() {
     }
     private val retireRunnable = Runnable { dropRetiredView() }
 
+    /**
+     * Whether the current surface shows a Flutter frame. Android destroys the keyboard's drawing surface while the
+     * window is hidden; if no new frame reaches the new surface, the keyboard stays invisible although taps still
+     * type (touch and text input do not need a frame). [paintCheck] repairs that.
+     */
+    private var uiDisplayed = false
+    private var paintAttempts = 0
+    private val paintCheck = object : Runnable {
+        override fun run() {
+            // A first start without any frame yet is handled by the fallback and restart watchdogs.
+            if (!firstFrameShown || uiDisplayed || !isInputViewShown || engine == null || flutterView == null) return
+            paintAttempts++
+            Log.w(TAG, "keyboard shown without a frame, repaint attempt $paintAttempts")
+            if (paintAttempts == 1) {
+                // Ask Dart for a forced frame (its onWindowShown handler schedules one).
+                flutterApi?.onWindowShown {}
+                main.postDelayed(this, PAINT_CHECK_MS)
+            } else if (paintAttempts == 2) {
+                // Still blank: give Flutter a fresh view and surface.
+                attachFlutterView()
+                main.postDelayed(this, PAINT_CHECK_MS)
+            }
+        }
+    }
+
     override fun onCreate() {
         super.onCreate()
         startEngine()
@@ -254,6 +279,7 @@ class BooBoardImeService : InputMethodService() {
         }
         val listener = object : FlutterUiDisplayListener {
             override fun onFlutterUiDisplayed() {
+                if (flutterView === view) uiDisplayed = true
                 firstFrameShown = true
                 engineRestarts = 0
                 main.removeCallbacks(restartCheck)
@@ -261,12 +287,15 @@ class BooBoardImeService : InputMethodService() {
                 if (flutterView === view) dropRetiredView()
             }
 
-            override fun onFlutterUiNoLongerDisplayed() {}
+            override fun onFlutterUiNoLongerDisplayed() {
+                if (flutterView === view) uiDisplayed = false
+            }
         }
         view.addOnFirstFrameRenderedListener(listener)
         firstFrameListener = listener
         flutterView = view
         firstFrameShown = false
+        uiDisplayed = false
         container.addFlutterView(view)
         view.attachToFlutterEngine(e)
         if (retiredView != null) main.postDelayed(retireRunnable, RETIRE_TIMEOUT_MS)
@@ -420,10 +449,14 @@ class BooBoardImeService : InputMethodService() {
         applyNavBarAppearance()
         flutterApi?.onWindowShown {}
         if (!firstFrameShown) armWatchdogs()
+        paintAttempts = 0
+        main.removeCallbacks(paintCheck)
+        main.postDelayed(paintCheck, PAINT_CHECK_MS)
     }
 
     override fun onWindowHidden() {
         super.onWindowHidden()
+        main.removeCallbacks(paintCheck)
         // Inactive (not paused): Flutter draws nothing while idle, and the next
         // show needs no frame-scheduling warm-up.
         engine?.lifecycleChannel?.appIsInactive()
@@ -454,6 +487,7 @@ class BooBoardImeService : InputMethodService() {
     override fun onDestroy() {
         main.removeCallbacks(fallbackCheck)
         main.removeCallbacks(restartCheck)
+        main.removeCallbacks(paintCheck)
         clipboardWatcher?.stop()
         clipboardWatcher = null
         teardownInputView()
@@ -571,6 +605,9 @@ class BooBoardImeService : InputMethodService() {
         const val FALLBACK_DELAY_MS = 2000L
         const val RESTART_DELAY_MS = 8000L
         const val RETIRE_TIMEOUT_MS = 400L
+
+        /** How long after the window is shown a frame must have reached the surface. */
+        const val PAINT_CHECK_MS = 700L
         const val MAX_ENGINE_RESTARTS = 2
 
         /** ComponentCallbacks2.TRIM_MEMORY_RUNNING_LOW (deprecated constant, still delivered by the system). */

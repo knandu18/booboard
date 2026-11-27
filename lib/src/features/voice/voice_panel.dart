@@ -126,7 +126,7 @@ class _VoicePanelViewState extends State<VoicePanelView> with SingleTickerProvid
               semanticsLabel: 'Back to letters',
               width: 64,
               height: double.infinity,
-              fill: theme.background,
+              fill: kPanelClear,
               pressedFill: theme.suggestionHighlightFill,
               radius: BorderRadius.zero,
               onTap: widget.panel.close,

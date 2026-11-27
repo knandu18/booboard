@@ -41,7 +41,8 @@ void main() {
                   colors: withPalette ? systemColors : null,
                 );
                 expect(t.id, preset.id);
-                // The glass keyboards are hand-made and keep their own brightness: Dark Glass is always dark.
+                // The glass keyboards are hand-made and keep their own brightness: Dark Glass is always dark,
+                // and Auto follows the phone (light here, systemDark is false).
                 final glass = glassThemeFor(preset.id, motion: const MotionSpec()) != null;
                 final expected = glass
                     ? (preset.id == GlassThemeIds.dark ? Brightness.dark : Brightness.light)
@@ -141,6 +142,19 @@ void main() {
           expect(limeGlass.brightness, Brightness.light);
           expect(darkGlass.backgroundLayers, isNotEmpty);
           expect(darkGlass.letterKey.fillTop, isNotNull);
+        }
+      }
+    });
+
+    test('Light Glass stays light; Auto follows the phone, not the app dark-mode setting', () {
+      for (final mode in DarkModePreference.values) {
+        for (final systemDark in [false, true]) {
+          final light = _resolve(themeId: GlassThemeIds.light, darkMode: mode, systemDark: systemDark);
+          final auto = _resolve(themeId: GlassThemeIds.auto, darkMode: mode, systemDark: systemDark);
+          expect(light.brightness, Brightness.light);
+          expect(light.id, GlassThemeIds.light);
+          expect(auto.id, GlassThemeIds.auto);
+          expect(auto.brightness, systemDark ? Brightness.dark : Brightness.light);
         }
       }
     });

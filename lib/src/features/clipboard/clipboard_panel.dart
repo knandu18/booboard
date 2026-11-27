@@ -146,7 +146,7 @@ class _ClipboardPanelViewState extends State<ClipboardPanelView> {
                   semanticsLabel: 'Back to keyboard',
                   width: 48,
                   height: KeyboardMetrics.stripHeight,
-                  fill: theme.background,
+                  fill: kPanelClear,
                   pressedFill: theme.suggestionHighlightFill,
                   radius: BorderRadius.zero,
                   onTap: widget.session.closePanel,

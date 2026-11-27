@@ -160,7 +160,10 @@ void main() {
 
   group('presets', () {
     test('the two glass themes are shown; the older presets stay resolvable for saved choices', () {
-      expect([for (final p in ThemePresets.all) p.id], ['booboard_glass_dark', 'booboard_glass_lime']);
+      expect(
+        [for (final p in ThemePresets.all) p.id],
+        ['booboard_glass_dark', 'booboard_glass_light', 'booboard_glass_auto', 'booboard_glass_lime'],
+      );
       final legacy = [for (final p in ThemePresets.legacy) p.id];
       final ids = [...ThemePresets.all, ...ThemePresets.legacy].map((p) => p.id).toList();
       expect(ids.toSet().length, ids.length);

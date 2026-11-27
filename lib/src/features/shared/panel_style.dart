@@ -33,6 +33,10 @@ class PanelStyle {
 
 /// A tappable panel control with press feedback. With [repeat] it fires once on touch-down and keeps
 /// firing while held (arrow keys, delete), like a hardware key.
+/// See-through fill for panel cells and bar buttons, so the keyboard background (glass, gradient or picture)
+/// shows through instead of a solid tile in the board's base colour.
+const Color kPanelClear = Color(0x00000000);
+
 class PanelButton extends StatefulWidget {
   const PanelButton({
     super.key,

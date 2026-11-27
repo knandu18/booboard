@@ -4,6 +4,7 @@
 import 'dart:async';
 
 import 'package:flutter/foundation.dart';
+import 'package:flutter/scheduler.dart';
 
 import '../core/input_field_info.dart';
 import 'messages.g.dart';
@@ -88,7 +89,12 @@ class ImeEvents implements ImeFlutterApi {
   Future<void> onUpdateSelection(SelectionMessage selection) async => _selection.add(selection);
 
   @override
-  Future<void> onWindowShown() async => windowVisible.value = true;
+  Future<void> onWindowShown() async {
+    windowVisible.value = true;
+    // The keyboard window gets a new drawing surface each time it is shown. Paint into it now, even when nothing
+    // changed on the Dart side; otherwise the keyboard can stay invisible while taps still type.
+    SchedulerBinding.instance.scheduleForcedFrame();
+  }
 
   @override
   Future<void> onWindowHidden() async => windowVisible.value = false;

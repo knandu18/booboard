@@ -89,7 +89,7 @@ class _EditingPanelViewState extends State<EditingPanelView> {
                   semanticsLabel: 'Back to letters',
                   width: 64,
                   height: KeyboardMetrics.stripHeight,
-                  fill: theme.background,
+                  fill: kPanelClear,
                   pressedFill: theme.suggestionHighlightFill,
                   radius: BorderRadius.zero,
                   onTap: widget.session.closePanel,

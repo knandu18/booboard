@@ -130,11 +130,11 @@ void main() {
       await _pumpGallery(tester);
       // Taps the card's InkWell directly: the label sits under a neighbouring card's hit area in the carousel.
       final card = tester.widget<InkWell>(
-        find.ancestor(of: find.text(ThemePresets.limeGlass.name), matching: find.byType(InkWell)).first,
+        find.ancestor(of: find.text(ThemePresets.lightGlass.name), matching: find.byType(InkWell)).first,
       );
       card.onTap!();
       await _settle(tester);
-      expect(_services.settings.value.appearance.themeId, ThemePresets.limeGlass.id);
+      expect(_services.settings.value.appearance.themeId, ThemePresets.lightGlass.id);
       await tester.pumpWidget(const SizedBox());
     });
 
@@ -142,7 +142,7 @@ void main() {
       // CarouselView covers its items with an InkWell unless enableSplash is false; on a device the
       // cards then never saw a tap. These taps go through hit testing like a finger.
       await _pumpGallery(tester);
-      final second = ThemePresets.limeGlass;
+      final second = ThemePresets.lightGlass;
       await tester.tap(find.text(second.name).first);
       await _settle(tester);
       expect(_services.settings.value.appearance.themeId, second.id);
